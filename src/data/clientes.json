@@ -5905,7 +5905,16 @@
             "direccion": "CR 112 23 C 04 Versalles ",
             "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
         }]
+    },
+    {
+        "id": 80433636,
+        "nombre": "WILSON MORA CARDENAS",
+        "sucursales": [{
+            "direccion": "CR 95 A 54F 02 SUR LC 2 Bosa Porvenir ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+        }, {
+            "direccion": "CR 95 A 73 SUR 75 Bosa Recreo ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+        }]
     }
-
-
 ]
