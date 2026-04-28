@@ -5916,5 +5916,13 @@
             "direccion": "CR 95 A 73 SUR 75 Bosa Recreo ",
             "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
         }]
+    },
+    {
+        "id": 52876341,
+        "nombre": "DEYSI PAOLA LEON HERNANDEZ",
+        "sucursales": [{
+            "direccion": "CL 72 A SUR 14 Y 07 Quintas De La Aurora ",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+        }]
     }
 ]
