@@ -789,14 +789,9 @@
         "id": 17634873,
         "nombre": "JOSE VARGAS RINCON",
         "sucursales": [{
-                "direccion": "CL 56 SUR 14C 15 ESTE Libertadores",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            },
-            {
-                "direccion": "TV 14 ESTE 57 SUR 03 Libertadores",
-                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
-            }
-        ]
+            "direccion": "TV 14 ESTE 57 SUR 03 Libertadores",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     },
     {
         "id": 17635483,
@@ -1388,9 +1383,14 @@
         "id": 51949983,
         "nombre": "MARTHA LUCIA ALDERETE RENGIFO",
         "sucursales": [{
-            "direccion": "CL 86 87 06 Los Cerezos",
-            "vendedor": "CONSUELO MUÑOZ"
-        }]
+                "direccion": "CL 86 87 06 Los Cerezos",
+                "vendedor": "CONSUELO MUÑOZ"
+            },
+            {
+                "direccion": "CL 56 SUR 14C 15 ESTE Libertadores",
+                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+            }
+        ]
     },
     {
         "id": 51955215,
