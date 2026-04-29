@@ -5924,5 +5924,13 @@
             "direccion": "CL 72 A SUR 14 Y 07 Quintas De La Aurora ",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
+    },
+    {
+        "id": 1018461135,
+        "nombre": "ANGIE BIBIANA GOMEZ VIZCAINO",
+        "sucursales": [{
+            "direccion": "CL 4 3 31 PD INSPECCION SUBIA KM 37 VIA PANAMERICANA Silvania ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 ]
