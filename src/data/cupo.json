@@ -4359,5 +4359,11 @@
         "nombre": "BAIRON ALEXIS JARAMILLO RAMIREZ",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 901994614,
+        "nombre": "GRUPO EMPRESARIAL PAEZ GONZALEZ S A S",
+        "cupo": 2000000,
+        "Forma": "Credito"
     }
 ]
