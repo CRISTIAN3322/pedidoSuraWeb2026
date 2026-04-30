@@ -5932,5 +5932,13 @@
             "direccion": "CL 4 3 31 PD INSPECCION SUBIA KM 37 VIA PANAMERICANA Silvania ",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 901994614,
+        "nombre": "GRUPO EMPRESARIAL PAEZ GONZALEZ S A S",
+        "sucursales": [{
+            "direccion": "CR 4 ESTE 37 C 42 SUR La Victoria ",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     }
 ]
