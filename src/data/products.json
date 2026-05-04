@@ -1386,6 +1386,20 @@
     },
     {
         "id": 100,
+        "codigo": "JCC0014",
+        "nombre": "ACEITE GRAN MESON CANOLA Y OLIVA VIRGEN EXTRA X 1000 ML CJ X 20 UND",
+        "precioUnidad": 23901,
+        "precio": 478023,
+        "imagen": "../assets/toWEBP/7707255634938.webp",
+        "barra": 7707255634938,
+        "invetario": 600,
+        "unidad": "unidad",
+        "despacho": 1,
+        "proveedor": "CASA IBAÑEZ COLOMBIA SAS",
+        "activo": true
+    },
+    {
+        "id": 101,
         "codigo": "JCC0015",
         "nombre": "ACEITE CANOLIVA LITRO CJ X 20 UND",
         "precioUnidad": 23901,
@@ -1399,7 +1413,7 @@
         "activo": true
     },
     {
-        "id": 101,
+        "id": 102,
         "codigo": "JCC0016",
         "nombre": "VINO IBAÑEZ MEDITERRANEO TINTO",
         "precioUnidad": 17500,
@@ -1413,7 +1427,7 @@
         "activo": true
     },
     {
-        "id": 102,
+        "id": 103,
         "codigo": "JCI0001",
         "nombre": "ALMENDRA FRANCESA X 50 GRDP12",
         "precioUnidad": 2716,
@@ -1427,7 +1441,7 @@
         "activo": true
     },
     {
-        "id": 103,
+        "id": 104,
         "codigo": "JCI0002",
         "nombre": "ALMENDRA FRANCESA X 135 GR CJ X 36",
         "precioUnidad": 6846,
@@ -1441,7 +1455,7 @@
         "activo": true
     },
     {
-        "id": 104,
+        "id": 105,
         "codigo": "JCI0003",
         "nombre": "ALMENDRA FRANCESA X 250 GR CJ X 50",
         "precioUnidad": 12073,
@@ -1455,7 +1469,7 @@
         "activo": true
     },
     {
-        "id": 105,
+        "id": 106,
         "codigo": "JCI0004",
         "nombre": "ALMENDRA PIRAMIDE X 50 GR",
         "precioUnidad": 4646,
@@ -1469,7 +1483,7 @@
         "activo": true
     },
     {
-        "id": 106,
+        "id": 107,
         "codigo": "JCI0005",
         "nombre": "ALMENDRA PIRAMIDE X 150 GR CJ X 28",
         "precioUnidad": 12521,
@@ -1483,7 +1497,7 @@
         "activo": true
     },
     {
-        "id": 107,
+        "id": 108,
         "codigo": "JCI0006",
         "nombre": "ALMENDRA FRANCESA SIN AZUCAR X 50 GR CJ X 43",
         "precioUnidad": 7833,
@@ -1497,7 +1511,7 @@
         "activo": true
     },
     {
-        "id": 108,
+        "id": 109,
         "codigo": "JCI0008",
         "nombre": "BOM BOM BONKISS CLASICO BS X 18 CJ X 12",
         "precioUnidad": 17553,
@@ -1511,7 +1525,7 @@
         "activo": true
     },
     {
-        "id": 109,
+        "id": 110,
         "codigo": "JCI0021",
         "nombre": "CARAMELO MORITAS X 25 CJ X 48",
         "precioUnidad": 2568,
@@ -1525,7 +1539,7 @@
         "activo": true
     },
     {
-        "id": 110,
+        "id": 111,
         "codigo": "JCI0022",
         "nombre": "CHOCOLATE BLANCO CON ARANDANOS X 70 GR",
         "precioUnidad": 13789,
@@ -1539,7 +1553,7 @@
         "activo": true
     },
     {
-        "id": 111,
+        "id": 112,
         "codigo": "JCI0023",
         "nombre": "CARAMELO SURTIDO X 80 GR CJ X 60",
         "precioUnidad": 3050,
@@ -1553,7 +1567,7 @@
         "activo": true
     },
     {
-        "id": 112,
+        "id": 113,
         "codigo": "JCI0024",
         "nombre": "CARAMELO SURTIDO X 185 GR CJ X 40",
         "precioUnidad": 6812,
@@ -1567,7 +1581,7 @@
         "activo": true
     },
     {
-        "id": 113,
+        "id": 114,
         "codigo": "JCI0025",
         "nombre": "CARAMELO SURTIDO X 420 GR CJ X 24",
         "precioUnidad": 14256,
@@ -1581,7 +1595,7 @@
         "activo": false
     },
     {
-        "id": 114,
+        "id": 115,
         "codigo": "JCI0026",
         "nombre": "CHOCO BABY X 90 GR CJ X 24",
         "precioUnidad": 6580,
@@ -1595,7 +1609,7 @@
         "activo": true
     },
     {
-        "id": 115,
+        "id": 116,
         "codigo": "JCI0027",
         "nombre": "CHOCO BABY X 180 GR CJ X 24",
         "precioUnidad": 12841,
@@ -1609,7 +1623,7 @@
         "activo": true
     },
     {
-        "id": 116,
+        "id": 117,
         "codigo": "JCI0028",
         "nombre": "CHOCOLATINA RELLENA PEQUEÑA X 6 CJ X 20",
         "precioUnidad": 10549,
@@ -1623,7 +1637,7 @@
         "activo": true
     },
     {
-        "id": 117,
+        "id": 118,
         "codigo": "JCI0029",
         "nombre": "CHOCOLATINA RELLENA MEDIANA X 6 CJ X 20",
         "precioUnidad": 24122,
@@ -1637,7 +1651,7 @@
         "activo": true
     },
     {
-        "id": 118,
+        "id": 119,
         "codigo": "JCI0030",
         "nombre": "CHOCOLATINA RELLENA GRANDE X 6 CJ X 14",
         "precioUnidad": 41583,
@@ -1651,7 +1665,7 @@
         "activo": true
     },
     {
-        "id": 119,
+        "id": 120,
         "codigo": "JCI0033",
         "nombre": "CHUPETA CHOCOLATE X 70 GR CAJA X 60 UND",
         "precioUnidad": 7094,
@@ -1665,7 +1679,7 @@
         "activo": true
     },
     {
-        "id": 120,
+        "id": 121,
         "codigo": "JCI0034",
         "nombre": "ESTUCHE BABY OSITOS X 90 GR",
         "precioUnidad": 15370,
@@ -1679,7 +1693,7 @@
         "activo": true
     },
     {
-        "id": 121,
+        "id": 122,
         "codigo": "JCI0035",
         "nombre": "ESTUCHE ENAMORADOS X 90 GR",
         "precioUnidad": 13301,
@@ -1693,7 +1707,7 @@
         "activo": true
     },
     {
-        "id": 122,
+        "id": 123,
         "codigo": "JCI0036",
         "nombre": "ESTUCHE MENSAJES CJ X 26",
         "precioUnidad": 9675,
@@ -1707,7 +1721,7 @@
         "activo": true
     },
     {
-        "id": 123,
+        "id": 124,
         "codigo": "JCI0040",
         "nombre": "GALLETA ANIMADAS WIN PQ X 12 CJ X 20",
         "precioUnidad": 12563,
@@ -1721,7 +1735,7 @@
         "activo": true
     },
     {
-        "id": 124,
+        "id": 125,
         "codigo": "JCI0041",
         "nombre": "GALLETA DE LECHE X 18 UN CJ X 24",
         "precioUnidad": 9036,
@@ -1735,7 +1749,7 @@
         "activo": true
     },
     {
-        "id": 125,
+        "id": 126,
         "codigo": "JCI0043",
         "nombre": "GOMAS CONITO BLANDY X 170 GR  CJ X 60",
         "precioUnidad": 5926,
@@ -1749,7 +1763,7 @@
         "activo": true
     },
     {
-        "id": 126,
+        "id": 127,
         "codigo": "JCI0046",
         "nombre": "GOMAS MORITAS X 200 GR CJ X 50",
         "precioUnidad": 7827,
@@ -1763,7 +1777,7 @@
         "activo": true
     },
     {
-        "id": 127,
+        "id": 128,
         "codigo": "JCI0047",
         "nombre": "GOMAS SURTIDAS X 125 GR CJ X 80",
         "precioUnidad": 4441,
@@ -1777,7 +1791,7 @@
         "activo": true
     },
     {
-        "id": 128,
+        "id": 129,
         "codigo": "JCI0049",
         "nombre": "GOMITAS PIKIS GOMI-MASMELO CJ X 24",
         "precioUnidad": 2805,
@@ -1791,7 +1805,7 @@
         "activo": true
     },
     {
-        "id": 129,
+        "id": 130,
         "codigo": "JCI0050",
         "nombre": "GOMITAS PIKIS OSOS EN PIJAMA CJ X 24",
         "precioUnidad": 2911,
@@ -1805,7 +1819,7 @@
         "activo": true
     },
     {
-        "id": 130,
+        "id": 131,
         "codigo": "JCI0051",
         "nombre": "GRAGEA X 125 GR CJ X 110",
         "precioUnidad": 3094,
@@ -1819,7 +1833,7 @@
         "activo": true
     },
     {
-        "id": 131,
+        "id": 132,
         "codigo": "JCI0052",
         "nombre": "GRAGEA X 500 GR CJ X 30 UN",
         "precioUnidad": 11569,
@@ -1833,7 +1847,7 @@
         "activo": true
     },
     {
-        "id": 132,
+        "id": 133,
         "codigo": "JCI0053",
         "nombre": "HIPER LONCH FRESA X 156 GR CJ X 24",
         "precioUnidad": 6002,
@@ -1847,7 +1861,7 @@
         "activo": true
     },
     {
-        "id": 133,
+        "id": 134,
         "codigo": "JCI0054",
         "nombre": "HIPER LONCH VAINILLA X 156 GR CJ X 24",
         "precioUnidad": 6002,
@@ -1861,7 +1875,7 @@
         "activo": true
     },
     {
-        "id": 134,
+        "id": 135,
         "codigo": "JCI0055",
         "nombre": "HIPER WAFER  AREQUIPE 208 GR X 28",
         "precioUnidad": 6852,
@@ -1875,7 +1889,7 @@
         "activo": true
     },
     {
-        "id": 135,
+        "id": 136,
         "codigo": "JCI0056",
         "nombre": "HIPER WAFER FRESA X 208 GR CJ X 28",
         "precioUnidad": 6852,
@@ -1889,7 +1903,7 @@
         "activo": true
     },
     {
-        "id": 136,
+        "id": 137,
         "codigo": "JCI0057",
         "nombre": "HIPER WAFER VAINILLA X 208 GR CJ X 28",
         "precioUnidad": 6852,
@@ -1903,7 +1917,7 @@
         "activo": true
     },
     {
-        "id": 137,
+        "id": 138,
         "codigo": "JCI0058",
         "nombre": "HUEVOS NO ME OLVIDES X 2 CJ X 70",
         "precioUnidad": 5536,
@@ -1917,7 +1931,7 @@
         "activo": true
     },
     {
-        "id": 138,
+        "id": 139,
         "codigo": "JCI0059",
         "nombre": "HUEVOS NO ME OLVIDES ITALO BOLSA X 10 UND",
         "precioUnidad": 29863,
@@ -1931,7 +1945,7 @@
         "activo": true
     },
     {
-        "id": 139,
+        "id": 140,
         "codigo": "JCI0060",
         "nombre": "MASMELOS X 50 GR CJ X 70",
         "precioUnidad": 1914,
@@ -1945,7 +1959,7 @@
         "activo": true
     },
     {
-        "id": 140,
+        "id": 141,
         "codigo": "JCI0061",
         "nombre": "MASMELOS X 80 GR CJ X 44",
         "precioUnidad": 2691,
@@ -1959,7 +1973,7 @@
         "activo": true
     },
     {
-        "id": 141,
+        "id": 142,
         "codigo": "JCI0062",
         "nombre": "MASMELOS X 120 GR CJ X 30 UN",
         "precioUnidad": 4020,
@@ -1973,7 +1987,7 @@
         "activo": true
     },
     {
-        "id": 142,
+        "id": 143,
         "codigo": "JCI0063",
         "nombre": "MASMELOS BLANCO X 120 G CJ X 30",
         "precioUnidad": 4020,
@@ -1987,7 +2001,7 @@
         "activo": true
     },
     {
-        "id": 143,
+        "id": 144,
         "codigo": "JCI0064",
         "nombre": "MERCI BOMBOM RELLENO X 2 UN",
         "precioUnidad": 4364,
@@ -2001,7 +2015,7 @@
         "activo": true
     },
     {
-        "id": 144,
+        "id": 145,
         "codigo": "JCI0065",
         "nombre": "MERCI RELLENO X 6 UND EMB CJ X 12",
         "precioUnidad": 15118,
@@ -2015,7 +2029,7 @@
         "activo": true
     },
     {
-        "id": 145,
+        "id": 146,
         "codigo": "JCI0066",
         "nombre": "MERCI FLOR X 112 GR CJ X 15",
         "precioUnidad": 19715,
@@ -2029,7 +2043,7 @@
         "activo": true
     },
     {
-        "id": 146,
+        "id": 147,
         "codigo": "JCI0067",
         "nombre": "MERCI CORAZON X 112 GR CJ X 9",
         "precioUnidad": 23523,
@@ -2043,7 +2057,7 @@
         "activo": true
     },
     {
-        "id": 147,
+        "id": 148,
         "codigo": "JCI0069",
         "nombre": "PIKIS MONEDAS CJ X 40",
         "precioUnidad": 11317,
@@ -2057,7 +2071,7 @@
         "activo": false
     },
     {
-        "id": 148,
+        "id": 149,
         "codigo": "JCI0070",
         "nombre": "RISTRA MORITAS X 40 GR 10 UND",
         "precioUnidad": 17372,
@@ -2071,7 +2085,7 @@
         "activo": true
     },
     {
-        "id": 149,
+        "id": 150,
         "codigo": "JCI0072",
         "nombre": "UVAS CUBIERTAS CON CHOCOLATE X 40 GR X10 CJX50",
         "precioUnidad": 5081,
@@ -2085,7 +2099,7 @@
         "activo": true
     },
     {
-        "id": 150,
+        "id": 151,
         "codigo": "JCI0073",
         "nombre": "MINITACO SIN AZUCAR FRESA X 80 CJ X 24",
         "precioUnidad": 6133,
@@ -2099,7 +2113,7 @@
         "activo": true
     },
     {
-        "id": 151,
+        "id": 152,
         "codigo": "JCI0074",
         "nombre": "MINITACO SIN AZUCAR NARANJA X 80 CJ X 24",
         "precioUnidad": 6133,
@@ -2113,7 +2127,7 @@
         "activo": true
     },
     {
-        "id": 152,
+        "id": 153,
         "codigo": "JCI0075",
         "nombre": "MINITACO SIN AZUCAR VAINILLA X 80 CJ X 24",
         "precioUnidad": 6133,
@@ -2127,7 +2141,7 @@
         "activo": true
     },
     {
-        "id": 153,
+        "id": 154,
         "codigo": "JCI0076",
         "nombre": "WAFER MINITACO AREQUIPE X 80 GR CJ X 24",
         "precioUnidad": 2223,
@@ -2141,7 +2155,7 @@
         "activo": true
     },
     {
-        "id": 154,
+        "id": 155,
         "codigo": "JCI0078",
         "nombre": "WAFER MINITACO COCO X 80 GR CJ X 24",
         "precioUnidad": 2223,
@@ -2155,7 +2169,7 @@
         "activo": true
     },
     {
-        "id": 155,
+        "id": 156,
         "codigo": "JCI0080",
         "nombre": "WAFER MINITACO GUANABANA X 80 GR CJ X 24",
         "precioUnidad": 2223,
@@ -2169,7 +2183,7 @@
         "activo": true
     },
     {
-        "id": 156,
+        "id": 157,
         "codigo": "JCI0081",
         "nombre": "WAFER MINITACO LIMON X 70 GR CJ X 24",
         "precioUnidad": 2009,
@@ -2183,7 +2197,7 @@
         "activo": true
     },
     {
-        "id": 157,
+        "id": 158,
         "codigo": "JCI0082",
         "nombre": "WAFER MINITACO MORA X 80 GR CJ X 24",
         "precioUnidad": 2223,
@@ -2197,7 +2211,7 @@
         "activo": true
     },
     {
-        "id": 158,
+        "id": 159,
         "codigo": "JCI0083",
         "nombre": "WAFER MINITACO NARANJA X 80 GR CJ X 24",
         "precioUnidad": 2223,
@@ -2211,7 +2225,7 @@
         "activo": true
     },
     {
-        "id": 159,
+        "id": 160,
         "codigo": "JCI0084",
         "nombre": "WAFER MINITACO VAINILLA X 70 GR CJ X 24",
         "precioUnidad": 2009,
@@ -2225,7 +2239,7 @@
         "activo": true
     },
     {
-        "id": 160,
+        "id": 161,
         "codigo": "JCI0085",
         "nombre": "WAFER PAQUETACO AREQUIPE X 94 CJ X 24",
         "precioUnidad": 2637,
@@ -2239,7 +2253,7 @@
         "activo": true
     },
     {
-        "id": 161,
+        "id": 162,
         "codigo": "JCI0086",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 94 CJ X 24",
         "precioUnidad": 2637,
@@ -2253,7 +2267,7 @@
         "activo": true
     },
     {
-        "id": 162,
+        "id": 163,
         "codigo": "JCI0087",
         "nombre": "WAFER PAQUETACO FRESA X 94 CJ X 24",
         "precioUnidad": 2637,
@@ -2267,7 +2281,7 @@
         "activo": true
     },
     {
-        "id": 163,
+        "id": 164,
         "codigo": "JCI0088",
         "nombre": "WAFER PAQUETACO VAINILLA X 94 CJ X 24",
         "precioUnidad": 2637,
@@ -2281,7 +2295,7 @@
         "activo": true
     },
     {
-        "id": 164,
+        "id": 165,
         "codigo": "JCI0089",
         "nombre": "WAFER PAQUETACO CHOCOLATE X 117 GR CJ X 48",
         "precioUnidad": 2980,
@@ -2295,7 +2309,7 @@
         "activo": true
     },
     {
-        "id": 165,
+        "id": 166,
         "codigo": "JCI0090",
         "nombre": "WAFER PAQUETACO COCO X 117 GR X CJ X 48",
         "precioUnidad": 2980,
@@ -2309,7 +2323,7 @@
         "activo": true
     },
     {
-        "id": 166,
+        "id": 167,
         "codigo": "JCI0091",
         "nombre": "WAFER PAQUETACO FRESA X 117 CJ X 48",
         "precioUnidad": 2980,
@@ -2323,7 +2337,7 @@
         "activo": true
     },
     {
-        "id": 167,
+        "id": 168,
         "codigo": "JCI0092",
         "nombre": "WAFER PAQUETACO AREQUIPE X 117 GR CJ X 48",
         "precioUnidad": 2980,
@@ -2337,7 +2351,7 @@
         "activo": true
     },
     {
-        "id": 168,
+        "id": 169,
         "codigo": "JCI0093",
         "nombre": "WAFER PAQUETACO NARANJA X 117 GR CJ X 48",
         "precioUnidad": 2980,
@@ -2351,7 +2365,7 @@
         "activo": true
     },
     {
-        "id": 169,
+        "id": 170,
         "codigo": "JCI0094",
         "nombre": "WAFER PAQUETACO GUANABANA  X 117 GR CJ X 48",
         "precioUnidad": 2980,
@@ -2365,7 +2379,7 @@
         "activo": true
     },
     {
-        "id": 170,
+        "id": 171,
         "codigo": "JCI0095",
         "nombre": "WAFER PAQUETACO VAINILLA X 117 GR CJ X 48",
         "precioUnidad": 2980,
@@ -2379,7 +2393,7 @@
         "activo": true
     },
     {
-        "id": 171,
+        "id": 172,
         "codigo": "JCI0096",
         "nombre": "WAFER PAQUETACO LIMON X 117 GR CJ X 48",
         "precioUnidad": 2980,
@@ -2393,7 +2407,7 @@
         "activo": true
     },
     {
-        "id": 172,
+        "id": 173,
         "codigo": "JCI0097",
         "nombre": "WAFER PAQUETACO MORA X 117 GR CJ X 48",
         "precioUnidad": 2980,
@@ -2407,7 +2421,7 @@
         "activo": true
     },
     {
-        "id": 173,
+        "id": 174,
         "codigo": "JCI0098",
         "nombre": "WAFER TAQUITO AREQUIPE X 240 GR CJ X 36",
         "precioUnidad": 6734,
@@ -2421,7 +2435,7 @@
         "activo": true
     },
     {
-        "id": 174,
+        "id": 175,
         "codigo": "JCI0099",
         "nombre": "WAFER TAQUITO FRESA X 240 GR CJ X 36",
         "precioUnidad": 6734,
@@ -2435,7 +2449,7 @@
         "activo": true
     },
     {
-        "id": 175,
+        "id": 176,
         "codigo": "JCI0100",
         "nombre": "WAFER TAQUITO NARANJA X 240 GR CJ X 36",
         "precioUnidad": 6734,
@@ -2449,7 +2463,7 @@
         "activo": true
     },
     {
-        "id": 176,
+        "id": 177,
         "codigo": "JCI0101",
         "nombre": "WAFER TAQUITO VAINILLA X 240 GR CJ X 36",
         "precioUnidad": 6734,
@@ -2463,7 +2477,7 @@
         "activo": true
     },
     {
-        "id": 177,
+        "id": 178,
         "codigo": "JCI0102",
         "nombre": "WAFER CLASSIC AZUL 22 GR CJ X 24",
         "precioUnidad": 14413,
@@ -2477,7 +2491,7 @@
         "activo": true
     },
     {
-        "id": 178,
+        "id": 179,
         "codigo": "JCI0103",
         "nombre": "WAFER CLASSIC FRESA 22 GR CJ X 24",
         "precioUnidad": 14413,
@@ -2491,7 +2505,7 @@
         "activo": true
     },
     {
-        "id": 179,
+        "id": 180,
         "codigo": "JCI0104",
         "nombre": "HIPER LONCHERA SURTIDA X 240 CJ X 24",
         "precioUnidad": 8448,
@@ -2505,7 +2519,7 @@
         "activo": true
     },
     {
-        "id": 180,
+        "id": 181,
         "codigo": "JCI0105",
         "nombre": "BONKISS TEMPORADA X 18 CJ X 10",
         "precioUnidad": 0,
@@ -2519,7 +2533,7 @@
         "activo": false
     },
     {
-        "id": 181,
+        "id": 182,
         "codigo": "JCI0107",
         "nombre": "ESTUCHE FANTASIAS X 55 GR",
         "precioUnidad": 9343,
@@ -2533,7 +2547,7 @@
         "activo": true
     },
     {
-        "id": 182,
+        "id": 183,
         "codigo": "JCI0109",
         "nombre": "CHOCO GOMITAS FRESA X 125 GR CJ X 24",
         "precioUnidad": 9145,
@@ -2547,7 +2561,7 @@
         "activo": true
     },
     {
-        "id": 183,
+        "id": 184,
         "codigo": "JCI0110",
         "nombre": "CHOCO GOMITAS MORA X 125 GR CJ X 24",
         "precioUnidad": 9145,
@@ -2561,7 +2575,7 @@
         "activo": true
     },
     {
-        "id": 184,
+        "id": 185,
         "codigo": "JCI0111",
         "nombre": "WAFER MINITACO FRESA X 70 GR CJ X 24",
         "precioUnidad": 2009,
@@ -2575,7 +2589,7 @@
         "activo": true
     },
     {
-        "id": 185,
+        "id": 186,
         "codigo": "JCI0112",
         "nombre": "CHOCOLATE CUPIDO SABORES CJ X 72",
         "precioUnidad": 24068,
@@ -2589,7 +2603,7 @@
         "activo": true
     },
     {
-        "id": 186,
+        "id": 187,
         "codigo": "JCI0113",
         "nombre": "ESTUCHE MICHOC SABOR CHOCO RELLENO FRUTAS CJ X 14",
         "precioUnidad": 8401,
@@ -2603,7 +2617,7 @@
         "activo": true
     },
     {
-        "id": 187,
+        "id": 188,
         "codigo": "JCI0114",
         "nombre": "ESTUCHE PIKIS GOMAS ACIDAS CUBIERTA CHOCOLATE CJ X 14",
         "precioUnidad": 8719,
@@ -2617,7 +2631,7 @@
         "activo": true
     },
     {
-        "id": 188,
+        "id": 189,
         "codigo": "JCI0115",
         "nombre": "WAFER MINITACO CHOCOLATE X 70 GR CJ X 24",
         "precioUnidad": 2009,
@@ -2631,7 +2645,7 @@
         "activo": true
     },
     {
-        "id": 189,
+        "id": 190,
         "codigo": "JCI0116",
         "nombre": "WAFER MINITACO NARANJA X 70 GR CJ X 24",
         "precioUnidad": 2009,
@@ -2645,7 +2659,7 @@
         "activo": true
     },
     {
-        "id": 190,
+        "id": 191,
         "codigo": "JCR0001",
         "nombre": "VINO DE MANZANA BURBUJEANTE CASA RHIN X 750 CJ X 12",
         "precioUnidad": 15321,
@@ -2659,7 +2673,7 @@
         "activo": true
     },
     {
-        "id": 191,
+        "id": 192,
         "codigo": "JCR0002",
         "nombre": "VINO DE DURAZNO BURBUJEANTE CASA RHIN X 750 CJ X 12",
         "precioUnidad": 14645,
@@ -2673,7 +2687,7 @@
         "activo": true
     },
     {
-        "id": 192,
+        "id": 193,
         "codigo": "JCR0003",
         "nombre": "VINO ESPUMOSO KATICH BLANCO X 750 CJ X 12",
         "precioUnidad": 19808,
@@ -2687,7 +2701,7 @@
         "activo": true
     },
     {
-        "id": 193,
+        "id": 194,
         "codigo": "JCR0004",
         "nombre": "VINO ESPUMOSO KATICH ROSADO X 750 CJ X 12",
         "precioUnidad": 20081,
@@ -2701,7 +2715,7 @@
         "activo": true
     },
     {
-        "id": 194,
+        "id": 195,
         "codigo": "JCR0005",
         "nombre": "APERITIVO VINICO MOSCATEL DE PASAS X 750 CJ X 12",
         "precioUnidad": 15638,
@@ -2715,7 +2729,7 @@
         "activo": true
     },
     {
-        "id": 195,
+        "id": 196,
         "codigo": "JCR0007",
         "nombre": "MOSCATEL GRAN DUCADO TINTO X 1000 IPACK",
         "precioUnidad": 13031,
@@ -2729,7 +2743,7 @@
         "activo": true
     },
     {
-        "id": 196,
+        "id": 197,
         "codigo": "JCR0008",
         "nombre": "CREMA DE WHISKY CASA DEL RHIN X 750 CJ X 12",
         "precioUnidad": 38400,
@@ -2743,7 +2757,7 @@
         "activo": true
     },
     {
-        "id": 197,
+        "id": 198,
         "codigo": "JCR0011",
         "nombre": "APERITIVO VINICO MOSCATEL DE PASAS GARRAFA X 1500 CJ X 6",
         "precioUnidad": 31275,
@@ -2757,7 +2771,7 @@
         "activo": true
     },
     {
-        "id": 198,
+        "id": 199,
         "codigo": "JDL0001",
         "nombre": "VINO GATO NEGRO CABERNET X 750 CJ X 12",
         "precioUnidad": 29982,
@@ -2771,7 +2785,7 @@
         "activo": true
     },
     {
-        "id": 199,
+        "id": 200,
         "codigo": "JDL0002",
         "nombre": "VINO GATO NEGRO MERLOT X 750 CJ X 12",
         "precioUnidad": 32948,
@@ -2785,7 +2799,7 @@
         "activo": true
     },
     {
-        "id": 200,
+        "id": 201,
         "codigo": "JDL0003",
         "nombre": "VINO GATO NEGRO BLANCO X 750 CJ X 12",
         "precioUnidad": 29844,
@@ -2799,7 +2813,7 @@
         "activo": true
     },
     {
-        "id": 201,
+        "id": 202,
         "codigo": "JDL0004",
         "nombre": "VINO GATO NEGRO MALBEC X 750 CJ X 12",
         "precioUnidad": 32499,
@@ -2813,7 +2827,7 @@
         "activo": true
     },
     {
-        "id": 202,
+        "id": 203,
         "codigo": "JDL0005",
         "nombre": "VINO GATO NEGRO CABERNET  X 375 ML",
         "precioUnidad": 21308,
@@ -2827,7 +2841,7 @@
         "activo": true
     },
     {
-        "id": 203,
+        "id": 204,
         "codigo": "JDL0006",
         "nombre": "TEQUILA JOSE CUERVO ESPECIAL SILVER X 750 CJ X 12",
         "precioUnidad": 86860,
@@ -2841,7 +2855,7 @@
         "activo": true
     },
     {
-        "id": 204,
+        "id": 205,
         "codigo": "JDL0007",
         "nombre": "TEQUILA JOSE CUERVO ESPECIAL REPOSADO X 750 CJ X 12 UND",
         "precioUnidad": 73661,
@@ -2855,7 +2869,7 @@
         "activo": true
     },
     {
-        "id": 205,
+        "id": 206,
         "codigo": "JDL0010",
         "nombre": "TAJIN CLASICO X 45 GR CJ X 24",
         "precioUnidad": 6672,
@@ -2869,7 +2883,7 @@
         "activo": true
     },
     {
-        "id": 206,
+        "id": 207,
         "codigo": "JDL0011",
         "nombre": "TAJIN CLASICO X 142 GR CJ X 24",
         "precioUnidad": 13521,
@@ -2883,7 +2897,7 @@
         "activo": true
     },
     {
-        "id": 207,
+        "id": 208,
         "codigo": "JDL0029",
         "nombre": "TEQUILA JOSE CUERVO REPOSADO X 375 CJ X 12",
         "precioUnidad": 43067,
@@ -2897,7 +2911,7 @@
         "activo": true
     },
     {
-        "id": 208,
+        "id": 209,
         "codigo": "JDS0001",
         "nombre": "VINIPEL TABACO X 200 PC X 20",
         "precioUnidad": 11820,
@@ -2911,7 +2925,7 @@
         "activo": true
     },
     {
-        "id": 209,
+        "id": 210,
         "codigo": "JDS0002",
         "nombre": "VINIPEL TABACO X 100 PC X 30",
         "precioUnidad": 5849,
@@ -2925,7 +2939,7 @@
         "activo": true
     },
     {
-        "id": 210,
+        "id": 211,
         "codigo": "JDS0003",
         "nombre": "VINIPEL TABACO X 50 PC X 40",
         "precioUnidad": 4152,
@@ -2939,7 +2953,7 @@
         "activo": true
     },
     {
-        "id": 211,
+        "id": 212,
         "codigo": "JDS0004",
         "nombre": "VINIPEL TABACO X 20 PC X 40",
         "precioUnidad": 2568,
@@ -2953,7 +2967,7 @@
         "activo": true
     },
     {
-        "id": 212,
+        "id": 213,
         "codigo": "JDS0005",
         "nombre": "VINIPEL NEGRO OSMOTICO X 20 PC X 40",
         "precioUnidad": 2568,
@@ -2967,7 +2981,7 @@
         "activo": true
     },
     {
-        "id": 213,
+        "id": 214,
         "codigo": "JDS0006",
         "nombre": "VINIPEL NEGRO OSMOTICO X 50 PC  X 40",
         "precioUnidad": 4152,
@@ -2981,7 +2995,7 @@
         "activo": true
     },
     {
-        "id": 214,
+        "id": 215,
         "codigo": "JDU0001",
         "nombre": "MARG.PREFERIDA X 125 CJ 4 DISPLAY",
         "precioUnidad": 143106,
@@ -2995,7 +3009,7 @@
         "activo": true
     },
     {
-        "id": 215,
+        "id": 216,
         "codigo": "JDU0002",
         "nombre": "MARG.PREFERIDA X 250",
         "precioUnidad": 135640,
@@ -3009,7 +3023,7 @@
         "activo": true
     },
     {
-        "id": 216,
+        "id": 217,
         "codigo": "JDU0003",
         "nombre": "MARG.PREFERIDA X 500",
         "precioUnidad": 129962,
@@ -3023,7 +3037,7 @@
         "activo": true
     },
     {
-        "id": 217,
+        "id": 218,
         "codigo": "JDU0011",
         "nombre": "ESPARCIBLE PREFERIDA X 500 CJ X 18",
         "precioUnidad": 7477,
@@ -3037,7 +3051,7 @@
         "activo": true
     },
     {
-        "id": 218,
+        "id": 219,
         "codigo": "JDX0001",
         "nombre": "CONSERVA DE PESCADO EN SALSA DE TOMATE SANCHO CJ X 48 UND",
         "precioUnidad": 5536,
@@ -3051,7 +3065,7 @@
         "activo": true
     },
     {
-        "id": 219,
+        "id": 220,
         "codigo": "JDX0002",
         "nombre": "CONSERVA DE PESCADO TINAPA TOMATE DON SANCHO ABRE FACIL X 50",
         "precioUnidad": 2851,
@@ -3065,7 +3079,7 @@
         "activo": true
     },
     {
-        "id": 220,
+        "id": 221,
         "codigo": "JDX0004",
         "nombre": "LOMO DE ATUN SANCHO EN AGUA X 175 GR CJ X 48 UND ABRE FACIL",
         "precioUnidad": 4217,
@@ -3079,7 +3093,7 @@
         "activo": true
     },
     {
-        "id": 221,
+        "id": 222,
         "codigo": "JDX0005",
         "nombre": "LOMOS ACEITE DE GIRASOL DON SANCHO CJ X 48",
         "precioUnidad": 4269,
@@ -3093,7 +3107,7 @@
         "activo": true
     },
     {
-        "id": 222,
+        "id": 223,
         "codigo": "JDX0007",
         "nombre": "THREE PACK LOMO ACEITE DE GIRASOL CAJA X 20",
         "precioUnidad": 9756,
@@ -3107,7 +3121,7 @@
         "activo": true
     },
     {
-        "id": 223,
+        "id": 224,
         "codigo": "JDX0008",
         "nombre": "ENSALADA DE ATUN CON VEGETALES DON SANCHO CAJA X 48",
         "precioUnidad": 4522,
@@ -3121,7 +3135,7 @@
         "activo": true
     },
     {
-        "id": 224,
+        "id": 225,
         "codigo": "JEC0001",
         "nombre": "REEPERB CERVEZA",
         "precioUnidad": 10912,
@@ -3135,7 +3149,7 @@
         "activo": false
     },
     {
-        "id": 225,
+        "id": 226,
         "codigo": "JEC0002",
         "nombre": "KRISTOFFEL ROSE",
         "precioUnidad": 11647,
@@ -3149,7 +3163,7 @@
         "activo": false
     },
     {
-        "id": 226,
+        "id": 227,
         "codigo": "JEL0001",
         "nombre": "DULCE DURO BAM BAM X 100 CJ X 50",
         "precioUnidad": 4554,
@@ -3163,7 +3177,7 @@
         "activo": false
     },
     {
-        "id": 227,
+        "id": 228,
         "codigo": "JEL0002",
         "nombre": "DULCE DURO BAM BAM X 300 CJ X 20",
         "precioUnidad": 13662,
@@ -3177,7 +3191,7 @@
         "activo": false
     },
     {
-        "id": 228,
+        "id": 229,
         "codigo": "JEL0003",
         "nombre": "DULCE RELLENO BAM BAM X 100 CJ X 30",
         "precioUnidad": 6050,
@@ -3191,7 +3205,7 @@
         "activo": false
     },
     {
-        "id": 229,
+        "id": 230,
         "codigo": "JEL0004",
         "nombre": "DULCE RELLENO BAM BAM X 300 CJ X 12",
         "precioUnidad": 18150,
@@ -3205,7 +3219,7 @@
         "activo": false
     },
     {
-        "id": 230,
+        "id": 231,
         "codigo": "JEL0005",
         "nombre": "MINI BOM BOM FRESILLA X 100 CJ X 20",
         "precioUnidad": 9737,
@@ -3219,7 +3233,7 @@
         "activo": false
     },
     {
-        "id": 231,
+        "id": 232,
         "codigo": "JEL0006",
         "nombre": "CHUPETA CORAZONZITOS X 50 CJ X 20",
         "precioUnidad": 4609,
@@ -3233,7 +3247,7 @@
         "activo": false
     },
     {
-        "id": 232,
+        "id": 233,
         "codigo": "JFF0001",
         "nombre": "FARINA CANELA X 250 GR PC X 50 X10 DP",
         "precioUnidad": 4364,
@@ -3247,7 +3261,7 @@
         "activo": true
     },
     {
-        "id": 233,
+        "id": 234,
         "codigo": "JFF0002",
         "nombre": "FARINA CANELA X 500 GR PC X 24",
         "precioUnidad": 8159,
@@ -3261,7 +3275,7 @@
         "activo": true
     },
     {
-        "id": 234,
+        "id": 235,
         "codigo": "JFF0003",
         "nombre": "FARINA SURTIDA X 200 GR CJ X 48",
         "precioUnidad": 3325,
@@ -3275,7 +3289,7 @@
         "activo": true
     },
     {
-        "id": 235,
+        "id": 236,
         "codigo": "JFF0004",
         "nombre": "FARINA VAINILA X 250 GR PC X 50",
         "precioUnidad": 4364,
@@ -3289,7 +3303,7 @@
         "activo": true
     },
     {
-        "id": 236,
+        "id": 237,
         "codigo": "JFF0005",
         "nombre": "FARINA X 250 LECHE CONDENSADA PCX50",
         "precioUnidad": 4364,
@@ -3303,7 +3317,7 @@
         "activo": true
     },
     {
-        "id": 237,
+        "id": 238,
         "codigo": "JFF0007",
         "nombre": "FARINA CANELA X 100 GR CJ X 144",
         "precioUnidad": 1850,
@@ -3317,7 +3331,7 @@
         "activo": true
     },
     {
-        "id": 238,
+        "id": 239,
         "codigo": "JFF0008",
         "nombre": "FARINA SURTIDA 3 SABORES X 100 GR X CJ X 144 DP X12",
         "precioUnidad": 1850,
@@ -3331,7 +3345,7 @@
         "activo": true
     },
     {
-        "id": 239,
+        "id": 240,
         "codigo": "JFW0002",
         "nombre": "TEQUILA JIMADOR REPOSADO 700",
         "precioUnidad": 99803,
@@ -3345,7 +3359,7 @@
         "activo": true
     },
     {
-        "id": 240,
+        "id": 241,
         "codigo": "JFW0003",
         "nombre": "TEQUILA PATRON REPOSADO 700",
         "precioUnidad": 220700,
@@ -3359,7 +3373,7 @@
         "activo": true
     },
     {
-        "id": 241,
+        "id": 242,
         "codigo": "JFW0004",
         "nombre": "TEQUILA PATRON SILVER X 700",
         "precioUnidad": 192051,
@@ -3373,7 +3387,7 @@
         "activo": true
     },
     {
-        "id": 242,
+        "id": 243,
         "codigo": "JFW0005",
         "nombre": "VINO CASILLERO CABERNET SUAVINON X 750 CJ X 12",
         "precioUnidad": 53637,
@@ -3387,7 +3401,7 @@
         "activo": true
     },
     {
-        "id": 243,
+        "id": 244,
         "codigo": "JFW0006",
         "nombre": "VINO CASILLERO MERLOT X 750 CJ X 12",
         "precioUnidad": 53637,
@@ -3401,7 +3415,7 @@
         "activo": true
     },
     {
-        "id": 244,
+        "id": 245,
         "codigo": "JFW0007",
         "nombre": "VINO CASILLERO BLANCO SAUVIGNON X 750 CJ X 12",
         "precioUnidad": 53637,
@@ -3415,7 +3429,7 @@
         "activo": true
     },
     {
-        "id": 245,
+        "id": 246,
         "codigo": "JFW0008",
         "nombre": "VINO CASILLERO  ROSE X 750 CJ X 12",
         "precioUnidad": 53637,
@@ -3429,7 +3443,7 @@
         "activo": true
     },
     {
-        "id": 246,
+        "id": 247,
         "codigo": "JFW0009",
         "nombre": "VINO ESPUMOSO CHANDON  ROSE 750",
         "precioUnidad": 73168,
@@ -3443,7 +3457,7 @@
         "activo": true
     },
     {
-        "id": 247,
+        "id": 248,
         "codigo": "JFW0011",
         "nombre": "VINO ESPUMOSO CHANDON EXT.BRUT 750",
         "precioUnidad": 59000,
@@ -3457,7 +3471,7 @@
         "activo": true
     },
     {
-        "id": 248,
+        "id": 249,
         "codigo": "JFW0012",
         "nombre": "VINO FRONTERA CARMENERE X 750 CJ X 12",
         "precioUnidad": 36201,
@@ -3471,7 +3485,7 @@
         "activo": false
     },
     {
-        "id": 249,
+        "id": 250,
         "codigo": "JFW0013",
         "nombre": "VINO FRONTERA CABERNET SUAVINON X 750 CJ X 12",
         "precioUnidad": 33978,
@@ -3485,7 +3499,7 @@
         "activo": true
     },
     {
-        "id": 250,
+        "id": 251,
         "codigo": "JFW0014",
         "nombre": "VINO FRONTERA MERLOT X 750 CJ X 12",
         "precioUnidad": 33977,
@@ -3499,7 +3513,7 @@
         "activo": true
     },
     {
-        "id": 251,
+        "id": 252,
         "codigo": "JFW0015",
         "nombre": "VINO FRONTERA ROSE X 750 CJ X 12",
         "precioUnidad": 36201,
@@ -3513,7 +3527,7 @@
         "activo": false
     },
     {
-        "id": 252,
+        "id": 253,
         "codigo": "JFW0016",
         "nombre": "VINO FRONTERA SAUV. BLANCO X 750 CJ X 12",
         "precioUnidad": 36201,
@@ -3527,7 +3541,7 @@
         "activo": false
     },
     {
-        "id": 253,
+        "id": 254,
         "codigo": "JFW0018",
         "nombre": "WHISKY JACK DANIEL´S HONEY",
         "precioUnidad": 103900,
@@ -3541,7 +3555,7 @@
         "activo": true
     },
     {
-        "id": 254,
+        "id": 255,
         "codigo": "JFW0020",
         "nombre": "TEQUILA PATRON AÑEJO 700",
         "precioUnidad": 254187,
@@ -3555,7 +3569,7 @@
         "activo": true
     },
     {
-        "id": 255,
+        "id": 256,
         "codigo": "JFW0022",
         "nombre": "TEQUILA HERRADURA PLATA X 750",
         "precioUnidad": 168157,
@@ -3569,7 +3583,7 @@
         "activo": true
     },
     {
-        "id": 256,
+        "id": 257,
         "codigo": "JFW0023",
         "nombre": "WHISKY JACK DANIEL 'S APPLE",
         "precioUnidad": 103900,
@@ -3583,7 +3597,7 @@
         "activo": true
     },
     {
-        "id": 257,
+        "id": 258,
         "codigo": "JFW0024",
         "nombre": "JAGERMAISTER 700 ML CJ X 6 UND",
         "precioUnidad": 101135,
@@ -3597,7 +3611,7 @@
         "activo": true
     },
     {
-        "id": 258,
+        "id": 259,
         "codigo": "JFW0025",
         "nombre": "WHISKY MACALLAN 12 AÑOS DOBLE CASK 700",
         "precioUnidad": 327667,
@@ -3611,7 +3625,7 @@
         "activo": true
     },
     {
-        "id": 259,
+        "id": 260,
         "codigo": "JFW0032",
         "nombre": "TEQUILA JIMADOR BLANCO X 700 ML",
         "precioUnidad": 94150,
@@ -3625,7 +3639,7 @@
         "activo": true
     },
     {
-        "id": 260,
+        "id": 261,
         "codigo": "JFW0033",
         "nombre": "TEQUILA HERRADURA REPOSADO",
         "precioUnidad": 208228,
@@ -3639,7 +3653,7 @@
         "activo": true
     },
     {
-        "id": 261,
+        "id": 262,
         "codigo": "JFW0037",
         "nombre": "TEQUILA HERRADURA AÑEJO X 750",
         "precioUnidad": 219000,
@@ -3653,7 +3667,7 @@
         "activo": true
     },
     {
-        "id": 262,
+        "id": 263,
         "codigo": "JFW0039",
         "nombre": "WHISKY JACK DANIEL´S N° 7 X 375 CJ X 24",
         "precioUnidad": 59319,
@@ -3667,7 +3681,7 @@
         "activo": true
     },
     {
-        "id": 263,
+        "id": 264,
         "codigo": "JFW0040",
         "nombre": "WHISKY JACK DANIEL´S HONEY X 375 CJ X 24",
         "precioUnidad": 59319,
@@ -3681,7 +3695,7 @@
         "activo": true
     },
     {
-        "id": 264,
+        "id": 265,
         "codigo": "JFW0041",
         "nombre": "VINO CASILLERO CARMENERE X 750 CJ X 12",
         "precioUnidad": 53637,
@@ -3695,7 +3709,7 @@
         "activo": true
     },
     {
-        "id": 265,
+        "id": 266,
         "codigo": "JFW0057",
         "nombre": "VINO CASILLERO CHARDONNAY 750",
         "precioUnidad": 54950,
@@ -3709,7 +3723,7 @@
         "activo": true
     },
     {
-        "id": 266,
+        "id": 267,
         "codigo": "JFW0073",
         "nombre": "RON BACARDI ZOMBIE X 750 CJ X 12",
         "precioUnidad": 44442,
@@ -3723,7 +3737,7 @@
         "activo": true
     },
     {
-        "id": 267,
+        "id": 268,
         "codigo": "JFW0074",
         "nombre": "RON BACARDI MOJITO X 750 CJ X 12 UND",
         "precioUnidad": 43724,
@@ -3737,7 +3751,7 @@
         "activo": true
     },
     {
-        "id": 268,
+        "id": 269,
         "codigo": "JFW0075",
         "nombre": "RON BACARDI LIMON X 700 CJ X 12 UND",
         "precioUnidad": 43263,
@@ -3751,7 +3765,7 @@
         "activo": true
     },
     {
-        "id": 269,
+        "id": 270,
         "codigo": "JFW0076",
         "nombre": "RON BACARDI LIMON X 375 CJ X 24 UND",
         "precioUnidad": 28523,
@@ -3765,7 +3779,7 @@
         "activo": true
     },
     {
-        "id": 270,
+        "id": 271,
         "codigo": "JFW0077",
         "nombre": "RON BACARDI AÑEJO X 750 CJ X 12 UND",
         "precioUnidad": 45245,
@@ -3779,7 +3793,7 @@
         "activo": true
     },
     {
-        "id": 271,
+        "id": 272,
         "codigo": "JFW0078",
         "nombre": "RON BACARDI SUPERIOR CARTA BLANCA X 750 CJ X 12",
         "precioUnidad": 51135,
@@ -3793,7 +3807,7 @@
         "activo": true
     },
     {
-        "id": 272,
+        "id": 273,
         "codigo": "JFW0079",
         "nombre": "WHISKY WILLIAM LAWSON´S X 700 CJ X 12",
         "precioUnidad": 45638,
@@ -3807,7 +3821,7 @@
         "activo": true
     },
     {
-        "id": 273,
+        "id": 274,
         "codigo": "JFW0089",
         "nombre": "BULLDOG GIN 750",
         "precioUnidad": 158972,
@@ -3821,7 +3835,7 @@
         "activo": true
     },
     {
-        "id": 274,
+        "id": 275,
         "codigo": "JFW0090",
         "nombre": "GINEGRA BOMBAY SAPPHIRE X 500 ML",
         "precioUnidad": 88715,
@@ -3835,7 +3849,7 @@
         "activo": true
     },
     {
-        "id": 275,
+        "id": 276,
         "codigo": "JFW0091",
         "nombre": "GINEBRA BOMBAY SAPPHIRE X 700 ML",
         "precioUnidad": 122609,
@@ -3849,7 +3863,7 @@
         "activo": true
     },
     {
-        "id": 276,
+        "id": 277,
         "codigo": "JFW0103",
         "nombre": "WHISKY JACK DANIEL´S FIRE",
         "precioUnidad": 103901,
@@ -3863,7 +3877,7 @@
         "activo": true
     },
     {
-        "id": 277,
+        "id": 278,
         "codigo": "JFW0107",
         "nombre": "WHISKY JACK DANIEL´S N° 7",
         "precioUnidad": 103900,
@@ -3877,7 +3891,7 @@
         "activo": true
     },
     {
-        "id": 278,
+        "id": 279,
         "codigo": "JFW0114",
         "nombre": "RON BACARDI MANDARINA 700 ML CJ X 12",
         "precioUnidad": 43486,
@@ -3891,7 +3905,7 @@
         "activo": true
     },
     {
-        "id": 279,
+        "id": 280,
         "codigo": "JFW0117",
         "nombre": "RON BACARDI BAHAMA MAMA 750 ML CJ X 12",
         "precioUnidad": 42217,
@@ -3905,7 +3919,7 @@
         "activo": true
     },
     {
-        "id": 280,
+        "id": 281,
         "codigo": "JFW0126",
         "nombre": "RON BACARDI HURRACANE X 750 CJ X 12",
         "precioUnidad": 44139,
@@ -3919,7 +3933,7 @@
         "activo": true
     },
     {
-        "id": 281,
+        "id": 282,
         "codigo": "JFW0127",
         "nombre": "WHISKY GRANTS TRIPLE WOOD X 350 CJ X 24",
         "precioUnidad": 31498,
@@ -3933,7 +3947,7 @@
         "activo": true
     },
     {
-        "id": 282,
+        "id": 283,
         "codigo": "JFW0128",
         "nombre": "WHISKY GRANTS TRIPLE WOOD X 700 CJ X 12",
         "precioUnidad": 51139,
@@ -3947,7 +3961,7 @@
         "activo": true
     },
     {
-        "id": 283,
+        "id": 284,
         "codigo": "JFW0129",
         "nombre": "WHISKY GRANTS TRIPLE WOOD X 1000 ML CJ X 12",
         "precioUnidad": 72995,
@@ -3961,7 +3975,7 @@
         "activo": true
     },
     {
-        "id": 284,
+        "id": 285,
         "codigo": "JFW0130",
         "nombre": "WHISKY KING OF QUEENS 750 ML CJ X 12",
         "precioUnidad": 45600,
@@ -3975,7 +3989,7 @@
         "activo": false
     },
     {
-        "id": 285,
+        "id": 286,
         "codigo": "JJS0001",
         "nombre": "ESPONJA MATRIX X 12 CJ 40",
         "precioUnidad": 6471,
@@ -3989,7 +4003,7 @@
         "activo": true
     },
     {
-        "id": 286,
+        "id": 287,
         "codigo": "JJS0002",
         "nombre": "ESPONJA MATRIX X 12 UND CJ 48",
         "precioUnidad": 6406,
@@ -4003,7 +4017,7 @@
         "activo": false
     },
     {
-        "id": 287,
+        "id": 288,
         "codigo": "JJS0003",
         "nombre": "MEGAESTROPAJO CUADRADO X 12 UND",
         "precioUnidad": 2518,
@@ -4017,7 +4031,7 @@
         "activo": true
     },
     {
-        "id": 288,
+        "id": 289,
         "codigo": "JJS0004",
         "nombre": "MEGAESTROPAJO TIPO GUANTE X 12 UND",
         "precioUnidad": 4638,
@@ -4031,7 +4045,7 @@
         "activo": true
     },
     {
-        "id": 289,
+        "id": 290,
         "codigo": "JJS0005",
         "nombre": "MEGAESTROPAJO DISCO FACIAL X 12 UND",
         "precioUnidad": 1988,
@@ -4045,7 +4059,7 @@
         "activo": true
     },
     {
-        "id": 290,
+        "id": 291,
         "codigo": "JJS0006",
         "nombre": "MEGAESTROPAJO ESPALDA X 12 UND",
         "precioUnidad": 4638,
@@ -4059,7 +4073,7 @@
         "activo": true
     },
     {
-        "id": 291,
+        "id": 292,
         "codigo": "JJS0007",
         "nombre": "MEGAESTROPAJO NATURAL X 12 UND",
         "precioUnidad": 2015,
@@ -4073,7 +4087,7 @@
         "activo": true
     },
     {
-        "id": 292,
+        "id": 293,
         "codigo": "JLA0001",
         "nombre": "DESQUITE AGUARDIENTE ARTESANAL X 750 ML CJ X 6",
         "precioUnidad": 63372,
@@ -4087,7 +4101,7 @@
         "activo": false
     },
     {
-        "id": 293,
+        "id": 294,
         "codigo": "JLA0002",
         "nombre": "DESQUITE + FLASK",
         "precioUnidad": 57001,
@@ -4101,7 +4115,7 @@
         "activo": false
     },
     {
-        "id": 294,
+        "id": 295,
         "codigo": "JLC0001",
         "nombre": "ALASKA ACEITE DE CITRONELA X 250",
         "precioUnidad": 10943,
@@ -4115,7 +4129,7 @@
         "activo": true
     },
     {
-        "id": 295,
+        "id": 296,
         "codigo": "JLC0002",
         "nombre": "AUTOMATICO + REPUESTO FLORAL ORQUIDEA DE LOS ANDES CJ X 6",
         "precioUnidad": 33478,
@@ -4129,7 +4143,7 @@
         "activo": true
     },
     {
-        "id": 296,
+        "id": 297,
         "codigo": "JLC0003",
         "nombre": "AUTOMATICO + REPUESTO VAINILLA AMBAR CJ X 6",
         "precioUnidad": 33478,
@@ -4143,7 +4157,7 @@
         "activo": true
     },
     {
-        "id": 297,
+        "id": 298,
         "codigo": "JLC0004",
         "nombre": "AUTOMATICO REPT FLORAL X 12",
         "precioUnidad": 17004,
@@ -4157,7 +4171,7 @@
         "activo": true
     },
     {
-        "id": 298,
+        "id": 299,
         "codigo": "JLC0005",
         "nombre": "AUTOMATICO REPT VAINILLA X 12",
         "precioUnidad": 17003,
@@ -4171,7 +4185,7 @@
         "activo": true
     },
     {
-        "id": 299,
+        "id": 300,
         "codigo": "JLC0006",
         "nombre": "BON BRISA TROPICAL X 250 ML SPRAY CJ X 12",
         "precioUnidad": 5799,
@@ -4185,7 +4199,7 @@
         "activo": true
     },
     {
-        "id": 300,
+        "id": 301,
         "codigo": "JLC0007",
         "nombre": "BON FRUTOS ROJOS  X 250 ML SPRAY CJ X 12",
         "precioUnidad": 5799,
@@ -4199,7 +4213,7 @@
         "activo": true
     },
     {
-        "id": 301,
+        "id": 302,
         "codigo": "JLC0008",
         "nombre": "BON BABY FRESH X 400 ML CJ X 12",
         "precioUnidad": 9176,
@@ -4213,7 +4227,7 @@
         "activo": true
     },
     {
-        "id": 302,
+        "id": 303,
         "codigo": "JLC0009",
         "nombre": "BON BAMBU X 400 ML CJ X 12",
         "precioUnidad": 9176,
@@ -4227,7 +4241,7 @@
         "activo": true
     },
     {
-        "id": 303,
+        "id": 304,
         "codigo": "JLC0010",
         "nombre": "BON BRISA TROPICAL X 400 CJ X 12",
         "precioUnidad": 9176,
@@ -4241,7 +4255,7 @@
         "activo": true
     },
     {
-        "id": 304,
+        "id": 305,
         "codigo": "JLC0011",
         "nombre": "BON CANELA X 400 ML CJ X 12",
         "precioUnidad": 9176,
@@ -4255,7 +4269,7 @@
         "activo": true
     },
     {
-        "id": 305,
+        "id": 306,
         "codigo": "JLC0012",
         "nombre": "BON FRUTAS DE CARIBE X 400 CJ X 12",
         "precioUnidad": 9176,
@@ -4269,7 +4283,7 @@
         "activo": true
     },
     {
-        "id": 306,
+        "id": 307,
         "codigo": "JLC0013",
         "nombre": "BON FRUTOS ROJOS X 400 ML CJ X 12",
         "precioUnidad": 9176,
@@ -4283,7 +4297,7 @@
         "activo": true
     },
     {
-        "id": 307,
+        "id": 308,
         "codigo": "JLC0014",
         "nombre": "BON LAVANDA X 400 ML CJ X 12",
         "precioUnidad": 9176,
@@ -4297,7 +4311,7 @@
         "activo": true
     },
     {
-        "id": 308,
+        "id": 309,
         "codigo": "JLC0015",
         "nombre": "BON VAINILLA X 400 ML CJ X 12",
         "precioUnidad": 9176,
@@ -4311,7 +4325,7 @@
         "activo": true
     },
     {
-        "id": 309,
+        "id": 310,
         "codigo": "JLC0016",
         "nombre": "BON ORQUIDEA DE LOS ANDES X 400 ML  CJ X 12",
         "precioUnidad": 9176,
@@ -4325,7 +4339,7 @@
         "activo": true
     },
     {
-        "id": 310,
+        "id": 311,
         "codigo": "JLC0017",
         "nombre": "ELEC X 1 FRUTOS ROJOS CJ X 12 UND",
         "precioUnidad": 9196,
@@ -4339,7 +4353,7 @@
         "activo": true
     },
     {
-        "id": 311,
+        "id": 312,
         "codigo": "JLC0018",
         "nombre": "ELEC X 1 MANDARINA Y TOROJA CJ X 12",
         "precioUnidad": 9196,
@@ -4353,7 +4367,7 @@
         "activo": true
     },
     {
-        "id": 312,
+        "id": 313,
         "codigo": "JLC0019",
         "nombre": "ELEC X 1 VAINILLA CJ X 12 UND",
         "precioUnidad": 9196,
@@ -4367,7 +4381,7 @@
         "activo": true
     },
     {
-        "id": 313,
+        "id": 314,
         "codigo": "JLC0020",
         "nombre": "ELEC X 2 MANDARINA Y TORONJA",
         "precioUnidad": 16830,
@@ -4381,7 +4395,7 @@
         "activo": true
     },
     {
-        "id": 314,
+        "id": 315,
         "codigo": "JLC0021",
         "nombre": "BON ELEC X 3 COMBINADO CJ X 12",
         "precioUnidad": 22722,
@@ -4395,7 +4409,7 @@
         "activo": true
     },
     {
-        "id": 315,
+        "id": 316,
         "codigo": "JLC0022",
         "nombre": "BON ELEC X 3 FRUTAS DEL CARIBE CJ X 12",
         "precioUnidad": 22722,
@@ -4409,7 +4423,7 @@
         "activo": true
     },
     {
-        "id": 316,
+        "id": 317,
         "codigo": "JLC0023",
         "nombre": "BON ELEC X 3 FRUTOS ROJOS CJ X 12",
         "precioUnidad": 22722,
@@ -4423,7 +4437,7 @@
         "activo": true
     },
     {
-        "id": 317,
+        "id": 318,
         "codigo": "JLC0024",
         "nombre": "BON ELEC X 3 VAINILLA FRANCESA CJ X 12",
         "precioUnidad": 22722,
@@ -4437,7 +4451,7 @@
         "activo": true
     },
     {
-        "id": 318,
+        "id": 319,
         "codigo": "JLC0025",
         "nombre": "VAPO ELEC FRUTAS DEL CARIBE CJ X 12",
         "precioUnidad": 13455,
@@ -4451,7 +4465,7 @@
         "activo": true
     },
     {
-        "id": 319,
+        "id": 320,
         "codigo": "JLC0026",
         "nombre": "VAPO ELEC FRUTOS ROJOS CJ X 12",
         "precioUnidad": 13455,
@@ -4465,7 +4479,7 @@
         "activo": true
     },
     {
-        "id": 320,
+        "id": 321,
         "codigo": "JLC0027",
         "nombre": "VAPO ELEC VAINILLA Y AMBAR CJ X 12",
         "precioUnidad": 13455,
@@ -4479,7 +4493,7 @@
         "activo": true
     },
     {
-        "id": 321,
+        "id": 322,
         "codigo": "JLC0028",
         "nombre": "BON GEL AGUA DE VERBENA X 170 ML CJ X 12",
         "precioUnidad": 6815,
@@ -4493,7 +4507,7 @@
         "activo": true
     },
     {
-        "id": 322,
+        "id": 323,
         "codigo": "JLC0029",
         "nombre": "BON GEL FRUTAS DEL CARIBE X 170 ML CJ X 12",
         "precioUnidad": 6815,
@@ -4507,7 +4521,7 @@
         "activo": true
     },
     {
-        "id": 323,
+        "id": 324,
         "codigo": "JLC0030",
         "nombre": "BON GEL FRUTOS ROJOS X 170 ML CJ X 12",
         "precioUnidad": 6815,
@@ -4521,7 +4535,7 @@
         "activo": true
     },
     {
-        "id": 324,
+        "id": 325,
         "codigo": "JLC0031",
         "nombre": "GEL FRUTOS ROJOS MORA SILVESTRE X 80 ML CJ X 12",
         "precioUnidad": 4257,
@@ -4535,7 +4549,7 @@
         "activo": true
     },
     {
-        "id": 325,
+        "id": 326,
         "codigo": "JLC0032",
         "nombre": "BONAIRE AUTO MADEIRA BRISA TROPICAL X 6 ML",
         "precioUnidad": 9570,
@@ -4549,7 +4563,7 @@
         "activo": true
     },
     {
-        "id": 326,
+        "id": 327,
         "codigo": "JLC0033",
         "nombre": "BONAIRE AUTO MADEIRA VAINILLA X 6 ML",
         "precioUnidad": 9570,
@@ -4563,7 +4577,7 @@
         "activo": true
     },
     {
-        "id": 327,
+        "id": 328,
         "codigo": "JLC0034",
         "nombre": "PINOLINA CANELA X 150 ML CJ X 24",
         "precioUnidad": 1139,
@@ -4577,7 +4591,7 @@
         "activo": true
     },
     {
-        "id": 328,
+        "id": 329,
         "codigo": "JLC0035",
         "nombre": "PINOLINA CITRONELA X 150 ML CJ X 24",
         "precioUnidad": 1139,
@@ -4591,7 +4605,7 @@
         "activo": true
     },
     {
-        "id": 329,
+        "id": 330,
         "codigo": "JLC0036",
         "nombre": "PINOLINA LAVANDA X 150 CJ X 24",
         "precioUnidad": 1045,
@@ -4605,7 +4619,7 @@
         "activo": true
     },
     {
-        "id": 330,
+        "id": 331,
         "codigo": "JLC0037",
         "nombre": "PINOLINA BABY FRESH X 460 CJ X 24",
         "precioUnidad": 3405,
@@ -4619,7 +4633,7 @@
         "activo": true
     },
     {
-        "id": 331,
+        "id": 332,
         "codigo": "JLC0038",
         "nombre": "PINOLINA BAMBU X 460 CJ X 24",
         "precioUnidad": 3405,
@@ -4633,7 +4647,7 @@
         "activo": true
     },
     {
-        "id": 332,
+        "id": 333,
         "codigo": "JLC0039",
         "nombre": "PINOLINA CANELA X 460 CJ X 24",
         "precioUnidad": 3405,
@@ -4647,7 +4661,7 @@
         "activo": true
     },
     {
-        "id": 333,
+        "id": 334,
         "codigo": "JLC0040",
         "nombre": "PINOLINA CITRONELA X 460 CJ X 24",
         "precioUnidad": 3405,
@@ -4661,7 +4675,7 @@
         "activo": true
     },
     {
-        "id": 334,
+        "id": 335,
         "codigo": "JLC0041",
         "nombre": "PINOLINA FLORAL X 460 CJ X 24",
         "precioUnidad": 3405,
@@ -4675,7 +4689,7 @@
         "activo": true
     },
     {
-        "id": 335,
+        "id": 336,
         "codigo": "JLC0042",
         "nombre": "PINOLINA FRUTOS ROJOS X 460 CJ X 24",
         "precioUnidad": 3405,
@@ -4689,7 +4703,7 @@
         "activo": true
     },
     {
-        "id": 336,
+        "id": 337,
         "codigo": "JLC0043",
         "nombre": "PINOLINA LAVANDA X 460 CJ X 24",
         "precioUnidad": 3405,
@@ -4703,7 +4717,7 @@
         "activo": true
     },
     {
-        "id": 337,
+        "id": 338,
         "codigo": "JLC0044",
         "nombre": "PINOLINA BABY FRESH X 960 CJ X 12",
         "precioUnidad": 7069,
@@ -4717,7 +4731,7 @@
         "activo": true
     },
     {
-        "id": 338,
+        "id": 339,
         "codigo": "JLC0045",
         "nombre": "PINOLINA BAMBU X 960 CJ X 12",
         "precioUnidad": 7069,
@@ -4731,7 +4745,7 @@
         "activo": true
     },
     {
-        "id": 339,
+        "id": 340,
         "codigo": "JLC0046",
         "nombre": "PINOLINA CANELA Y MIEL  X 960 CJ X 12",
         "precioUnidad": 7069,
@@ -4745,7 +4759,7 @@
         "activo": true
     },
     {
-        "id": 340,
+        "id": 341,
         "codigo": "JLC0047",
         "nombre": "PINOLINA CITRONELA X 960 CJ X 12",
         "precioUnidad": 7069,
@@ -4759,7 +4773,7 @@
         "activo": true
     },
     {
-        "id": 341,
+        "id": 342,
         "codigo": "JLC0048",
         "nombre": "PINOLINA LAVANDA X 960 CJ X 12",
         "precioUnidad": 7069,
@@ -4773,7 +4787,7 @@
         "activo": true
     },
     {
-        "id": 342,
+        "id": 343,
         "codigo": "JLC0049",
         "nombre": "PINOLINA FLORAL X 960 CJ X 12",
         "precioUnidad": 7069,
@@ -4787,7 +4801,7 @@
         "activo": true
     },
     {
-        "id": 343,
+        "id": 344,
         "codigo": "JLC0050",
         "nombre": "PINOLINA X 960 ENCANTO DE COCO *",
         "precioUnidad": 7069,
@@ -4801,7 +4815,7 @@
         "activo": false
     },
     {
-        "id": 344,
+        "id": 345,
         "codigo": "JLC0051",
         "nombre": "PINOLINA FRUTOS ROJOS X 960 CJ X 12",
         "precioUnidad": 7069,
@@ -4815,7 +4829,7 @@
         "activo": true
     },
     {
-        "id": 345,
+        "id": 346,
         "codigo": "JLC0052",
         "nombre": "PINOLINA BAMBU X 2000 CJ X 6",
         "precioUnidad": 14206,
@@ -4829,7 +4843,7 @@
         "activo": true
     },
     {
-        "id": 346,
+        "id": 347,
         "codigo": "JLC0053",
         "nombre": "PINOLINA CANELA X 2000 CJ X 6",
         "precioUnidad": 14206,
@@ -4843,7 +4857,7 @@
         "activo": true
     },
     {
-        "id": 347,
+        "id": 348,
         "codigo": "JLC0054",
         "nombre": "PINOLINA CITRONELA X 2000 CJ X 6",
         "precioUnidad": 14206,
@@ -4857,7 +4871,7 @@
         "activo": true
     },
     {
-        "id": 348,
+        "id": 349,
         "codigo": "JLC0055",
         "nombre": "PINOLINA FRUTOS ROJOS X 2000 CJ X 6",
         "precioUnidad": 14206,
@@ -4871,7 +4885,7 @@
         "activo": true
     },
     {
-        "id": 349,
+        "id": 350,
         "codigo": "JLC0056",
         "nombre": "PINOLINA LAVANDA X 2000 CJ X 6",
         "precioUnidad": 14206,
@@ -4885,7 +4899,7 @@
         "activo": true
     },
     {
-        "id": 350,
+        "id": 351,
         "codigo": "JLC0057",
         "nombre": "PINOLINA VAINILLA X 2000 CJ X 6",
         "precioUnidad": 14206,
@@ -4899,7 +4913,7 @@
         "activo": false
     },
     {
-        "id": 351,
+        "id": 352,
         "codigo": "JLC0058",
         "nombre": "PINOLINA CITRONELA GALON CJ X 4",
         "precioUnidad": 21418,
@@ -4913,7 +4927,7 @@
         "activo": true
     },
     {
-        "id": 352,
+        "id": 353,
         "codigo": "JLC0059",
         "nombre": "PINOLINA GALON CANELA CJ X 4",
         "precioUnidad": 21418,
@@ -4927,7 +4941,7 @@
         "activo": true
     },
     {
-        "id": 353,
+        "id": 354,
         "codigo": "JLC0060",
         "nombre": "PINOLINA GALON LAVANDA CJ X 4",
         "precioUnidad": 21418,
@@ -4941,7 +4955,7 @@
         "activo": true
     },
     {
-        "id": 354,
+        "id": 355,
         "codigo": "JLC0061",
         "nombre": "PINOLINA GALON VAINILLA CJ  X 4",
         "precioUnidad": 21418,
@@ -4955,7 +4969,7 @@
         "activo": false
     },
     {
-        "id": 355,
+        "id": 356,
         "codigo": "JLC0062",
         "nombre": "PINOLINA 5000 ML CANELA",
         "precioUnidad": 22000,
@@ -4969,7 +4983,7 @@
         "activo": true
     },
     {
-        "id": 356,
+        "id": 357,
         "codigo": "JLC0063",
         "nombre": "PINOLINA 5000 ML CITRONELA",
         "precioUnidad": 22000,
@@ -4983,7 +4997,7 @@
         "activo": true
     },
     {
-        "id": 357,
+        "id": 358,
         "codigo": "JLC0064",
         "nombre": "PINOLINA 5000 ML LAVANDA",
         "precioUnidad": 22000,
@@ -4997,7 +5011,7 @@
         "activo": true
     },
     {
-        "id": 358,
+        "id": 359,
         "codigo": "JLC0065",
         "nombre": "PINOLINA DOY PACK CANELA X 200 CJ X 48",
         "precioUnidad": 1366,
@@ -5011,7 +5025,7 @@
         "activo": true
     },
     {
-        "id": 359,
+        "id": 360,
         "codigo": "JLC0066",
         "nombre": "PINOLINA DOY PACK CITRONELA X 200 CJ X 48",
         "precioUnidad": 1366,
@@ -5025,7 +5039,7 @@
         "activo": true
     },
     {
-        "id": 360,
+        "id": 361,
         "codigo": "JLC0067",
         "nombre": "PINOLINA DOY PACK FRUTOS ROJOS X 200 CJ X 48",
         "precioUnidad": 1366,
@@ -5039,7 +5053,7 @@
         "activo": true
     },
     {
-        "id": 361,
+        "id": 362,
         "codigo": "JLC0068",
         "nombre": "PINOLINA DOY PACK LAVANDA X 200 CJ X 48",
         "precioUnidad": 1366,
@@ -5053,7 +5067,7 @@
         "activo": true
     },
     {
-        "id": 362,
+        "id": 363,
         "codigo": "JLC0069",
         "nombre": "RAYOL MATATODO X 230 ML CJ X 12",
         "precioUnidad": 8405,
@@ -5067,7 +5081,7 @@
         "activo": true
     },
     {
-        "id": 363,
+        "id": 364,
         "codigo": "JLC0070",
         "nombre": "RAYOL VOLADORES X 230 ML CJ X 12",
         "precioUnidad": 8405,
@@ -5081,7 +5095,7 @@
         "activo": true
     },
     {
-        "id": 364,
+        "id": 365,
         "codigo": "JLC0071",
         "nombre": "RAYOL MATATODO X 400 ML CJ X 12",
         "precioUnidad": 13934,
@@ -5095,7 +5109,7 @@
         "activo": true
     },
     {
-        "id": 365,
+        "id": 366,
         "codigo": "JLC0072",
         "nombre": "RAYOL RASTREROS X 400 ML CJ X 12",
         "precioUnidad": 13789,
@@ -5109,7 +5123,7 @@
         "activo": true
     },
     {
-        "id": 366,
+        "id": 367,
         "codigo": "JLC0073",
         "nombre": "RAYOL VOLADORES X 400 ML CJ X 12",
         "precioUnidad": 12346,
@@ -5123,7 +5137,7 @@
         "activo": true
     },
     {
-        "id": 367,
+        "id": 368,
         "codigo": "JLC0074",
         "nombre": "TERGO GLOP X 3 LAVANDA CJ X 24",
         "precioUnidad": 13240,
@@ -5137,7 +5151,7 @@
         "activo": true
     },
     {
-        "id": 368,
+        "id": 369,
         "codigo": "JLC0075",
         "nombre": "TERGO GLOP X 3 PINO CJ X 24",
         "precioUnidad": 13240,
@@ -5151,7 +5165,7 @@
         "activo": true
     },
     {
-        "id": 369,
+        "id": 370,
         "codigo": "JLC0076",
         "nombre": "TERGO GLOP CITRUS X 1 CJ X 24",
         "precioUnidad": 4869,
@@ -5165,7 +5179,7 @@
         "activo": true
     },
     {
-        "id": 370,
+        "id": 371,
         "codigo": "JLC0077",
         "nombre": "TERGO GLOP LAVANDA X 1 CJ X 24",
         "precioUnidad": 4869,
@@ -5179,7 +5193,7 @@
         "activo": true
     },
     {
-        "id": 371,
+        "id": 372,
         "codigo": "JLC0078",
         "nombre": "TERGO GLOP PINO X 1 CJ X 24",
         "precioUnidad": 4869,
@@ -5193,7 +5207,7 @@
         "activo": true
     },
     {
-        "id": 372,
+        "id": 373,
         "codigo": "JLC0079",
         "nombre": "VARITAS BAMBU X 40 CJ X 12",
         "precioUnidad": 8313,
@@ -5207,7 +5221,7 @@
         "activo": true
     },
     {
-        "id": 373,
+        "id": 374,
         "codigo": "JLC0080",
         "nombre": "VARITAS FRUTOS ROJOS X40 CJ X 12",
         "precioUnidad": 8313,
@@ -5221,7 +5235,7 @@
         "activo": true
     },
     {
-        "id": 374,
+        "id": 375,
         "codigo": "JLC0081",
         "nombre": "VARITAS MANZANA CANELA X 40 CJ X 12",
         "precioUnidad": 6747,
@@ -5235,7 +5249,7 @@
         "activo": true
     },
     {
-        "id": 375,
+        "id": 376,
         "codigo": "JLC0082",
         "nombre": "VARITAS VAINILLA X 40 CJ X 12",
         "precioUnidad": 8313,
@@ -5249,7 +5263,7 @@
         "activo": true
     },
     {
-        "id": 376,
+        "id": 377,
         "codigo": "JLC0083",
         "nombre": "VARITAS ARMONIA FLORAL X 80 ML CJ X 12",
         "precioUnidad": 13886,
@@ -5263,7 +5277,7 @@
         "activo": true
     },
     {
-        "id": 377,
+        "id": 378,
         "codigo": "JLC0084",
         "nombre": "VARITAS BAMBU X 80 ML CJ X 12",
         "precioUnidad": 13886,
@@ -5277,7 +5291,7 @@
         "activo": true
     },
     {
-        "id": 378,
+        "id": 379,
         "codigo": "JLC0085",
         "nombre": "VARITAS FRUTOS ROJOS X 80 ML CJ X 12",
         "precioUnidad": 13886,
@@ -5291,7 +5305,7 @@
         "activo": true
     },
     {
-        "id": 379,
+        "id": 380,
         "codigo": "JLC0086",
         "nombre": "VARITAS GRANADILLA X 80 ML CJ X 12",
         "precioUnidad": 13886,
@@ -5305,7 +5319,7 @@
         "activo": true
     },
     {
-        "id": 380,
+        "id": 381,
         "codigo": "JLC0087",
         "nombre": "VARITAS LAVANDA DE PROVENZA X 80 ML CJ X 12",
         "precioUnidad": 13886,
@@ -5319,7 +5333,7 @@
         "activo": true
     },
     {
-        "id": 381,
+        "id": 382,
         "codigo": "JLC0088",
         "nombre": "VARITAS MANZANA CANELA X 80 ML CJ X 12",
         "precioUnidad": 13886,
@@ -5333,7 +5347,7 @@
         "activo": true
     },
     {
-        "id": 382,
+        "id": 383,
         "codigo": "JLC0089",
         "nombre": "VARITAS VAINILLA X 80 ML CJ X 12",
         "precioUnidad": 13886,
@@ -5347,7 +5361,7 @@
         "activo": true
     },
     {
-        "id": 383,
+        "id": 384,
         "codigo": "JLC0090",
         "nombre": "VARITAS SECAS MORA FRAMBUESA CJ X 12",
         "precioUnidad": 9516,
@@ -5361,7 +5375,7 @@
         "activo": false
     },
     {
-        "id": 384,
+        "id": 385,
         "codigo": "JLC0091",
         "nombre": "ALASKA VARSOL SIN OLOR X 460 CJ X 12",
         "precioUnidad": 13048,
@@ -5375,7 +5389,7 @@
         "activo": true
     },
     {
-        "id": 385,
+        "id": 386,
         "codigo": "JLC0092",
         "nombre": "ALASKA VARSOL X 960 ML SIN OLOR",
         "precioUnidad": 22063,
@@ -5389,7 +5403,7 @@
         "activo": true
     },
     {
-        "id": 386,
+        "id": 387,
         "codigo": "JLC0093",
         "nombre": "BLOOMY ALMIDON X 500  DOY PACK CJ X 12",
         "precioUnidad": 4966,
@@ -5403,7 +5417,7 @@
         "activo": true
     },
     {
-        "id": 387,
+        "id": 388,
         "codigo": "JLC0094",
         "nombre": "ALASKA ALMINDON X 1000 PISTOLA CJ X 12",
         "precioUnidad": 12509,
@@ -5417,7 +5431,7 @@
         "activo": true
     },
     {
-        "id": 388,
+        "id": 389,
         "codigo": "JLC0095",
         "nombre": "ELIMINADOR DE OLORES COOL WATER X 400 ML *",
         "precioUnidad": 9411,
@@ -5431,7 +5445,7 @@
         "activo": true
     },
     {
-        "id": 389,
+        "id": 390,
         "codigo": "JLC0096",
         "nombre": "ELEC X 3 + VAPO SIERRA NEVADA CJ X 12",
         "precioUnidad": 24264,
@@ -5445,7 +5459,7 @@
         "activo": true
     },
     {
-        "id": 390,
+        "id": 391,
         "codigo": "JLC0098",
         "nombre": "BON VELAROMA VAINILLA Y AMBAR X 103 CJ X 12",
         "precioUnidad": 8672,
@@ -5459,7 +5473,7 @@
         "activo": true
     },
     {
-        "id": 391,
+        "id": 392,
         "codigo": "JLC0099",
         "nombre": "BON VELAROMA PALO SANTO X 103 CJ X 12",
         "precioUnidad": 9841,
@@ -5473,7 +5487,7 @@
         "activo": true
     },
     {
-        "id": 392,
+        "id": 393,
         "codigo": "JLC0161",
         "nombre": "BONAIRE AUTO MADEIRA FRUTOS ROJOS X 6 ML",
         "precioUnidad": 9206,
@@ -5487,7 +5501,7 @@
         "activo": true
     },
     {
-        "id": 393,
+        "id": 394,
         "codigo": "JLH0001",
         "nombre": "CEBADA PERLADA 500 GR PACA X25",
         "precioUnidad": 2244,
@@ -5501,7 +5515,7 @@
         "activo": true
     },
     {
-        "id": 394,
+        "id": 395,
         "codigo": "JLH0002",
         "nombre": "CUCHUCO CEBADA 500 GR PACA X 25 UND",
         "precioUnidad": 2244,
@@ -5515,7 +5529,7 @@
         "activo": true
     },
     {
-        "id": 395,
+        "id": 396,
         "codigo": "JLH0003",
         "nombre": "CUCHUCO DE MAIZ 500 GR PACA X 25 UND",
         "precioUnidad": 1892,
@@ -5529,7 +5543,7 @@
         "activo": true
     },
     {
-        "id": 396,
+        "id": 397,
         "codigo": "JLH0004",
         "nombre": "CUCHUCO DE TRIGO 500 GR PACA X 25 UND",
         "precioUnidad": 1731,
@@ -5543,7 +5557,7 @@
         "activo": true
     },
     {
-        "id": 397,
+        "id": 398,
         "codigo": "JLH0005",
         "nombre": "HARINA DE MAIZ  PINTADO 500 GR PACA X 25 UND",
         "precioUnidad": 1707,
@@ -5557,7 +5571,7 @@
         "activo": true
     },
     {
-        "id": 398,
+        "id": 399,
         "codigo": "JLH0006",
         "nombre": "HARINA DE MAIZ AMARILLA X 500 PC X 25",
         "precioUnidad": 1318,
@@ -5571,7 +5585,7 @@
         "activo": true
     },
     {
-        "id": 399,
+        "id": 400,
         "codigo": "JLH0007",
         "nombre": "HARINA DE MAIZ BLANCO X 500 GR PC X  25",
         "precioUnidad": 1376,
@@ -5585,7 +5599,7 @@
         "activo": true
     },
     {
-        "id": 400,
+        "id": 401,
         "codigo": "JLT0001",
         "nombre": "GUANTE DOMESTICO TALLA 7",
         "precioUnidad": 3577,
@@ -5599,7 +5613,7 @@
         "activo": true
     },
     {
-        "id": 401,
+        "id": 402,
         "codigo": "JLT0002",
         "nombre": "GUANTE DOMESTICO TALLA 7 1/2 *",
         "precioUnidad": 3577,
@@ -5613,7 +5627,7 @@
         "activo": true
     },
     {
-        "id": 402,
+        "id": 403,
         "codigo": "JLT0003",
         "nombre": "GUANTE DOMESTICO TALLA 8 *",
         "precioUnidad": 3577,
@@ -5627,7 +5641,7 @@
         "activo": true
     },
     {
-        "id": 403,
+        "id": 404,
         "codigo": "JLT0004",
         "nombre": "GUANTE DOMESTICO TALLA 8 1/2 *",
         "precioUnidad": 3577,
@@ -5641,7 +5655,7 @@
         "activo": true
     },
     {
-        "id": 404,
+        "id": 405,
         "codigo": "JLT0005",
         "nombre": "GUANTE DOMESTICO TALLA 9 *",
         "precioUnidad": 3577,
@@ -5655,7 +5669,7 @@
         "activo": true
     },
     {
-        "id": 405,
+        "id": 406,
         "codigo": "JLT0006",
         "nombre": "GUANTE CALIBRE 25 TALLA 7",
         "precioUnidad": 3720,
@@ -5669,7 +5683,7 @@
         "activo": true
     },
     {
-        "id": 406,
+        "id": 407,
         "codigo": "JLT0007",
         "nombre": "GUANTE CALIBRE 25 TALLA 7 1/2 *",
         "precioUnidad": 3720,
@@ -5683,7 +5697,7 @@
         "activo": true
     },
     {
-        "id": 407,
+        "id": 408,
         "codigo": "JLT0008",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 *",
         "precioUnidad": 3720,
@@ -5697,7 +5711,7 @@
         "activo": true
     },
     {
-        "id": 408,
+        "id": 409,
         "codigo": "JLT0009",
         "nombre": "GUANTE CALIBRE 25 TALLA 8 1/2 *",
         "precioUnidad": 3720,
@@ -5711,7 +5725,7 @@
         "activo": true
     },
     {
-        "id": 409,
+        "id": 410,
         "codigo": "JLT0010",
         "nombre": "GUANTE CALIBRE 25 TALLA 9 *",
         "precioUnidad": 3720,
@@ -5725,7 +5739,7 @@
         "activo": true
     },
     {
-        "id": 410,
+        "id": 411,
         "codigo": "JLT0011",
         "nombre": "GUANTE CALIBRE 35 TALLA 7",
         "precioUnidad": 5323,
@@ -5739,7 +5753,7 @@
         "activo": true
     },
     {
-        "id": 411,
+        "id": 412,
         "codigo": "JLT0012",
         "nombre": "GUANTE CALIBRE 35 TALLA 7 1/2 *",
         "precioUnidad": 5323,
@@ -5753,7 +5767,7 @@
         "activo": true
     },
     {
-        "id": 412,
+        "id": 413,
         "codigo": "JLT0013",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 *",
         "precioUnidad": 5323,
@@ -5767,7 +5781,7 @@
         "activo": true
     },
     {
-        "id": 413,
+        "id": 414,
         "codigo": "JLT0014",
         "nombre": "GUANTE CALIBRE 35 TALLA 8 1/2 *",
         "precioUnidad": 5323,
@@ -5781,7 +5795,7 @@
         "activo": true
     },
     {
-        "id": 414,
+        "id": 415,
         "codigo": "JLT0015",
         "nombre": "GUANTE CALIBRE 35 TALLA 9 *",
         "precioUnidad": 5323,
@@ -5795,7 +5809,7 @@
         "activo": true
     },
     {
-        "id": 415,
+        "id": 416,
         "codigo": "JLT0018",
         "nombre": "GUANTE CALIBRE 14 TALLA 7",
         "precioUnidad": 2341,
@@ -5809,7 +5823,7 @@
         "activo": true
     },
     {
-        "id": 416,
+        "id": 417,
         "codigo": "JLT0019",
         "nombre": "GUANTE CALIBRE 14 TALLA 7,5",
         "precioUnidad": 2341,
@@ -5823,7 +5837,7 @@
         "activo": true
     },
     {
-        "id": 417,
+        "id": 418,
         "codigo": "JLT0020",
         "nombre": "GUANTE CALIBRE 14 TALLA 8",
         "precioUnidad": 2341,
@@ -5837,7 +5851,7 @@
         "activo": true
     },
     {
-        "id": 418,
+        "id": 419,
         "codigo": "JLT0021",
         "nombre": "GUANTE CALIBRE 14 TALLA 8,5",
         "precioUnidad": 2341,
@@ -5851,7 +5865,7 @@
         "activo": true
     },
     {
-        "id": 419,
+        "id": 420,
         "codigo": "JMB0001",
         "nombre": "VITACHOCOLATE X 500 GR EN BARRA CJ X 50 UND",
         "precioUnidad": 8488,
@@ -5865,7 +5879,7 @@
         "activo": true
     },
     {
-        "id": 420,
+        "id": 421,
         "codigo": "JMB0002",
         "nombre": "VITACHOCOLATE X 250 GR EN BARRA CJ X 50 UND",
         "precioUnidad": 4574,
@@ -5879,7 +5893,7 @@
         "activo": true
     },
     {
-        "id": 421,
+        "id": 422,
         "codigo": "JMN0001",
         "nombre": "SAL MI SAL X 500 PC X 25",
         "precioUnidad": 850,
@@ -5893,7 +5907,7 @@
         "activo": false
     },
     {
-        "id": 422,
+        "id": 423,
         "codigo": "JMN0002",
         "nombre": "SAL MI SAL  X 1000 PC X 20",
         "precioUnidad": 1625,
@@ -5907,7 +5921,7 @@
         "activo": false
     },
     {
-        "id": 423,
+        "id": 424,
         "codigo": "JMN0003",
         "nombre": "JABON BIG BLU CUADRADO X 300 G CJ X 25",
         "precioUnidad": 1706,
@@ -5921,7 +5935,7 @@
         "activo": true
     },
     {
-        "id": 424,
+        "id": 425,
         "codigo": "JMN0004",
         "nombre": "JABON BIG BLU CUADRADO X 3 CJ X 16",
         "precioUnidad": 5122,
@@ -5935,7 +5949,7 @@
         "activo": true
     },
     {
-        "id": 425,
+        "id": 426,
         "codigo": "JMN0005",
         "nombre": "SAL X 50 KL",
         "precioUnidad": 47500,
@@ -5949,7 +5963,7 @@
         "activo": false
     },
     {
-        "id": 426,
+        "id": 427,
         "codigo": "JOF0015",
         "nombre": "PINOLINA GALON 3785 PACK X 2 ( BAMBU / CITRONELA )",
         "precioUnidad": 30933,
@@ -5963,7 +5977,7 @@
         "activo": false
     },
     {
-        "id": 427,
+        "id": 428,
         "codigo": "JPB0001",
         "nombre": "ARDEN FOR MEN DISPLAY ORIGINAL X 18 COJINES CJ X 24",
         "precioUnidad": 14074,
@@ -5977,7 +5991,7 @@
         "activo": false
     },
     {
-        "id": 428,
+        "id": 429,
         "codigo": "JPB0002",
         "nombre": "ARDEN FOR MEN MINI ROLL ON ORIGINAL  X 30 ML CJ X 6",
         "precioUnidad": 3740,
@@ -5991,7 +6005,7 @@
         "activo": false
     },
     {
-        "id": 429,
+        "id": 430,
         "codigo": "JPB0003",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE ORIGINAL X 40 CJ X 6",
         "precioUnidad": 4040,
@@ -6005,7 +6019,7 @@
         "activo": false
     },
     {
-        "id": 430,
+        "id": 431,
         "codigo": "JPB0004",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 60 X 2 CJ X 12",
         "precioUnidad": 13269,
@@ -6019,7 +6033,7 @@
         "activo": false
     },
     {
-        "id": 431,
+        "id": 432,
         "codigo": "JPB0005",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 100 X 2 CJ X 12",
         "precioUnidad": 17364,
@@ -6033,7 +6047,7 @@
         "activo": false
     },
     {
-        "id": 432,
+        "id": 433,
         "codigo": "JPB0006",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 135  X 2 CJ X 12",
         "precioUnidad": 19503,
@@ -6047,7 +6061,7 @@
         "activo": false
     },
     {
-        "id": 433,
+        "id": 434,
         "codigo": "JPB0007",
         "nombre": "ARDEN FOR MEN ROLL ON ORIGINAL X 50 X 2 CJ X 12",
         "precioUnidad": 19147,
@@ -6061,7 +6075,7 @@
         "activo": false
     },
     {
-        "id": 434,
+        "id": 435,
         "codigo": "JPB0008",
         "nombre": "ARDEN FOR MEN DISPLAY CLINICAL X 18 COJINES CJ 24",
         "precioUnidad": 15482,
@@ -6075,7 +6089,7 @@
         "activo": true
     },
     {
-        "id": 435,
+        "id": 436,
         "codigo": "JPB0009",
         "nombre": "ARDEN FOR MEN MINI ROLL ON CLINICAL X 30 GR CJ 6",
         "precioUnidad": 3877,
@@ -6089,7 +6103,7 @@
         "activo": true
     },
     {
-        "id": 436,
+        "id": 437,
         "codigo": "JPB0010",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE CLINICAL X 30 CJ X 6",
         "precioUnidad": 4056,
@@ -6103,7 +6117,7 @@
         "activo": true
     },
     {
-        "id": 437,
+        "id": 438,
         "codigo": "JPB0011",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE GEL CLINICAL X 30 CJ X 6",
         "precioUnidad": 4363,
@@ -6117,7 +6131,7 @@
         "activo": true
     },
     {
-        "id": 438,
+        "id": 439,
         "codigo": "JPB0012",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE GEL CLINICAL X 70 CJ X 6",
         "precioUnidad": 9137,
@@ -6131,7 +6145,7 @@
         "activo": true
     },
     {
-        "id": 439,
+        "id": 440,
         "codigo": "JPB0013",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE CREMA CLINICAL X 70 CJ X 6",
         "precioUnidad": 7125,
@@ -6145,7 +6159,7 @@
         "activo": true
     },
     {
-        "id": 440,
+        "id": 441,
         "codigo": "JPB0014",
         "nombre": "ARDEN FOR MEN ROLL ON CLINICAL X 50 X 2 CJ X 6",
         "precioUnidad": 20873,
@@ -6159,7 +6173,7 @@
         "activo": true
     },
     {
-        "id": 441,
+        "id": 442,
         "codigo": "JPB0015",
         "nombre": "ARDEN FOR MEN GEL CLINICAL X 85 X 2 CJ X 6",
         "precioUnidad": 27581,
@@ -6173,7 +6187,7 @@
         "activo": true
     },
     {
-        "id": 442,
+        "id": 443,
         "codigo": "JPB0016",
         "nombre": "ARDEN FOR MEN CREMA CLINICAL X 100 X 2 CJ X 12",
         "precioUnidad": 19196,
@@ -6187,7 +6201,7 @@
         "activo": true
     },
     {
-        "id": 443,
+        "id": 444,
         "codigo": "JPB0017",
         "nombre": "ARDEN FOR MEN CREMA SPORT X 100 X 2 CJ X 12",
         "precioUnidad": 17185,
@@ -6201,7 +6215,7 @@
         "activo": true
     },
     {
-        "id": 444,
+        "id": 445,
         "codigo": "JPB0018",
         "nombre": "ARDEN FOR MEN ROLL ON SPORT X 50 X 2 CJ X 12",
         "precioUnidad": 21284,
@@ -6215,7 +6229,7 @@
         "activo": true
     },
     {
-        "id": 445,
+        "id": 446,
         "codigo": "JPB0019",
         "nombre": "TALCO ARDEN FOR MEN POLVO 300GR + 85GR + 30GR CJ X 6",
         "precioUnidad": 23890,
@@ -6229,7 +6243,7 @@
         "activo": true
     },
     {
-        "id": 446,
+        "id": 447,
         "codigo": "JPB0020",
         "nombre": "ARDEN FOR MEN AEROSOL ORIGINAL X 165 ML X 2 CJ 6",
         "precioUnidad": 25903,
@@ -6243,7 +6257,7 @@
         "activo": true
     },
     {
-        "id": 447,
+        "id": 448,
         "codigo": "JPB0021",
         "nombre": "ARDEN FOR MEN AEROSOL SPORT X 165 X 2 CJ 6",
         "precioUnidad": 26743,
@@ -6257,7 +6271,7 @@
         "activo": true
     },
     {
-        "id": 448,
+        "id": 449,
         "codigo": "JPB0022",
         "nombre": "ARDEN FOR MEN AEROSOL CLINICAL X 165 X 2 CJ 6",
         "precioUnidad": 29256,
@@ -6271,7 +6285,7 @@
         "activo": true
     },
     {
-        "id": 449,
+        "id": 450,
         "codigo": "JPB0023",
         "nombre": "SHAMPOO ANTICASPA CONNECT FOR MEN X 310 CJ X 12",
         "precioUnidad": 13831,
@@ -6285,7 +6299,7 @@
         "activo": true
     },
     {
-        "id": 450,
+        "id": 451,
         "codigo": "JPB0024",
         "nombre": "SHAMPOO ANTICASPA CONNECT FOR MEN X 310 X 2 CJ X 6",
         "precioUnidad": 18359,
@@ -6299,7 +6313,7 @@
         "activo": true
     },
     {
-        "id": 451,
+        "id": 452,
         "codigo": "JPB0025",
         "nombre": "GEL CONNECT FOR MEN X 275 CJ X 12",
         "precioUnidad": 9916,
@@ -6313,7 +6327,7 @@
         "activo": true
     },
     {
-        "id": 452,
+        "id": 453,
         "codigo": "JPB0026",
         "nombre": "ELIZABETH ARDEN DISPLAY CLASSIC X 18 COJINES CJ X 24",
         "precioUnidad": 14648,
@@ -6327,7 +6341,7 @@
         "activo": true
     },
     {
-        "id": 453,
+        "id": 454,
         "codigo": "JPB0027",
         "nombre": "ELIZABETH ARDEN MINI ROLL ON CLASSIC X 30 ML CJ X 6",
         "precioUnidad": 3772,
@@ -6341,7 +6355,7 @@
         "activo": true
     },
     {
-        "id": 454,
+        "id": 455,
         "codigo": "JPB0028",
         "nombre": "ELIZABETH ARDEN MINI COLAPSIBLE CLASSIC X 40 ML CJ X 6",
         "precioUnidad": 3772,
@@ -6355,7 +6369,7 @@
         "activo": true
     },
     {
-        "id": 455,
+        "id": 456,
         "codigo": "JPB0029",
         "nombre": "ELIZABETH ARDEN ROLL ON CLASSIC X 50 X 2 CJ X 12",
         "precioUnidad": 19197,
@@ -6369,7 +6383,7 @@
         "activo": true
     },
     {
-        "id": 456,
+        "id": 457,
         "codigo": "JPB0030",
         "nombre": "ELIZABETH ARDEN ROLL ON BICARBONATO Y COCO X 50 X 2 CJ X 12",
         "precioUnidad": 20035,
@@ -6383,7 +6397,7 @@
         "activo": true
     },
     {
-        "id": 457,
+        "id": 458,
         "codigo": "JPB0031",
         "nombre": "ELIZABETH ARDEN COLAPSIBLE BICARBONATO Y COCO X 100 CJ X 6",
         "precioUnidad": 9640,
@@ -6397,7 +6411,7 @@
         "activo": true
     },
     {
-        "id": 458,
+        "id": 459,
         "codigo": "JPB0032",
         "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 60 X 2 CJ X 12",
         "precioUnidad": 13831,
@@ -6411,7 +6425,7 @@
         "activo": true
     },
     {
-        "id": 459,
+        "id": 460,
         "codigo": "JPB0033",
         "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 100 X 2 CJ X 12",
         "precioUnidad": 17520,
@@ -6425,7 +6439,7 @@
         "activo": true
     },
     {
-        "id": 460,
+        "id": 461,
         "codigo": "JPB0034",
         "nombre": "ELIZABETH ARDEN CREMA CLASSIC X 135 X 2 CJ X 12",
         "precioUnidad": 20538,
@@ -6439,7 +6453,7 @@
         "activo": true
     },
     {
-        "id": 461,
+        "id": 462,
         "codigo": "JPB0035",
         "nombre": "ELIZABETH ARDEN AEROSOL X 165 X 2 CJ X 6",
         "precioUnidad": 25904,
@@ -6453,7 +6467,7 @@
         "activo": true
     },
     {
-        "id": 462,
+        "id": 463,
         "codigo": "JPB0036",
         "nombre": "NUDE AUTOBRONCEADOR RISTRA SACHET X 6 CJ X 12",
         "precioUnidad": 42657,
@@ -6467,7 +6481,7 @@
         "activo": true
     },
     {
-        "id": 463,
+        "id": 464,
         "codigo": "JPB0037",
         "nombre": "NUDE BRONCEADOR RISTRA SACHET X 6 CJ X 12",
         "precioUnidad": 0,
@@ -6481,7 +6495,7 @@
         "activo": false
     },
     {
-        "id": 464,
+        "id": 465,
         "codigo": "JPB0038",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF50 X 10 ML DISPLAY X 12 CJ X 10",
         "precioUnidad": 36802,
@@ -6495,7 +6509,7 @@
         "activo": true
     },
     {
-        "id": 465,
+        "id": 466,
         "codigo": "JPB0039",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL COLOR SPF50 X 10 ML DISPLAY X 12 CJ X 10",
         "precioUnidad": 36802,
@@ -6509,7 +6523,7 @@
         "activo": true
     },
     {
-        "id": 466,
+        "id": 467,
         "codigo": "JPB0040",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF60 X 10 ML DISPLAY X 24 CJ X 12",
         "precioUnidad": 47699,
@@ -6523,7 +6537,7 @@
         "activo": true
     },
     {
-        "id": 467,
+        "id": 468,
         "codigo": "JPB0041",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL SPF50 X 60 ML + NUDE LABIAL SPF15 CJ X 12",
         "precioUnidad": 33449,
@@ -6537,7 +6551,7 @@
         "activo": true
     },
     {
-        "id": 468,
+        "id": 469,
         "codigo": "JPB0042",
         "nombre": "NUDE PROTECTOR SOLAR PORTABLE 30 SPF X 40 ML X 2 CJ X 6",
         "precioUnidad": 20035,
@@ -6551,7 +6565,7 @@
         "activo": true
     },
     {
-        "id": 469,
+        "id": 470,
         "codigo": "JPB0043",
         "nombre": "NUDE PROTECTOR SOLAR CARA Y CUERPO SPF60  X 90 ML CJ X 6",
         "precioUnidad": 25065,
@@ -6565,7 +6579,7 @@
         "activo": true
     },
     {
-        "id": 470,
+        "id": 471,
         "codigo": "JPB0044",
         "nombre": "NUDE PROTECTOR SOLAR LIVIANA SENSACION SPF80 X 40 ML X 2 CJ X 12",
         "precioUnidad": 26742,
@@ -6579,7 +6593,7 @@
         "activo": true
     },
     {
-        "id": 471,
+        "id": 472,
         "codigo": "JPB0045",
         "nombre": "NUDE PROTECTOR SOLAR LIVIANA SENSACION SPF80 X 120 ML X 2 CJ X 6",
         "precioUnidad": 72010,
@@ -6593,7 +6607,7 @@
         "activo": true
     },
     {
-        "id": 472,
+        "id": 473,
         "codigo": "JPB0046",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL COLOR FLUIDO SPF60 X 50 ML CJ X 6",
         "precioUnidad": 44347,
@@ -6607,7 +6621,7 @@
         "activo": true
     },
     {
-        "id": 473,
+        "id": 474,
         "codigo": "JPB0047",
         "nombre": "NUDE PROTECTOR SOLAR FACIAL FLUIDO SPF60 X 50 ML CJ X 6",
         "precioUnidad": 44347,
@@ -6621,7 +6635,7 @@
         "activo": true
     },
     {
-        "id": 474,
+        "id": 475,
         "codigo": "JPB0048",
         "nombre": "VITU CREMA  PEPINO Y TE VERDE 1 LITRO CJ X 6",
         "precioUnidad": 24729,
@@ -6635,7 +6649,7 @@
         "activo": true
     },
     {
-        "id": 475,
+        "id": 476,
         "codigo": "JPB0049",
         "nombre": "VITU CREMA YOGURT Y FRUTOS ROJOS 1 LITRO CJ X 6",
         "precioUnidad": 24729,
@@ -6649,7 +6663,7 @@
         "activo": true
     },
     {
-        "id": 476,
+        "id": 477,
         "codigo": "JPB0050",
         "nombre": "VITU LOCION CORPORAL PISTACHO Y NUECES 1 LITRO CJ X 6",
         "precioUnidad": 19700,
@@ -6663,7 +6677,7 @@
         "activo": true
     },
     {
-        "id": 477,
+        "id": 478,
         "codigo": "JPB0051",
         "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS 1 LITRO CJ X 6",
         "precioUnidad": 19700,
@@ -6677,7 +6691,7 @@
         "activo": true
     },
     {
-        "id": 478,
+        "id": 479,
         "codigo": "JPB0052",
         "nombre": "VITU LOCION CORPORAL MANGO Y LICHI 1 LITRO CJ X 6",
         "precioUnidad": 19700,
@@ -6691,7 +6705,7 @@
         "activo": true
     },
     {
-        "id": 479,
+        "id": 480,
         "codigo": "JPB0053",
         "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS 1 LITRO DOYPACK CJ X 6",
         "precioUnidad": 22215,
@@ -6705,7 +6719,7 @@
         "activo": false
     },
     {
-        "id": 480,
+        "id": 481,
         "codigo": "JPB0054",
         "nombre": "YARLEY APRIL VIOLET ROLLO ON X 2 CJ X 6",
         "precioUnidad": 17520,
@@ -6719,7 +6733,7 @@
         "activo": true
     },
     {
-        "id": 481,
+        "id": 482,
         "codigo": "JPB0055",
         "nombre": "YARLEY BOND STREET ROLLO ON X 2 CJ X 6",
         "precioUnidad": 17520,
@@ -6733,7 +6747,7 @@
         "activo": true
     },
     {
-        "id": 482,
+        "id": 483,
         "codigo": "JPB0056",
         "nombre": "MAX FACTOR LASH MAKER NEGRA PESTAÑINA + DELINEADOR CJ X 48",
         "precioUnidad": 29531,
@@ -6747,7 +6761,7 @@
         "activo": true
     },
     {
-        "id": 483,
+        "id": 484,
         "codigo": "JPB0057",
         "nombre": "MAX FACTOR LASH MAKER NEGRA PESTAÑINA + MINI CJ X 48",
         "precioUnidad": 26663,
@@ -6761,7 +6775,7 @@
         "activo": true
     },
     {
-        "id": 484,
+        "id": 485,
         "codigo": "JPB0058",
         "nombre": "NOPIKEX REPELENTE BARRA SOLIDO X 50 GR CJ X 12",
         "precioUnidad": 17497,
@@ -6775,7 +6789,7 @@
         "activo": true
     },
     {
-        "id": 485,
+        "id": 486,
         "codigo": "JPB0059",
         "nombre": "NOPIKEX REPELENTE LIQUIDO ADULTO X 120 GR CJ X 6",
         "precioUnidad": 22970,
@@ -6789,7 +6803,7 @@
         "activo": true
     },
     {
-        "id": 486,
+        "id": 487,
         "codigo": "JPB0060",
         "nombre": "NOPIKEX REPELENTE LIQUIDO NIÑOS X 120 GR CJ X 6",
         "precioUnidad": 22970,
@@ -6803,7 +6817,7 @@
         "activo": true
     },
     {
-        "id": 487,
+        "id": 488,
         "codigo": "JPB0061",
         "nombre": "ARDEN FOR MEN AEROSOL PIES ANTIBACTERIAL X 240 ML X 2 CJ 6",
         "precioUnidad": 29324,
@@ -6817,7 +6831,7 @@
         "activo": true
     },
     {
-        "id": 488,
+        "id": 489,
         "codigo": "JPB0062",
         "nombre": "ARDEN FOR MEN CREMA ORIGINAL X 135  X 2 + SHAMPOO X 310ML CJ X 12",
         "precioUnidad": 23927,
@@ -6831,7 +6845,7 @@
         "activo": true
     },
     {
-        "id": 489,
+        "id": 490,
         "codigo": "JPB0063",
         "nombre": "BALSAMO POST AFEITADO CONNECT FOR MEN X 130 ML CJ X 6",
         "precioUnidad": 17185,
@@ -6845,7 +6859,7 @@
         "activo": true
     },
     {
-        "id": 490,
+        "id": 491,
         "codigo": "JPB0064",
         "nombre": "ESPUMA PARA AFEITAR CONNECT FOR MEN X 195 ML  CJ X 12",
         "precioUnidad": 17424,
@@ -6859,7 +6873,7 @@
         "activo": true
     },
     {
-        "id": 491,
+        "id": 492,
         "codigo": "JPB0065",
         "nombre": "NUDE PROTECTOR SPF 50 FACIAL MATE X 50 ML CJ X 12",
         "precioUnidad": 42670,
@@ -6873,7 +6887,7 @@
         "activo": true
     },
     {
-        "id": 492,
+        "id": 493,
         "codigo": "JPB0066",
         "nombre": "NUDE PROTECTOR SPF 50 FACIAL COLOR X 50 ML CJ X 12",
         "precioUnidad": 42670,
@@ -6887,7 +6901,7 @@
         "activo": true
     },
     {
-        "id": 493,
+        "id": 494,
         "codigo": "JPB0067",
         "nombre": "PESTAÑIA LASH MARKER X 2 CJ X 6",
         "precioUnidad": 29512,
@@ -6901,7 +6915,7 @@
         "activo": false
     },
     {
-        "id": 494,
+        "id": 495,
         "codigo": "JPB0068",
         "nombre": "ELIZABETH ARDEN ROLL ON ACLARADOR X 50 ML CJ X 6",
         "precioUnidad": 20035,
@@ -6915,7 +6929,7 @@
         "activo": true
     },
     {
-        "id": 495,
+        "id": 496,
         "codigo": "JPB0069",
         "nombre": "TALCO ARDEN FOR MEN POLVO 85GR X 2 CJ X 6",
         "precioUnidad": 15725,
@@ -6929,7 +6943,7 @@
         "activo": true
     },
     {
-        "id": 496,
+        "id": 497,
         "codigo": "JPB0070",
         "nombre": "PESTAÑIA LASH MARKER ALARGA X 2 CJ X 6",
         "precioUnidad": 29943,
@@ -6943,7 +6957,7 @@
         "activo": true
     },
     {
-        "id": 497,
+        "id": 498,
         "codigo": "JPB0071",
         "nombre": "VITU LOCION CORPORAL MORA Y ALMENDRAS DOYPACK + 1 LITRO CJ X 4",
         "precioUnidad": 22215,
@@ -6957,7 +6971,7 @@
         "activo": true
     },
     {
-        "id": 498,
+        "id": 499,
         "codigo": "JPB0072",
         "nombre": "ELIZABETH ARDEN ROLL ON HYALU-DERMA X 50 X 2 CJ X 12",
         "precioUnidad": 20035,
@@ -6971,7 +6985,7 @@
         "activo": true
     },
     {
-        "id": 499,
+        "id": 500,
         "codigo": "JPB0073",
         "nombre": "ELIZABETH ARDEN HYALU-DERMA COLAPSIBLE X 100 CJ X 6",
         "precioUnidad": 9640,
@@ -6985,7 +6999,7 @@
         "activo": true
     },
     {
-        "id": 500,
+        "id": 501,
         "codigo": "JPB0074",
         "nombre": "ARDEN FOR MEN MINI COLAPSIBLE 72 H X 40 CJ X 6",
         "precioUnidad": 3772,
@@ -6999,7 +7013,7 @@
         "activo": true
     },
     {
-        "id": 501,
+        "id": 502,
         "codigo": "JPB0075",
         "nombre": "ARDEN FOR MEN MINI ROLL ON 72 H X 30 CJ X 6",
         "precioUnidad": 3772,
@@ -7013,7 +7027,7 @@
         "activo": true
     },
     {
-        "id": 502,
+        "id": 503,
         "codigo": "JPB0076",
         "nombre": "ARDEN FOR MEN ROLL ON 72 H X 50 X 2 CJ X 12",
         "precioUnidad": 18862,
@@ -7027,7 +7041,7 @@
         "activo": true
     },
     {
-        "id": 503,
+        "id": 504,
         "codigo": "JPB0077",
         "nombre": "NUDE PROTECTOR SOLAR PORTABLE 30 SPF X 40 ML CJ X 6",
         "precioUnidad": 16683,
@@ -7041,7 +7055,7 @@
         "activo": true
     },
     {
-        "id": 504,
+        "id": 505,
         "codigo": "JPB0078",
         "nombre": "ARDEN FOR MEN CREMA 72 H X 60 X 2 CJ X 12",
         "precioUnidad": 13831,
@@ -7055,7 +7069,7 @@
         "activo": true
     },
     {
-        "id": 505,
+        "id": 506,
         "codigo": "JPB0079",
         "nombre": "ARDEN FOR MEN CREMA 72 H X 135 X 2 CJ X 12",
         "precioUnidad": 19856,
@@ -7069,7 +7083,7 @@
         "activo": true
     },
     {
-        "id": 506,
+        "id": 507,
         "codigo": "JPB0080",
         "nombre": "AUTOBRONCEADOR NUDE DOY PACK 200 ML",
         "precioUnidad": 29256,
@@ -7083,7 +7097,7 @@
         "activo": true
     },
     {
-        "id": 507,
+        "id": 508,
         "codigo": "JPB0081",
         "nombre": "ARDEN FOR MEN 72 H BARRA X 80 GR X 2 CJ X 12",
         "precioUnidad": 23714,
@@ -7097,7 +7111,7 @@
         "activo": true
     },
     {
-        "id": 508,
+        "id": 509,
         "codigo": "JPB0082",
         "nombre": "ARDEN FOR MEN 72 H X 100 GR X 2 + ROLL ON X 50 ML",
         "precioUnidad": 19742,
@@ -7111,7 +7125,7 @@
         "activo": false
     },
     {
-        "id": 509,
+        "id": 510,
         "codigo": "JPB0083",
         "nombre": "ELIZABETH ARDEN CLASSIC  X 50 GR X 2 + COL NATURAL X 100 ML",
         "precioUnidad": 20393,
@@ -7125,7 +7139,7 @@
         "activo": true
     },
     {
-        "id": 510,
+        "id": 511,
         "codigo": "JPB0084",
         "nombre": "ARDEN FOR MEN DISPLAY ORIGINAL 72 H X 18 COJINES CJ X 24",
         "precioUnidad": 14648,
@@ -7139,7 +7153,7 @@
         "activo": true
     },
     {
-        "id": 511,
+        "id": 512,
         "codigo": "JPB0085",
         "nombre": "ARDEN FOR MEN CREMA 72 H X 100 X 2 CJ X 12",
         "precioUnidad": 17520,
@@ -7153,7 +7167,7 @@
         "activo": true
     },
     {
-        "id": 512,
+        "id": 513,
         "codigo": "JPB0086",
         "nombre": "PROMOCION LASH MAKER + DELINEADOR HI FI CJ X 12",
         "precioUnidad": 29890,
@@ -7167,7 +7181,7 @@
         "activo": true
     },
     {
-        "id": 513,
+        "id": 514,
         "codigo": "JPB0087",
         "nombre": "ARDEN FOR MEN ROLL ON 72 H X 135 X 2 + SHAMPOO CONNECT FOR MEN CJ X 12",
         "precioUnidad": 22216,
@@ -7181,7 +7195,7 @@
         "activo": true
     },
     {
-        "id": 514,
+        "id": 515,
         "codigo": "JPB0088",
         "nombre": "NUDE FLUIDO COLOR SPF 60 X 10 COLAPSIBLE CJ X 6",
         "precioUnidad": 46022,
@@ -7195,7 +7209,7 @@
         "activo": true
     },
     {
-        "id": 515,
+        "id": 516,
         "codigo": "JPB0089",
         "nombre": "GEL DE DUCHA CONNECT FOR MEN X 310 ML X 2",
         "precioUnidad": 20825,
@@ -7209,7 +7223,7 @@
         "activo": true
     },
     {
-        "id": 516,
+        "id": 517,
         "codigo": "JPB0090",
         "nombre": "ARDEN FOR MEN CREMA 72 H COLAPSIBLE X 70 CJ X 6",
         "precioUnidad": 6287,
@@ -7223,7 +7237,7 @@
         "activo": true
     },
     {
-        "id": 517,
+        "id": 518,
         "codigo": "JPB0091",
         "nombre": "ELIZABETH ARDEN CLASSIC CREMA COLAPSIBLE  X 70 ML CJ X 6",
         "precioUnidad": 6286,
@@ -7237,7 +7251,7 @@
         "activo": true
     },
     {
-        "id": 518,
+        "id": 519,
         "codigo": "JPD0001",
         "nombre": "PROTECTOR  X 15 PRECIO ESPECIAL CAJA X 36",
         "precioUnidad": 3161,
@@ -7251,7 +7265,7 @@
         "activo": true
     },
     {
-        "id": 519,
+        "id": 520,
         "codigo": "JPD0002",
         "nombre": "PROTECTOR ELLAS ANATOMICO PAGUE 160 LLEV 180 CJ X 10",
         "precioUnidad": 14217,
@@ -7265,7 +7279,7 @@
         "activo": true
     },
     {
-        "id": 520,
+        "id": 521,
         "codigo": "JPD0003",
         "nombre": "PROTECTOR X 30 PRECIO ESPECIAL CAJA X 18",
         "precioUnidad": 6084,
@@ -7279,7 +7293,7 @@
         "activo": true
     },
     {
-        "id": 521,
+        "id": 522,
         "codigo": "JPD0005",
         "nombre": "TOALLA ELLAS ULTRADELGADA PAGUE 10 LLEV 12 PC 48",
         "precioUnidad": 3301,
@@ -7293,7 +7307,7 @@
         "activo": true
     },
     {
-        "id": 522,
+        "id": 523,
         "codigo": "JPD0006",
         "nombre": "TOALLA NOCTURNA + NOCTURNA PC X 18",
         "precioUnidad": 6610,
@@ -7307,7 +7321,7 @@
         "activo": true
     },
     {
-        "id": 523,
+        "id": 524,
         "codigo": "JPD0007",
         "nombre": "TOALLAS ELLAS CON ALAS  PC X 24 (VERDE)",
         "precioUnidad": 4304,
@@ -7321,7 +7335,7 @@
         "activo": true
     },
     {
-        "id": 524,
+        "id": 525,
         "codigo": "JPD0011",
         "nombre": "TOALLA NOCTURNA +DELGADA PC X 24",
         "precioUnidad": 4454,
@@ -7335,7 +7349,7 @@
         "activo": true
     },
     {
-        "id": 525,
+        "id": 526,
         "codigo": "JPD0012",
         "nombre": "TOALLA ELLAS DELGADAS X 40 UND PCA X 12",
         "precioUnidad": 8411,
@@ -7349,7 +7363,7 @@
         "activo": true
     },
     {
-        "id": 526,
+        "id": 527,
         "codigo": "JPD0013",
         "nombre": "TOALLA ELLAS DELGA. NARANJA  PAGUE 10 LLEVE 20 PC X 24",
         "precioUnidad": 5060,
@@ -7363,7 +7377,7 @@
         "activo": true
     },
     {
-        "id": 527,
+        "id": 528,
         "codigo": "JPD0016",
         "nombre": "PROTECTOR ELLAS X 10 PACA X 72 UND",
         "precioUnidad": 1053,
@@ -7377,7 +7391,7 @@
         "activo": true
     },
     {
-        "id": 528,
+        "id": 529,
         "codigo": "JPD0018",
         "nombre": "JABON INTIMO ELLAS X 200 ML CAJA X 12 UND",
         "precioUnidad": 6992,
@@ -7391,7 +7405,7 @@
         "activo": true
     },
     {
-        "id": 529,
+        "id": 530,
         "codigo": "JPD0023",
         "nombre": "TOALLAS ELLAS CON ALAS PACA X 48 (VERDE)",
         "precioUnidad": 2298,
@@ -7405,7 +7419,7 @@
         "activo": true
     },
     {
-        "id": 530,
+        "id": 531,
         "codigo": "JPN0001",
         "nombre": "PAPELS ROSAL XXG 12 PAQUETES X 4 ROLLOS",
         "precioUnidad": 7514,
@@ -7419,7 +7433,7 @@
         "activo": true
     },
     {
-        "id": 531,
+        "id": 532,
         "codigo": "JPN0002",
         "nombre": "PAPELS ROSAL XXG 4 PAQUETES X 12 ROLLOS",
         "precioUnidad": 16472,
@@ -7433,7 +7447,7 @@
         "activo": true
     },
     {
-        "id": 532,
+        "id": 533,
         "codigo": "JPN0003",
         "nombre": "PAPELS ROSAL XXG 3 PAQUETES X 15 ROLLOS",
         "precioUnidad": 23570,
@@ -7447,7 +7461,7 @@
         "activo": false
     },
     {
-        "id": 533,
+        "id": 534,
         "codigo": "JPN0004",
         "nombre": "PAPELS ROSAL XG 12 PAQUETES X 4 ROLLOS",
         "precioUnidad": 6344,
@@ -7461,7 +7475,7 @@
         "activo": true
     },
     {
-        "id": 534,
+        "id": 535,
         "codigo": "JPN0005",
         "nombre": "PAPELS ROSAL XG 4 PAQUETES X 12 ROLLOS",
         "precioUnidad": 13537,
@@ -7475,7 +7489,7 @@
         "activo": true
     },
     {
-        "id": 535,
+        "id": 536,
         "codigo": "JPN0006",
         "nombre": "PAPELS SUAVE GOLD 12 PAQUETES X 4 ROLLOS",
         "precioUnidad": 9986,
@@ -7489,7 +7503,7 @@
         "activo": true
     },
     {
-        "id": 536,
+        "id": 537,
         "codigo": "JPN0007",
         "nombre": "PAPELS SUAVE GOLD 4 PAQUETES X 12 ROLLOS",
         "precioUnidad": 27886,
@@ -7503,7 +7517,7 @@
         "activo": true
     },
     {
-        "id": 537,
+        "id": 538,
         "codigo": "JPN0008",
         "nombre": "TOALLA DE COCINA FAVORITA CJ X 24",
         "precioUnidad": 1896,
@@ -7517,7 +7531,7 @@
         "activo": true
     },
     {
-        "id": 538,
+        "id": 539,
         "codigo": "JPN0009",
         "nombre": "TOALLA DE COCINA FAVORITA POR X 3  CJ X 8",
         "precioUnidad": 6119,
@@ -7531,7 +7545,7 @@
         "activo": true
     },
     {
-        "id": 539,
+        "id": 540,
         "codigo": "JPN0010",
         "nombre": "PAÑUELO FACIAL SUAVE PEQUEÑO CJ X 18",
         "precioUnidad": 3851,
@@ -7545,7 +7559,7 @@
         "activo": true
     },
     {
-        "id": 540,
+        "id": 541,
         "codigo": "JPN0011",
         "nombre": "PAÑUELO FACIAL SUAVE BOLSILLO 30 PAQUETES X 4 UNIDADES",
         "precioUnidad": 3566,
@@ -7559,7 +7573,7 @@
         "activo": true
     },
     {
-        "id": 541,
+        "id": 542,
         "codigo": "JPN0012",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 3 TALLA G PACA X 8",
         "precioUnidad": 23717,
@@ -7573,7 +7587,7 @@
         "activo": true
     },
     {
-        "id": 542,
+        "id": 543,
         "codigo": "JPN0013",
         "nombre": "PAÑAL BEBE DREAMS ETAPA 4 TALLA XG PACA X 8",
         "precioUnidad": 29889,
@@ -7587,7 +7601,7 @@
         "activo": true
     },
     {
-        "id": 543,
+        "id": 544,
         "codigo": "JPN0014",
         "nombre": "TOALLA HIGIENICA SUAVE NOCTURNA MIX CJ X 24",
         "precioUnidad": 3515,
@@ -7601,7 +7615,7 @@
         "activo": true
     },
     {
-        "id": 544,
+        "id": 545,
         "codigo": "JPN0015",
         "nombre": "TOALLA HIGIENICA SUAVE DELGADA MIX CJ X 36",
         "precioUnidad": 4180,
@@ -7615,7 +7629,7 @@
         "activo": true
     },
     {
-        "id": 545,
+        "id": 546,
         "codigo": "JPN0016",
         "nombre": "PROTECTOR DIARIO SUAVE X 15 CJ X 36",
         "precioUnidad": 1567,
@@ -7629,7 +7643,7 @@
         "activo": true
     },
     {
-        "id": 546,
+        "id": 547,
         "codigo": "JPN0017",
         "nombre": "PAPELS ROSAL XXG PC X 48 UND",
         "precioUnidad": 1759,
@@ -7643,7 +7657,7 @@
         "activo": true
     },
     {
-        "id": 547,
+        "id": 548,
         "codigo": "JPN0018",
         "nombre": "PAPELS ROSAL G PC X 54 UND",
         "precioUnidad": 1091,
@@ -7657,7 +7671,7 @@
         "activo": true
     },
     {
-        "id": 548,
+        "id": 549,
         "codigo": "JPN0019",
         "nombre": "PAPELS ROSAL G 4 PAQUETES X 12 ROLLOS",
         "precioUnidad": 14589,
@@ -7671,7 +7685,7 @@
         "activo": true
     },
     {
-        "id": 549,
+        "id": 550,
         "codigo": "JPN0020",
         "nombre": "PAPELS ROSAL XXG 8 PAQUETES X 6 ROLLOS",
         "precioUnidad": 9709,
@@ -7685,7 +7699,7 @@
         "activo": true
     },
     {
-        "id": 550,
+        "id": 551,
         "codigo": "JPN0021",
         "nombre": "SERVILLETA FAVORITA X 300  CJ X 15",
         "precioUnidad": 3990,
@@ -7699,7 +7713,7 @@
         "activo": true
     },
     {
-        "id": 551,
+        "id": 552,
         "codigo": "JPN0022",
         "nombre": "SERVILLETA SUAVE GOLD  X 40  CJ X 24",
         "precioUnidad": 4889,
@@ -7713,7 +7727,7 @@
         "activo": true
     },
     {
-        "id": 552,
+        "id": 553,
         "codigo": "JPN0023",
         "nombre": "SERVILLETA ROSAL X 100 CJ X 30",
         "precioUnidad": 3749,
@@ -7727,7 +7741,7 @@
         "activo": true
     },
     {
-        "id": 553,
+        "id": 554,
         "codigo": "JPN0024",
         "nombre": "SERVILLETA ROSAL MEGAPACK CJ X 10",
         "precioUnidad": 10379,
@@ -7741,7 +7755,7 @@
         "activo": true
     },
     {
-        "id": 554,
+        "id": 555,
         "codigo": "JPN0025",
         "nombre": "SERVILLETA SUAVE GOLD  X 100  CJ X 24",
         "precioUnidad": 6713,
@@ -7755,7 +7769,7 @@
         "activo": true
     },
     {
-        "id": 555,
+        "id": 556,
         "codigo": "JPN0026",
         "nombre": "SERVILLETA FAVORITA CAFETERIA X 100 CJ X 30",
         "precioUnidad": 2367,
@@ -7769,7 +7783,7 @@
         "activo": true
     },
     {
-        "id": 556,
+        "id": 557,
         "codigo": "JPN0027",
         "nombre": "TOALLA COCINA ROSAL X 1 CJ X 12",
         "precioUnidad": 7457,
@@ -7783,7 +7797,7 @@
         "activo": true
     },
     {
-        "id": 557,
+        "id": 558,
         "codigo": "JPN0028",
         "nombre": "TOALLA COCINA ROSAL X 3 CJ X 4",
         "precioUnidad": 15203,
@@ -7797,7 +7811,7 @@
         "activo": true
     },
     {
-        "id": 558,
+        "id": 559,
         "codigo": "JPN0029",
         "nombre": "PAPEL ROSAL MAXIMO 4PAQUETES X 12 ROLLOS",
         "precioUnidad": 13493,
@@ -7811,7 +7825,7 @@
         "activo": true
     },
     {
-        "id": 559,
+        "id": 560,
         "codigo": "JPN0030",
         "nombre": "PAPELS SUAVE GOLD SOLT CARE 4 PAQUETES X 12 ROLLOS",
         "precioUnidad": 24094,
@@ -7825,7 +7839,7 @@
         "activo": true
     },
     {
-        "id": 560,
+        "id": 561,
         "codigo": "JPN0031",
         "nombre": "PAPELS ROSAL SG X UND PC X 48",
         "precioUnidad": 997,
@@ -7839,7 +7853,7 @@
         "activo": true
     },
     {
-        "id": 561,
+        "id": 562,
         "codigo": "JPO0001",
         "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
         "precioUnidad": 2785,
@@ -7853,7 +7867,7 @@
         "activo": true
     },
     {
-        "id": 562,
+        "id": 563,
         "codigo": "JPO0002",
         "nombre": "AREPASAN BLANCA X 500 GR PC X 24",
         "precioUnidad": 1360,
@@ -7867,7 +7881,7 @@
         "activo": true
     },
     {
-        "id": 563,
+        "id": 564,
         "codigo": "JPO0003",
         "nombre": "HARINA LA MONJITA X 500 GR PC X 24",
         "precioUnidad": 1367,
@@ -7881,7 +7895,7 @@
         "activo": true
     },
     {
-        "id": 564,
+        "id": 565,
         "codigo": "JPO0004",
         "nombre": "SPAGUETTI RIOKA X 500 PC X 24",
         "precioUnidad": 1949,
@@ -7895,7 +7909,7 @@
         "activo": false
     },
     {
-        "id": 565,
+        "id": 566,
         "codigo": "JPO0005",
         "nombre": "MACARRON RIOKA X 250 PC X 24",
         "precioUnidad": 974,
@@ -7909,7 +7923,7 @@
         "activo": true
     },
     {
-        "id": 566,
+        "id": 567,
         "codigo": "JPO0006",
         "nombre": "FIDEOS RIOKA X 250 PC X 24",
         "precioUnidad": 974,
@@ -7923,7 +7937,7 @@
         "activo": true
     },
     {
-        "id": 567,
+        "id": 568,
         "codigo": "JPO0007",
         "nombre": "CONCHAS RIOKA X 250 PC X 24",
         "precioUnidad": 974,
@@ -7937,7 +7951,7 @@
         "activo": true
     },
     {
-        "id": 568,
+        "id": 569,
         "codigo": "JPO0008",
         "nombre": "SPAGUETTI RIOKA X 1000 PC X 12",
         "precioUnidad": 3897,
@@ -7951,7 +7965,7 @@
         "activo": true
     },
     {
-        "id": 569,
+        "id": 570,
         "codigo": "JPO0009",
         "nombre": "SPAGUETTI RIOKA X 250 PC X 24",
         "precioUnidad": 974,
@@ -7965,7 +7979,7 @@
         "activo": true
     },
     {
-        "id": 570,
+        "id": 571,
         "codigo": "JPO0010",
         "nombre": "FIDEOS RIOKA X 1000 PC X 6",
         "precioUnidad": 3897,
@@ -7979,7 +7993,7 @@
         "activo": true
     },
     {
-        "id": 571,
+        "id": 572,
         "codigo": "JPO0011",
         "nombre": "CONCHAS RIOKA X 1000 PC X 6",
         "precioUnidad": 3897,
@@ -7993,7 +8007,7 @@
         "activo": true
     },
     {
-        "id": 572,
+        "id": 573,
         "codigo": "JPO0012",
         "nombre": "MACARRON X 1000 PC X 6",
         "precioUnidad": 3897,
@@ -8007,7 +8021,7 @@
         "activo": true
     },
     {
-        "id": 573,
+        "id": 574,
         "codigo": "JPR0001",
         "nombre": "ARENA FELIGATO VALVULA X 4 KL PC X 6",
         "precioUnidad": 11877,
@@ -8021,7 +8035,7 @@
         "activo": true
     },
     {
-        "id": 574,
+        "id": 575,
         "codigo": "JPR0002",
         "nombre": "ARENA FELIGATO X 25 KL",
         "precioUnidad": 64635,
@@ -8035,7 +8049,7 @@
         "activo": true
     },
     {
-        "id": 575,
+        "id": 576,
         "codigo": "JPR0003",
         "nombre": "ARENA FELIGATO LAVANDA X 4,5 KL PC X 6",
         "precioUnidad": 14635,
@@ -8049,7 +8063,7 @@
         "activo": true
     },
     {
-        "id": 576,
+        "id": 577,
         "codigo": "JPR0006",
         "nombre": "ARENA FELIGATO X 8 KL PC X 4",
         "precioUnidad": 20025,
@@ -8063,7 +8077,7 @@
         "activo": true
     },
     {
-        "id": 577,
+        "id": 578,
         "codigo": "JPR0008",
         "nombre": "ARENA FELIGATO SIN VALVULA  X 4 KL PC X 6",
         "precioUnidad": 9675,
@@ -8077,7 +8091,7 @@
         "activo": true
     },
     {
-        "id": 578,
+        "id": 579,
         "codigo": "JPR0009",
         "nombre": "ARENA FELIGATO CAF E X 4,5 KL CON VALVULA PC X 6",
         "precioUnidad": 13171,
@@ -8091,7 +8105,7 @@
         "activo": true
     },
     {
-        "id": 579,
+        "id": 580,
         "codigo": "JPS0001",
         "nombre": "VINAGRE DE MANZANA X 500 ML CJ X 24",
         "precioUnidad": 1321,
@@ -8105,7 +8119,7 @@
         "activo": true
     },
     {
-        "id": 580,
+        "id": 581,
         "codigo": "JPS0002",
         "nombre": "VINAGRE BLANCO X 500 ML CJ X 24",
         "precioUnidad": 1321,
@@ -8119,7 +8133,7 @@
         "activo": true
     },
     {
-        "id": 581,
+        "id": 582,
         "codigo": "JPS0003",
         "nombre": "VINAGRE BLANCO X 3000 ML CJ X 6",
         "precioUnidad": 4881,
@@ -8133,7 +8147,7 @@
         "activo": true
     },
     {
-        "id": 582,
+        "id": 583,
         "codigo": "JPS0004",
         "nombre": "VINAGRE BLANCO X 1000 ML CJ X 12",
         "precioUnidad": 2542,
@@ -8147,7 +8161,7 @@
         "activo": true
     },
     {
-        "id": 583,
+        "id": 584,
         "codigo": "JPS0005",
         "nombre": "VINAGRE BLANCO X 5000 ML CJ X 4",
         "precioUnidad": 7474,
@@ -8161,7 +8175,7 @@
         "activo": true
     },
     {
-        "id": 584,
+        "id": 585,
         "codigo": "JPS0006",
         "nombre": "VINAGRE DE MANZANA X 3000 ML CJ X 6",
         "precioUnidad": 5081,
@@ -8175,7 +8189,7 @@
         "activo": true
     },
     {
-        "id": 585,
+        "id": 586,
         "codigo": "JPS0007",
         "nombre": "VINAGRE DE MANZANA X 1000 ML CJ X 12",
         "precioUnidad": 2542,
@@ -8189,7 +8203,7 @@
         "activo": true
     },
     {
-        "id": 586,
+        "id": 587,
         "codigo": "JPS0009",
         "nombre": "SALSA DE AJI CJ X 12",
         "precioUnidad": 2562,
@@ -8203,7 +8217,7 @@
         "activo": true
     },
     {
-        "id": 587,
+        "id": 588,
         "codigo": "JRD0001",
         "nombre": "SALCHICHA RONDA VIENA X 7 UND CJ X 48",
         "precioUnidad": 3798,
@@ -8217,7 +8231,7 @@
         "activo": true
     },
     {
-        "id": 588,
+        "id": 589,
         "codigo": "JRD0002",
         "nombre": "SALCHICHA RONDA FRANKFURT X 7 CJ X 24",
         "precioUnidad": 7597,
@@ -8231,7 +8245,7 @@
         "activo": true
     },
     {
-        "id": 589,
+        "id": 590,
         "codigo": "JRR0001",
         "nombre": "TISANAS SURTIDA PC X 24 UND",
         "precioUnidad": 48704,
@@ -8245,7 +8259,7 @@
         "activo": true
     },
     {
-        "id": 590,
+        "id": 591,
         "codigo": "JRR0002",
         "nombre": "AROMATICA PANELA FRUTOS ROJOS PC X 12",
         "precioUnidad": 4102,
@@ -8259,7 +8273,7 @@
         "activo": true
     },
     {
-        "id": 591,
+        "id": 592,
         "codigo": "JRR0003",
         "nombre": "AROMATICA PANELA SURTIDA PC X 12DP",
         "precioUnidad": 4102,
@@ -8273,7 +8287,7 @@
         "activo": true
     },
     {
-        "id": 592,
+        "id": 593,
         "codigo": "JRR0005",
         "nombre": "AROMATICA PANELA MARACUYA X 12",
         "precioUnidad": 4102,
@@ -8287,7 +8301,7 @@
         "activo": true
     },
     {
-        "id": 593,
+        "id": 594,
         "codigo": "JRR0006",
         "nombre": "AROMATICA PANELA FRUTAS TROPICALES PC X 12",
         "precioUnidad": 4102,
@@ -8301,7 +8315,7 @@
         "activo": true
     },
     {
-        "id": 594,
+        "id": 595,
         "codigo": "JRR0007",
         "nombre": "AROMATICA PANELA LIMON PC X 12",
         "precioUnidad": 4102,
@@ -8315,7 +8329,7 @@
         "activo": true
     },
     {
-        "id": 595,
+        "id": 596,
         "codigo": "JRR0011",
         "nombre": "TISANA MANZANILLA",
         "precioUnidad": 48704,
@@ -8329,7 +8343,7 @@
         "activo": true
     },
     {
-        "id": 596,
+        "id": 597,
         "codigo": "JRR0012",
         "nombre": "TISANA YERBABUENA",
         "precioUnidad": 48704,
@@ -8343,7 +8357,7 @@
         "activo": true
     },
     {
-        "id": 597,
+        "id": 598,
         "codigo": "JRR0013",
         "nombre": "TISANA ALBAHACA",
         "precioUnidad": 48704,
@@ -8357,7 +8371,7 @@
         "activo": true
     },
     {
-        "id": 598,
+        "id": 599,
         "codigo": "JRR0014",
         "nombre": "TISANA LIMONARIA",
         "precioUnidad": 48704,
@@ -8371,7 +8385,7 @@
         "activo": true
     },
     {
-        "id": 599,
+        "id": 600,
         "codigo": "JRR0015",
         "nombre": "TISANA CIDRON",
         "precioUnidad": 48704,
@@ -8385,7 +8399,7 @@
         "activo": true
     },
     {
-        "id": 600,
+        "id": 601,
         "codigo": "JRR0016",
         "nombre": "TISANA TORONJIL",
         "precioUnidad": 48704,
@@ -8399,7 +8413,7 @@
         "activo": true
     },
     {
-        "id": 601,
+        "id": 602,
         "codigo": "JRS0001",
         "nombre": "MEGA NATILLA COCO X 200 CJ X 20 UND",
         "precioUnidad": 2405,
@@ -8413,7 +8427,7 @@
         "activo": false
     },
     {
-        "id": 602,
+        "id": 603,
         "codigo": "JRS0002",
         "nombre": "MEGA NATILLA COCO X 300 CJ X 20 UND",
         "precioUnidad": 2911,
@@ -8427,7 +8441,7 @@
         "activo": false
     },
     {
-        "id": 603,
+        "id": 604,
         "codigo": "JRS0003",
         "nombre": "MEGA NATILLA AREQUIPE X 200 CJ X 20 UND",
         "precioUnidad": 2405,
@@ -8441,7 +8455,7 @@
         "activo": false
     },
     {
-        "id": 604,
+        "id": 605,
         "codigo": "JRS0004",
         "nombre": "MEGA NATILLA AREQUIPE X 300 CJ X 20 UND",
         "precioUnidad": 2911,
@@ -8455,7 +8469,7 @@
         "activo": false
     },
     {
-        "id": 605,
+        "id": 606,
         "codigo": "JRS0005",
         "nombre": "MEGA NATILLA MARACUYA X 200 CJ X 20 UND",
         "precioUnidad": 2405,
@@ -8469,7 +8483,7 @@
         "activo": false
     },
     {
-        "id": 606,
+        "id": 607,
         "codigo": "JRS0006",
         "nombre": "MEGA NATILLA MARACUYA X 300 CJ X 20 UND",
         "precioUnidad": 2911,
@@ -8483,7 +8497,7 @@
         "activo": false
     },
     {
-        "id": 607,
+        "id": 608,
         "codigo": "JRS0007",
         "nombre": "MEGA NATILLA TRACIONAL X 200 CJ X 20 UND",
         "precioUnidad": 2405,
@@ -8497,7 +8511,7 @@
         "activo": false
     },
     {
-        "id": 608,
+        "id": 609,
         "codigo": "JRS0008",
         "nombre": "MEGA NATILLA TRACIONAL X 300 CJ X 20 UND",
         "precioUnidad": 2911,
@@ -8511,7 +8525,7 @@
         "activo": false
     },
     {
-        "id": 609,
+        "id": 610,
         "codigo": "JRS0009",
         "nombre": "MEGA NATILLA TRES LECHES X 200 CJ X 20 UND",
         "precioUnidad": 2405,
@@ -8525,7 +8539,7 @@
         "activo": false
     },
     {
-        "id": 610,
+        "id": 611,
         "codigo": "JRS0011",
         "nombre": "MEGA BUÑUELOS X 200 CJ X 20 UND",
         "precioUnidad": 2404,
@@ -8539,7 +8553,7 @@
         "activo": false
     },
     {
-        "id": 611,
+        "id": 612,
         "codigo": "JRS0012",
         "nombre": "MEGA BUÑUELOS X 300 CJ X 20 UND",
         "precioUnidad": 2911,
@@ -8553,7 +8567,7 @@
         "activo": false
     },
     {
-        "id": 612,
+        "id": 613,
         "codigo": "JSA0001",
         "nombre": "PIÑA COLADA MAUI X 700 ML CJ X 12",
         "precioUnidad": 31947,
@@ -8567,7 +8581,7 @@
         "activo": true
     },
     {
-        "id": 613,
+        "id": 614,
         "codigo": "JSA0002",
         "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
         "precioUnidad": 31882,
@@ -8581,7 +8595,7 @@
         "activo": true
     },
     {
-        "id": 614,
+        "id": 615,
         "codigo": "JSA0003",
         "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
         "precioUnidad": 31681,
@@ -8595,7 +8609,7 @@
         "activo": true
     },
     {
-        "id": 615,
+        "id": 616,
         "codigo": "JSA0004",
         "nombre": "PIÑA COLADA TAHITI X 700 ML CJ X 12",
         "precioUnidad": 33926,
@@ -8609,7 +8623,7 @@
         "activo": true
     },
     {
-        "id": 616,
+        "id": 617,
         "codigo": "JSA0005",
         "nombre": "CREMA DE CAFÉ SAN MARINO X 700 CJ X 12",
         "precioUnidad": 38564,
@@ -8623,7 +8637,7 @@
         "activo": true
     },
     {
-        "id": 617,
+        "id": 618,
         "codigo": "JTL0001",
         "nombre": "PIN POP FRUNAS SURTIDO BS X 12 CJ X 36",
         "precioUnidad": 3676,
@@ -8637,7 +8651,7 @@
         "activo": true
     },
     {
-        "id": 618,
+        "id": 619,
         "codigo": "JTL0002",
         "nombre": "PIN POP SURTIDO BS X 24 CJ X 16",
         "precioUnidad": 8022,
@@ -8651,7 +8665,7 @@
         "activo": true
     },
     {
-        "id": 619,
+        "id": 620,
         "codigo": "JTL0003",
         "nombre": "CHUPETA MANGUITOS CON LIMON Y SAL BS X 48 CJ X 16",
         "precioUnidad": 7621,
@@ -8665,7 +8679,7 @@
         "activo": true
     },
     {
-        "id": 620,
+        "id": 621,
         "codigo": "JTL0005",
         "nombre": "YOGUETA SURTIDA BS X 24 CJ X 16",
         "precioUnidad": 7942,
@@ -8679,7 +8693,7 @@
         "activo": true
     },
     {
-        "id": 621,
+        "id": 622,
         "codigo": "JTL0012",
         "nombre": "FRUNAS GOMAS GUSANOS (FRAMBUESA - UVA VERDE) CJ X 24",
         "precioUnidad": 53495,
@@ -8693,7 +8707,7 @@
         "activo": true
     },
     {
-        "id": 622,
+        "id": 623,
         "codigo": "JTL0013",
         "nombre": "FRUNAS GOMAS GUSANOS (FRESA - MANDARINA) CJ X24",
         "precioUnidad": 54833,
@@ -8707,7 +8721,7 @@
         "activo": true
     },
     {
-        "id": 623,
+        "id": 624,
         "codigo": "JTL0014",
         "nombre": "FRUNAS ORIGINALES CLIMA FRIO BS X 12 CJ 24",
         "precioUnidad": 4389,
@@ -8721,7 +8735,7 @@
         "activo": true
     },
     {
-        "id": 624,
+        "id": 625,
         "codigo": "JTL0021",
         "nombre": "TROLLI MORDISCOS XL CJ 24",
         "precioUnidad": 33396,
@@ -8735,7 +8749,7 @@
         "activo": true
     },
     {
-        "id": 625,
+        "id": 626,
         "codigo": "JTL0022",
         "nombre": "TROLLI BANANAS XL CJ X 24",
         "precioUnidad": 33396,
@@ -8749,7 +8763,7 @@
         "activo": true
     },
     {
-        "id": 626,
+        "id": 627,
         "codigo": "JTL0023",
         "nombre": "TROLLI ANAYCONDA XL CJ X 24",
         "precioUnidad": 33396,
@@ -8763,7 +8777,7 @@
         "activo": true
     },
     {
-        "id": 627,
+        "id": 628,
         "codigo": "JTL0024",
         "nombre": "TROLLI FANTASÍA MIX (AROS, MORDISCOS, GUSANOS, BANANAS) CJ X 24",
         "precioUnidad": 48715,
@@ -8777,7 +8791,7 @@
         "activo": true
     },
     {
-        "id": 628,
+        "id": 629,
         "codigo": "JTL0031",
         "nombre": "MECHAS LOCAS RENOVACION DE SABORES SURTIDO DP X 6 CJ X 10",
         "precioUnidad": 18714,
@@ -8791,7 +8805,7 @@
         "activo": true
     },
     {
-        "id": 629,
+        "id": 630,
         "codigo": "JTL0032",
         "nombre": "PIN POP POLVO ACIDOS DP X 12 CJ X 12",
         "precioUnidad": 8936,
@@ -8805,7 +8819,7 @@
         "activo": true
     },
     {
-        "id": 630,
+        "id": 631,
         "codigo": "JTL0041",
         "nombre": "CARAMELO VIVA VITA NARANJA BS X 25 CJ X 20",
         "precioUnidad": 5774,
@@ -8819,7 +8833,7 @@
         "activo": true
     },
     {
-        "id": 631,
+        "id": 632,
         "codigo": "JTL0042",
         "nombre": "CARAMELO VIVA VITA JENGIBRE Y MIEL BS X 25 CJ X 20",
         "precioUnidad": 5774,
@@ -8833,7 +8847,7 @@
         "activo": true
     },
     {
-        "id": 632,
+        "id": 633,
         "codigo": "JVN0001",
         "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
         "precioUnidad": 4712,
@@ -8847,7 +8861,7 @@
         "activo": true
     },
     {
-        "id": 633,
+        "id": 634,
         "codigo": "JVN0002",
         "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
         "precioUnidad": 9427,
@@ -8861,7 +8875,7 @@
         "activo": true
     },
     {
-        "id": 634,
+        "id": 635,
         "codigo": "JVN0003",
         "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
         "precioUnidad": 18853,
@@ -8875,7 +8889,7 @@
         "activo": true
     },
     {
-        "id": 635,
+        "id": 636,
         "codigo": "JVN0004",
         "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
         "precioUnidad": 3658,
@@ -8885,20 +8899,6 @@
         "invetario": 447,
         "unidad": "Caja",
         "despacho": 32,
-        "proveedor": "VENTAS NACIONALES SAS",
-        "activo": true
-    },
-    {
-        "id": 636,
-        "codigo": "JVN0005",
-        "nombre": "GELATINA FRUT DAY SIN SABOR X 500 CJ X  25",
-        "precioUnidad": 34024,
-        "precio": 850612,
-        "imagen": "../assets/toWEBP/7700718565008.webp",
-        "barra": 7700718565008,
-        "invetario": 0,
-        "unidad": "unidad",
-        "despacho": 1,
         "proveedor": "VENTAS NACIONALES SAS",
         "activo": true
     },
@@ -8918,6 +8918,20 @@
     },
     {
         "id": 638,
+        "codigo": "JVN0005",
+        "nombre": "GELATINA FRUT DAY SIN SABOR X 500 CJ X  25",
+        "precioUnidad": 34024,
+        "precio": 850612,
+        "imagen": "../assets/toWEBP/7700718565008.webp",
+        "barra": 7700718565008,
+        "invetario": 0,
+        "unidad": "unidad",
+        "despacho": 1,
+        "proveedor": "VENTAS NACIONALES SAS",
+        "activo": true
+    },
+    {
+        "id": 639,
         "codigo": "JVN0010",
         "nombre": "GELATINA MORA FRUT DAY X 250 CJ X  50",
         "precioUnidad": 4489,
@@ -8931,7 +8945,7 @@
         "activo": true
     },
     {
-        "id": 639,
+        "id": 640,
         "codigo": "JVN0011",
         "nombre": "GELATINA LIMON FRUT DAY X 250 CJ X  50",
         "precioUnidad": 4489,
@@ -8945,7 +8959,7 @@
         "activo": true
     },
     {
-        "id": 640,
+        "id": 641,
         "codigo": "JVN0012",
         "nombre": "GELATINA FRUTOS ROJOS FRUT DAY X 250 CJ X 50",
         "precioUnidad": 4712,
@@ -8959,7 +8973,7 @@
         "activo": true
     },
     {
-        "id": 641,
+        "id": 642,
         "codigo": "JVN0013",
         "nombre": "GELATINA DURAZNO FRUT DAY X 250 CJ X  50",
         "precioUnidad": 4489,
@@ -8973,7 +8987,7 @@
         "activo": true
     },
     {
-        "id": 642,
+        "id": 643,
         "codigo": "JVN0014",
         "nombre": "GELATINA CEREZA FRUT DAY X 250 CJ X  50",
         "precioUnidad": 4489,
@@ -8987,7 +9001,7 @@
         "activo": true
     },
     {
-        "id": 643,
+        "id": 644,
         "codigo": "JVN0015",
         "nombre": "GELATINA FRAMBUESA FRUT DAY X 250 CJ X  50",
         "precioUnidad": 4489,
@@ -9001,7 +9015,7 @@
         "activo": true
     },
     {
-        "id": 644,
+        "id": 645,
         "codigo": "JVN0020",
         "nombre": "GELATINA MORA FRUT DAY X 500 CJ X 50",
         "precioUnidad": 8977,
@@ -9015,7 +9029,7 @@
         "activo": true
     },
     {
-        "id": 645,
+        "id": 646,
         "codigo": "JVN0021",
         "nombre": "GELATINA FRUTOS ROJOS FRUT DAY X 500 CJ X 50",
         "precioUnidad": 8977,
@@ -9029,7 +9043,7 @@
         "activo": true
     },
     {
-        "id": 646,
+        "id": 647,
         "codigo": "JVN0022",
         "nombre": "GELATINA CEREZA FRUT DAY X 500 CJ X 50",
         "precioUnidad": 8977,
@@ -9043,7 +9057,7 @@
         "activo": true
     },
     {
-        "id": 647,
+        "id": 648,
         "codigo": "JVN0023",
         "nombre": "GELATINA UVA FRUT DAY X 500 CJ X 50",
         "precioUnidad": 8977,
@@ -9057,7 +9071,7 @@
         "activo": true
     },
     {
-        "id": 648,
+        "id": 649,
         "codigo": "JVN0024",
         "nombre": "GELATINA DURAZON FRUT DAY X 500 CJ X 50",
         "precioUnidad": 8977,
@@ -9071,7 +9085,7 @@
         "activo": true
     },
     {
-        "id": 649,
+        "id": 650,
         "codigo": "JVN0025",
         "nombre": "GELATINA LIMON FRUT DAY X 500 CJ X 50",
         "precioUnidad": 8977,
@@ -9085,7 +9099,7 @@
         "activo": true
     },
     {
-        "id": 650,
+        "id": 651,
         "codigo": "JVN0026",
         "nombre": "GELATINA FRESA FRUT DAY X 500 CJ X 50",
         "precioUnidad": 8977,
@@ -9099,7 +9113,7 @@
         "activo": true
     },
     {
-        "id": 651,
+        "id": 652,
         "codigo": "JVN0027",
         "nombre": "GELATINA FRAMBUESA FRUT DAY X 500 CJ X 50",
         "precioUnidad": 8977,
@@ -9107,20 +9121,6 @@
         "imagen": "../assets/toWEBP/7700718565114.webp",
         "barra": 7700718565114,
         "invetario": 0,
-        "unidad": "unidad",
-        "despacho": 1,
-        "proveedor": "VENTAS NACIONALES SAS",
-        "activo": true
-    },
-    {
-        "id": 652,
-        "codigo": "JVN0028",
-        "nombre": "GELATINA FRUT DAY SIN SABOR X 250  CJ X  50",
-        "precioUnidad": 17012,
-        "precio": 850612,
-        "imagen": "../assets/toWEBP/7700718564131.webp",
-        "barra": 7700718564131,
-        "invetario": 1,
         "unidad": "unidad",
         "despacho": 1,
         "proveedor": "VENTAS NACIONALES SAS",
@@ -9156,6 +9156,20 @@
     },
     {
         "id": 655,
+        "codigo": "JVN0028",
+        "nombre": "GELATINA FRUT DAY SIN SABOR X 250  CJ X  50",
+        "precioUnidad": 17012,
+        "precio": 850612,
+        "imagen": "../assets/toWEBP/7700718564131.webp",
+        "barra": 7700718564131,
+        "invetario": 1,
+        "unidad": "unidad",
+        "despacho": 1,
+        "proveedor": "VENTAS NACIONALES SAS",
+        "activo": true
+    },
+    {
+        "id": 656,
         "codigo": "JVN0031",
         "nombre": "PASTILLA DE COCOA LA MALAGUEÑA TRADICIONAL  X 500 GR CJ X 50",
         "precioUnidad": 6824,
@@ -9169,7 +9183,7 @@
         "activo": true
     },
     {
-        "id": 656,
+        "id": 657,
         "codigo": "JVN0032",
         "nombre": "PASTILLA DE COCOA LA MALAGUEÑA CLAVOS Y CANELA  X 500 GR CJ X 50",
         "precioUnidad": 6824,
@@ -9183,14 +9197,14 @@
         "activo": true
     },
     {
-        "id": 657,
+        "id": 658,
         "codigo": "JVN0033",
         "nombre": "PASTILLA DE COCOA LA MALAGUEÑA VAINILLA  X 500 GR CJ X 50",
         "precioUnidad": 6824,
         "precio": 341198,
         "imagen": "../assets/toWEBP/7707185641105.webp",
         "barra": 7707185641105,
-        "invetario": 0,
+        "invetario": 221,
         "unidad": "unidad",
         "despacho": 1,
         "proveedor": "VENTAS NACIONALES SAS",
