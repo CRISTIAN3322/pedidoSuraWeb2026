@@ -5932,5 +5932,19 @@
             "direccion": "CR 4 ESTE 37 C 42 SUR La Victoria ",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 80443035,
+        "nombre": "HECTOR MANUEL PORRAS ALDANA",
+        "sucursales": [{
+                "direccion": "TRV 13 C 48 11 ESTE Pinares ",
+                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+            },
+            {
+                "direccion": "CL 1 D ESTE 43 D 03 SUR San Miguel ",
+                "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+            }
+        ]
     }
+
 ]
