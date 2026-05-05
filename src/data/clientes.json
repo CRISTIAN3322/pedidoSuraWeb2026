@@ -5958,6 +5958,14 @@
                 "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
             }
         ]
+    },
+    {
+        "id": 79841173,
+        "nombre": "JOSE HUMBERTO LINARES CARDENAS",
+        "sucursales": [{
+            "direccion": "CR 5 13A 71  Cota ",
+            "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        }]
     }
 
 ]
