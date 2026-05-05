@@ -5945,6 +5945,19 @@
                 "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
             }
         ]
+    },
+    {
+        "id": 1030582270,
+        "nombre": "JAIRO ANDRES BENITO VELASQUEZ",
+        "sucursales": [{
+                "direccion": "CR 86 F 33 04 SUR Kennedy ",
+                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+            },
+            {
+                "direccion": "CL 5 A SUR 87 H 32 Patio Bonito ",
+                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+            }
+        ]
     }
 
 ]
