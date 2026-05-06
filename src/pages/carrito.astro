@@ -253,12 +253,6 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
             if (formaPago) mensaje += `Forma de pago: ${formaPago}%0A%0A`;
             mensaje += `*🚨 CLIENTE SIN CUPO DISPONIBLE 🚨*%0A%0A`;
 
-            // Agregar observaciones si existen
-            const observacion = document.getElementById('observacion');
-            if (observacion && 'value' in observacion && observacion.value.trim()) {
-                mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
-            }
-
             // Agregar productos y total
             mensaje += `*Productos:*%0A`;
             let total = 0;
@@ -268,6 +262,12 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
                 mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
             });
             mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
+
+            // Agregar observaciones si existen
+            const observacion = document.getElementById('observacion');
+            if (observacion && 'value' in observacion && observacion.value.trim()) {
+                mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
+            }
         } else {
             console.log('Cliente CON cupo - construyendo mensaje de pedido normal');
             // Cliente con cupo - enviar pedido normal
@@ -288,12 +288,6 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
                 mensaje += `✅ Con cupo disponible%0A%0A`;
             }
             
-            // Obtener el contenido del textarea de observaciones
-            const observacion = document.getElementById('observacion');
-            if (observacion && 'value' in observacion && observacion.value.trim()) {
-                mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
-            }
-
             mensaje += `*Productos:*%0A`;
             let total = 0;
             
@@ -304,6 +298,14 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
             });
 
             mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
+
+
+
+             // Obtener el contenido del textarea de observaciones
+            const observacion = document.getElementById('observacion');
+            if (observacion && 'value' in observacion && observacion.value.trim()) {
+                mensaje += `%0A*Observaciones:*%0A${observacion.value.trim()}%0A%0A`;
+            }
         }
         
 
