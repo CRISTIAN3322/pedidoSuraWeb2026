@@ -261,7 +261,7 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
                 total += subtotal;
                 mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
             });
-            mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
+            mensaje += `*Total del Pedido: ${formatCurrency(total)}* %0A%0A`;
 
             // Agregar observaciones si existen
             const observacion = document.getElementById('observacion');
@@ -297,7 +297,7 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
                 mensaje += `- ${item.nombre}%0A *Codigo: ${item.codigo}* *= ${item.cantidad}*%0A `;
             });
 
-            mensaje += `*Total del Pedido: ${formatCurrency(total)}*`;
+            mensaje += `*Total del Pedido: ${formatCurrency(total)}* %0A%0A`;
 
 
 
