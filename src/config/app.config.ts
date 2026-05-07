@@ -37,9 +37,9 @@ export const APP_CONFIG = {
   // Configuración de cartera
   portfolio: {
     warningDays: 11,
-    criticalDays: 20,
+    criticalDays: 30,
     /** Facturas con antigüedad estrictamente mayor a este valor bloquean continuar al catálogo */
-    blockDays: 20
+    blockDays: 30
   },
   
   // Configuración de la interfaz
