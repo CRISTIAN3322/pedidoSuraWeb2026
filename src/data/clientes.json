@@ -5979,6 +5979,14 @@
                 "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             }
         ]
+    },
+    {
+        "id": 52806346,
+        "nombre": "FRANCY JANETH HUERTAS MARTINEZ",
+        "sucursales": [{
+            "direccion": "CR 8 BIS 57 A 09 SUR BOSA LIBERTAD ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+        }]
     }
 
 ]
