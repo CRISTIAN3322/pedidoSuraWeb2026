@@ -5966,6 +5966,19 @@
             "direccion": "CR 5 13A 71  Cota ",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
+    },
+    {
+        "id": 11413415,
+        "nombre": "HECTOR ALONSO NIETO GUEVARA",
+        "sucursales": [{
+                "direccion": "CR  6 13 42  Madrid ",
+                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
+            },
+            {
+                "direccion": "CL 19 1 A 16  Mosquera ",
+                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
+            }
+        ]
     }
 
 ]
