@@ -134,7 +134,7 @@
         "barra": 7702622522023,
         "invetario": 1512,
         "unidad": "unidad",
-        "despacho": 1,
+        "despacho": 12,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -148,7 +148,7 @@
         "barra": 7702622528131,
         "invetario": 1094,
         "unidad": "unidad",
-        "despacho": 1,
+        "despacho": 12,
         "proveedor": "TONING SAS",
         "activo": true
     },
@@ -204,7 +204,7 @@
         "barra": 7702622422132,
         "invetario": 126,
         "unidad": "unidad",
-        "despacho": 1,
+        "despacho": 6,
         "proveedor": "TONING SAS",
         "activo": true
     },
