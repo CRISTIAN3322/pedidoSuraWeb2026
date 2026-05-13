@@ -9223,5 +9223,19 @@
         "despacho": 1,
         "proveedor": "VENTAS NACIONALES SAS",
         "activo": true
+    },
+    {
+        "id": 660,
+        "codigo": "JAW0005",
+        "nombre": "PAÑITOS HUMEDOS 105 UND FRESKITICOS CJ X 24 UND ",
+        "precioUnidad": 4050,
+        "precio": 97200,
+        "imagen": "../assets/toWEBP/7709888659173.webp",
+        "barra": 7709888659173,
+        "invetario": 791,
+        "unidad": "unidad",
+        "despacho": 12,
+        "proveedor": "ATW INTERNACIONAL SAS",
+        "activo": true
     }
 ]
