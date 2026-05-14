@@ -5999,6 +5999,14 @@
             "direccion": "CL 148 95 19 Suba la Campiña ",
             "vendedor": "CONSUELO MUÑOZ"
         }]
+    },
+    {
+        "id": 11413580,
+        "nombre": "EDIER RAMIRO NOVOA GUTIERREZ",
+        "sucursales": [{
+            "direccion": "CR 6 ESTE 47 03 Villa Del Cerro ",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     }
 
 ]
