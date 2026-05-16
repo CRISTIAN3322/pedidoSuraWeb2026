@@ -6007,6 +6007,14 @@
             "direccion": "CR 6 ESTE 47 03 Villa Del Cerro ",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 900965192,
+        "nombre": "MERCAMUNDO SAS",
+        "sucursales": [{
+            "direccion": "CL 67 B SUR 64 57  La Isla del Sol ",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
     }
 
 ]

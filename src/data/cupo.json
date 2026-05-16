@@ -4365,5 +4365,11 @@
         "nombre": "GRUPO EMPRESARIAL PAEZ GONZALEZ S A S",
         "cupo": 2000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 900965192,
+        "nombre": "MERCAMUNDO SAS",
+        "cupo": 4000000,
+        "Forma": "Credito"
     }
 ]
