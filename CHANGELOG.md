@@ -5,6 +5,32 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - 2026-05-19
+
+### ✨ Añadido
+- **Gestión de cartera** (`/cartera`):
+  - Vista administrador: todos los vendedores en acordeón
+  - Vista vendedor: solo su cartera
+  - Orden por días vencidos (mayor a menor) y por cantidad de facturas vencidas
+  - Filtros: todas / vencidas (≥30 días) / por vencer (11–29 días)
+  - Botón WhatsApp para enviar cartera vencida a cada vendedor (admin)
+- **Exportación lista de precios** en `/producto`:
+  - Botones Exportar Excel y Exportar PDF bajo el título del catálogo
+  - Columnas: código, barra, nombre, subtotal, iva, ipoconsumo, precioUnidad, precio
+  - Filtro por proveedor del catálogo (Todos = todos los activos)
+  - Solo productos con `activo: true`
+- APIs: `/api/productos-export.json`, `/api/vendedores-contacto.json`
+- Utilidades: `carteraUtils.ts`, `listaPreciosExport.ts`
+- Componentes: `CarteraGestion.jsx`, `ExportListaPrecios.astro`
+- Dependencias: `xlsx`, `jspdf`, `jspdf-autotable`
+
+### 🔧 Configuración
+- `astro.config.mjs`: `vite.optimizeDeps` para librerías de exportación
+
+### 📚 Documentación
+- Nueva guía: `doc/12-gestion-cartera-y-exportacion.md`
+- Actualizados README, arquitectura, componentes, datos y configuración
+
 ## [2.1.0] - 2024-12-20
 
 ### ✨ Añadido

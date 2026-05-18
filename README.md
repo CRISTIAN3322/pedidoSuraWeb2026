@@ -8,6 +8,8 @@ Sistema web moderno para gestión de pedidos desarrollado con **Astro 5**, **Rea
 
 - **🔐 Sistema de Autenticación**: Login seguro con validación de vendedores
 - **Catálogo de Productos**: Búsqueda avanzada y filtros por proveedor
+- **Exportación lista de precios**: Excel y PDF desde `/producto` (solo productos activos, filtro por proveedor)
+- **Gestión de Cartera** (`/cartera`): Vista por vendedor, orden por días vencidos, WhatsApp a vendedores (admin)
 - **Gestión de Clientes**: Selección con información de cupo y cartera
 - **Carrito Inteligente**: Persistencia local y validaciones
 - **Sistema de Bloqueo**: Control de horarios de atención
@@ -37,12 +39,14 @@ Sistema web moderno para gestión de pedidos desarrollado con **Astro 5**, **Rea
 
 ## 🛠️ Tecnologías
 
-- **[Astro 5.17.1](https://astro.build/)** - Framework web moderno con SSR
+- **[Astro 6](https://astro.build/)** - Framework web moderno
 - **[React 19](https://reactjs.org/)** - Componentes interactivos con hooks
 - **[TypeScript 5.0](https://www.typescriptlang.org/)** - Tipado estático completo
 - **CSS Variables** - Sistema de diseño consistente y personalizable
 - **LocalStorage API** - Persistencia de datos del cliente
 - **WhatsApp API** - Integración de mensajería automática
+- **[SheetJS (xlsx)](https://sheetjs.com/)** - Exportación Excel
+- **[jsPDF](https://github.com/parallax/jsPDF)** - Exportación PDF
 - **Vercel** - Despliegue y hosting estático
 
 ## 📁 Estructura del Proyecto
@@ -66,6 +70,7 @@ suraPedidosWeb/
 │   │   │   ├── SucursalList.astro   # Lista de sucursales
 │   │   │   ├── Navigation.astro     # Navegación principal
 │   │   │   ├── LoginForm.astro      # Formulario de autenticación
+│   │   │   ├── ExportListaPrecios.astro # Exportar Excel/PDF lista de precios
 │   │   │   ├── ImageUploader.astro  # Componente para carga de imágenes
 │   │   │   └── ClienteResults.astro # Resultados de búsqueda
 │   │   ├── organisms/        # 🏗️ Secciones funcionales completas
@@ -73,6 +78,7 @@ suraPedidosWeb/
 │   │   │   ├── ClienteSelectorReact.jsx   # Lógica de selección React
 │   │   │   ├── ProductosSelector.astro    # Selector de productos
 │   │   │   ├── ProductCreator.astro       # Creación de productos
+│   │   │   ├── CarteraGestion.jsx         # Gestión de cartera (admin/vendedor)
 │   │   │   └── BloqueoHorario.astro       # Control de horarios
 │   │   └── templates/        # 📄 Estructuras de página
 │   │       └── ClienteSelectorTemplate.astro # Plantilla completa
@@ -82,12 +88,16 @@ suraPedidosWeb/
 │   │   ├── index.astro         # Página principal (catálogo)
 │   │   ├── login.astro         # Página de autenticación
 │   │   ├── principal.astro     # Página de selección de clientes
-│   │   ├── producto.astro      # Página de productos
+│   │   ├── producto.astro      # Catálogo + exportación lista de precios
 │   │   ├── carrito.astro       # Carrito de compras
-│   │   ├── ventas.astro        # Página de ventas
-│   │   └── api/                # Endpoints API
-│   │       ├── ventas.json.ts  # API de ventas
-│   │       └── carteras.json.ts # API de carteras
+│   │   ├── ventas.astro        # Ventas por vendedor
+│   │   ├── cartera.astro       # Gestión de cartera
+│   │   └── api/                # Endpoints API (build estático)
+│   │       ├── ventas.json.ts
+│   │       ├── carteras.json.ts
+│   │       ├── productos-export.json.ts
+│   │       ├── vendedores-contacto.json.ts
+│   │       └── datos-version.json.ts
 │   ├── data/                 # 📊 Datos de la aplicación
 │   │   ├── products.json       # Catálogo de productos
 │   │   ├── clientes.json       # Información de clientes
@@ -106,6 +116,8 @@ suraPedidosWeb/
 │   └── utils/                # 🛠️ Utilidades y helpers
 │       ├── helpers.ts          # Utilidades generales
 │       ├── auth.ts             # Utilidades de autenticación y sesiones
+│       ├── carteraUtils.ts     # Cartera, orden, WhatsApp vencidos
+│       ├── listaPreciosExport.ts # Export Excel/PDF lista de precios
 │       ├── imageUtils.ts       # Utilidades para manejo de imágenes
 │       └── atomic-design/      # Lógica de negocio Atomic Design
 │           └── deudaUtils.ts   # Utilidades para verificación de deudas
@@ -124,6 +136,7 @@ suraPedidosWeb/
 │   ├── 09-arquitectura-atomic-design.md # Arquitectura Atomic Design
 │   ├── 10-guia-verificacion-deudas.md   # Guía de bloqueo por deudas
 │   ├── 11-ejemplos-codigo-verificacion-deudas.md # Ejemplos de código
+│   ├── 12-gestion-cartera-y-exportacion.md # Cartera y lista de precios
 │   └── README.md              # Índice de documentación
 ├── astro.config.mjs           # ⚙️ Configuración de Astro
 ├── tsconfig.json             # 🔧 Configuración de TypeScript
@@ -322,6 +335,16 @@ Página del carrito de compras donde se pueden gestionar los productos seleccion
 
 Página de ventas con acceso a datos de ventas y endpoints API (`/api/ventas.json`, `/api/carteras.json`).
 
+#### producto.astro
+
+Catálogo completo con `ProductosSelector` y botones **Exportar Excel / PDF** (`ExportListaPrecios`). Respeta el filtro de proveedor y solo exporta productos activos.
+
+#### cartera.astro
+
+Gestión de cartera con `CarteraGestion` (React). Administradores ven todos los vendedores y pueden enviar WhatsApp con facturas vencidas; vendedores solo ven su cartera.
+
+Ver [doc/12-gestion-cartera-y-exportacion.md](doc/12-gestion-cartera-y-exportacion.md).
+
 ### Components
 
 #### ClienteSelectorReact.jsx
@@ -418,6 +441,7 @@ Este proyecto está bajo la Licencia MIT.
 - **[Guía de Inicio](doc/01-guia-inicio.md)**: Configuración inicial y primeros pasos
 - **[Arquitectura Atomic Design](doc/09-arquitectura-atomic-design.md)**: Documentación completa de la arquitectura de componentes
 - **[Guía de Verificación de Deudas](doc/10-guia-verificacion-deudas.md)**: Manual completo del sistema de bloqueo por deudas
+- **[Gestión de cartera y exportación](doc/12-gestion-cartera-y-exportacion.md)**: Página `/cartera`, WhatsApp, Excel/PDF
 - **[Sistema de Bloqueo Horario](BLOQUEO_HORARIO.md)**: Documentación del control de horarios
 
 ### 📖 Recursos Adicionales

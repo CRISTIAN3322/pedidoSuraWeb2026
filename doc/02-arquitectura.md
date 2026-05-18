@@ -12,16 +12,29 @@ Aplicación web con Astro como framework de meta-frontend y React para interacti
 - Utilidades: `src/utils/helpers.ts` con helpers para formato, debounce, throttle y storage.
 
 ### Rutas principales
-- `/` → `src/pages/index.astro`: catálogo con `ProductosSelector` y `BloqueoHorario`.
+- `/login` → autenticación de vendedores.
+- `/` → `src/pages/index.astro`: panel inicial / catálogo resumido.
 - `/principal` → `src/pages/principal.astro`: selección de cliente.
+- `/producto` → `src/pages/producto.astro`: catálogo completo + exportación lista de precios.
 - `/carrito` → `src/pages/carrito.astro`: carrito, totales y envío por WhatsApp.
+- `/ventas` → `src/pages/ventas.astro`: ventas y cartera embebida por vendedor.
+- `/cartera` → `src/pages/cartera.astro`: gestión de cartera (React `CarteraGestion`).
+
+### APIs (build estático en `dist/api/`)
+- `/api/ventas.json` — ventas agrupadas por vendedor.
+- `/api/carteras.json` — cartera agrupada por vendedor (facturas ordenadas por días).
+- `/api/productos-export.json` — productos para exportar (campos de lista de precios).
+- `/api/vendedores-contacto.json` — teléfonos de vendedores (sin contraseñas).
+- `/api/datos-version.json` — hashes para avisar actualización de datos.
 
 ### Componentes clave
 - `organisms/ProductosSelector.astro`: catálogo, filtros y agregar al carrito.
+- `molecules/ExportListaPrecios.astro`: botones Excel/PDF de lista de precios.
+- `organisms/CarteraGestion.jsx`: gestión de cartera por rol (admin/vendedor).
 - `organisms/ClienteSelector.astro` y `ClienteSelectorReact.jsx`: búsqueda/selección de cliente.
 - `organisms/BloqueoHorario.astro`: bloqueo de UI según horario.
 - `molecules/CarteraCliente.astro` y `CupoCliente.astro`: visualización financiera del cliente.
-- `molecules/Navigation.astro`: barra superior con navegación.
+- `molecules/Navigation.astro`: barra superior con navegación (Clientes, Productos, Ventas, Cartera, Carrito).
 
 ### Estado y almacenamiento
 - Persistencia en `localStorage` con claves definidas en `APP_CONFIG.storage` (`cartKey`, `clientKey`, `settingsKey`).

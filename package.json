@@ -29,8 +29,11 @@
         "@types/react-dom": "^19.0.3",
         "@vercel/speed-insights": "^1.2.0",
         "astro": "^6.1.9",
+        "jspdf": "^4.2.1",
+        "jspdf-autotable": "^5.0.8",
         "react": "^19.0.0",
-        "react-dom": "^19.0.0"
+        "react-dom": "^19.0.0",
+        "xlsx": "^0.18.5"
     },
     "devDependencies": {
         "typescript": "^5.0.0"

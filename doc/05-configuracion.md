@@ -7,15 +7,23 @@
 import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
 
-// https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: "https://example.com",
+  site: "https://sura-pedidos-web.vercel.app",
+  vite: {
+    optimizeDeps: {
+      include: ["xlsx", "jspdf", "jspdf-autotable"],
+    },
+    ssr: {
+      noExternal: ["xlsx", "jspdf", "jspdf-autotable"],
+    },
+  },
 });
 ```
 
-- Integra React para componentes interactivos.
-- `site` debe apuntar al dominio real en producción. Para este repo, el sitio público es `https://sura-pedidos-web.vercel.app`.
+- Integra React para componentes interactivos (`CarteraGestion`, `ClienteSelectorReact`).
+- `vite.optimizeDeps`: necesario para exportación Excel/PDF en desarrollo (`npm run dev`).
+- `site`: dominio de producción.
 
 ### TypeScript (`tsconfig.json`)
 
@@ -65,3 +73,12 @@ El proyecto utiliza un sistema de diseño basado en Atomic Design con una paleta
 
 - `npm run dev` levanta el servidor accesible en red local (`--host`).
 - Vista local por defecto: `http://localhost:4321`.
+
+### Dependencias de exportación
+
+Instaladas en `package.json`:
+
+- `xlsx` — archivos `.xlsx` (lista de precios)
+- `jspdf` + `jspdf-autotable` — archivos `.pdf`
+
+Tras modificar `astro.config.mjs` o dependencias, reiniciar el servidor de desarrollo.

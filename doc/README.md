@@ -24,6 +24,7 @@ Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontra
 ### 🔒 Funcionalidades Especiales
 - [10. Guía de verificación de deudas](./10-guia-verificacion-deudas.md) - Bloqueo por cartera (`APP_CONFIG.portfolio.blockDays`)
 - [11. Ejemplos de código - Verificación de deudas](./11-ejemplos-codigo-verificacion-deudas.md) - Ejemplos prácticos
+- [12. Gestión de cartera y exportación](./12-gestion-cartera-y-exportacion.md) - Página `/cartera`, WhatsApp a vendedores, Excel/PDF lista de precios
 - [Guía de Bloqueo de Horario](../BLOQUEO_HORARIO.md) - Sistema de control horario
 
 ### 🔐 Seguridad y Autenticación
@@ -35,7 +36,7 @@ Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontra
 
 | Aspecto | Detalles |
 |---------|----------|
-| **Framework** | Astro 5.14.1 + React 19 |
+| **Framework** | Astro 6 + React 19 |
 | **Lenguaje** | TypeScript 5.0 / JavaScript |
 | **Requisitos** | Node.js >= 18.0.0 |
 | **Build** | Estática optimizada |

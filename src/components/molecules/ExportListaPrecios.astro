@@ -1,0 +1,152 @@
+---
+// Botones de exportación lista de precios (Excel / PDF)
+---
+
+<div class="export-lista-precios">
+    <button type="button" id="exportListaExcel" class="export-btn export-btn--excel">
+        📊 Exportar Excel
+    </button>
+    <button type="button" id="exportListaPdf" class="export-btn export-btn--pdf">
+        📄 Exportar PDF
+    </button>
+</div>
+
+<script>
+    import {
+        exportListaPreciosExcel,
+        exportListaPreciosPdf,
+        type ProductoListaPrecios,
+    } from '../../utils/listaPreciosExport';
+
+    const CUSTOM_PRODUCTS_KEY = 'customProducts';
+    let productosCache: ProductoListaPrecios[] | null = null;
+
+    function getCustomProducts(): ProductoListaPrecios[] {
+        try {
+            return JSON.parse(localStorage.getItem(CUSTOM_PRODUCTS_KEY) || '[]');
+        } catch {
+            return [];
+        }
+    }
+
+    function getSelectedProveedor(): string {
+        const select = document.getElementById('proveedorSelect') as HTMLSelectElement | null;
+        return select?.value?.trim() || '';
+    }
+
+    async function loadProductos(): Promise<ProductoListaPrecios[]> {
+        if (productosCache) return productosCache;
+
+        const response = await fetch('/api/productos-export.json', {
+            cache: 'no-store',
+            headers: { Accept: 'application/json' },
+        });
+
+        if (!response.ok) {
+            throw new Error('No se pudieron cargar los productos');
+        }
+
+        const base = await response.json();
+        if (!Array.isArray(base)) {
+            throw new Error('Formato de productos inválido');
+        }
+
+        productosCache = [...base, ...getCustomProducts()];
+        return productosCache;
+    }
+
+    function setupExportButtons() {
+        const excelBtn = document.getElementById('exportListaExcel') as HTMLButtonElement | null;
+        const pdfBtn = document.getElementById('exportListaPdf') as HTMLButtonElement | null;
+
+        const runExport = async (
+            btn: HTMLButtonElement,
+            exportFn: (productos: ProductoListaPrecios[], proveedor: string) => void
+        ) => {
+            const labelOriginal = btn.textContent || '';
+            btn.disabled = true;
+            btn.textContent = 'Generando...';
+
+            try {
+                const productos = await loadProductos();
+                exportFn(productos, getSelectedProveedor());
+            } catch (err) {
+                console.error(err);
+                alert(
+                    err instanceof Error
+                        ? err.message
+                        : 'No se pudo generar el archivo. Intenta de nuevo.'
+                );
+            } finally {
+                btn.disabled = false;
+                btn.textContent = labelOriginal;
+            }
+        };
+
+        excelBtn?.addEventListener('click', () => {
+            if (excelBtn) runExport(excelBtn, exportListaPreciosExcel);
+        });
+
+        pdfBtn?.addEventListener('click', () => {
+            if (pdfBtn) runExport(pdfBtn, exportListaPreciosPdf);
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupExportButtons);
+    } else {
+        setupExportButtons();
+    }
+</script>
+
+<style>
+    .export-lista-precios {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin: 0 auto 1.5rem;
+        max-width: 1200px;
+        padding: 0 1rem;
+    }
+
+    .export-btn {
+        border: none;
+        border-radius: 8px;
+        padding: 0.65rem 1.25rem;
+        font-size: 0.95rem;
+        font-weight: 600;
+        cursor: pointer;
+        color: #fff;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .export-btn:hover:not(:disabled) {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .export-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    .export-btn--excel {
+        background: linear-gradient(135deg, #217346 0%, #1e6b41 100%);
+    }
+
+    .export-btn--pdf {
+        background: linear-gradient(135deg, #c53030 0%, #9b2c2c 100%);
+    }
+
+    @media (max-width: 480px) {
+        .export-lista-precios {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .export-btn {
+            width: 100%;
+        }
+    }
+</style>

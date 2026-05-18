@@ -32,6 +32,12 @@ Estructurados según Atomic Design. A continuación, un mapa funcional de los pr
 - `molecules/CarteraCliente.astro`: muestra cartera, cupo y estado del cliente.
 - `molecules/CupoCliente.astro`: desglosa cupo disponible.
 
+- `molecules/ExportListaPrecios.astro`:
+  - Botones **Exportar Excel** y **Exportar PDF** (lista de precios).
+  - Usa el filtro `#proveedorSelect` del catálogo (Todos = todos los activos).
+  - Datos desde `/api/productos-export.json` + productos personalizados en `localStorage`.
+  - Lógica en `utils/listaPreciosExport.ts` (xlsx, jspdf).
+
 ### Organisms
 
 - `organisms/ProductosSelector.astro`:
@@ -46,6 +52,12 @@ Estructurados según Atomic Design. A continuación, un mapa funcional de los pr
 - `organisms/BloqueoHorario.astro`:
   - Lógica: lee horario de `APP_CONFIG.schedule` o `helpers.isBusinessHours()`.
   - Comportamiento: bloquea UI fuera de horario y muestra tiempo restante.
+
+- `organisms/CarteraGestion.jsx` (React, `client:load` en `/cartera`):
+  - **Admin:** acordeón por vendedor, estadísticas, tabla de facturas, WhatsApp de cartera vencida.
+  - **Vendedor:** solo su cartera.
+  - Filtros: todas / vencidas (≥30) / por vencer (11–29).
+  - APIs: `/api/carteras.json`, `/api/vendedores-contacto.json`.
 
 ### Pages
 
@@ -64,6 +76,16 @@ Estructurados según Atomic Design. A continuación, un mapa funcional de los pr
   - Protección de ruta (requiere autenticación)
   - Incluye selector de clientes completo
 
+- `pages/producto.astro`:
+  - Catálogo de productos (`ProductosSelector`)
+  - Exportación lista de precios (`ExportListaPrecios`)
+
+- `pages/cartera.astro`:
+  - Gestión de cartera (`CarteraGestion`)
+
+- `pages/ventas.astro`:
+  - Ventas por vendedor y mes; integra datos de `/api/carteras.json`
+
 ### Utilidades
 
 - `utils/auth.ts`:
@@ -79,6 +101,14 @@ Estructurados según Atomic Design. A continuación, un mapa funcional de los pr
   - `getProductImage()`: obtiene imagen guardada
   - `isValidImageFile()`: valida archivo de imagen
   - `fileToBase64()`: convierte archivo a base64
+
+- `utils/carteraUtils.ts`:
+  - Filtros y orden de cartera por días vencidos
+  - Mensaje y URL de WhatsApp para cartera vencida (≥30 días)
+
+- `utils/listaPreciosExport.ts`:
+  - `exportListaPreciosExcel()` / `exportListaPreciosPdf()`
+  - Solo productos activos; columnas: código, barra, nombre, subtotal, iva, ipoconsumo, precioUnidad, precio
 
 ### Props y convenciones
 

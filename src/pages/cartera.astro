@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
+import CarteraGestion from '../components/organisms/CarteraGestion.jsx';
+---
+
+<script>
+  if (typeof window !== 'undefined') {
+    const session = sessionStorage.getItem('vendedorSession');
+    if (!session) {
+      window.location.href = '/login';
+    }
+  }
+</script>
+
+<BaseLayout
+  title="Gestión de Cartera - Sura Pedidos Web"
+  description="Consulta y gestiona la cartera por vendedor"
+>
+  <BloqueoHorario />
+  <CarteraGestion client:load />
+</BaseLayout>

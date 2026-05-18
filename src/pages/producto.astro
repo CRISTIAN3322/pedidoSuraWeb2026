@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 import ProductosSelector from '../components/organisms/ProductosSelector.astro';
+import ExportListaPrecios from '../components/molecules/ExportListaPrecios.astro';
 ---
 
 <script>
@@ -14,15 +15,15 @@ import ProductosSelector from '../components/organisms/ProductosSelector.astro';
   }
 </script>
 <BaseLayout>
+    <BloqueoHorario />
     <h1>🛍️ Catálogo de Productos</h1>
+    <ExportListaPrecios />
     <div class="container">    
         <div class="card">
             <ProductosSelector />
         </div>
     </div>
-
 </BaseLayout>
-
 
 <style>
     .page-header {

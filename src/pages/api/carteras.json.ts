@@ -1,15 +1,14 @@
 import carteraData from '../../data/cartera.json';
 import type { APIRoute } from 'astro';
+import {
+  DIAS_POR_VENCER_MIN,
+  DIAS_VENCIDA,
+  parseValor,
+  sortFacturasByDiasDesc,
+} from '../../utils/carteraUtils';
 
-// Función para comparar nombres de vendedores (case-insensitive)
-function compareVendedorNames(name1: string, name2: string): boolean {
-  if (!name1 || !name2) return false;
-  return name1.trim().toUpperCase() === name2.trim().toUpperCase();
-}
-
-// Función para normalizar el nombre del vendedor (puede venir como "Vendedor" o "vendedor")
-function getVendedorName(factura: any): string {
-  return factura.Vendedor || factura.vendedor || '';
+function getVendedorName(factura: Record<string, unknown>): string {
+  return String(factura.Vendedor || factura.vendedor || '');
 }
 
 export const GET: APIRoute = () => {
@@ -36,40 +35,42 @@ export const GET: APIRoute = () => {
     
     // Convertir a array con estadísticas
     const resultado = Object.keys(carterasPorVendedor).map((vendedorKey) => {
-      const facturas = carterasPorVendedor[vendedorKey];
-      const vendedorNombre = facturas[0].vendedor;
-      
-      // Calcular total de cartera
-      const totalCartera = facturas.reduce((sum: number, factura: any) => {
-        const valor = typeof factura.valor === 'number' 
-          ? factura.valor 
-          : parseFloat(String(factura.valor).replace(/\./g, '').replace(',', '.')) || 0;
-        return sum + valor;
-      }, 0);
-      
-      // Contar facturas por estado de días
-      const facturasVencidas = facturas.filter((f: any) => {
-        const dias = Number(f.dias) || 0;
-        return dias >= 30;
-      }).length;
-      
-      const facturasPorVencer = facturas.filter((f: any) => {
-        const dias = Number(f.dias) || 0;
-        return dias >= 11 && dias < 30;
-      }).length;
-      
+      const facturasRaw = carterasPorVendedor[vendedorKey];
+      const vendedorNombre = facturasRaw[0].vendedor;
+      const facturas = sortFacturasByDiasDesc(
+        facturasRaw.map((factura: Record<string, unknown>) => ({
+          ...factura,
+          valor: parseValor(factura.valor),
+          dias: Number(factura.dias) || 0,
+        })) as Parameters<typeof sortFacturasByDiasDesc>[0]
+      );
+
+      const totalCartera = facturas.reduce((sum, factura) => sum + parseValor(factura.valor), 0);
+
+      const facturasVencidas = facturas.filter((f) => f.dias >= DIAS_VENCIDA).length;
+      const facturasPorVencer = facturas.filter(
+        (f) => f.dias >= DIAS_POR_VENCER_MIN && f.dias < DIAS_VENCIDA
+      ).length;
+      const maxDias = facturas.reduce((max, f) => Math.max(max, f.dias), 0);
+
       return {
         vendedor: vendedorNombre,
-        facturas: facturas,
-        totalCartera: totalCartera,
+        facturas,
+        totalCartera,
         totalFacturas: facturas.length,
-        facturasVencidas: facturasVencidas,
-        facturasPorVencer: facturasPorVencer
+        facturasVencidas,
+        facturasPorVencer,
+        maxDias,
       };
     });
-    
-    // Ordenar por total de cartera descendente
-    resultado.sort((a, b) => b.totalCartera - a.totalCartera);
+
+    resultado.sort((a, b) => {
+      if (b.facturasVencidas !== a.facturasVencidas) {
+        return b.facturasVencidas - a.facturasVencidas;
+      }
+      if (b.maxDias !== a.maxDias) return b.maxDias - a.maxDias;
+      return b.totalCartera - a.totalCartera;
+    });
     
     return new Response(JSON.stringify(resultado), {
       status: 200,

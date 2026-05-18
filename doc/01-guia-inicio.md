@@ -42,10 +42,13 @@ Actualmente el proyecto no requiere variables sensibles. La configuración gener
 1. **Iniciar servidor:** `npm run dev`
 2. **Abrir navegador:** `http://localhost:4321`
 3. **Flujos principales:**
-   - 📋 **Catálogo de productos** (`/`)
+   - 🔐 **Login** (`/login`)
    - 👤 **Selección de cliente** (`/principal`)
+   - 📦 **Catálogo de productos** (`/producto`) — incluye exportar lista de precios (Excel/PDF)
    - 🛒 **Carrito de compras** (`/carrito`)
-   - 📱 **Envío por WhatsApp**
+   - 💰 **Ventas** (`/ventas`)
+   - 📋 **Gestión de cartera** (`/cartera`) — admin ve todo; vendedor solo su cartera
+   - 📱 **Envío por WhatsApp** (pedidos y avisos de cartera vencida)
 
 ## 🌐 Despliegue
 
@@ -60,8 +63,10 @@ Actualmente el proyecto no requiere variables sensibles. La configuración gener
 | **Puerto ocupado** | `astro dev --host --port 4322` |
 | **Errores TypeScript** | `npm run type-check` |
 | **Caché corrupto** | `npm run clean` + reinstalar dependencias |
+| **Caché Vite (export Excel)** | Borrar `node_modules/.vite` y reiniciar `npm run dev` |
 | **Imágenes no cargan** | Verificar `public/assets/img_catalogo/` |
 | **Sistema bloqueado** | Verificar horario (5:00 AM - 6:00 PM) |
+| **Exportación no descarga** | Ver [12-gestion-cartera-y-exportacion.md](./12-gestion-cartera-y-exportacion.md) |
 
 ## 📞 Soporte
 
