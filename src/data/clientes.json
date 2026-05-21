@@ -6015,6 +6015,14 @@
             "direccion": "CL 67 B SUR 64 57  La Isla del Sol ",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
+    },
+    {
+        "id": 901549752,
+        "nombre": "SUPERMERCADOS DMIL ZIPAQUIRA SAS",
+        "sucursales": [{
+            "direccion": "CR 7 12 27  Zipaquirá ",
+            "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        }]
     }
 
 ]
