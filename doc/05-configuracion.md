@@ -39,6 +39,7 @@ export default defineConfig({
 
 ### Configuración de la app (`src/config/app.config.ts`)
 
+- `name` / `description`: identidad de la app (`description`: *Sistema de gestión de pedidos para Suramericana JI SAS*; usado en layout y PDF).
 - `schedule`: horario de atención y `timezone`.
 - `whatsapp.number`: número para enlaces `wa.me` (p. ej. envío de pedido desde `carrito.astro`). Plantillas en `whatsapp.messageTemplate`.
 - `currency`: `code`, `locale`, `symbol`.
@@ -79,6 +80,8 @@ El proyecto utiliza un sistema de diseño basado en Atomic Design con una paleta
 Instaladas en `package.json`:
 
 - `xlsx` — archivos `.xlsx` (lista de precios)
-- `jspdf` + `jspdf-autotable` — archivos `.pdf`
+- `jspdf` + `jspdf-autotable` — archivos `.pdf` (lista de precios y orden de compra en carrito)
 
 Tras modificar `astro.config.mjs` o dependencias, reiniciar el servidor de desarrollo.
+
+Ver también: [13-orden-compra-pdf.md](./13-orden-compra-pdf.md).

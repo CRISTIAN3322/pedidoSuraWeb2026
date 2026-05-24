@@ -1,6 +1,8 @@
 # 📚 Documentación Técnica: Sura Pedidos Web v2.0
 
-Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontrarás una guía completa para instalar, ejecutar, mantener y evolucionar la aplicación.
+**Sistema de gestión de pedidos para Suramericana JI SAS**
+
+Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontrarás guías para instalar, ejecutar, mantener y evolucionar la aplicación.
 
 ## 📋 Índice de Documentación
 
@@ -24,7 +26,8 @@ Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontra
 ### 🔒 Funcionalidades Especiales
 - [10. Guía de verificación de deudas](./10-guia-verificacion-deudas.md) - Bloqueo por cartera (`APP_CONFIG.portfolio.blockDays`)
 - [11. Ejemplos de código - Verificación de deudas](./11-ejemplos-codigo-verificacion-deudas.md) - Ejemplos prácticos
-- [12. Gestión de cartera y exportación](./12-gestion-cartera-y-exportacion.md) - Página `/cartera`, WhatsApp a vendedores, Excel/PDF lista de precios
+- [12. Gestión de cartera y exportación](./12-gestion-cartera-y-exportacion.md) - `/cartera`, WhatsApp, Excel/PDF lista de precios
+- [13. Orden de compra en PDF](./13-orden-compra-pdf.md) - Descarga PDF desde `/carrito`
 - [Guía de Bloqueo de Horario](../BLOQUEO_HORARIO.md) - Sistema de control horario
 
 ### 🔐 Seguridad y Autenticación
@@ -36,6 +39,7 @@ Bienvenido a la documentación técnica y funcional del proyecto. Aquí encontra
 
 | Aspecto | Detalles |
 |---------|----------|
+| **Empresa** | Suramericana JI SAS |
 | **Framework** | Astro 6 + React 19 |
 | **Lenguaje** | TypeScript 5.0 / JavaScript |
 | **Requisitos** | Node.js >= 18.0.0 |
@@ -80,4 +84,4 @@ npm run type-check # Verificación de tipos
 
 ---
 
-*Documentación actualizada para Sura Pedidos Web v2.0 - Desarrollado con ❤️ usando Astro, React y Atomic Design*
+*Documentación para Suramericana JI SAS — Sura Pedidos Web v2.0 — Astro, React y Atomic Design*

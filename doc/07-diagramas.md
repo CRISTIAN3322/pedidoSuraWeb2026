@@ -12,7 +12,8 @@ flowchart TD
     E --> F[Buscar y seleccionar cliente]
     F --> G[Persistir datosCliente en localStorage]
     G --> H[Ir a Carrito /carrito]
-    H --> I{Cliente con cupo?}
+    H --> P[Opcional: Descargar PDF orden de compra]
+    P --> I{Cliente con cupo?}
     I -- Sí --> J[Construir mensaje de pedido]
     I -- No --> K[Construir mensaje de alerta sin cupo]
     J --> L[Abrir enlace WhatsApp y enviar]
@@ -37,6 +38,7 @@ graph LR
     Index --> BloqueoHorario
     Principal --> ClienteSelector
     Carrito --> CarteraCliente
+    Carrito --> OrdenCompraPdf[ordenCompraPdf.ts]
   end
 
   subgraph Data

@@ -92,6 +92,7 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
 
                 <div class="cart-actions">
                     <a href="/" class="btn-secondary">Seguir Comprando</a>
+                    <button type="button" id="download-pdf" class="btn-pdf">Descargar PDF</button>
                     <button id="clear-cart" class="btn-danger">Vaciar Carrito</button>
                     <button id="checkout" class="btn-primary">Enviar Pedido</button>
                 </div>
@@ -337,6 +338,45 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
     document.addEventListener('DOMContentLoaded', renderCartItems);
     </script>
 
+    <script>
+        import { exportOrdenCompraPdf } from '../utils/ordenCompraPdf';
+
+        function obtenerDatosClienteDesdePagina() {
+            const datosStorage = JSON.parse(localStorage.getItem('datosCliente') || '{}');
+            const card = document.querySelector('.datos-card');
+
+            const leerCampo = (indice: number, claveStorage: string) => {
+                const texto = card?.querySelector(`p:nth-child(${indice})`)?.textContent;
+                if (texto?.includes(':')) {
+                    return texto.split(':').slice(1).join(':').trim();
+                }
+                return datosStorage[claveStorage] || '';
+            };
+
+            return {
+                clienteNombre: leerCampo(1, 'clienteNombre'),
+                clienteId: leerCampo(2, 'clienteId'),
+                sucursalDireccion: leerCampo(3, 'sucursalDireccion'),
+                sucursalVendedor: leerCampo(4, 'sucursalVendedor'),
+                formaPago: datosStorage.formaPago || '',
+            };
+        }
+
+        document.getElementById('download-pdf')?.addEventListener('click', () => {
+            const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
+            const cliente = obtenerDatosClienteDesdePagina();
+            const observacion = document.getElementById('observacion');
+            const observaciones =
+                observacion && 'value' in observacion ? String(observacion.value).trim() : '';
+
+            exportOrdenCompraPdf({
+                cliente,
+                items: cartItems,
+                observaciones: observaciones || undefined,
+            });
+        });
+    </script>
+
     <style>
         .container {
             max-width: 800px;
@@ -449,7 +489,8 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
 
     .btn-danger,
     .btn-primary,
-    .btn-secondary {
+    .btn-secondary,
+    .btn-pdf {
         border: none;
         padding: 0.75rem 1.5rem;
         border-radius: 6px;
@@ -472,6 +513,15 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
     .btn-secondary {
         background-color: #4a5568;
         color: white;
+    }
+
+    .btn-pdf {
+        background: linear-gradient(135deg, #c53030 0%, #9b2c2c 100%);
+        color: white;
+    }
+
+    .btn-pdf:hover {
+        background: linear-gradient(135deg, #9b2c2c 0%, #742a2a 100%);
     }
 
     .btn-danger:hover {
@@ -530,7 +580,8 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
 
         .btn-danger,
         .btn-primary,
-        .btn-secondary {
+        .btn-secondary,
+        .btn-pdf {
             text-align: center;
             min-height: 48px;
             font-size: 0.9rem;
@@ -593,7 +644,8 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
 
         .btn-danger,
         .btn-primary,
-        .btn-secondary {
+        .btn-secondary,
+        .btn-pdf {
             min-height: 48px;
             font-size: 0.85rem;
         }

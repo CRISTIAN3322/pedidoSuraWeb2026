@@ -5,6 +5,22 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.0] - 2026-05-23
+
+### ✨ Añadido
+- **Orden de compra en PDF** desde `/carrito`:
+  - Botón **Descargar PDF** con estilo tipo factura
+  - Cliente, dirección, vendedor, forma de pago, detalle del pedido y total
+  - Título «ORDEN DE COMPRA»; no vacía el carrito al descargar
+- Utilidad `src/utils/ordenCompraPdf.ts`
+
+### 🔧 Configuración / marca
+- Descripción de la app: *Sistema de gestión de pedidos para Suramericana JI SAS* (`app.config.ts`, layout, `package.json`)
+
+### 📚 Documentación
+- Nueva guía: `doc/13-orden-compra-pdf.md`
+- Actualizados `README.md`, índice `doc/README.md`, arquitectura, componentes, diagramas, guías de deudas (`blockDays` = 30) y configuración
+
 ## [2.2.0] - 2026-05-19
 
 ### ✨ Añadido

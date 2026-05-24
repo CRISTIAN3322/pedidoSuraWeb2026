@@ -1,5 +1,7 @@
 # 12. Gestión de cartera y exportación de lista de precios
 
+> **Orden de compra (carrito):** ver [13-orden-compra-pdf.md](./13-orden-compra-pdf.md).
+
 ## Gestión de cartera (`/cartera`)
 
 Página dedicada para consultar la cartera de facturas por vendedor, con control de acceso según rol.

@@ -9,14 +9,14 @@ Aplicación web con Astro como framework de meta-frontend y React para interacti
 - Layout: `src/layouts/BaseLayout.astro` define `<head>`, navegación y estilos globales.
 - Datos: `src/data/*.json` para productos, clientes, cartera y cupo.
 - Configuración: `src/config/app.config.ts` centraliza parámetros de negocio y UI.
-- Utilidades: `src/utils/helpers.ts` con helpers para formato, debounce, throttle y storage.
+- Utilidades: `helpers.ts`, `listaPreciosExport.ts`, `ordenCompraPdf.ts`, `carteraUtils.ts`, `auth.ts`, etc.
 
 ### Rutas principales
 - `/login` → autenticación de vendedores.
 - `/` → `src/pages/index.astro`: panel inicial / catálogo resumido.
 - `/principal` → `src/pages/principal.astro`: selección de cliente.
 - `/producto` → `src/pages/producto.astro`: catálogo completo + exportación lista de precios.
-- `/carrito` → `src/pages/carrito.astro`: carrito, totales y envío por WhatsApp.
+- `/carrito` → `src/pages/carrito.astro`: carrito, totales, envío por WhatsApp y descarga PDF (orden de compra).
 - `/ventas` → `src/pages/ventas.astro`: ventas y cartera embebida por vendedor.
 - `/cartera` → `src/pages/cartera.astro`: gestión de cartera (React `CarteraGestion`).
 
@@ -41,11 +41,12 @@ Aplicación web con Astro como framework de meta-frontend y React para interacti
 - Carrito se renderiza en `/carrito` leyendo `cartItems` y manipulado con botones en tabla.
 
 ### Integración externa
-- WhatsApp: se construye un enlace `https://wa.me/<numero>?text=<mensaje>` usando datos del carrito y del cliente. El número está en `APP_CONFIG.whatsapp.number`.
+- WhatsApp: enlace `https://wa.me/<numero>?text=<mensaje>` con datos del carrito y del cliente (`APP_CONFIG.whatsapp.number`).
+- PDF orden de compra: `exportOrdenCompraPdf()` en `ordenCompraPdf.ts`, invocado desde `carrito.astro` (no limpia el carrito).
 
 ### Seguridad y privacidad
 - No hay backend ni datos sensibles en este repositorio. Evitar subir datos personales reales a `src/data/`.
 
 ### Build y despliegue
-- Astro 5, integración `@astrojs/react`. `astro.config.mjs` define `integrations` y `site`.
+- Astro 6, integración `@astrojs/react`. `astro.config.mjs` define `integrations`, `site` y `vite.optimizeDeps` para exportaciones.
 

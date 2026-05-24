@@ -80,6 +80,11 @@ Estructurados según Atomic Design. A continuación, un mapa funcional de los pr
   - Catálogo de productos (`ProductosSelector`)
   - Exportación lista de precios (`ExportListaPrecios`)
 
+- `pages/carrito.astro`:
+  - Tabla de ítems (`localStorage.cartItems`), totales y observaciones
+  - **Descargar PDF**: orden de compra (`utils/ordenCompraPdf.ts`)
+  - **Enviar pedido**: WhatsApp (`APP_CONFIG.whatsapp.number`); vacía carrito y `datosCliente`
+
 - `pages/cartera.astro`:
   - Gestión de cartera (`CarteraGestion`)
 
@@ -109,6 +114,10 @@ Estructurados según Atomic Design. A continuación, un mapa funcional de los pr
 - `utils/listaPreciosExport.ts`:
   - `exportListaPreciosExcel()` / `exportListaPreciosPdf()`
   - Solo productos activos; columnas: código, barra, nombre, subtotal, iva, ipoconsumo, precioUnidad, precio
+
+- `utils/ordenCompraPdf.ts`:
+  - `exportOrdenCompraPdf()` — PDF tipo factura desde el carrito
+  - Cliente, vendedor, forma de pago, detalle de ítems y total
 
 ### Props y convenciones
 

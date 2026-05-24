@@ -3,7 +3,7 @@ export const APP_CONFIG = {
   // Información de la aplicación
   name: 'Sura Pedidos Web',
   version: '2.0.0',
-  description: 'Sistema de gestión de pedidos para Sura',
+  description: 'Sistema de gestión de pedidos para Suramericana JI SAS',
   
   // Configuración de horarios
   schedule: {

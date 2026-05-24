@@ -29,8 +29,9 @@
 
 ### Estructura de datos
 
-- Centralizar reglas en `app.config.ts`.
+- Centralizar reglas en `app.config.ts` (incluye `description` de Suramericana JI SAS).
 - Acceder a `localStorage` mediante utilidades (`getStorageData`, `setStorageData`).
+- Exportaciones PDF: reutilizar `jspdf` + `jspdf-autotable` en `src/utils/` (lista de precios, orden de compra).
 
 ### Commits
 

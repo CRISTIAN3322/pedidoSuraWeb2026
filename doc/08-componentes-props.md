@@ -51,6 +51,15 @@ const cartera = [];
 ### `molecules/Navigation.astro`
 - Props: N/A. Renderiza navegación global.
 
+### `molecules/ExportListaPrecios.astro`
+- Props: N/A. Botones Excel/PDF; usa `#proveedorSelect` y `/api/productos-export.json`.
+- Ver [12-gestion-cartera-y-exportacion.md](./12-gestion-cartera-y-exportacion.md).
+
+### `pages/carrito.astro`
+- Props de URL opcionales: `clienteId`, `clienteNombre`, `sucursalDireccion`, `sucursalVendedor`.
+- Scripts: renderizado de carrito, WhatsApp (`#checkout`), PDF (`#download-pdf` → `exportOrdenCompraPdf`).
+- Ver [13-orden-compra-pdf.md](./13-orden-compra-pdf.md).
+
 ### Helpers (`src/utils/helpers.ts`)
 - `formatCurrency(amount: number): string`
 - `formatNumber(num: number): string`

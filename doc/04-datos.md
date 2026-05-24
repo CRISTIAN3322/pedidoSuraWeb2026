@@ -92,6 +92,15 @@ Definidas en `APP_CONFIG.storage`:
 - Números: `helpers.formatNumber(num)`.
 - Cartera: `carteraUtils.ts`.
 - Lista de precios: `listaPreciosExport.ts`.
+- Orden de compra (carrito): `ordenCompraPdf.ts` lee `localStorage.cartItems` y `datosCliente`.
+
+### Carrito (`localStorage.cartItems`)
+
+Array de ítems con al menos: `codigo`, `nombre`, `precio`, `cantidad`.
+
+### Cliente en pedido (`localStorage.datosCliente`)
+
+Incluye `clienteNombre`, `clienteId`, `sucursalDireccion`, `sucursalVendedor`, `formaPago`, y datos de cartera/cupo cuando aplica.
 
 ### Consideraciones
 - No subir datos personales reales a control de versiones.

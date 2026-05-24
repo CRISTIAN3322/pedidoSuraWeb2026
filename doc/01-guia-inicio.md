@@ -45,10 +45,12 @@ Actualmente el proyecto no requiere variables sensibles. La configuración gener
    - 🔐 **Login** (`/login`)
    - 👤 **Selección de cliente** (`/principal`)
    - 📦 **Catálogo de productos** (`/producto`) — incluye exportar lista de precios (Excel/PDF)
-   - 🛒 **Carrito de compras** (`/carrito`)
+   - 🛒 **Carrito de compras** (`/carrito`) — envío WhatsApp y **descarga PDF** (orden de compra)
    - 💰 **Ventas** (`/ventas`)
    - 📋 **Gestión de cartera** (`/cartera`) — admin ve todo; vendedor solo su cartera
    - 📱 **Envío por WhatsApp** (pedidos y avisos de cartera vencida)
+
+Documentación de exportaciones: [12-gestion-cartera-y-exportacion.md](./12-gestion-cartera-y-exportacion.md) (lista de precios), [13-orden-compra-pdf.md](./13-orden-compra-pdf.md) (carrito).
 
 ## 🌐 Despliegue
 

@@ -1,8 +1,8 @@
-# Arquitectura Atomic Design - Pedido Sura Web
+# Arquitectura Atomic Design - Sura Pedidos Web
 
 ## 📋 Introducción
 
-Este documento describe la arquitectura de componentes basada en la metodología **Atomic Design** implementada en el proyecto Pedido Sura Web. Esta aproximación organiza los componentes de la interfaz de usuario en una jerarquía clara que promueve la reutilización, mantenibilidad y escalabilidad.
+Este documento describe la arquitectura de componentes basada en la metodología **Atomic Design** implementada en **Sura Pedidos Web** (Suramericana JI SAS). Esta aproximación organiza los componentes de la interfaz de usuario en una jerarquía clara que promueve la reutilización, mantenibilidad y escalabilidad.
 
 ## 🏗️ Estructura Jerárquica
 
@@ -211,7 +211,7 @@ Este documento describe la arquitectura de componentes basada en la metodología
 
 ### Lógica de verificación (UI)
 
-El límite efectivo del botón **Continuar al Producto** está en `src/config/app.config.ts`, campo `portfolio.blockDays` (por defecto 80). La condición es:
+El límite efectivo del botón **Continuar al Producto** está en `src/config/app.config.ts`, campo `portfolio.blockDays` (por defecto **30**). La condición es:
 
 ```typescript
 import { APP_CONFIG } from "../config/app.config";

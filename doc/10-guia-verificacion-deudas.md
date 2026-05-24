@@ -1,8 +1,8 @@
-# Guía de Verificación de Deudas - Pedido Sura Web
+# Guía de Verificación de Deudas - Sura Pedidos Web
 
 ## 📋 Introducción
 
-Este documento describe la verificación de deudas en Pedido Sura Web. El **bloqueo del botón "Continuar al Producto"** usa el umbral `APP_CONFIG.portfolio.blockDays` en `src/config/app.config.ts` (valor por defecto **80**): si alguna factura cumple `Number(factura.dias) > blockDays`, el cliente no puede avanzar al catálogo hasta regularizar cartera.
+Este documento describe la verificación de deudas en **Sura Pedidos Web** (Suramericana JI SAS). El **bloqueo del botón "Continuar al Producto"** usa el umbral `APP_CONFIG.portfolio.blockDays` en `src/config/app.config.ts` (valor por defecto **30**): si alguna factura cumple `Number(factura.dias) > blockDays`, el cliente no puede avanzar al catálogo hasta regularizar cartera.
 
 ## 🎯 Funcionalidad Principal
 
@@ -31,7 +31,7 @@ cliente.cartera.some((factura) => Number(factura.dias) > blockDays);
   "fac": "SURA 47126",
   "fecha": "14/08/2025",
   "valor": 664051,
-  "dias": 95 // ← Ejemplo: supera blockDays si blockDays es 80
+  "dias": 45 // ← Ejemplo: supera blockDays si blockDays es 30
 }
 ```
 
@@ -186,7 +186,7 @@ const bloqueado = carteraCliente.some(
 
 ### Caso 2: Cliente con facturas que superan `blockDays`
 
-Con `blockDays` en 80, basta una factura con `dias` mayor a 80.
+Con `blockDays` en 30, basta una factura con `dias` mayor a 30.
 
 ```json
 {
@@ -219,7 +219,7 @@ Con `blockDays` en 80, basta una factura con `dias` mayor a 80.
 // src/config/app.config.ts
 portfolio: {
   // ...
-  blockDays: 80, // ajustar aquí; afecta ClienteSelectorReact y ClienteSelectorTemplate
+  blockDays: 30, // ajustar aquí; afecta ClienteSelectorReact y ClienteSelectorTemplate
 },
 ```
 
@@ -359,7 +359,7 @@ const testCases = [
     resultado: false,
   },
   {
-    nombre: "Cliente con facturas vencidas (según blockDays, p. ej. 80)",
+    nombre: "Cliente con facturas vencidas (según blockDays, p. ej. 30)",
     cliente: {
       id: 3,
       nombre: "Test",
