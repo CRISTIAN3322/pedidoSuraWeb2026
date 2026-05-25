@@ -6023,6 +6023,14 @@
             "direccion": "CR 7 12 27  Zipaquirá ",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
+    },
+    {
+        "id": 1023890032,
+        "nombre": "LISBETH JULIETH NARANJO ROJAS",
+        "sucursales": [{
+            "direccion": "CR 23 7 32 20 de Julio ",
+            "vendedor": "LISBETH JULIETH NARANJO ROJAS"
+        }]
     }
 
 ]
