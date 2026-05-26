@@ -4383,5 +4383,11 @@
         "nombre": "SANDRA MILENA LOSADA CERQUERA",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1032491315,
+        "nombre": "JHOAN SEBASTIAN MUÑOZ NIETO",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

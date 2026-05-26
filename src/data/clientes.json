@@ -6047,6 +6047,14 @@
             "direccion": "CR 98 A 61 A 10 SUR  Atalayas ",
             "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
         }]
+    },
+    {
+        "id": 1032491315,
+        "nombre": "JHOAN SEBASTIAN MUÑOZ NIETO",
+        "sucursales": [{
+            "direccion": "CL 9 4 54 Silvania ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]
