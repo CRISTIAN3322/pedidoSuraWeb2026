@@ -4371,5 +4371,17 @@
         "nombre": "MERCAMUNDO SAS",
         "cupo": 4000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 902042409,
+        "nombre": "PHD NATURA MARKET SAS",
+        "cupo": 2000000,
+        "Forma": "Credito"
+    },
+    {
+        "id": 55189679,
+        "nombre": "SANDRA MILENA LOSADA CERQUERA",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

@@ -6031,6 +6031,22 @@
             "direccion": "CR 23 7 32 20 de Julio ",
             "vendedor": "LISBETH JULIETH NARANJO ROJAS"
         }]
+    },
+    {
+        "id": 902042409,
+        "nombre": "PHD NATURA MARKET SAS",
+        "sucursales": [{
+            "direccion": "CR 95 A 54F 02 SUR LC 2 Bosa Porvenir ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+        }]
+    },
+    {
+        "id": 55189679,
+        "nombre": "SANDRA MILENA LOSADA CERQUERA",
+        "sucursales": [{
+            "direccion": "CR 98 A 61 A 10 SUR  Atalayas ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+        }]
     }
 
 ]
