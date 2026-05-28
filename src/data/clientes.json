@@ -6055,6 +6055,14 @@
             "direccion": "CL 9 4 54 Silvania ",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 900580849,
+        "nombre": "INVERSIONES LAITON GONZALEZ SAS",
+        "sucursales": [{
+            "direccion": "CL 64 B 106 19 Muelle Engativa ",
+            "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA"
+        }]
     }
 
 ]
