@@ -6071,6 +6071,14 @@
             "direccion": "CL 76 A SUR 73 B 09 Caracoli ",
             "vendedor": "YENY MARIBEL MONROY PATIÑO"
         }]
+    },
+    {
+        "id": 52464418,
+        "nombre": "MARIA ESTHER CABALLERO BENITEZ",
+        "sucursales": [{
+            "direccion": "Carrera 92 #71-41 sur casa 217 ",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     }
 
 ]
