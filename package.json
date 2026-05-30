@@ -24,11 +24,11 @@
         "start": "npm run build && npm run preview"
     },
     "dependencies": {
-        "@astrojs/react": "^5.0.4",
+        "@astrojs/react": "^5.0.6",
         "@types/react": "^19.0.8",
         "@types/react-dom": "^19.0.3",
         "@vercel/speed-insights": "^1.2.0",
-        "astro": "^6.1.9",
+        "astro": "^6.4.2",
         "jspdf": "^4.2.1",
         "jspdf-autotable": "^5.0.8",
         "react": "^19.0.0",
