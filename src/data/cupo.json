@@ -4389,5 +4389,17 @@
         "nombre": "JHOAN SEBASTIAN MUÑOZ NIETO",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 80089748,
+        "nombre": "WILSON HUMBERTO GUASCA PARRA",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 901474227,
+        "nombre": "SUPERMERCADOS LOS PAISAS J J SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
