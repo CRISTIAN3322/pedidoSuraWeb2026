@@ -6079,6 +6079,22 @@
             "direccion": "Carrera 92 #71-41 sur casa 217 ",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 80089748,
+        "nombre": "WILSON HUMBERTO GUASCA PARRA",
+        "sucursales": [{
+            "direccion": "CR 7 173 A 40 Bosque de Maria ",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        }]
+    },
+    {
+        "id": 901474227,
+        "nombre": "SUPERMERCADOS LOS PAISAS J J SAS",
+        "sucursales": [{
+            "direccion": "DG 78 A BIS SUR 24 B 12  ",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
     }
 
 ]
