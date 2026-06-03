@@ -6092,8 +6092,16 @@
         "id": 901474227,
         "nombre": "SUPERMERCADOS LOS PAISAS J J SAS",
         "sucursales": [{
-            "direccion": "DG 78 A BIS SUR 24 B 12  ",
+            "direccion": "DG 78 A BIS SUR 24 B 12 Lucero Alto los Alpes ",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
+    },
+    {
+        "id": 80741056,
+        "nombre": "JAVIER EDILBERTO ORTIZ VIGOYA",
+        "sucursales": [{
+            "direccion": "CL 38 SUR 87 C 15 Patio Bonito ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
         }]
     }
 
