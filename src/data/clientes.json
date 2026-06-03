@@ -6103,6 +6103,14 @@
             "direccion": "CL 38 SUR 87 C 15 Patio Bonito ",
             "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
         }]
+    },
+    {
+        "id": 39755130,
+        "nombre": "GLORIA ISMELDA GONZALEZ CASTELLANOS",
+        "sucursales": [{
+            "direccion": "CR 2 6 12 Tenjo ",
+            "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        }]
     }
 
 ]
