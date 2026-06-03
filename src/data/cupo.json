@@ -4401,5 +4401,11 @@
         "nombre": "SUPERMERCADOS LOS PAISAS J J SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 80741056,
+        "nombre": "JAVIER EDILBERTO ORTIZ VIGOYA",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
