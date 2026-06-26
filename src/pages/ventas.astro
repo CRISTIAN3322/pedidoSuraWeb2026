@@ -525,45 +525,6 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       `;
 
       ventasContent.innerHTML = acordeonHTML;
-      
-      // Asegurar que los estilos se apliquen correctamente
-      requestAnimationFrame(() => {
-        const accordionItems = ventasContent.querySelectorAll('.accordion-item');
-        accordionItems.forEach((item: any, index: number) => {
-          if (item.style) {
-            item.style.setProperty('background', '#00a878', 'important');
-            item.style.setProperty('padding', '5px', 'important');
-            item.style.setProperty('margin-top', index === 0 ? '0' : '10px', 'important');
-            item.style.setProperty('border-radius', '7px', 'important');
-          }
-        });
-        
-        const accordionHeaders = ventasContent.querySelectorAll('.accordion-header');
-        accordionHeaders.forEach((header: any) => {
-          if (header.style) {
-            header.style.setProperty('background', '#0b5d3f', 'important');
-            header.style.setProperty('color', '#ffffff', 'important');
-            header.style.setProperty('width', '100%', 'important');
-            header.style.setProperty('border-radius', '7px 7px 0 0', 'important');
-          }
-        });
-        
-        const accordionTitles = ventasContent.querySelectorAll('.accordion-title');
-        accordionTitles.forEach((title: any) => {
-          if (title.style) {
-            title.style.setProperty('color', '#ffffff', 'important');
-          }
-        });
-        
-        const accordionIcons = ventasContent.querySelectorAll('.accordion-icon');
-        accordionIcons.forEach((icon: any) => {
-          if (icon.style) {
-            icon.style.setProperty('background', 'transparent', 'important');
-            icon.style.setProperty('color', '#ffffff', 'important');
-          }
-        });
-      });
-      
       return;
     }
 
@@ -869,7 +830,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
   })();
 </script>
 
-<style>
+<style is:global>
   .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -878,10 +839,10 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
   .header {
     text-align: center;
-    margin-bottom: 3rem;
-    padding: 2rem 0;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
     background: linear-gradient(135deg, rgba(0, 168, 120, 0.05) 0%, rgba(0, 217, 154, 0.05) 100%);
-    border-radius: var(--border-radius-2xl, 16px);
+    border-radius: var(--border-radius-2xl);
     border: 1px solid rgba(0, 168, 120, 0.1);
   }
 
@@ -890,53 +851,40 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: 800;
-    margin-bottom: 0.75rem;
-    letter-spacing: -0.02em;
+    margin: 0 0 0.5rem;
   }
 
   .subtitle {
-    color: var(--color-text-muted, #666);
-    font-size: 1.125rem;
-    font-weight: 500;
-    letter-spacing: 0.01em;
+    color: var(--color-neutral);
+    font-size: 1.05rem;
+    margin: 0;
   }
 
-  /* Estilos del selector de mes */
   .mes-selector-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    margin-top: 1.5rem;
-    padding: 1rem;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    padding: 0.85rem;
     background: rgba(255, 255, 255, 0.8);
-    border-radius: var(--border-radius-xl, 12px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: var(--border-radius-xl);
   }
 
   .mes-label {
-    font-size: 1rem;
     font-weight: 600;
     color: var(--color-text-primary);
   }
 
   .mes-selector {
-    padding: 0.75rem 2rem 0.75rem 1rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--color-text-primary);
-    background: var(--color-surface);
+    padding: 0.6rem 2rem 0.6rem 0.85rem;
     border: 2px solid rgba(0, 168, 120, 0.3);
-    border-radius: var(--border-radius-lg, 8px);
+    border-radius: var(--border-radius-lg);
+    font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s ease;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2300a878' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 0.75rem center;
-    min-width: 180px;
+    min-width: 200px;
   }
 
   .mes-selector:hover {
@@ -957,23 +905,16 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
   .ventas-container {
     background: var(--color-surface);
-    border-radius: var(--border-radius-2xl, 16px);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
-    padding: 2.5rem;
+    border-radius: var(--border-radius-2xl);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
     border: 1px solid rgba(0, 168, 120, 0.08);
-    transition: box-shadow 0.3s ease;
-  }
-
-  .ventas-container:hover {
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.06);
   }
 
   .loading {
     text-align: center;
-    padding: 4rem 3rem;
-    color: var(--color-text-muted, #666);
-    font-size: 1.125rem;
-    font-weight: 500;
+    padding: 3rem 1rem;
+    color: var(--color-neutral);
   }
 
   .loading::after {
@@ -989,22 +930,18 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
   .error {
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     color: var(--color-danger);
-    background: linear-gradient(135deg, rgba(254, 94, 65, 0.1) 0%, rgba(229, 62, 62, 0.1) 100%);
-    border-radius: var(--border-radius-xl, 12px);
-    font-size: 1.125rem;
-    font-weight: 500;
-    border: 2px solid rgba(254, 94, 65, 0.2);
+    background: rgba(254, 94, 65, 0.08);
+    border-radius: var(--border-radius-xl);
   }
 
   .no-data {
     text-align: center;
-    padding: 4rem 3rem;
-    color: var(--color-text-muted, #666);
-    font-size: 1.125rem;
-    background: linear-gradient(135deg, rgba(0, 168, 120, 0.03) 0%, rgba(0, 217, 154, 0.03) 100%);
-    border-radius: var(--border-radius-xl, 12px);
+    padding: 3rem 1rem;
+    color: var(--color-neutral);
+    background: rgba(0, 168, 120, 0.03);
+    border-radius: var(--border-radius-xl);
     border: 2px dashed rgba(0, 168, 120, 0.2);
   }
 
@@ -1012,103 +949,56 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
   .admin-stats,
   .vendedor-stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .stat-card {
-    background: var(--color-surface);
     border: 2px solid rgba(0, 168, 120, 0.12);
-    border-radius: var(--border-radius-2xl, 16px);
-    padding: 2rem 1.5rem;
+    border-radius: var(--border-radius-xl);
+    padding: 1.25rem;
     text-align: center;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  }
-
-  .stat-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s ease;
+    transition: all 0.3s ease;
   }
 
   .stat-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 12px 24px rgba(0, 168, 120, 0.15), 0 4px 8px rgba(0, 0, 0, 0.08);
     border-color: rgba(0, 168, 120, 0.3);
-  }
-
-  .stat-card:hover::before {
-    transform: scaleX(1);
+    box-shadow: 0 4px 12px rgba(0, 168, 120, 0.15);
   }
 
   .stat-card--primary {
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
     border-color: var(--color-primary);
     color: var(--color-surface);
-    box-shadow: 0 8px 20px rgba(0, 168, 120, 0.25);
-  }
-
-  .stat-card--primary::before {
-    background: rgba(255, 255, 255, 0.3);
-    height: 100%;
-    opacity: 0;
-    transform: scaleY(0);
-  }
-
-  .stat-card--primary:hover::before {
-    opacity: 1;
-    transform: scaleY(1);
   }
 
   .stat-card--admin {
     background: linear-gradient(135deg, var(--color-neutral) 0%, var(--color-text-primary) 100%);
     border-color: var(--color-neutral);
     color: var(--color-surface);
-    box-shadow: 0 8px 20px rgba(74, 85, 104, 0.25);
-  }
-
-  .stat-card--admin::before {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.05) 100%);
-  }
-
-  .stat-card--admin:hover {
-    box-shadow: 0 12px 24px rgba(74, 85, 104, 0.3), 0 4px 8px rgba(0, 0, 0, 0.15);
   }
 
   .stat-label {
     display: block;
-    font-size: 0.875rem;
-    color: var(--color-text-muted, #666);
-    margin-bottom: 0.75rem;
-    font-weight: 600;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    margin-bottom: 0.35rem;
+    opacity: 0.9;
   }
 
   .stat-card--primary .stat-label,
   .stat-card--admin .stat-label {
     color: rgba(255, 255, 255, 0.95);
-    font-weight: 600;
   }
 
   .stat-value {
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--color-primary);
     line-height: 1.2;
-    letter-spacing: -0.02em;
   }
 
   .stat-card--primary .stat-value,
@@ -1118,56 +1008,39 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 
   .table-container {
     overflow-x: auto;
-    border-radius: var(--border-radius-xl, 12px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: var(--border-radius-xl);
     border: 1px solid rgba(0, 168, 120, 0.1);
-    background: var(--color-surface);
   }
 
   .ventas-table {
     width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    background: var(--color-surface);
+    border-collapse: collapse;
+    min-width: 720px;
   }
 
   .ventas-table thead {
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
     color: var(--color-surface);
-    position: sticky;
-    top: 0;
-    z-index: 10;
   }
 
   .ventas-table th {
-    padding: 1.25rem 1rem;
+    padding: 0.85rem 0.75rem;
     text-align: left;
     font-weight: 700;
-    font-size: 0.875rem;
+    font-size: 0.78rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.06em;
     color: var(--color-surface);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  }
-
-  .ventas-table th:first-child {
-    border-top-left-radius: var(--border-radius-xl, 12px);
-  }
-
-  .ventas-table th:last-child {
-    border-top-right-radius: var(--border-radius-xl, 12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .ventas-table tbody tr {
     border-bottom: 1px solid rgba(0, 168, 120, 0.08);
-    transition: all 0.2s ease;
-    background: var(--color-surface);
+    transition: background 0.2s ease;
   }
 
   .ventas-table tbody tr:hover {
-    background: linear-gradient(135deg, rgba(0, 168, 120, 0.05) 0%, rgba(0, 217, 154, 0.05) 100%);
-    transform: scale(1.01);
-    box-shadow: 0 2px 8px rgba(0, 168, 120, 0.1);
+    background: rgba(0, 168, 120, 0.05);
   }
 
   .ventas-table tbody tr:last-child {
@@ -1175,348 +1048,230 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
   }
 
   .ventas-table td {
-    padding: 1.25rem 1rem;
+    padding: 0.85rem 0.75rem;
     color: var(--color-text-primary);
-    font-size: 0.9375rem;
   }
 
   .ventas-table tfoot {
-    background: linear-gradient(135deg, rgba(0, 168, 120, 0.08) 0%, rgba(0, 217, 154, 0.08) 100%);
-    border-top: 3px solid var(--color-primary);
+    background: rgba(0, 168, 120, 0.06);
+    border-top: 2px solid var(--color-primary);
   }
 
   .ventas-table tfoot td {
-    padding: 1.5rem 1rem;
-    font-size: 1.125rem;
+    padding: 1rem 0.75rem;
     font-weight: 700;
   }
 
-  .text-right {
-    text-align: right;
-  }
-
-  .text-center {
-    text-align: center;
-  }
+  .text-right { text-align: right; }
+  .text-center { text-align: center; }
 
   .amount {
     font-weight: 700;
     color: var(--color-primary);
-    font-size: 1rem;
   }
 
-  .total-label {
-    color: var(--color-text-primary);
-    font-weight: 700;
-  }
+  .total-label { color: var(--color-text-primary); }
 
   .total-amount {
     color: var(--color-primary);
-    font-size: 1.375rem;
     font-weight: 800;
   }
 
-  /* Estilos del acordeón - Estilo verde */
-  #ventasContent .accordion-container,
-  .ventas-container .accordion-container,
-  .ventas-container #ventasContent .accordion-container,
+  /* Acordeón */
   .accordion-container {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 10px !important;
-    background: transparent !important;
-    border-radius: 0 !important;
-    overflow: visible !important;
-    box-shadow: none !important;
-    margin-top: 2rem !important;
-    width: 100% !important;
-    min-height: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2rem;
   }
 
-  #ventasContent .accordion-item,
-  .ventas-container .accordion-item,
   .accordion-item {
-    background: var(--color-primary) !important;
-    border: none !important;
-    border-bottom: none !important;
-    overflow: hidden !important;
-    transition: all 0.3s ease !important;
-    position: relative !important;
-    padding: 5px !important;
-    margin-top: 10px !important;
-    border-radius: var(--border-radius-lg) !important;
+    background: var(--color-primary);
+    padding: 5px;
+    border-radius: var(--border-radius-lg);
   }
 
   .accordion-item:first-child {
-    margin-top: 0 !important;
+    margin-top: 0;
   }
 
-  .accordion-item:hover {
-    background: #00b884 !important;
-  }
-
-  .accordion-item--active {
-    background: var(--color-surface) !important;
-  }
-
-  .accordion-item--active .accordion-header {
-    background: transparent !important;
-    border-left: 4px solid var(--color-primary) !important;
-  }
-
-  #ventasContent .accordion-header,
-  .ventas-container .accordion-header,
   .accordion-header {
-    width: 100% !important;
-    background: var(--color-primary-dark) !important;
-    border: none !important;
-    padding: 1.25rem 1.5rem !important;
-    text-align: left !important;
-    cursor: pointer !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    transition: all 0.2s ease !important;
-    font-family: inherit !important;
-    position: relative !important;
-    border-left: 4px solid var(--color-primary) !important;
-    color: var(--color-surface) !important;
-    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0 !important;
+    width: 100%;
+    background: var(--color-primary-dark);
+    color: var(--color-surface);
+    border: none;
+    border-left: 4px solid var(--color-primary);
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+    cursor: pointer;
+    transition: filter 0.2s ease;
+    font-family: inherit;
   }
 
   .accordion-header:hover {
-    background: #0a5238 !important;
+    filter: brightness(1.1);
   }
 
   .accordion-item--active .accordion-header {
-    background: var(--color-primary-dark) !important;
-    color: var(--color-surface) !important;
-    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0 !important;
-  }
-
-  .accordion-item--active .accordion-header:hover {
-    background: #0a5238 !important;
+    background: var(--color-primary-dark);
+    border-left: 4px solid var(--color-primary);
   }
 
   .accordion-header:focus-visible {
-    outline: 2px solid var(--color-primary) !important;
-    outline-offset: -2px !important;
+    outline: 2px solid var(--color-primary);
+    outline-offset: -2px;
   }
 
   .accordion-header-content {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 0.5rem !important;
-    flex: 1 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    flex: 1;
+    min-width: 0;
   }
 
-  #ventasContent .accordion-title,
-  .ventas-container .accordion-title,
   .accordion-title {
-    font-size: 1.0625rem !important;
-    font-weight: 600 !important;
-    color: var(--color-surface) !important;
-    letter-spacing: 0.01em !important;
-    line-height: 1.4 !important;
-    margin: 0 !important;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-surface);
+    margin: 0;
   }
 
   .accordion-item--active .accordion-title {
-    color: var(--color-surface) !important;
-    font-weight: 700 !important;
+    color: var(--color-surface);
+    font-weight: 700;
   }
 
   .accordion-badges {
-    display: flex !important;
-    gap: 0.75rem !important;
-    flex-wrap: wrap !important;
-    align-items: center !important;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
 
   .badge {
-    padding: 0.375rem 0.75rem !important;
-    border-radius: 4px !important;
-    font-size: 0.8125rem !important;
-    font-weight: 500 !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 0.25rem !important;
-    transition: all 0.2s ease !important;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
   }
 
   .badge--proveedores {
-    background: rgba(255, 255, 255, 0.2) !important;
-    color: var(--color-surface) !important;
-    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--color-surface);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   .accordion-item--active .badge--proveedores {
-    background: rgba(255, 255, 255, 0.2) !important;
-    color: var(--color-surface) !important;
-    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--color-surface);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   .badge--total {
-    background: rgba(255, 255, 255, 0.9) !important;
-    color: var(--color-primary-dark) !important;
-    border: 1px solid rgba(255, 255, 255, 0.5) !important;
-    font-weight: 600 !important;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--color-primary-dark);
+    font-weight: 600;
   }
 
   .accordion-item--active .badge--total {
-    background: rgba(255, 255, 255, 0.9) !important;
-    color: var(--color-primary-dark) !important;
-    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--color-primary-dark);
   }
 
   .badge--cartera {
-    background: rgba(255, 193, 7, 0.9) !important;
-    color: var(--color-primary-dark) !important;
-    border: 1px solid rgba(255, 193, 7, 0.5) !important;
-    font-weight: 600 !important;
+    background: rgba(255, 193, 7, 0.9);
+    color: var(--color-primary-dark);
+    font-weight: 600;
   }
 
   .accordion-item--active .badge--cartera {
-    background: rgba(255, 193, 7, 0.9) !important;
-    color: var(--color-primary-dark) !important;
-    border: 1px solid rgba(255, 193, 7, 0.5) !important;
+    background: rgba(255, 193, 7, 0.9);
+    color: var(--color-primary-dark);
   }
 
   .accordion-icon {
-    font-size: 1.5rem !important;
-    color: var(--color-surface) !important;
-    transition: all 0.2s ease !important;
-    flex-shrink: 0 !important;
-    margin-left: 1rem !important;
-    width: auto !important;
-    height: auto !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    font-weight: 700 !important;
-    line-height: 1 !important;
-    background: transparent !important;
-    border-radius: 0 !important;
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 28px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: var(--color-surface);
+    cursor: pointer;
+    flex-shrink: 0;
   }
 
   .accordion-item--active .accordion-icon {
-    color: var(--color-surface) !important;
-    background: transparent !important;
+    color: var(--color-surface);
+    background: transparent;
   }
 
   .accordion-content {
-    padding: 2rem 1.5rem 2rem 3rem !important;
-    background: var(--color-surface) !important;
-    border-top: 2px solid rgba(0, 168, 120, 0.3) !important;
-    animation: slideDown 0.3s ease !important;
-    border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg) !important;
+    background: var(--color-surface);
+    padding: 1.5rem;
+    border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
   }
 
-  /* Ajustar estilos de tabla dentro del acordeón */
   .accordion-content .vendedor-stats {
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 1.5rem;
   }
 
   .accordion-content .stat-card {
-    background: var(--color-surface) !important;
-    border-color: rgba(0, 168, 120, 0.2) !important;
-    color: var(--color-text-primary) !important;
-  }
-
-  .accordion-content .stat-label {
-    color: var(--color-neutral) !important;
-  }
-
-  .accordion-content .stat-value {
-    color: var(--color-primary) !important;
+    background: var(--color-surface);
+    border-color: rgba(0, 168, 120, 0.2);
   }
 
   .accordion-content .stat-card--primary {
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%) !important;
-    border-color: var(--color-primary) !important;
-    color: var(--color-surface) !important;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+    border-color: var(--color-primary);
+    color: var(--color-surface);
   }
 
   .accordion-content .stat-card--primary .stat-label {
-    color: rgba(255, 255, 255, 0.95) !important;
+    color: rgba(255, 255, 255, 0.95);
   }
 
   .accordion-content .stat-card--primary .stat-value {
-    color: var(--color-surface) !important;
+    color: var(--color-surface);
   }
 
   .accordion-content .table-container {
-    background: var(--color-surface) !important;
-    border-color: rgba(0, 168, 120, 0.2) !important;
-  }
-
-  .accordion-content .ventas-table {
-    background: transparent !important;
-  }
-
-  .accordion-content .ventas-table thead {
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%) !important;
-  }
-
-  .accordion-content .ventas-table tbody tr {
-    background: var(--color-surface) !important;
-    border-bottom-color: rgba(0, 168, 120, 0.1) !important;
+    border-color: rgba(0, 168, 120, 0.2);
   }
 
   .accordion-content .ventas-table tbody tr:hover {
-    background: rgba(0, 168, 120, 0.05) !important;
+    background: rgba(0, 168, 120, 0.05);
   }
 
-  .accordion-content .ventas-table td {
-    color: var(--color-text-primary) !important;
-  }
-
-  .accordion-content .ventas-table tfoot {
-    background: rgba(0, 168, 120, 0.08) !important;
-    border-top-color: var(--color-primary) !important;
-  }
-
-  .accordion-content .amount {
-    color: var(--color-primary) !important;
-  }
-
-  .accordion-content .total-label {
-    color: var(--color-text-primary) !important;
-  }
-
-  .accordion-content .total-amount {
-    color: var(--color-primary) !important;
-  }
-
-  /* Estilos para sección de cartera */
+  /* Sección de cartera */
   .cartera-section {
-    margin-top: 3rem;
-    padding-top: 2rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
     border-top: 2px solid rgba(0, 168, 120, 0.2);
   }
 
   .cartera-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-primary);
-    margin-bottom: 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    margin-bottom: 1rem;
   }
 
-  .cartera-table {
-    margin-top: 1rem;
-  }
-
-  /* Estilos para secciones de mes */
+  /* Secciones de mes */
   .mes-section {
-    margin-bottom: 3rem;
-    padding: 2rem;
-    background: linear-gradient(135deg, rgba(0, 168, 120, 0.03) 0%, rgba(0, 217, 154, 0.03) 100%);
-    border-radius: var(--border-radius-xl, 12px);
-    border: 2px solid rgba(0, 168, 120, 0.15);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(0, 168, 120, 0.03);
+    border-radius: var(--border-radius-xl);
+    border: 1px solid rgba(0, 168, 120, 0.15);
   }
 
   .mes-section:last-child {
@@ -1524,22 +1279,19 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
   }
 
   .mes-title {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-primary);
-    margin-bottom: 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 3px solid rgba(0, 168, 120, 0.3);
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid rgba(0, 168, 120, 0.2);
   }
 
   .mes-stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .stat-card--mes {
@@ -1548,288 +1300,110 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
   }
 
   .stat-card--mes .stat-label {
-    color: var(--color-text-muted, #666);
-    font-size: 0.875rem;
+    color: var(--color-neutral);
+    font-size: 0.8rem;
   }
 
   .stat-card--mes .stat-value {
     color: var(--color-primary);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .mes-section .table-container {
     margin-top: 1rem;
   }
 
+  /* Estados de cartera */
   .cartera-table tbody tr.dias-vencida {
-    background-color: var(--color-danger-light) !important;
+    background-color: var(--color-danger-light);
     border-left: 4px solid var(--color-danger);
   }
 
-  .cartera-table tbody tr.dias-vencida:hover {
-    background-color: var(--color-danger-light) !important;
-  }
-
   .cartera-table tbody tr.dias-por-vencer {
-    background-color: var(--color-warning-light) !important;
+    background-color: var(--color-warning-light);
     border-left: 4px solid var(--color-warning);
   }
 
-  .cartera-table tbody tr.dias-por-vencer:hover {
-    background-color: var(--color-warning-light) !important;
-  }
-
   .cartera-table tbody tr.dias-vigente {
-    background-color: var(--color-success-light) !important;
+    background-color: var(--color-success-light);
     border-left: 4px solid var(--color-success);
   }
 
-  .cartera-table tbody tr.dias-vigente:hover {
-    background-color: var(--color-primary-light) !important;
-  }
-
   .dias-danger {
-    color: var(--color-danger) !important;
-    font-weight: 700 !important;
+    color: var(--color-danger);
+    font-weight: 700;
   }
 
   .dias-warning {
-    color: var(--color-warning) !important;
-    font-weight: 600 !important;
+    color: var(--color-warning);
+    font-weight: 600;
   }
 
   .stat-card--warning {
-    background: linear-gradient(135deg, var(--color-warning) 0%, var(--color-warning) 100%) !important;
-    border-color: var(--color-warning) !important;
-    color: var(--color-surface) !important;
+    background: linear-gradient(135deg, var(--color-warning) 0%, var(--color-warning) 100%);
+    border-color: var(--color-warning);
+    color: var(--color-surface);
   }
 
   .stat-card--warning .stat-label,
   .stat-card--warning .stat-value {
-    color: var(--color-surface) !important;
+    color: var(--color-surface);
   }
 
   .stat-card--info {
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%) !important;
-    border-color: var(--color-primary) !important;
-    color: var(--color-surface) !important;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+    border-color: var(--color-primary);
+    color: var(--color-surface);
   }
 
   .stat-card--info .stat-label,
   .stat-card--info .stat-value {
-    color: var(--color-surface) !important;
+    color: var(--color-surface);
   }
 
   @keyframes slideDown {
-    from {
-      opacity: 0;
-      transform: translateY(-15px);
-      max-height: 0;
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-      max-height: 5000px;
-    }
+    from { opacity: 0; transform: translateY(-15px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 
   @media (max-width: 768px) {
-    .container {
-      padding: 1rem 0.75rem;
-    }
-
-    .header {
-      padding: 1.5rem 1rem;
-      margin-bottom: 2rem;
-    }
-
-    .header h1 {
-      font-size: 2rem;
-    }
-
-    .subtitle {
-      font-size: 1rem;
-    }
-
-    .mes-selector-container {
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .mes-selector {
-      min-width: 100%;
-      max-width: 300px;
-    }
-
-    .ventas-container {
-      padding: 1.5rem;
-      border-radius: var(--border-radius-xl, 12px);
-    }
-
-    .stats-summary,
-    .admin-stats,
-    .vendedor-stats {
+    .container { padding: 1rem 0.75rem; }
+    .header { padding: 1.5rem 1rem; margin-bottom: 1.5rem; }
+    .header h1 { font-size: 1.75rem; }
+    .subtitle { font-size: 0.95rem; }
+    .mes-selector-container { flex-direction: column; gap: 0.75rem; }
+    .mes-selector { min-width: 100%; max-width: 300px; }
+    .ventas-container { padding: 1.25rem; }
+    .stats-summary, .admin-stats, .vendedor-stats {
       grid-template-columns: 1fr;
-      gap: 1rem;
-      margin-bottom: 2rem;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
     }
-
-    .stat-card {
-      padding: 1.5rem 1.25rem;
-    }
-
-    .stat-value {
-      font-size: 1.75rem;
-    }
-
-    .ventas-table {
-      font-size: 0.875rem;
-    }
-
-    .ventas-table th {
-      padding: 1rem 0.75rem;
-      font-size: 0.8rem;
-    }
-
-    .ventas-table td {
-      padding: 1rem 0.75rem;
-    }
-
-    .ventas-table tfoot td {
-      padding: 1.25rem 0.75rem;
-      font-size: 1rem;
-    }
-
-    .accordion-header {
-      padding: 1.125rem 1.25rem;
-    }
-
-    .accordion-title {
-      font-size: 1.0625rem;
-    }
-
-    .accordion-content {
-      padding: 1.5rem 1.25rem 1.5rem 2rem;
-    }
-
-    .badge {
-      font-size: 0.8125rem;
-      padding: 0.375rem 0.6875rem;
-    }
+    .stat-card { padding: 1rem; }
+    .stat-value { font-size: 1.25rem; }
+    .ventas-table { font-size: 0.85rem; }
+    .ventas-table th { padding: 0.75rem 0.5rem; font-size: 0.75rem; }
+    .ventas-table td { padding: 0.75rem 0.5rem; }
+    .accordion-header { padding: 0.85rem 1rem; }
+    .accordion-content { padding: 1.25rem; }
   }
 
   @media (max-width: 480px) {
-    .container {
-      padding: 0.75rem 0.5rem;
-    }
-
-    .header {
-      padding: 1.25rem 0.75rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .header h1 {
-      font-size: 1.75rem;
-    }
-
-    .subtitle {
-      font-size: 0.9375rem;
-    }
-
-    .mes-selector-container {
-      padding: 0.75rem;
-    }
-
-    .mes-label {
-      font-size: 0.9375rem;
-    }
-
-    .mes-selector {
-      padding: 0.625rem 1.75rem 0.625rem 0.875rem;
-      font-size: 0.9375rem;
-    }
-
-    .ventas-container {
-      padding: 1rem;
-    }
-
-    .stat-card {
-      padding: 1.25rem 1rem;
-    }
-
-    .stat-label {
-      font-size: 0.8125rem;
-    }
-
-    .stat-value {
-      font-size: 1.5rem;
-    }
-
-    .ventas-table {
-      font-size: 0.8125rem;
-    }
-
-    .ventas-table th {
-      padding: 0.875rem 0.5rem;
-      font-size: 0.75rem;
-    }
-
-    .ventas-table td {
-      padding: 0.875rem 0.5rem;
-      font-size: 0.8125rem;
-    }
-
-    .ventas-table tfoot td {
-      padding: 1rem 0.5rem;
-      font-size: 0.9375rem;
-    }
-
-    .total-amount {
-      font-size: 1.125rem;
-    }
-
-    .accordion-header {
-      padding: 1rem 1.125rem;
-      flex-wrap: wrap;
-    }
-
-    .accordion-title {
-      font-size: 1rem;
-      width: calc(100% - 40px);
-      margin-bottom: 0.5rem;
-    }
-
-    .accordion-header-content {
-      width: calc(100% - 40px);
-    }
-
-    .accordion-badges {
-      flex-direction: column;
-      gap: 0.5rem;
-      width: 100%;
-    }
-
-    .badge {
-      width: 100%;
-      justify-content: center;
-    }
-
-    .accordion-icon {
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-      margin: 0;
-      width: 28px;
-      height: 28px;
-      font-size: 1.25rem;
-    }
-
-    .accordion-content {
-      padding: 1.25rem 1.125rem 1.25rem 1.75rem;
-    }
-
-    .vendedor-stats {
-      grid-template-columns: 1fr;
-    }
+    .container { padding: 0.75rem 0.5rem; }
+    .header { padding: 1.25rem 0.75rem; margin-bottom: 1rem; }
+    .header h1 { font-size: 1.5rem; }
+    .mes-selector-container { padding: 0.75rem; }
+    .mes-selector { font-size: 0.9rem; }
+    .ventas-container { padding: 1rem; }
+    .stat-card { padding: 0.85rem; }
+    .stat-value { font-size: 1.125rem; }
+    .ventas-table th { padding: 0.625rem 0.5rem; font-size: 0.7rem; }
+    .ventas-table td { padding: 0.625rem 0.5rem; font-size: 0.8rem; }
+    .accordion-header { padding: 0.75rem 0.85rem; }
+    .accordion-title { font-size: 0.9rem; }
+    .accordion-content { padding: 1rem; }
+    .badge { font-size: 0.7rem; padding: 0.2rem 0.5rem; }
+    .accordion-badges { flex-direction: column; gap: 0.35rem; }
+    .badge { width: 100%; justify-content: center; }
   }
 </style>
