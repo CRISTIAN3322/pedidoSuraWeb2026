@@ -4443,5 +4443,11 @@
         "nombre": "YENNY PAOLA NOVOA SANTANA",
         "cupo": 2000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 830112090,
+        "nombre": "AUTOSERVICIOS SABANA RODRIGUEZ SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
