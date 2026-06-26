@@ -1,25 +1,34 @@
 ---
 // Componente de bloqueo horario
-// Bloquea la aplicación desde las 18:00 hasta las 5:00 del día siguiente
+// Bloquea la aplicación desde blockStartHour hasta startHour del día siguiente
+import { APP_CONFIG } from '../../config/app.config';
 
 const ahora = new Date();
 const horaActual = ahora.getHours();
 
-// Definir horario de bloqueo: desde las 18:00 hasta las 5:00
-const horaInicioBloqueo = 18; // 13:00 (para pruebas)
-const horaFinBloqueo = 5; // 15:00 (para pruebas)
+// Configuración de bloqueo desde app.config
+const horaInicioBloqueo = APP_CONFIG.schedule.blockStartHour; // 23 (11PM)
+const horaFinBloqueo = APP_CONFIG.schedule.startHour;         // 5 (5AM)
 
-// Verificar si estamos en horario de bloqueo
-const estaBloqueado = horaActual >= horaInicioBloqueo && horaActual < horaFinBloqueo;
+// Verificar si estamos en horario de bloqueo (desde 23:00 hasta 5:00)
+const estaBloqueado = horaActual >= horaInicioBloqueo || horaActual < horaFinBloqueo;
 
 // Calcular tiempo restante hasta el próximo horario disponible
 let tiempoRestante = "";
 if (estaBloqueado) {
-    // Estamos en horario de bloqueo, esperamos hasta las 15:00 del mismo día
-    const hoy3pm = new Date(ahora);
-    hoy3pm.setHours(horaFinBloqueo, 0, 0, 0);
+    const ahoraMs = ahora.getTime();
+    const proximoDisponible = new Date(ahora);
     
-    const diferencia = hoy3pm.getTime() - ahora.getTime();
+    if (horaActual >= horaInicioBloqueo) {
+        // Después de las 23:00, esperar hasta las 5:00 del día siguiente
+        proximoDisponible.setDate(proximoDisponible.getDate() + 1);
+        proximoDisponible.setHours(horaFinBloqueo, 0, 0, 0);
+    } else {
+        // Antes de las 5:00, esperar hasta las 5:00 del mismo día
+        proximoDisponible.setHours(horaFinBloqueo, 0, 0, 0);
+    }
+    
+    const diferencia = proximoDisponible.getTime() - ahoraMs;
     const horas = Math.floor(diferencia / (1000 * 60 * 60));
     const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
     tiempoRestante = `${horas}h ${minutos}m`;
@@ -29,11 +38,26 @@ if (estaBloqueado) {
 {estaBloqueado && (
     <div class="bloqueo-overlay" id="bloqueo-overlay">
         <div class="bloqueo-container">
-            <div class="bloqueo-icon">🕒</div>
-            <h2>Sistema Cerrado Por FIN de MES</h2>
-            <p>El sistema está temporalmente cerrado.</p>
-            <p><strong>Horario de facturación:</strong> 5:00 AM - 6:00 PM</p>
-            <p><strong>Tiempo restante:</strong> <span class="tiempo-restante">{tiempoRestante}</span></p>
+            <div class="bloqueo-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+            </div>
+            <h2 class="bloqueo-title">Fuera de Horario de Atención</h2>
+            <p class="bloqueo-subtitle">El sistema está temporalmente cerrado.</p>
+            
+            <div class="bloqueo-horario">
+                <div class="horario-item">
+                    <span class="horario-label">Horario de atención:</span>
+                    <span class="horario-value">5:00 AM - 6:00 PM</span>
+                </div>
+                <div class="horario-item">
+                    <span class="horario-label">Tiempo restante:</span>
+                    <span class="horario-value tiempo-restante">{tiempoRestante}</span>
+                </div>
+            </div>
+            
             <div class="bloqueo-info">
                 <p>Por favor, vuelve a intentar durante el horario de atención.</p>
                 <p>Gracias por tu comprensión.</p>
@@ -49,113 +73,171 @@ if (estaBloqueado) {
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(135deg, #48bb78 0%, #38a169 50%, #2f855a 100%);
+        background: var(--gradient-primary-dark);
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 9999;
-        font-family: 'Arial', sans-serif;
+        z-index: calc(var(--z-index-modal) + 10);
+        font-family: var(--font-family-primary);
+        padding: var(--space-md);
     }
 
     .bloqueo-container {
         background: var(--color-surface);
-        padding: 3rem;
-        border-radius: 15px;
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        padding: var(--space-2xl) var(--space-xl);
+        border-radius: var(--border-radius-2xl);
+        box-shadow: var(--shadow-xl);
         text-align: center;
-        max-width: 500px;
-        margin: 20px;
+        max-width: 480px;
+        width: 100%;
+        animation: bloqueoFadeIn 0.4s ease-out;
+    }
+
+    @keyframes bloqueoFadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px) scale(0.95);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
     }
 
     .bloqueo-icon {
-        font-size: 4rem;
-        margin-bottom: 1rem;
-        animation: pulse 2s infinite;
+        display: flex;
+        justify-content: center;
+        margin-bottom: var(--space-lg);
+        color: var(--color-primary);
+        animation: bloqueoPulse 2s ease-in-out infinite;
     }
 
-    @keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-        100% { transform: scale(1); }
+    @keyframes bloqueoPulse {
+        0%, 100% { 
+            transform: scale(1);
+            opacity: 1;
+        }
+        50% { 
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
     }
 
-    .bloqueo-container h2 {
+    .bloqueo-title {
         color: var(--color-text-primary);
-        margin-bottom: 1rem;
-        font-size: 2rem;
+        margin-bottom: var(--space-sm);
+        font-size: var(--font-size-2xl);
+        font-weight: var(--font-weight-bold);
+        letter-spacing: -0.02em;
     }
 
-    .bloqueo-container p {
-        color: #4a5568;
-        margin-bottom: 0.5rem;
-        font-size: 1.1rem;
+    .bloqueo-subtitle {
+        color: var(--color-text-secondary);
+        margin-bottom: var(--space-xl);
+        font-size: var(--font-size-base);
     }
 
-    .bloqueo-container strong {
+    .bloqueo-horario {
+        background: var(--color-surface-secondary);
+        border-radius: var(--border-radius-lg);
+        padding: var(--space-lg);
+        margin-bottom: var(--space-xl);
+        border: var(--border-width-thin) solid var(--color-border-light);
+    }
+
+    .horario-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--space-sm) 0;
+    }
+
+    .horario-item:not(:last-child) {
+        border-bottom: var(--border-width-thin) solid var(--color-border-default);
+    }
+
+    .horario-label {
+        color: var(--color-text-secondary);
+        font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-medium);
+    }
+
+    .horario-value {
         color: var(--color-text-primary);
+        font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-semibold);
+    }
+
+    .tiempo-restante {
+        color: var(--color-primary);
+        font-size: var(--font-size-lg);
+        font-weight: var(--font-weight-bold);
     }
 
     .bloqueo-info {
-        margin-top: 2rem;
-        padding-top: 1.5rem;
-        border-top: 2px solid var(--color-border-default);
+        padding-top: var(--space-lg);
+        border-top: var(--border-width-thin) solid var(--color-border-default);
     }
 
     .bloqueo-info p {
-        color: #718096;
-        font-size: 1rem;
-        margin-bottom: 0.3rem;
+        color: var(--color-text-muted);
+        font-size: var(--font-size-sm);
+        margin-bottom: var(--space-xs);
     }
 
-    @media (max-width: 768px) {
+    .bloqueo-info p:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 480px) {
         .bloqueo-container {
-            padding: 2rem;
-            margin: 15px;
+            padding: var(--space-xl) var(--space-lg);
         }
-        
-        .bloqueo-container h2 {
-            font-size: 1.5rem;
+
+        .bloqueo-title {
+            font-size: var(--font-size-xl);
         }
-        
-        .bloqueo-container p {
-            font-size: 1rem;
+
+        .bloqueo-icon svg {
+            width: 48px;
+            height: 48px;
         }
     }
 </style>
 
-<script define:vars={{ horaInicioBloqueo: 13, horaFinBloqueo: 15 }}>
-    // Script para actualizar el tiempo restante del bloqueo horario en tiempo real
+<script define:vars={{ horaInicioBloqueo, horaFinBloqueo }}>
     function actualizarTiempoRestante() {
         const ahora = new Date();
         const horaActual = ahora.getHours();
         
-        // Verificar si estamos en horario de bloqueo
-        const estaBloqueado = horaActual >= horaInicioBloqueo && horaActual < horaFinBloqueo;
+        const estaBloqueado = horaActual >= horaInicioBloqueo || horaActual < horaFinBloqueo;
         
         if (estaBloqueado) {
-            // Estamos en horario de bloqueo, esperamos hasta las 15:00 del mismo día
-            const hoy3pm = new Date(ahora);
-            hoy3pm.setHours(horaFinBloqueo, 0, 0, 0);
+            const proximoDisponible = new Date(ahora);
             
-            const diferencia = hoy3pm.getTime() - ahora.getTime();
+            if (horaActual >= horaInicioBloqueo) {
+                proximoDisponible.setDate(proximoDisponible.getDate() + 1);
+                proximoDisponible.setHours(horaFinBloqueo, 0, 0, 0);
+            } else {
+                proximoDisponible.setHours(horaFinBloqueo, 0, 0, 0);
+            }
+            
+            const diferencia = proximoDisponible.getTime() - ahora.getTime();
             const horas = Math.floor(diferencia / (1000 * 60 * 60));
             const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
             const tiempoRestante = `${horas}h ${minutos}m`;
             
-            // Actualizar el elemento de tiempo restante si existe
             const tiempoElement = document.querySelector('.tiempo-restante');
             if (tiempoElement) {
                 tiempoElement.textContent = tiempoRestante;
             }
             
-            // Si el tiempo llega a 0, recargar la página para verificar si ya está disponible
             if (horas === 0 && minutos === 0) {
                 setTimeout(() => {
                     window.location.reload();
                 }, 1000);
             }
         } else {
-            // Si no está bloqueado, ocultar el overlay de bloqueo
             const bloqueoOverlay = document.getElementById('bloqueo-overlay');
             if (bloqueoOverlay) {
                 bloqueoOverlay.style.display = 'none';
@@ -163,9 +245,6 @@ if (estaBloqueado) {
         }
     }
 
-    // Actualizar cada minuto
     setInterval(actualizarTiempoRestante, 60000);
-
-    // Actualizar inmediatamente al cargar
     document.addEventListener('DOMContentLoaded', actualizarTiempoRestante);
-</script> 
+</script>

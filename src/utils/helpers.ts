@@ -1,4 +1,5 @@
 // Utilidades generales para la aplicación
+import { APP_CONFIG } from '../config/app.config';
 
 /**
  * Formatea un número como moneda colombiana
@@ -94,7 +95,8 @@ export function truncateText(text: string, maxLength: number): string {
 export function isBusinessHours(): boolean {
   const now = new Date();
   const hour = now.getHours();
-  return hour >= 5 && hour < 18; // 5:00 AM - 6:00 PM
+  const { startHour, endHour } = APP_CONFIG.schedule;
+  return hour >= startHour && hour < endHour;
 }
 
 /**
@@ -103,21 +105,20 @@ export function isBusinessHours(): boolean {
 export function getTimeUntilNextBusinessHour(): string {
   const now = new Date();
   const hour = now.getHours();
+  const { startHour, endHour } = APP_CONFIG.schedule;
   
-  if (hour >= 5 && hour < 18) {
-    return '0h 0m'; // Ya estamos en horario de atención
+  if (hour >= startHour && hour < endHour) {
+    return '0h 0m';
   }
   
   let nextBusinessHour: Date;
-  if (hour < 5) {
-    // Estamos antes de las 5 AM, esperamos hasta las 5 AM del mismo día
+  if (hour < startHour) {
     nextBusinessHour = new Date(now);
-    nextBusinessHour.setHours(5, 0, 0, 0);
+    nextBusinessHour.setHours(startHour, 0, 0, 0);
   } else {
-    // Estamos después de las 6 PM, esperamos hasta las 5 AM del día siguiente
     nextBusinessHour = new Date(now);
     nextBusinessHour.setDate(nextBusinessHour.getDate() + 1);
-    nextBusinessHour.setHours(5, 0, 0, 0);
+    nextBusinessHour.setHours(startHour, 0, 0, 0);
   }
   
   const diff = nextBusinessHour.getTime() - now.getTime();
