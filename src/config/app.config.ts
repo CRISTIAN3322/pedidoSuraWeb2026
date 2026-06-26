@@ -8,7 +8,7 @@ export const APP_CONFIG = {
   // Configuración de horarios
   schedule: {
     startHour: 5, // 5:00 AM
-    endHour: 18,  // 6:00 PM
+    endHour: 23,  // 6:00 PM
     timezone: 'America/Bogota'
   },
   
@@ -39,7 +39,7 @@ export const APP_CONFIG = {
     warningDays: 11,
     criticalDays: 30,
     /** Facturas con antigüedad estrictamente mayor a este valor bloquean continuar al catálogo */
-    blockDays: 30
+    blockDays: 20
   },
   
   // Configuración de la interfaz
