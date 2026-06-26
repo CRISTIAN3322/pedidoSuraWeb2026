@@ -628,9 +628,9 @@ const proveedores = Array.from(
         border-radius: 12px;
         padding: 1.2rem 1rem 1rem 1rem;
         text-align: center;
-        background: white;
+        background: var(--color-surface);
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        transition: transform var(--transition-base), box-shadow var(--transition-base);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -667,7 +667,7 @@ const proveedores = Array.from(
         align-items: center;
         justify-content: center;
         background: #f0f0f0;
-        border-radius: 8px;
+        border-radius: var(--border-radius-lg);
         color: #999;
         font-size: 0.85rem;
         text-align: center;
@@ -685,7 +685,7 @@ const proveedores = Array.from(
     .product-card img {
         max-width: 100%;
         height: auto;
-        border-radius: 8px;
+        border-radius: var(--border-radius-lg);
         margin-bottom: 1rem;
     }
 
@@ -754,8 +754,8 @@ const proveedores = Array.from(
         color: #4a5568;
         margin: 0.2rem 0 0.5rem 0;
         padding: 0.3rem;
-        background: #f7fafc;
-        border-radius: 6px;
+        background: var(--color-surface-secondary);
+        border-radius: var(--border-radius-md);
         width: 100%;
         box-sizing: border-box;
         word-break: break-all;
@@ -957,7 +957,7 @@ const proveedores = Array.from(
 
     .quantity-btn {
         background-color: #2c5282;
-        color: white;
+        color: var(--color-surface);
         border: none;
         border-radius: 4px;
         width: 30px;
@@ -967,7 +967,7 @@ const proveedores = Array.from(
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: background-color 0.2s ease;
+        transition: background-color var(--transition-base);
     }
 
     .quantity-btn:hover {
@@ -1002,13 +1002,13 @@ const proveedores = Array.from(
     .add-to-cart-btn {
         margin-top: auto;
         background-color: #48bb78;
-        color: white;
+        color: var(--color-surface);
         border: none;
-        border-radius: 6px;
+        border-radius: var(--border-radius-md);
         padding: 0.6rem 1.2rem;
         font-size: 1rem;
         cursor: pointer;
-        transition: background-color 0.2s ease;
+        transition: background-color var(--transition-base);
         width: 100%;
         box-sizing: border-box;
         min-height: 44px;

@@ -1,5 +1,5 @@
 ---
-// Componente atómico Input - Para campos de texto reutilizables
+// Componente atomico Input - Para campos de texto reutilizables
 // Props esperadas:
 // - type: 'text' | 'email' | 'password' | 'number' | 'tel' | 'url' | 'search'
 // - placeholder: string
@@ -69,97 +69,97 @@ const {
   .atom-input-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--space-sm);
   }
 
   .atom-input__label {
-    font-weight: 600;
-    color: #2d3748;
-    font-size: 0.9rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    font-size: var(--font-size-sm);
     display: flex;
     align-items: center;
-    gap: 0.25rem;
+    gap: var(--space-xs);
   }
 
   .atom-input__required {
-    color: #dc3545;
-    font-weight: bold;
+    color: var(--color-danger);
+    font-weight: var(--font-weight-bold);
   }
 
   .atom-input {
     width: 100%;
     font-family: inherit;
-    border: 2px solid #e2e8f0;
-    border-radius: 8px;
-    transition: all 0.2s ease-in-out;
+    border: var(--border-width-base) solid var(--color-border-default);
+    border-radius: var(--border-radius-lg);
+    transition: var(--transition-all);
     box-sizing: border-box;
     outline: none;
   }
 
   .atom-input:focus {
-    border-color: #4caf50;
-    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+    border-color: var(--color-border-focus);
+    box-shadow: 0 0 0 3px rgba(0, 168, 120, 0.1);
   }
 
   .atom-input--error {
-    border-color: #dc3545;
+    border-color: var(--color-border-error);
   }
 
   .atom-input--error:focus {
-    border-color: #dc3545;
-    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+    border-color: var(--color-border-error);
+    box-shadow: 0 0 0 3px rgba(254, 94, 65, 0.1);
   }
 
-  /* Tamaños */
+  /* Tamanos */
   .atom-input--sm {
-    padding: 0.5rem;
-    font-size: 0.875rem;
+    padding: var(--space-sm);
+    font-size: var(--font-size-sm);
   }
 
   .atom-input--md {
-    padding: 0.75rem;
-    font-size: 1rem;
+    padding: var(--space-sm);
+    font-size: var(--font-size-base);
   }
 
   .atom-input--lg {
-    padding: 1rem;
-    font-size: 1.125rem;
+    padding: var(--space-md);
+    font-size: var(--font-size-lg);
   }
 
   /* Estados */
   .atom-input:disabled {
-    background-color: #f7fafc;
-    color: #a0aec0;
+    background-color: var(--color-surface-secondary);
+    color: var(--color-text-disabled);
     cursor: not-allowed;
   }
 
   .atom-input:readonly {
-    background-color: #f7fafc;
-    color: #4a5568;
+    background-color: var(--color-surface-secondary);
+    color: var(--color-text-secondary);
     cursor: default;
   }
 
   .atom-input__error {
-    color: #dc3545;
-    font-size: 0.8rem;
-    margin-top: 0.25rem;
+    color: var(--color-danger);
+    font-size: var(--font-size-xs);
+    margin-top: var(--space-xs);
   }
 
   /* Placeholder styles */
   .atom-input::placeholder {
-    color: #a0aec0;
+    color: var(--color-placeholder);
   }
 
   /* Responsive */
   @media (max-width: 768px) {
     .atom-input--lg {
-      padding: 0.875rem;
-      font-size: 1rem;
+      padding: var(--space-sm);
+      font-size: var(--font-size-base);
     }
 
     .atom-input--md {
-      padding: 0.625rem;
-      font-size: 0.9rem;
+      padding: var(--space-sm);
+      font-size: var(--font-size-sm);
     }
   }
 </style>

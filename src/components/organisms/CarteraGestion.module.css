@@ -1,20 +1,20 @@
-.container {
+.cartera-gestion {
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
 
-.header {
+.cartera-gestion__header {
   text-align: center;
   margin-bottom: 2rem;
   padding: 2rem 1rem;
   background: linear-gradient(135deg, rgba(0, 168, 120, 0.05) 0%, rgba(0, 217, 154, 0.05) 100%);
-  border-radius: 16px;
+  border-radius: var(--border-radius-2xl);
   border: 1px solid rgba(0, 168, 120, 0.1);
 }
 
-.title {
-  background: linear-gradient(135deg, #00a878 0%, #00d99a 100%);
+.cartera-gestion__title {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -23,21 +23,21 @@
   margin: 0 0 0.5rem;
 }
 
-.subtitle {
-  color: #666;
+.cartera-gestion__subtitle {
+  color: var(--color-neutral);
   font-size: 1.05rem;
   margin: 0;
 }
 
-.panel {
-  background: #fff;
-  border-radius: 16px;
+.cartera-gestion__panel {
+  background: var(--color-surface);
+  border-radius: var(--border-radius-2xl);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
   padding: 2rem;
   border: 1px solid rgba(0, 168, 120, 0.08);
 }
 
-.toolbar {
+.cartera-gestion__toolbar {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -46,60 +46,60 @@
   margin-bottom: 1.5rem;
 }
 
-.filterGroup {
+.cartera-gestion__filter-group {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   flex-wrap: wrap;
 }
 
-.filterLabel {
+.cartera-gestion__filter-label {
   font-weight: 600;
-  color: #2d3748;
+  color: var(--color-text-primary);
 }
 
-.filterSelect {
+.cartera-gestion__filter-select {
   padding: 0.6rem 2rem 0.6rem 0.85rem;
   border: 2px solid rgba(0, 168, 120, 0.3);
-  border-radius: 8px;
+  border-radius: var(--border-radius-lg);
   font-weight: 600;
   cursor: pointer;
   min-width: 200px;
 }
 
-.stats {
+.cartera-gestion__stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
 
-.statCard {
+.cartera-gestion__stat-card {
   border: 2px solid rgba(0, 168, 120, 0.12);
-  border-radius: 12px;
+  border-radius: var(--border-radius-xl);
   padding: 1.25rem;
   text-align: center;
 }
 
-.statCardPrimary {
-  background: linear-gradient(135deg, #00a878 0%, #00d99a 100%);
-  border-color: #00a878;
-  color: #fff;
+.cartera-gestion__stat-card--primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  border-color: var(--color-primary);
+  color: var(--color-surface);
 }
 
-.statCardWarning {
-  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
-  border-color: #f59e0b;
-  color: #fff;
+.cartera-gestion__stat-card--warning {
+  background: linear-gradient(135deg, var(--color-warning) 0%, var(--color-warning) 100%);
+  border-color: var(--color-warning);
+  color: var(--color-surface);
 }
 
-.statCardDanger {
-  background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
-  border-color: #dc2626;
-  color: #fff;
+.cartera-gestion__stat-card--danger {
+  background: linear-gradient(135deg, var(--color-danger) 0%, var(--color-danger) 100%);
+  border-color: var(--color-danger);
+  color: var(--color-surface);
 }
 
-.statLabel {
+.cartera-gestion__stat-label {
   display: block;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -108,44 +108,44 @@
   opacity: 0.9;
 }
 
-.statValue {
+.cartera-gestion__stat-value {
   font-size: 1.5rem;
   font-weight: 800;
 }
 
-.loading,
-.error,
-.empty {
+.cartera-gestion__loading,
+.cartera-gestion__error,
+.cartera-gestion__empty {
   text-align: center;
   padding: 3rem 1rem;
-  color: #666;
+  color: var(--color-neutral);
 }
 
-.error {
-  color: #c53030;
+.cartera-gestion__error {
+  color: var(--color-danger);
   background: rgba(254, 94, 65, 0.08);
-  border-radius: 12px;
+  border-radius: var(--border-radius-xl);
 }
 
-.accordion {
+.cartera-gestion__accordion {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.accordionItem {
-  background: #00a878;
+.cartera-gestion__accordion-item {
+  background: var(--color-primary);
   padding: 5px;
-  border-radius: 7px;
+  border-radius: var(--border-radius-lg);
 }
 
-.accordionHeader {
+.cartera-gestion__accordion-header {
   width: 100%;
-  background: #0b5d3f;
-  color: #fff;
+  background: var(--color-primary-dark);
+  color: var(--color-surface);
   border: none;
-  border-left: 4px solid #00a878;
-  border-radius: 7px 7px 0 0;
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
   padding: 1rem 1.25rem;
   display: flex;
   justify-content: space-between;
@@ -154,7 +154,7 @@
   text-align: left;
 }
 
-.accordionHeaderMain {
+.cartera-gestion__accordion-header-main {
   flex: 1;
   min-width: 0;
   background: transparent;
@@ -165,29 +165,24 @@
   text-align: left;
 }
 
-.accordionHeaderActive {
-  border-radius: 7px 7px 0 0;
+.cartera-gestion__accordion-header--active {
+  border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
 }
 
-.accordionHeaderMain {
-  flex: 1;
-  min-width: 0;
-}
-
-.accordionTitle {
+.cartera-gestion__accordion-title {
   font-size: 1rem;
   font-weight: 700;
   display: block;
   margin-bottom: 0.35rem;
 }
 
-.badges {
+.cartera-gestion__badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.badge {
+.cartera-gestion__badge {
   padding: 0.25rem 0.6rem;
   border-radius: 4px;
   font-size: 0.78rem;
@@ -196,47 +191,47 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.badgeDanger {
+.cartera-gestion__badge--danger {
   background: rgba(220, 38, 38, 0.9);
   border-color: rgba(220, 38, 38, 0.5);
 }
 
-.badgeTotal {
+.cartera-gestion__badge--total {
   background: rgba(255, 255, 255, 0.9);
-  color: #0b5d3f;
+  color: var(--color-primary-dark);
 }
 
-.accordionActions {
+.cartera-gestion__accordion-actions {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   flex-shrink: 0;
 }
 
-.accordionIconBtn {
+.cartera-gestion__accordion-icon-btn {
   font-size: 1.4rem;
   font-weight: 700;
   width: 28px;
   text-align: center;
   background: transparent;
   border: none;
-  color: #fff;
+  color: var(--color-surface);
   cursor: pointer;
 }
 
-.accordionContent {
-  background: #fff;
+.cartera-gestion__accordion-content {
+  background: var(--color-surface);
   padding: 1.5rem;
-  border-radius: 0 0 7px 7px;
+  border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
 }
 
-.btnWhatsapp {
+.cartera-gestion__btn-whatsapp {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
   padding: 0.5rem 0.85rem;
-  background: #25d366;
-  color: #fff;
+  background: var(--color-success);
+  color: var(--color-surface);
   border: none;
   border-radius: 6px;
   font-size: 0.8rem;
@@ -246,123 +241,123 @@
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
-.btnWhatsapp:hover:not(:disabled) {
+.cartera-gestion__btn-whatsapp:hover:not(:disabled) {
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
 }
 
-.btnWhatsapp:disabled {
+.cartera-gestion__btn-whatsapp:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.tableWrap {
+.cartera-gestion__table-wrap {
   overflow-x: auto;
-  border-radius: 12px;
+  border-radius: var(--border-radius-xl);
   border: 1px solid rgba(0, 168, 120, 0.1);
 }
 
-.table {
+.cartera-gestion__table {
   width: 100%;
   border-collapse: collapse;
   min-width: 720px;
 }
 
-.table thead {
-  background: linear-gradient(135deg, #00a878 0%, #00d99a 100%);
-  color: #fff;
+.cartera-gestion__table thead {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  color: var(--color-surface);
 }
 
-.table th,
-.table td {
+.cartera-gestion__table th,
+.cartera-gestion__table td {
   padding: 0.85rem 0.75rem;
   text-align: left;
   border-bottom: 1px solid rgba(0, 168, 120, 0.08);
 }
 
-.table th {
+.cartera-gestion__table th {
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
-.rowDanger {
-  background: #fee2e2 !important;
-  border-left: 4px solid #dc2626;
+.cartera-gestion__row--danger {
+  background: var(--color-danger-light) !important;
+  border-left: 4px solid var(--color-danger);
 }
 
-.rowWarning {
-  background: #fef3c7 !important;
-  border-left: 4px solid #f59e0b;
+.cartera-gestion__row--warning {
+  background: var(--color-warning-light) !important;
+  border-left: 4px solid var(--color-warning);
 }
 
-.rowInfo {
-  background: #d1fae5 !important;
-  border-left: 4px solid #10b981;
+.cartera-gestion__row--info {
+  background: var(--color-success-light) !important;
+  border-left: 4px solid var(--color-success);
 }
 
-.rowSuccess {
-  border-left: 4px solid #6ee7b7;
+.cartera-gestion__row--success {
+  border-left: 4px solid var(--color-primary-light);
 }
 
-.diasDanger {
-  color: #dc2626;
+.cartera-gestion__dias--danger {
+  color: var(--color-danger);
   font-weight: 700;
 }
 
-.diasWarning {
-  color: #f59e0b;
+.cartera-gestion__dias--warning {
+  color: var(--color-warning);
   font-weight: 600;
 }
 
-.amount {
+.cartera-gestion__amount {
   font-weight: 700;
-  color: #00a878;
+  color: var(--color-primary);
   text-align: right;
 }
 
-.textCenter {
+.cartera-gestion__text-center {
   text-align: center;
 }
 
-.textRight {
+.cartera-gestion__text-right {
   text-align: right;
 }
 
-.tfoot td {
+.cartera-gestion__tfoot td {
   font-weight: 700;
   background: rgba(0, 168, 120, 0.06);
 }
 
-.vendorSection {
+.cartera-gestion__vendor-section {
   margin-top: 0;
 }
 
-.vendorActions {
+.cartera-gestion__vendor-actions {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
-  .panel {
+  .cartera-gestion__panel {
     padding: 1.25rem;
   }
 
-  .title {
+  .cartera-gestion__title {
     font-size: 1.75rem;
   }
 
-  .accordionHeader {
+  .cartera-gestion__accordion-header {
     flex-wrap: wrap;
   }
 
-  .accordionActions {
+  .cartera-gestion__accordion-actions {
     width: 100%;
     justify-content: space-between;
   }
 
-  .btnWhatsapp {
+  .cartera-gestion__btn-whatsapp {
     flex: 1;
     justify-content: center;
   }

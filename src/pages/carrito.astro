@@ -389,9 +389,9 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
         }
 
         .datos-card {
-            background-color: #f8f9fa;
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
+            background-color: var(--color-surface-secondary);
+            border: 1px solid var(--color-border-default);
+            border-radius: var(--border-radius-lg);
             padding: 20px;
             margin-top: 15px;
         }
@@ -402,27 +402,27 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
         }
 
         h1 {
-            color: #333;
+            color: var(--color-text-primary);
             text-align: center;
         }
 
         h2 {
-            color: #666;
+            color: var(--color-neutral);
             margin-top: 30px;
         }
 
         .btn-volver {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
+            background-color: var(--color-primary);
+            color: var(--color-surface);
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: var(--border-radius-md);
             margin-bottom: 20px;
         }
 
         .btn-volver:hover {
-            background-color: #0056b3;
+            background-color: var(--color-primary-dark);
         }
 
         .cart-container {
@@ -432,7 +432,7 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
     }
 
     h1 {
-        color: #1a365d;
+        color: var(--color-text-primary);
         margin-bottom: 2rem;
     }
 
@@ -440,7 +440,7 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
         width: 100%;
         border-collapse: collapse;
         margin-bottom: 2rem;
-        background: white;
+        background: var(--color-surface);
         box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
 
@@ -448,17 +448,17 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
     .cart-table td {
         padding: 1rem;
         text-align: left;
-        border-bottom: 1px solid #e2e8f0;
+        border-bottom: 1px solid var(--color-border-default);
     }
 
     .cart-table th {
-        background-color: #f7fafc;
+        background-color: var(--color-surface-secondary);
         font-weight: 600;
-        color: #2d3748;
+        color: var(--color-text-primary);
     }
 
     .cart-table tbody tr:hover {
-        background-color: #f7fafc;
+        background-color: var(--color-surface-secondary);
     }
 
     .text-right {
@@ -468,7 +468,7 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
 
     #cart-total {
         font-weight: bold;
-        color: #2c5282;
+        color: var(--color-primary);
     }
 
     .cart-actions {
@@ -493,31 +493,31 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
     .btn-pdf {
         border: none;
         padding: 0.75rem 1.5rem;
-        border-radius: 6px;
+        border-radius: var(--border-radius-md);
         cursor: pointer;
-        transition: background-color 0.2s;
+        transition: background-color var(--transition-base);
         text-decoration: none;
         display: inline-block;
     }
 
     .btn-danger {
-        background-color: #e53e3e;
-        color: white;
+        background-color: var(--color-danger);
+        color: var(--color-surface);
     }
 
     .btn-primary {
-        background-color: #25D366; /* Color de WhatsApp */
-        color: white;
+        background-color: var(--color-success); /* Color de WhatsApp */
+        color: var(--color-surface);
     }
 
     .btn-secondary {
-        background-color: #4a5568;
-        color: white;
+        background-color: var(--color-neutral);
+        color: var(--color-surface);
     }
 
     .btn-pdf {
-        background: linear-gradient(135deg, #c53030 0%, #9b2c2c 100%);
-        color: white;
+        background: linear-gradient(135deg, var(--color-danger) 0%, #9b2c2c 100%);
+        color: var(--color-surface);
     }
 
     .btn-pdf:hover {
@@ -525,29 +525,29 @@ const whatsappNumber = APP_CONFIG.whatsapp.number;
     }
 
     .btn-danger:hover {
-        background-color: #c53030;
+        background-color: var(--color-danger);
     }
 
     .btn-primary:hover {
-        background-color: #128C7E;
+        background-color: var(--color-primary-dark);
     }
 
     .btn-secondary:hover {
-        background-color: #2d3748;
+        background-color: var(--color-text-primary);
     }
 
     .remove-item {
-        background-color: #feb2b2;
-        color: #c53030;
+        background-color: var(--color-danger-light);
+        color: var(--color-danger);
         border: none;
         padding: 0.5rem;
         border-radius: 4px;
         cursor: pointer;
-        transition: background-color 0.2s;
+        transition: background-color var(--transition-base);
     }
 
     .remove-item:hover {
-        background-color: #fc8181;
+        background-color: var(--color-danger);
     }
 
     @media (max-width: 768px) {

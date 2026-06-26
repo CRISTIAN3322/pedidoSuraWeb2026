@@ -1,5 +1,5 @@
 ---
-// Componente atómico Button - El átomo más básico y reutilizable
+// Componente atomico Button - El atomo mas basico y reutilizable
 // Props esperadas:
 // - variant: 'primary' | 'secondary' | 'danger' | 'blocked' | 'success'
 // - size: 'sm' | 'md' | 'lg'
@@ -7,7 +7,7 @@
 // - loading: boolean
 // - type: 'button' | 'submit' | 'reset'
 // - onclick: function
-// - children: contenido del botón
+// - children: contenido del boton
 
 const {
   variant = "primary",
@@ -35,115 +35,115 @@ const {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: var(--space-sm);
     font-family: inherit;
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     text-decoration: none;
     border: none;
-    border-radius: 8px;
+    border-radius: var(--border-radius-lg);
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: var(--transition-all);
     position: relative;
     outline: none;
   }
 
   /* Variantes */
   .atom-button--primary {
-    background-color: #4caf50;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-text-inverse);
   }
 
   .atom-button--primary:hover:not(:disabled):not(.atom-button--loading) {
-    background-color: #45a049;
+    background-color: var(--color-primary-dark);
     transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+    box-shadow: var(--shadow-primary-sm);
   }
 
   .atom-button--secondary {
-    background-color: #6c757d;
-    color: white;
+    background-color: var(--color-neutral);
+    color: var(--color-text-inverse);
   }
 
   .atom-button--secondary:hover:not(:disabled):not(.atom-button--loading) {
-    background-color: #5a6268;
+    background-color: var(--color-neutral-dark);
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(108, 117, 125, 0.3);
   }
 
   .atom-button--danger {
-    background-color: #dc3545;
-    color: white;
+    background-color: var(--color-danger);
+    color: var(--color-text-inverse);
   }
 
   .atom-button--danger:hover:not(:disabled):not(.atom-button--loading) {
     background-color: #c82333;
     transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+    box-shadow: 0 4px 8px rgba(254, 94, 65, 0.3);
   }
 
   .atom-button--blocked {
-    background-color: #dc3545;
-    color: white;
+    background-color: var(--color-danger);
+    color: var(--color-text-inverse);
     cursor: not-allowed;
   }
 
   .atom-button--blocked:hover {
-    background-color: #dc3545;
+    background-color: var(--color-danger);
     transform: none;
     box-shadow: none;
   }
 
   .atom-button--success {
-    background-color: #28a745;
-    color: white;
+    background-color: var(--color-success);
+    color: var(--color-text-inverse);
   }
 
   .atom-button--success:hover:not(:disabled):not(.atom-button--loading) {
-    background-color: #218838;
+    background-color: var(--color-primary-dark);
     transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+    box-shadow: var(--shadow-primary-sm);
   }
 
-  /* Tamaños */
+  /* Tamanos */
   .atom-button--sm {
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
+    padding: var(--space-sm) var(--space-md);
+    font-size: var(--font-size-sm);
     min-height: 36px;
   }
 
   .atom-button--md {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
+    padding: var(--space-sm) var(--space-lg);
+    font-size: var(--font-size-base);
     min-height: 44px;
   }
 
   .atom-button--lg {
-    padding: 1rem 2rem;
-    font-size: 1.125rem;
+    padding: var(--space-md) var(--space-xl);
+    font-size: var(--font-size-lg);
     min-height: 52px;
   }
 
   /* Estados */
   .atom-button:disabled,
   .atom-button--loading {
-    opacity: 0.6;
+    opacity: var(--state-disabled-opacity);
     cursor: not-allowed;
     transform: none;
     box-shadow: none;
   }
 
   .atom-button:focus-visible {
-    outline: 2px solid #4caf50;
-    outline-offset: 2px;
+    outline: var(--focus-ring-width) solid var(--focus-ring-color);
+    outline-offset: var(--focus-ring-offset);
   }
 
   /* Spinner de carga */
   .atom-button__spinner {
     width: 1rem;
     height: 1rem;
-    border: 2px solid transparent;
-    border-top: 2px solid currentColor;
-    border-radius: 50%;
+    border: var(--border-width-base) solid transparent;
+    border-top: var(--border-width-base) solid currentColor;
+    border-radius: var(--border-radius-full);
     animation: atom-button-spin 1s linear infinite;
   }
 
@@ -156,13 +156,13 @@ const {
   /* Responsive */
   @media (max-width: 768px) {
     .atom-button--lg {
-      padding: 0.875rem 1.75rem;
-      font-size: 1rem;
+      padding: var(--space-sm) var(--space-lg);
+      font-size: var(--font-size-base);
     }
 
     .atom-button--md {
-      padding: 0.625rem 1.25rem;
-      font-size: 0.9rem;
+      padding: var(--space-sm) var(--space-md);
+      font-size: var(--font-size-sm);
     }
   }
 </style>

@@ -27,7 +27,7 @@
         "nombre": "DANIEL ARMENJO AGUDELO PINZON",
         "sucursales": [{
             "direccion": "DG 10 8 11  Sibate",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -581,7 +581,7 @@
         "nombre": "JOSE ANTONIO HERNANDEZ PEREZ",
         "sucursales": [{
             "direccion": "TV 15 F BIS 31G SUR 28 Ciudad Latina Soacha",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -653,7 +653,7 @@
         "nombre": "YEISSON CAMILO NOVOA GUTIERREZ",
         "sucursales": [{
             "direccion": "CL 18 SUR 13A 32 Compartir Soacha",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -1897,7 +1897,7 @@
         "nombre": "LUIS FERNANDO ROJAS PINTO",
         "sucursales": [{
             "direccion": "CL 35 SUR 15B 11 Ciudad Latina Soacha",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -1937,7 +1937,7 @@
         "nombre": "CARLOS ARTURO SARMIENTO HERNANDEZ",
         "sucursales": [{
             "direccion": "CR 11 D 18 B 77 SUR Compartir Soacha",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -2321,11 +2321,11 @@
             },
             {
                 "direccion": "CR 14 26 27 SUR Compartir Soacha",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
+                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             },
             {
                 "direccion": "CL 30 SUR 16 F 15  Soacha",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
+                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             }
         ]
     },
@@ -2831,11 +2831,11 @@
         "nombre": "M C CONSTRUCTORES   CONSULTORES S.A.S",
         "sucursales": [{
                 "direccion": "CR 36 17 293 Ciudad Verde CJ Nardo 2 Soacha",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
+                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             },
             {
                 "direccion": "CR 7 12 A 21 Sibaté",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
+                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             }
         ]
     },
@@ -3255,7 +3255,7 @@
         "nombre": "CASTELLANOS Y SEGURA E HIJOS SAS",
         "sucursales": [{
             "direccion": "CR 7 9 110  Sibate",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -3691,7 +3691,7 @@
             },
             {
                 "direccion": "TRV 7 6 10 Fragua Soacha",
-                "vendedor": "ESTHER ANGELA SALAZAR MORA"
+                "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
             },
             {
                 "direccion": "TV 7 5 6 Silo Soacha",
@@ -3810,7 +3810,7 @@
         "nombre": "MERKAEXITO HNOS SAS",
         "sucursales": [{
             "direccion": "CR 7 8 28  Sibate",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -4166,7 +4166,7 @@
                 "vendedor": "CONSUELO MUÑOZ"
             },
             {
-                "direccion": "DG 129 B BIS 93 A 05 La Palma",
+                "direccion": "DG 129 B BIS 93 A 05 Suba Rincon",
                 "vendedor": "CONSUELO MUÑOZ"
             },
             {
@@ -4928,7 +4928,7 @@
         "nombre": "JOSE ARMANDO CELIS NOVOA",
         "sucursales": [{
             "direccion": "CR 7A 7 95  Sibate",
-            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
@@ -5749,6 +5749,14 @@
         "sucursales": [{
             "direccion": "CR 3 8 45  Gachancipá ",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        },
+    {
+            "direccion": "CR 5  3 60 Gachancipa ",
+            "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        },
+    {
+            "direccion": "CR 4 7  61 Choconta ",
+            "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
     {
@@ -6076,7 +6084,7 @@
         "id": 52464418,
         "nombre": "MARIA ESTHER CABALLERO BENITEZ",
         "sucursales": [{
-            "direccion": "Carrera 92 #71-41 sur casa 217 ",
+            "direccion": "Carrera 92 71 41 sur casa 217 ",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
     },
@@ -6110,6 +6118,63 @@
         "sucursales": [{
             "direccion": "CR 2 6 12 Tenjo ",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        }]
+    },
+    {
+        "id": 2996886,
+        "nombre": "HERVIN FERNEY BASTO MORENO",
+        "sucursales": [{
+                "direccion": "CL 4 3 41   Chipaque ",
+                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+            },
+            {
+                "direccion": "CL 4 1 89   Chipaque ",
+                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+            }
+        ]
+    },
+    {
+        "id": 1074133314,
+        "nombre": "YINA ASBLEIDY MAYORGA PARDO",
+        "sucursales": [{
+            "direccion": "CL 5 BIS SUR 2 B 35 Caqueza ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
+    },
+    {
+        "id": 1012410331,
+        "nombre": "WILMER HERNANDO ARIAS QUINTERO",
+        "sucursales": [{
+            "direccion": "CL 66 SUR 78 J 42 Bosa La Despensa ",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        }]
+    },
+    {
+        "id": 900383172,
+        "nombre": "MERCADOS CONDOR MM SAS",
+        "sucursales": [{
+            "direccion": "CL 94 B 58 06 Rio Negro ",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        }]
+    },
+    {
+        "id": 1023010895,
+        "nombre": "YENNY PAOLA NOVOA SANTANA",
+        "sucursales": [{
+            "direccion": "CL 95 A SUR 14 A 45 USME ",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+        }]
+    },
+    {
+        "id": 830112090,
+        "nombre": "AUTOSERVICIOS SABANA RODRIGUEZ SAS",
+        "sucursales": [{
+            "direccion": "CR 59 131 47 Ciudad Jardin Norte ",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        },
+    {
+            "direccion": "CR 59 132 22 Ciudad Jardin Norte ",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
         }]
     }
 

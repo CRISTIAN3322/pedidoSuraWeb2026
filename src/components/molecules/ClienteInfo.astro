@@ -66,7 +66,7 @@ const { cliente = null, sucursal = null, isLoading = false } = Astro.props;
   .molecule-cliente-info {
     background-color: #e7f3ff;
     border: 1px solid #b3d9ff;
-    border-radius: 12px;
+    border-radius: var(--border-radius-xl);
     padding: 1.5rem;
   }
 
@@ -76,13 +76,13 @@ const { cliente = null, sucursal = null, isLoading = false } = Astro.props;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    color: #6c757d;
+    color: var(--color-neutral);
     font-style: italic;
   }
 
   .molecule-cliente-info__title {
     margin: 0 0 1rem 0;
-    color: #1a365d;
+    color: var(--color-text-primary);
     font-size: 1.2rem;
     display: flex;
     align-items: center;
@@ -103,12 +103,12 @@ const { cliente = null, sucursal = null, isLoading = false } = Astro.props;
 
   .molecule-cliente-info__label {
     font-weight: 600;
-    color: #2d3748;
+    color: var(--color-text-primary);
     font-size: 0.9rem;
   }
 
   .molecule-cliente-info__value {
-    color: #4a5568;
+    color: var(--color-text-secondary);
     font-size: 1rem;
     word-break: break-word;
   }

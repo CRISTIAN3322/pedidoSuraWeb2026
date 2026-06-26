@@ -32,15 +32,15 @@ function FacturasTable({ facturas, showVendedor = false }) {
 
   if (facturas.length === 0) {
     return (
-      <div className={styles.empty}>
+      <div className={styles['cartera-gestion__empty']}>
         No hay facturas con el filtro seleccionado.
       </div>
     );
   }
 
   return (
-    <div className={styles.tableWrap}>
-      <table className={styles.table}>
+    <div className={styles['cartera-gestion__table-wrap']}>
+      <table className={styles['cartera-gestion__table']}>
         <thead>
           <tr>
             <th>#</th>
@@ -49,8 +49,8 @@ function FacturasTable({ facturas, showVendedor = false }) {
             {showVendedor && <th>Vendedor</th>}
             <th>Factura</th>
             <th>Fecha</th>
-            <th className={styles.textRight}>Valor</th>
-            <th className={styles.textCenter}>Días</th>
+            <th className={styles['cartera-gestion__text-right']}>Valor</th>
+            <th className={styles['cartera-gestion__text-center']}>Días</th>
           </tr>
         </thead>
         <tbody>
@@ -59,41 +59,41 @@ function FacturasTable({ facturas, showVendedor = false }) {
             const status = getDiasStatus(dias);
             const rowClass =
               status === 'danger'
-                ? styles.rowDanger
+                ? styles['cartera-gestion__row--danger']
                 : status === 'warning'
-                  ? styles.rowWarning
+                  ? styles['cartera-gestion__row--warning']
                   : status === 'info'
-                    ? styles.rowInfo
-                    : styles.rowSuccess;
+                    ? styles['cartera-gestion__row--info']
+                    : styles['cartera-gestion__row--success'];
             const diasClass =
               dias >= DIAS_VENCIDA
-                ? styles.diasDanger
+                ? styles['cartera-gestion__dias--danger']
                 : dias >= 11
-                  ? styles.diasWarning
+                  ? styles['cartera-gestion__dias--warning']
                   : '';
 
             return (
               <tr key={`${factura.id}-${factura.fac}-${index}`} className={rowClass}>
-                <td className={styles.textCenter}>{index + 1}</td>
+                <td className={styles['cartera-gestion__text-center']}>{index + 1}</td>
                 <td>{factura.id}</td>
                 <td>{factura.cliente}</td>
                 {showVendedor && <td>{factura.vendedor}</td>}
                 <td>{factura.fac}</td>
                 <td>{factura.fecha}</td>
-                <td className={styles.amount}>
+                <td className={styles['cartera-gestion__amount']}>
                   {formatCarteraCurrency(parseValor(factura.valor))}
                 </td>
-                <td className={`${styles.textCenter} ${diasClass}`}>{dias}</td>
+                <td className={`${styles['cartera-gestion__text-center']} ${diasClass}`}>{dias}</td>
               </tr>
             );
           })}
         </tbody>
         <tfoot>
           <tr>
-            <td colSpan={showVendedor ? 6 : 5} className={styles.textRight}>
+            <td colSpan={showVendedor ? 6 : 5} className={styles['cartera-gestion__text-right']}>
               <strong>Total:</strong>
             </td>
-            <td className={styles.amount} colSpan={2}>
+            <td className={styles['cartera-gestion__amount']} colSpan={2}>
               <strong>{formatCarteraCurrency(total)}</strong>
             </td>
           </tr>
@@ -105,22 +105,22 @@ function FacturasTable({ facturas, showVendedor = false }) {
 
 function StatsCards({ totalFacturas, vencidas, porVencer, totalCartera }) {
   return (
-    <div className={styles.stats}>
-      <div className={styles.statCard}>
-        <span className={styles.statLabel}>Total facturas</span>
-        <span className={styles.statValue}>{totalFacturas}</span>
+    <div className={styles['cartera-gestion__stats']}>
+      <div className={styles['cartera-gestion__stat-card']}>
+        <span className={styles['cartera-gestion__stat-label']}>Total facturas</span>
+        <span className={styles['cartera-gestion__stat-value']}>{totalFacturas}</span>
       </div>
-      <div className={`${styles.statCard} ${styles.statCardDanger}`}>
-        <span className={styles.statLabel}>Vencidas (≥{DIAS_VENCIDA} días)</span>
-        <span className={styles.statValue}>{vencidas}</span>
+      <div className={`${styles['cartera-gestion__stat-card']} ${styles['cartera-gestion__stat-card--danger']}`}>
+        <span className={styles['cartera-gestion__stat-label']}>Vencidas (≥{DIAS_VENCIDA} días)</span>
+        <span className={styles['cartera-gestion__stat-value']}>{vencidas}</span>
       </div>
-      <div className={`${styles.statCard} ${styles.statCardWarning}`}>
-        <span className={styles.statLabel}>Por vencer (11-29 días)</span>
-        <span className={styles.statValue}>{porVencer}</span>
+      <div className={`${styles['cartera-gestion__stat-card']} ${styles['cartera-gestion__stat-card--warning']}`}>
+        <span className={styles['cartera-gestion__stat-label']}>Por vencer (11-29 días)</span>
+        <span className={styles['cartera-gestion__stat-value']}>{porVencer}</span>
       </div>
-      <div className={`${styles.statCard} ${styles.statCardPrimary}`}>
-        <span className={styles.statLabel}>Total cartera</span>
-        <span className={styles.statValue}>{formatCarteraCurrency(totalCartera)}</span>
+      <div className={`${styles['cartera-gestion__stat-card']} ${styles['cartera-gestion__stat-card--primary']}`}>
+        <span className={styles['cartera-gestion__stat-label']}>Total cartera</span>
+        <span className={styles['cartera-gestion__stat-value']}>{formatCarteraCurrency(totalCartera)}</span>
       </div>
     </div>
   );
@@ -259,31 +259,31 @@ export default function CarteraGestion() {
   };
 
   if (!session) {
-    return <div className={styles.loading}>Verificando sesión...</div>;
+    return <div className={styles['cartera-gestion__loading']}>Verificando sesión...</div>;
   }
 
   return (
-    <div className={styles.container}>
-      <header className={styles.header}>
-        <h1 className={styles.title}>
+    <div className={styles['cartera-gestion']}>
+      <header className={styles['cartera-gestion__header']}>
+        <h1 className={styles['cartera-gestion__title']}>
           {esAdmin ? '👑 Gestión de Cartera' : '📋 Mi Cartera'}
         </h1>
-        <p className={styles.subtitle}>
+        <p className={styles['cartera-gestion__subtitle']}>
           {esAdmin
             ? 'Cartera de todos los vendedores, ordenada por días vencidos'
             : `Vendedor: ${session.nombre}`}
         </p>
       </header>
 
-      <div className={styles.panel}>
-        <div className={styles.toolbar}>
-          <div className={styles.filterGroup}>
-            <label htmlFor="filtroDias" className={styles.filterLabel}>
+      <div className={styles['cartera-gestion__panel']}>
+        <div className={styles['cartera-gestion__toolbar']}>
+          <div className={styles['cartera-gestion__filter-group']}>
+            <label htmlFor="filtroDias" className={styles['cartera-gestion__filter-label']}>
               Filtrar por estado:
             </label>
             <select
               id="filtroDias"
-              className={styles.filterSelect}
+              className={styles['cartera-gestion__filter-select']}
               value={filtroDias}
               onChange={(e) => setFiltroDias(e.target.value)}
             >
@@ -294,17 +294,17 @@ export default function CarteraGestion() {
           </div>
         </div>
 
-        {loading && <div className={styles.loading}>Cargando cartera...</div>}
-        {error && <div className={styles.error}>{error}</div>}
+        {loading && <div className={styles['cartera-gestion__loading']}>Cargando cartera...</div>}
+        {error && <div className={styles['cartera-gestion__error']}>{error}</div>}
 
         {!loading && !error && (
           <>
             <StatsCards {...statsGlobales} />
 
             {esAdmin ? (
-              <div className={styles.accordion}>
+              <div className={styles['cartera-gestion__accordion']}>
                 {carterasVisibles.length === 0 ? (
-                  <div className={styles.empty}>No hay cartera registrada.</div>
+                  <div className={styles['cartera-gestion__empty']}>No hay cartera registrada.</div>
                 ) : (
                   carterasVisibles.map((grupo, index) => {
                     const id = `v-${index}`;
@@ -313,33 +313,33 @@ export default function CarteraGestion() {
                     const tieneVencidas = grupo.facturasVencidas > 0;
 
                     return (
-                      <div key={grupo.vendedor} className={styles.accordionItem}>
-                        <div className={styles.accordionHeader}>
+                      <div key={grupo.vendedor} className={styles['cartera-gestion__accordion-item']}>
+                        <div className={styles['cartera-gestion__accordion-header']}>
                           <button
                             type="button"
-                            className={styles.accordionHeaderMain}
+                            className={styles['cartera-gestion__accordion-header-main']}
                             onClick={() => toggleAccordion(id)}
                             aria-expanded={abierto}
                           >
-                            <span className={styles.accordionTitle}>{grupo.vendedor}</span>
-                            <div className={styles.badges}>
-                              <span className={styles.badge}>
+                            <span className={styles['cartera-gestion__accordion-title']}>{grupo.vendedor}</span>
+                            <div className={styles['cartera-gestion__badges']}>
+                              <span className={styles['cartera-gestion__badge']}>
                                 {grupo.totalFacturas} facturas
                               </span>
-                              <span className={`${styles.badge} ${styles.badgeDanger}`}>
+                              <span className={`${styles['cartera-gestion__badge']} ${styles['cartera-gestion__badge--danger']}`}>
                                 {grupo.facturasVencidas} vencidas
                               </span>
-                              <span className={`${styles.badge} ${styles.badgeTotal}`}>
+                              <span className={`${styles['cartera-gestion__badge']} ${styles['cartera-gestion__badge--total']}`}>
                                 {formatCarteraCurrency(grupo.totalCartera)}
                               </span>
-                              <span className={styles.badge}>Máx. {grupo.maxDias} días</span>
+                              <span className={styles['cartera-gestion__badge']}>Máx. {grupo.maxDias} días</span>
                             </div>
                           </button>
-                          <div className={styles.accordionActions}>
+                          <div className={styles['cartera-gestion__accordion-actions']}>
                             {tieneVencidas && (
                               <button
                                 type="button"
-                                className={styles.btnWhatsapp}
+                                className={styles['cartera-gestion__btn-whatsapp']}
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   enviarWhatsApp(grupo);
@@ -351,7 +351,7 @@ export default function CarteraGestion() {
                             )}
                             <button
                               type="button"
-                              className={styles.accordionIconBtn}
+                              className={styles['cartera-gestion__accordion-icon-btn']}
                               onClick={() => toggleAccordion(id)}
                               aria-label={abierto ? 'Contraer' : 'Expandir'}
                             >
@@ -360,7 +360,7 @@ export default function CarteraGestion() {
                           </div>
                         </div>
                         {abierto && (
-                          <div className={styles.accordionContent}>
+                          <div className={styles['cartera-gestion__accordion-content']}>
                             <FacturasTable facturas={facturasFiltradas} />
                           </div>
                         )}
@@ -370,18 +370,18 @@ export default function CarteraGestion() {
                 )}
               </div>
             ) : (
-              <div className={styles.vendorSection}>
+              <div className={styles['cartera-gestion__vendor-section']}>
                 {!carteraPropia ? (
-                  <div className={styles.empty}>
+                  <div className={styles['cartera-gestion__empty']}>
                     No tienes facturas asignadas en cartera.
                   </div>
                 ) : (
                   <>
                     {getFacturasVencidas(carteraPropia.facturas).length > 0 && (
-                      <div className={styles.vendorActions}>
+                      <div className={styles['cartera-gestion__vendor-actions']}>
                         <button
                           type="button"
-                          className={styles.btnWhatsapp}
+                          className={styles['cartera-gestion__btn-whatsapp']}
                           onClick={() => enviarWhatsApp(carteraPropia)}
                         >
                           📱 Ver resumen vencido en WhatsApp

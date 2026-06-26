@@ -4413,5 +4413,35 @@
         "nombre": "GLORIA ISMELDA GONZALEZ CASTELLANOS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 2996886,
+        "nombre": "HERVIN FERNEY BASTO MORENO",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 1074133314,
+        "nombre": "YINA ASBLEIDY MAYORGA PARDO",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 1012410331,
+        "nombre": "WILMER HERNANDO ARIAS QUINTERO",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 900383172,
+        "nombre": "MERCADOS CONDOR MM SAS",
+        "cupo": 15000000,
+        "Forma": "Credito"
+    },
+    {
+        "id": 1023010895,
+        "nombre": "YENNY PAOLA NOVOA SANTANA",
+        "cupo": 2000000,
+        "Forma": "Credito"
     }
 ]

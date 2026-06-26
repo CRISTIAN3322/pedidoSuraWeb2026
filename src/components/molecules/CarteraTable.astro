@@ -105,8 +105,8 @@ const formatCurrency = (valor: any) => {
 
 <style>
   .molecule-cartera-table {
-    background-color: white;
-    border-radius: 12px;
+    background-color: var(--color-surface);
+    border-radius: var(--border-radius-xl);
     box-shadow: 0 2px 8px rgba(44, 82, 130, 0.08);
     overflow: hidden;
   }
@@ -114,8 +114,8 @@ const formatCurrency = (valor: any) => {
   .molecule-cartera-table__title {
     margin: 0;
     padding: 1.5rem;
-    background-color: #1a365d;
-    color: white;
+    background-color: var(--color-text-primary);
+    color: var(--color-surface);
     font-size: 1.2rem;
     display: flex;
     align-items: center;
@@ -128,7 +128,7 @@ const formatCurrency = (valor: any) => {
     justify-content: center;
     gap: 0.5rem;
     padding: 2rem;
-    color: #6c757d;
+    color: var(--color-neutral);
   }
 
   .molecule-cartera-table__wrapper {
@@ -146,34 +146,34 @@ const formatCurrency = (valor: any) => {
   .molecule-cartera-table__table td {
     padding: 1rem;
     text-align: left;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid var(--color-border-default);
   }
 
   .molecule-cartera-table__table th {
-    background-color: #f7fafc;
-    color: #2d3748;
+    background-color: var(--color-surface-secondary);
+    color: var(--color-text-primary);
     font-weight: 600;
     position: sticky;
     top: 0;
   }
 
   .molecule-cartera-table__table tbody tr:hover {
-    background-color: #f7fafc;
+    background-color: var(--color-surface-secondary);
   }
 
   .molecule-cartera-table__table tfoot {
-    background-color: #f8f9fa;
+    background-color: var(--color-surface-secondary);
     font-weight: bold;
   }
 
   .molecule-cartera-table__table tfoot td {
-    color: #1a365d;
-    border-top: 2px solid #e2e8f0;
+    color: var(--color-text-primary);
+    border-top: 2px solid var(--color-border-default);
   }
 
   .molecule-cartera-table__empty {
     text-align: center;
-    color: #6c757d;
+    color: var(--color-neutral);
     font-style: italic;
   }
 

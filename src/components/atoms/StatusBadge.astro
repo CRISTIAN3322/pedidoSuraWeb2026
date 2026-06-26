@@ -1,5 +1,5 @@
 ---
-// Componente atómico StatusBadge - Para mostrar estados con colores
+// Componente atomico StatusBadge - Para mostrar estados con colores
 // Props esperadas:
 // - status: 'success' | 'warning' | 'danger' | 'info' | 'blocked'
 // - size: 'sm' | 'md' | 'lg'
@@ -18,64 +18,64 @@ const { status = "info", size = "md" } = Astro.props;
   .atom-status-badge {
     display: inline-flex;
     align-items: center;
-    gap: 0.25rem;
-    font-weight: 600;
-    border-radius: 20px;
+    gap: var(--space-xs);
+    font-weight: var(--font-weight-semibold);
+    border-radius: var(--border-radius-full);
     text-align: center;
   }
 
   /* Estados */
   .atom-status-badge--success {
-    background-color: #d4edda;
-    color: #155724;
+    background-color: var(--badge-success-bg);
+    color: var(--badge-success-text);
   }
 
   .atom-status-badge--warning {
-    background-color: #fff3cd;
-    color: #856404;
+    background-color: var(--badge-warning-bg);
+    color: var(--badge-warning-text);
   }
 
   .atom-status-badge--danger {
-    background-color: #f8d7da;
-    color: #721c24;
+    background-color: var(--badge-danger-bg);
+    color: var(--badge-danger-text);
   }
 
   .atom-status-badge--blocked {
-    background-color: #dc3545;
-    color: white;
+    background-color: var(--badge-blocked-bg);
+    color: var(--badge-blocked-text);
   }
 
   .atom-status-badge--info {
-    background-color: #d1ecf1;
-    color: #0c5460;
+    background-color: var(--badge-info-bg);
+    color: var(--badge-info-text);
   }
 
-  /* Tamaños */
+  /* Tamanos */
   .atom-status-badge--sm {
-    padding: 0.25rem 0.75rem;
-    font-size: 0.75rem;
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--font-size-xs);
   }
 
   .atom-status-badge--md {
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
+    padding: var(--space-xs) var(--space-md);
+    font-size: var(--font-size-sm);
   }
 
   .atom-status-badge--lg {
-    padding: 0.75rem 1.25rem;
-    font-size: 1rem;
+    padding: var(--space-sm) var(--space-lg);
+    font-size: var(--font-size-base);
   }
 
   /* Responsive */
   @media (max-width: 768px) {
     .atom-status-badge--lg {
-      padding: 0.625rem 1rem;
-      font-size: 0.9rem;
+      padding: var(--space-xs) var(--space-md);
+      font-size: var(--font-size-sm);
     }
 
     .atom-status-badge--md {
-      padding: 0.375rem 0.875rem;
-      font-size: 0.8rem;
+      padding: var(--space-xs) var(--space-sm);
+      font-size: var(--font-size-xs);
     }
   }
 </style>

@@ -67,7 +67,7 @@ const {
 
   .molecule-sucursal-list__title {
     margin: 0 0 1rem 0;
-    color: #2d3748;
+    color: var(--color-text-primary);
     font-size: 1.1rem;
     display: flex;
     align-items: center;
@@ -83,28 +83,28 @@ const {
   }
 
   .molecule-sucursal-list__item {
-    background-color: white;
-    border: 2px solid #e2e8f0;
-    border-radius: 8px;
+    background-color: var(--color-surface);
+    border: 2px solid var(--color-border-default);
+    border-radius: var(--border-radius-lg);
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all var(--transition-base);
     padding: 1rem;
   }
 
   .molecule-sucursal-list__item:hover:not(
       .molecule-sucursal-list__item--active
     ) {
-    border-color: #4caf50;
+    border-color: var(--color-primary);
     transform: translateY(-1px);
   }
 
   .molecule-sucursal-list__item--active {
-    border-color: #4caf50;
+    border-color: var(--color-primary);
     background-color: #f0f8f0;
   }
 
   .molecule-sucursal-list__item:focus-visible {
-    outline: 2px solid #4caf50;
+    outline: 2px solid var(--color-primary);
     outline-offset: 2px;
   }
 
@@ -115,12 +115,12 @@ const {
   }
 
   .molecule-sucursal-list__field {
-    color: #4a5568;
+    color: var(--color-text-secondary);
     line-height: 1.4;
   }
 
   .molecule-sucursal-list__field strong {
-    color: #2d3748;
+    color: var(--color-text-primary);
     display: inline-block;
     min-width: 80px;
   }
@@ -128,15 +128,15 @@ const {
   .molecule-sucursal-list__empty {
     text-align: center;
     padding: 2rem;
-    color: #6c757d;
+    color: var(--color-neutral);
     font-style: italic;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    border: 1px solid #e2e8f0;
+    background-color: var(--color-surface-secondary);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--color-border-default);
   }
 
   /* Estados deshabilitados */

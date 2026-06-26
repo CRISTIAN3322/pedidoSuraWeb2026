@@ -7,20 +7,33 @@ const { cupoDisponible = 0, totalCartera = 0, sinCupo = false } = Astro.props;
 ---
 <div class="cupo-cliente">
   {sinCupo ? (
-    <span style="color: red; font-weight: bold;">⚠️ SIN CUPO - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}</span>
+    <span class="cupo-cliente__status cupo-cliente__status--danger">⚠️ SIN CUPO - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}</span>
   ) : (
-    <span style="color: green;">✅ Con Cupo - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}</span>
+    <span class="cupo-cliente__status cupo-cliente__status--success">✅ Con Cupo - Cupo: ${cupoDisponible.toLocaleString('es-CO')} | Cartera: ${totalCartera.toLocaleString('es-CO')}</span>
   )}
 </div>
 
 <style>
 .cupo-cliente {
     font-size: 1.1em;
-    margin: 10px 0;
-    padding: 5px;
-    background-color: #f8f9fa;
-    border-radius: 4px;
+    margin: var(--space-sm) 0;
+    padding: var(--space-xs);
+    background-color: var(--color-surface-secondary);
+    border-radius: var(--border-radius-base);
     font-weight: bold;
     text-align: left;
+}
+
+.cupo-cliente__status {
+    display: inline-block;
+}
+
+.cupo-cliente__status--danger {
+    color: var(--color-danger);
+    font-weight: bold;
+}
+
+.cupo-cliente__status--success {
+    color: var(--color-success);
 }
 </style> 

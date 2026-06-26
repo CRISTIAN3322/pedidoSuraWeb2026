@@ -40,10 +40,10 @@ function isAdministrador() {
 // Componente para mostrar información del cupo
 const CupoCliente = React.memo(({ cupoDisponible, totalCartera, sinCupo, error }) => {
     const cupoInfoClass = useMemo(() => {
-        if (error) return styles.cupoInfo;
-        if (sinCupo) return `${styles.cupoInfo} ${styles.danger}`;
-        if (totalCartera > cupoDisponible * 0.8) return `${styles.cupoInfo} ${styles.warning}`;
-        return `${styles.cupoInfo} ${styles.success}`;
+        if (error) return styles['cliente-selector__cupo-info'];
+        if (sinCupo) return `${styles['cliente-selector__cupo-info']} ${styles['cliente-selector__cupo-info--danger']}`;
+        if (totalCartera > cupoDisponible * 0.8) return `${styles['cliente-selector__cupo-info']} ${styles['cliente-selector__cupo-info--warning']}`;
+        return `${styles['cliente-selector__cupo-info']} ${styles['cliente-selector__cupo-info--success']}`;
     }, [sinCupo, totalCartera, cupoDisponible, error]);
 
     if (error) {
@@ -65,10 +65,10 @@ const CupoCliente = React.memo(({ cupoDisponible, totalCartera, sinCupo, error }
 const CarteraCliente = React.memo(({ cartera, totalCartera, isLoading }) => {
     const getDiasClass = useCallback((dias) => {
         const diasNum = Number(dias) || 0;
-        if (diasNum >= 30) return styles.critical;
-        if (diasNum >= 11) return styles.danger;
-        if (diasNum >= 1) return styles.warning;
-        return styles.normal;
+        if (diasNum >= 30) return styles['cliente-selector__days-badge--critical'];
+        if (diasNum >= 11) return styles['cliente-selector__days-badge--danger'];
+        if (diasNum >= 1) return styles['cliente-selector__days-badge--warning'];
+        return styles['cliente-selector__days-badge--normal'];
     }, []);
 
     const formatCurrency = useCallback((valor) => {
@@ -82,18 +82,18 @@ const CarteraCliente = React.memo(({ cartera, totalCartera, isLoading }) => {
 
     if (isLoading) {
         return (
-            <div className={styles.carteraSection}>
-                <h4 className={styles.carteraTitle}>Cartera del Cliente</h4>
-                <div className={styles.loading}>Cargando cartera...</div>
+            <div className={styles['cliente-selector__cartera-section']}>
+                <h4 className={styles['cliente-selector__cartera-title']}>Cartera del Cliente</h4>
+                <div className={styles['cliente-selector__loading']}>Cargando cartera...</div>
             </div>
         );
     }
 
     return (
-        <div className={styles.carteraSection}>
-            <h4 className={styles.carteraTitle}>Cartera del Cliente</h4>
+        <div className={styles['cliente-selector__cartera-section']}>
+            <h4 className={styles['cliente-selector__cartera-title']}>Cartera del Cliente</h4>
             <div style={{ overflowX: 'auto' }}>
-                <table className={styles.carteraTable}>
+                <table className={styles['cliente-selector__cartera-table']}>
                     <thead>
                         <tr>
                             <th>Factura</th>
@@ -110,7 +110,7 @@ const CarteraCliente = React.memo(({ cartera, totalCartera, isLoading }) => {
                                     <td>{factura.fecha || 'N/A'}</td>
                                     <td>${formatCurrency(factura.valor).toLocaleString('es-CO')}</td>
                                     <td>
-                                        <span className={`${styles.daysBadge} ${getDiasClass(factura.dias)}`}>
+                                        <span className={`${styles['cliente-selector__days-badge']} ${getDiasClass(factura.dias)}`}>
                                             {factura.dias || 0}
                                         </span>
                                     </td>
@@ -118,7 +118,7 @@ const CarteraCliente = React.memo(({ cartera, totalCartera, isLoading }) => {
                             ))
                         ) : (
                             <tr>
-                                <td colSpan="4" style={{ textAlign: 'center', color: '#6c757d' }}>
+                                <td colSpan="4" style={{ textAlign: 'center', color: 'var(--color-neutral)' }}>
                                     Sin facturas pendientes
                                 </td>
                             </tr>
@@ -245,12 +245,12 @@ function ClienteSelectorReact() {
     }, [clienteSeleccionado, sucursalSeleccionada]);
 
     return (
-        <div className={styles.container}>
+        <div className={styles['cliente-selector__container']}>
             {/* Sección de búsqueda */}
-            <div className={styles.searchSection}>
+            <div className={styles['cliente-selector__search-section']}>
                 <label 
                     htmlFor="cliente-search" 
-                    style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '600', color: '#2d3748' }}
+                    style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '600', color: 'var(--color-text-primary)' }}
                 >
                     Buscar Cliente
                 </label>
@@ -260,23 +260,23 @@ function ClienteSelectorReact() {
                     placeholder="Buscar por nombre o ID del cliente..." 
                     value={busqueda} 
                     onChange={handleSearchChange} 
-                    className={styles.searchInput} 
+                    className={styles['cliente-selector__search-input']} 
                     aria-describedby="search-help"
                 />
                 <div 
                     id="search-help" 
-                    style={{ fontSize: '0.9rem', color: '#6c757d', marginTop: '0.25rem' }}
+                    style={{ fontSize: '0.9rem', color: 'var(--color-neutral)', marginTop: '0.25rem' }}
                 >
                     Busque por nombre del cliente o número de identificación
                 </div>
 
                 {/* Resultados de búsqueda */}
                 {resultados.length > 0 && (
-                    <ul className={styles.resultsList} role="listbox" aria-label="Resultados de búsqueda">
+                    <ul className={styles['cliente-selector__results-list']} role="listbox" aria-label="Resultados de búsqueda">
                         {resultados.map((cliente) => (
                             <li 
                                 key={cliente.id} 
-                                className={styles.clientItem} 
+                                className={styles['cliente-selector__client-item']} 
                                 onClick={() => handleClienteSelect(cliente)} 
                                 role="option" 
                                 tabIndex={0}
@@ -289,14 +289,14 @@ function ClienteSelectorReact() {
                                 aria-selected={clienteSeleccionado?.id === cliente.id}
                             >
                                 <strong>{cliente.nombre}</strong>
-                                {cliente.id && <span style={{ color: '#6c757d', marginLeft: '0.5rem' }}>ID: {cliente.id}</span>}
+                                {cliente.id && <span style={{ color: 'var(--color-neutral)', marginLeft: '0.5rem' }}>ID: {cliente.id}</span>}
                             </li>
                         ))}
                     </ul>
                 )}
 
                 {busqueda.length >= 1 && resultados.length === 0 && (
-                    <div className={styles.noResults}>
+                    <div className={styles['cliente-selector__no-results']}>
                         No se encontraron clientes que coincidan con "{busqueda}"
                     </div>
                 )}
@@ -304,14 +304,14 @@ function ClienteSelectorReact() {
 
             {/* Información del cliente seleccionado */}
             {clienteSeleccionado && (
-                <div className={styles.branchesSection}>
-                    <h3 className={styles.branchesTitle}>
+                <div className={styles['cliente-selector__branches-section']}>
+                    <h3 className={styles['cliente-selector__branches-title']}>
                         Sucursales de {clienteSeleccionado.nombre}
                     </h3>
 
                     {/* Error display */}
                     {dataError && (
-                        <div className={styles.errorMessage} role="alert">
+                        <div className={styles['cliente-selector__error-message']} role="alert">
                             {dataError}
                         </div>
                     )}
@@ -325,24 +325,24 @@ function ClienteSelectorReact() {
                     />
 
                     {/* Información de forma de pago */}
-                    <div className={styles.paymentInfo}>
+                    <div className={styles['cliente-selector__payment-info']}>
                         <strong>Forma de pago:</strong> {formaPago || 'No registrada'}
                     </div>
 
                     {/* Lista de sucursales */}
                     {sucursalesFiltradas && sucursalesFiltradas.length > 0 ? (
                         <div>
-                            <h4 style={{ margin: '1.5rem 0 1rem 0', color: '#2d3748' }}>
+                            <h4 style={{ margin: '1.5rem 0 1rem 0', color: 'var(--color-text-primary)' }}>
                                 Seleccione una sucursal:
                             </h4>
-                            <ul className={styles.branchesList} role="radiogroup" aria-labelledby="branches-label">
+                            <ul className={styles['cliente-selector__branches-list']} role="radiogroup" aria-labelledby="branches-label">
                                 <div id="branches-label" style={{ display: 'none' }}>
                                     Opciones de sucursales
                                 </div>
                                 {sucursalesFiltradas.map((sucursal, idx) => (
                                     <li 
                                         key={idx} 
-                                        className={`${styles.branchItem} ${sucursalSeleccionada === sucursal ? styles.active : ''}`} 
+                                        className={`${styles['cliente-selector__branch-item']} ${sucursalSeleccionada === sucursal ? styles['cliente-selector__branch-item--active'] : ''}`} 
                                         onClick={() => handleSucursalSelect(sucursal)} 
                                         role="radio" 
                                         tabIndex={0} 
@@ -361,7 +361,7 @@ function ClienteSelectorReact() {
                             </ul>
                         </div>
                     ) : (
-                        <div className={styles.noResults}>
+                    <div className={styles['cliente-selector__no-results']}>
                             {clienteSeleccionado.sucursales && clienteSeleccionado.sucursales.length > 0
                                 ? 'No hay sucursales asignadas a tu usuario para este cliente'
                                 : 'No hay sucursales registradas para este cliente'
@@ -378,7 +378,7 @@ function ClienteSelectorReact() {
 
                     {/* Botón continuar */}
                     <button 
-                        className={`${styles.continueButton} ${tieneFacturasVencidas ? styles.blockedButton : ''}`} 
+                        className={`${styles['cliente-selector__continue-btn']} ${tieneFacturasVencidas ? styles['cliente-selector__continue-btn--blocked'] : ''}`} 
                         disabled={!sucursalSeleccionada || isLoading || tieneFacturasVencidas} 
                         onClick={tieneFacturasVencidas ? undefined : handleContinue} 
                         aria-describedby="continue-help"
@@ -387,7 +387,7 @@ function ClienteSelectorReact() {
                     </button>
                     <div 
                         id="continue-help" 
-                        style={{ fontSize: '0.9rem', color: '#6c757d', marginTop: '0.5rem' }}
+                        style={{ fontSize: '0.9rem', color: 'var(--color-neutral)', marginTop: '0.5rem' }}
                     >
                         {tieneFacturasVencidas
                             ? `El cliente tiene facturas vencidas mayores a ${blockDays} días. Contacte al área de cartera para resolver.`
@@ -399,9 +399,9 @@ function ClienteSelectorReact() {
 
             {/* Datos seleccionados */}
             {datosSeleccionados && (
-                <div className={styles.selectedData}>
-                    <h4 className={styles.selectedTitle}>Datos Seleccionados:</h4>
-                    <div className={styles.selectedInfo}>
+                <div className={styles['cliente-selector__selected-data']}>
+                    <h4 className={styles['cliente-selector__selected-title']}>Datos Seleccionados:</h4>
+                    <div className={styles['cliente-selector__selected-info']}>
                         <p><strong>Cliente:</strong> {datosSeleccionados.cliente}</p>
                         <p><strong>Dirección:</strong> {datosSeleccionados.direccion}</p>
                         <p><strong>Vendedor:</strong> {datosSeleccionados.vendedor}</p>

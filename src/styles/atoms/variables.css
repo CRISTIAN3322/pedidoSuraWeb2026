@@ -4,49 +4,92 @@
    Atomic Design - Sura Pedidos Web
    ============================================ */
 
-/* 🎨 PALETA DE COLORES */
+/* PALETA DE COLORES */
 :root {
   /* Colores primarios */
-  --color-primary: #00a878ff;
-  --color-primary-light: #d8f1a0ff;
-  --color-primary-dark: #0b0500ff;
+  --color-primary: #00a878;
+  --color-primary-light: #d8f1a0;
+  --color-primary-dark: #008a63;
+  --color-primary-rgb: 0, 168, 120;
 
   /* Colores secundarios */
-  --color-secondary: #f3c178ff;
-  --color-secondary-light: #fe5e41ff;
-  --color-secondary-dark: #0b0500ff;
+  --color-secondary: #f3c178;
+  --color-secondary-light: #fde8c8;
+  --color-secondary-dark: #d4a04a;
 
-  /* Estados de deuda */
-  --color-success: #00a878ff;
-  --color-warning: #f3c178ff;
-  --color-danger: #fe5e41ff;
-  --color-info: #d8f1a0ff;
-  --color-blocked: #fe5e41ff;
+  /* Estados */
+  --color-success: #00a878;
+  --color-success-light: #d4edda;
+  --color-success-text: #155724;
+  --color-warning: #f3c178;
+  --color-warning-light: #fff3cd;
+  --color-warning-text: #856404;
+  --color-danger: #fe5e41;
+  --color-danger-light: #f8d7da;
+  --color-danger-text: #721c24;
+  --color-info: #d8f1a0;
+  --color-info-light: #d1ecf1;
+  --color-info-text: #0c5460;
+  --color-blocked: #fe5e41;
   --color-blocked-light: rgba(254, 94, 65, 0.1);
-  --color-blocked-dark: #0b0500ff;
+  --color-blocked-dark: #0b0500;
 
   /* Colores de interfaz */
   --color-background: #f5f5f0;
   --color-surface: #ffffff;
-  --color-surface-secondary: #f8f8f6;
-  --color-border: #00a878ff;
+  --color-surface-secondary: #f8f9fa;
+  --color-surface-hover: #f1f3f5;
+  --color-surface-active: #e9ecef;
+  --color-border: #00a878;
+  --color-border-default: #e2e8f0;
   --color-border-light: rgba(0, 168, 120, 0.15);
+  --color-border-focus: #00a878;
+  --color-border-error: #fe5e41;
 
   /* Colores de texto */
-  --color-text-primary: #0b0500ff;
-  --color-text-secondary: #0b0500ff;
+  --color-text-primary: #0b0500;
+  --color-text-secondary: #4a5568;
   --color-text-muted: rgba(11, 5, 0, 0.7);
   --color-text-light: rgba(11, 5, 0, 0.5);
   --color-text-inverse: #ffffff;
+  --color-text-disabled: #a0aec0;
+  --color-placeholder: #a0aec0;
+
+  /* Colores neutros */
+  --color-neutral: #6c757d;
+  --color-neutral-light: #e9ecef;
+  --color-neutral-dark: #495057;
 
   /* Estados de riesgo */
   --color-riesgo-bajo: rgba(0, 168, 120, 0.08);
   --color-riesgo-medio: rgba(243, 193, 120, 0.12);
   --color-riesgo-alto: rgba(254, 94, 65, 0.08);
-  --color-riesgo-bloqueado: #fe5e41ff;
+  --color-riesgo-bloqueado: #fe5e41;
+
+  /* Badges - aliases semánticos */
+  --badge-success-bg: #d4edda;
+  --badge-success-text: #155724;
+  --badge-warning-bg: #fff3cd;
+  --badge-warning-text: #856404;
+  --badge-danger-bg: #f8d7da;
+  --badge-danger-text: #721c24;
+  --badge-info-bg: #d1ecf1;
+  --badge-info-text: #0c5460;
+  --badge-blocked-bg: #fe5e41;
+  --badge-blocked-text: #ffffff;
+  --badge-neutral-bg: #e9ecef;
+  --badge-neutral-text: #495057;
+
+  /* Gradientes */
+  --gradient-primary: linear-gradient(135deg, #00a878 0%, #00d99a 100%);
+  --gradient-primary-dark: linear-gradient(135deg, #00a878 0%, #008a63 100%);
+  --gradient-header: linear-gradient(135deg, rgba(0, 168, 120, 0.05) 0%, rgba(0, 217, 154, 0.05) 100%);
+  --gradient-danger: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+  --gradient-warning: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  --gradient-surface: linear-gradient(135deg, rgba(0, 168, 120, 0.03) 0%, rgba(0, 217, 154, 0.03) 100%);
 }
 
-/* 📏 ESPACIADO CONSISTENTE */
+/* ESPACIADO CONSISTENTE */
 :root {
   /* Espaciado base */
   --space-xs: 0.25rem;    /* 4px */
@@ -64,10 +107,10 @@
   --space-tight: var(--space-sm);
 }
 
-/* 🔤 TIPOGRAFÍA */
+/* TIPOGRAFIA */
 :root {
   /* Familias tipográficas */
-  --font-family-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   --font-family-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', monospace;
 
   /* Tamaños de fuente */
@@ -86,14 +129,15 @@
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
 
-  /* Líneas de altura */
+  /* Lineas de altura */
   --line-height-tight: 1.25;
   --line-height-normal: 1.5;
   --line-height-relaxed: 1.75;
 }
 
-/* 🎯 BORDES Y RADIUS */
+/* BORDES Y RADIUS */
 :root {
   /* Border radius */
   --border-radius-none: 0;
@@ -111,9 +155,8 @@
   --border-width-thick: 3px;
 }
 
-/* 📱 BREAKPOINTS RESPONSIVE */
+/* BREAKPOINTS RESPONSIVE */
 :root {
-  /* Breakpoints para media queries */
   --breakpoint-xs: 320px;
   --breakpoint-sm: 480px;
   --breakpoint-md: 768px;
@@ -122,9 +165,9 @@
   --breakpoint-2xl: 1536px;
 }
 
-/* 🎭 SOMBRAS */
+/* SOMBRAS */
 :root {
-  /* Sombras para elevación */
+  /* Sombras para elevacion */
   --shadow-none: none;
   --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -133,31 +176,36 @@
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 
-  /* Sombras específicas para componentes */
+  /* Sombras especificas para componentes */
   --shadow-card: var(--shadow-sm);
+  --shadow-card-hover: 0 8px 30px rgba(0, 168, 120, 0.12);
   --shadow-button: var(--shadow-md);
   --shadow-modal: var(--shadow-xl);
   --shadow-tooltip: var(--shadow-lg);
+
+  /* Sombras con color primario */
+  --shadow-primary-sm: 0 2px 8px rgba(0, 168, 120, 0.15);
+  --shadow-primary-md: 0 4px 12px rgba(0, 168, 120, 0.2);
+  --shadow-primary-lg: 0 8px 20px rgba(0, 168, 120, 0.25);
 }
 
-/* ⏱️ TRANSICIONES */
+/* TRANSICIONES */
 :root {
-  /* Transiciones estándar */
+  /* Transiciones estandar */
   --transition-fast: 0.15s ease-in-out;
   --transition-base: 0.2s ease-in-out;
   --transition-slow: 0.3s ease-in-out;
   --transition-slower: 0.5s ease-in-out;
 
-  /* Transiciones específicas */
+  /* Transiciones especificas */
   --transition-colors: color var(--transition-base), background-color var(--transition-base), border-color var(--transition-base);
   --transition-shadow: box-shadow var(--transition-base);
   --transition-transform: transform var(--transition-base);
   --transition-all: all var(--transition-base);
 }
 
-/* 📐 LAYOUT */
+/* LAYOUT */
 :root {
-  /* Dimensiones de contenedores */
   --container-xs: 320px;
   --container-sm: 640px;
   --container-md: 768px;
@@ -165,12 +213,11 @@
   --container-xl: 1280px;
   --container-2xl: 1536px;
 
-  /* Espaciado de contenedores */
   --container-padding: var(--space-lg);
   --container-padding-mobile: var(--space-md);
 }
 
-/* 🎯 Z-INDEX SCALE */
+/* Z-INDEX SCALE */
 :root {
   --z-index-dropdown: 1000;
   --z-index-sticky: 1020;
@@ -182,9 +229,8 @@
   --z-index-toast: 1080;
 }
 
-/* 🔄 ANIMACIONES */
+/* ANIMACIONES */
 :root {
-  /* Keyframes para animaciones */
   --animation-spin: spin 1s linear infinite;
   --animation-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   --animation-bounce: bounce 1s infinite;
@@ -192,33 +238,38 @@
   --animation-slide-up: slideUp 0.3s ease-out;
 }
 
-/* 📱 MEDIA QUERIES */
+/* MEDIA QUERIES */
 @custom-media --xs (max-width: 480px);
 @custom-media --sm (max-width: 768px);
 @custom-media --md (max-width: 1024px);
 @custom-media --lg (max-width: 1280px);
 @custom-media --xl (max-width: 1536px);
 
-/* 🎨 ESTADOS DE COMPONENTES */
+/* ESTADOS DE COMPONENTES */
 :root {
-  /* Estados de interacción */
   --state-hover-opacity: 0.8;
   --state-focus-opacity: 0.9;
   --state-active-scale: 0.98;
   --state-disabled-opacity: 0.6;
 
-  /* Estados de validación */
   --state-valid-color: var(--color-success);
   --state-invalid-color: var(--color-danger);
   --state-warning-color: var(--color-warning);
 
-  /* Focus visible */
-  --focus-ring-color: #00a878ff;
+  --focus-ring-color: #00a878;
   --focus-ring-width: 2px;
   --focus-ring-offset: 2px;
 }
 
-/* 🔧 UTILIDADES CSS */
+/* OPACIDADES */
+:root {
+  --opacity-disabled: 0.6;
+  --opacity-hover: 0.8;
+  --opacity-overlay: 0.5;
+  --opacity-backdrop: 0.95;
+}
+
+/* UTILIDADES CSS */
 .utility-sr-only {
   position: absolute;
   width: 1px;
@@ -249,20 +300,12 @@
   text-align: right;
 }
 
-/* 📐 DEBUG (solo en desarrollo) */
-:root {
-  --debug-outline: 1px solid red;
-  --debug-spacing: 1px solid blue;
-  --debug-grid: 1px solid rgba(255, 0, 0, 0.1);
-}
-
-/* 🎯 FOCUS Y ACCESIBILIDAD */
+/* FOCUS Y ACCESIBILIDAD */
 :focus-visible {
   outline: var(--focus-ring-width) solid var(--focus-ring-color);
   outline-offset: var(--focus-ring-offset);
 }
 
-/* Reducir movimiento para usuarios que lo prefieran */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -274,10 +317,9 @@
   }
 }
 
-/* Alto contraste para accesibilidad */
 @media (prefers-contrast: high) {
   :root {
-    --color-border: #0b0500ff;
+    --color-border: #0b0500;
     --focus-ring-width: 3px;
   }
 }
