@@ -6195,6 +6195,14 @@
             "direccion": "CR 59 132 22 Ciudad Jardin Norte ",
             "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
         }]
+    },
+    {
+        "id": 902050641,
+        "nombre": "VC COMERCIALIZADORA Y CIA SAS",
+        "sucursales": [{
+            "direccion": "CR 1 8 194 CA 4 1  La Mesa ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]

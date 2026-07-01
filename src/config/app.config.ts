@@ -10,7 +10,7 @@ export const APP_CONFIG = {
     startHour: 5,       // 5:00 AM - Inicio horario de atención
     endHour: 18,        // 6:00 PM - Fin horario de atención
     timezone: 'America/Bogota',
-    blockStartHour: 23  // 11:00 PM - Inicio bloqueo horario (configurable: 23 a 5)
+    blockStartHour: 22  // 10:00 PM - Inicio bloqueo horario (configurable: 20 a 5)
   },
   
   // Configuración de WhatsApp
