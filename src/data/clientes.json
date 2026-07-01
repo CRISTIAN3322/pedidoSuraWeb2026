@@ -2800,6 +2800,25 @@
         "sucursales": [{
             "direccion": "CL 7 4 06  Facatativá",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
+        },
+    {
+            "direccion": "TV 1B SUR N 25B 15 ESTE  Facatativá",
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
+        },
+    {
+            "direccion": "CL 15 18 74 LOCAL 13  Facatativá",
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
+        },
+    {
+            "direccion": "CR 15 8 26 DOS CAMINOS  Facatativá",
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
+        },
+    {
+            "direccion": "CL 21 2D 37  Funza",
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
+        },{
+            "direccion": "CR 5 LC 2 PLAZA DE MERCADO  Facatativá",
+            "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
     {
