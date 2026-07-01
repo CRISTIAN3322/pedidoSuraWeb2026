@@ -4449,5 +4449,11 @@
         "nombre": "AUTOSERVICIOS SABANA RODRIGUEZ SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 902050641,
+        "nombre": "VC COMERCIALIZADORA Y CIA SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
