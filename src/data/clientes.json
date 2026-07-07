@@ -6199,6 +6199,14 @@
             "direccion": "CR 1 8 194 CA 4 1  La Mesa ",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 79609701,
+        "nombre": "JAVIER VERDUGO BARON",
+        "sucursales": [{
+            "direccion": "CL 145 47 43  Prado ",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
     }
 
 ]
