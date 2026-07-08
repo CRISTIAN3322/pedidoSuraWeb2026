@@ -83,9 +83,11 @@ const proveedores = Array.from(
 
 <!-- Modal información del producto -->
 <div class="modal-overlay" id="productModal">
-    <div class="modal-content">
-        <button class="modal-close" id="modalClose">✕</button>
-        <h3 class="modal-title">Información del Producto</h3>
+    <div class="modal-fullscreen">
+        <div class="modal-header">
+            <h3 class="modal-title">Información del Producto</h3>
+            <button class="modal-close-btn" id="modalClose">✕ Cerrar</button>
+        </div>
         <div class="modal-body">
             <div class="modal-row"><span class="modal-label">Código:</span><span class="modal-value" id="modalCodigo">-</span></div>
             <div class="modal-row"><span class="modal-label">Código de Barras:</span><span class="modal-value" id="modalBarra">-</span></div>
@@ -93,7 +95,7 @@ const proveedores = Array.from(
             <div class="modal-row"><span class="modal-label">Subtotal:</span><span class="modal-value" id="modalSubtotal">-</span></div>
             <div class="modal-row"><span class="modal-label">IVA:</span><span class="modal-value" id="modalIva">-</span></div>
             <div class="modal-row"><span class="modal-label">Ipoconsumo:</span><span class="modal-value" id="modalIpoconsumo">-</span></div>
-            <div class="modal-row"><span class="modal-label">Total:</span><span class="modal-value" id="modalTotal">-</span></div>
+            <div class="modal-row modal-row--total"><span class="modal-label">Total:</span><span class="modal-value" id="modalTotal">-</span></div>
         </div>
     </div>
 </div>
@@ -464,6 +466,20 @@ const proveedores = Array.from(
     const modalTotal = document.getElementById('modalTotal');
     const modalClose = document.getElementById('modalClose');
 
+    function openModal() {
+        if (modal) {
+            modal.classList.add('modal-overlay--visible');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    function closeModal() {
+        if (modal) {
+            modal.classList.remove('modal-overlay--visible');
+            document.body.style.overflow = '';
+        }
+    }
+
     document.addEventListener('click', (e) => {
         const btn = (e.target as HTMLElement).closest('.info-btn');
         if (btn) {
@@ -475,27 +491,13 @@ const proveedores = Array.from(
             if (modalIva) modalIva.textContent = data.iva || '-';
             if (modalIpoconsumo) modalIpoconsumo.textContent = data.ipoconsumo || '-';
             if (modalTotal) modalTotal.textContent = data.precioTotal ? `$${Number(data.precioTotal).toLocaleString('es-CO')}` : '-';
-            if (modal) modal.classList.add('modal-overlay--visible');
+            openModal();
         }
     });
 
     if (modalClose) {
-        modalClose.addEventListener('click', () => {
-            if (modal) modal.classList.remove('modal-overlay--visible');
-        });
+        modalClose.addEventListener('click', closeModal);
     }
-
-    if (modal) {
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) modal.classList.remove('modal-overlay--visible');
-        });
-    }
-
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && modal?.classList.contains('modal-overlay--visible')) {
-            modal.classList.remove('modal-overlay--visible');
-        }
-    });
 
     // Evento de búsqueda y proveedor
     const searchInput = document.getElementById('searchInput');
@@ -1119,96 +1121,105 @@ const proveedores = Array.from(
 
     /* Modal overlay */
     .modal-overlay {
-        display: none;
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.6);
         z-index: calc(var(--z-index-modal) + 20);
+        display: flex;
         justify-content: center;
         align-items: center;
         padding: 1rem;
-        animation: modalFadeIn 0.2s ease-out;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
     }
 
     .modal-overlay--visible {
-        display: flex;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
     }
 
-    @keyframes modalFadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
-    }
-
-    .modal-content {
+    .modal-fullscreen {
         background: var(--color-surface);
         border-radius: var(--border-radius-2xl);
-        padding: 2rem;
-        max-width: 420px;
         width: 100%;
-        position: relative;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
-        animation: modalSlideIn 0.25s ease-out;
+        max-width: 720px;
+        max-height: 85vh;
+        overflow-y: auto;
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
+        transform: translateY(-30px);
+        opacity: 0;
+        transition: transform 0.3s ease-out, opacity 0.3s ease-out;
     }
 
-    @keyframes modalSlideIn {
-        from { transform: translateY(-20px) scale(0.95); opacity: 0; }
-        to { transform: translateY(0) scale(1); opacity: 1; }
+    .modal-overlay--visible .modal-fullscreen {
+        transform: translateY(0);
+        opacity: 1;
     }
 
-    .modal-close {
-        position: absolute;
-        top: 12px;
-        right: 12px;
-        width: 28px;
-        height: 28px;
-        border: none;
-        border-radius: 50%;
-        background: rgba(0, 0, 0, 0.06);
-        cursor: pointer;
+    .modal-header {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        font-size: 0.85rem;
-        color: var(--color-text-secondary);
-        transition: background 0.2s;
-        padding: 0;
-        line-height: 1;
-    }
-
-    .modal-close:hover {
-        background: rgba(0, 0, 0, 0.12);
-        color: var(--color-text-primary);
+        padding: 1.25rem 1.75rem;
+        border-bottom: 2px solid rgba(0, 168, 120, 0.1);
+        background: linear-gradient(135deg, rgba(0, 168, 120, 0.05) 0%, rgba(0, 217, 154, 0.05) 100%);
+        border-radius: var(--border-radius-2xl) var(--border-radius-2xl) 0 0;
     }
 
     .modal-title {
-        font-size: 1.25rem;
+        font-size: 1.35rem;
         font-weight: 700;
         color: var(--color-primary);
-        margin: 0 0 1.25rem;
-        padding-bottom: 0.75rem;
-        border-bottom: 2px solid rgba(0, 168, 120, 0.1);
+        margin: 0;
+    }
+
+    .modal-close-btn {
+        background: var(--color-primary);
+        color: #fff;
+        border: none;
+        border-radius: var(--border-radius);
+        padding: 0.5rem 1.25rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.2s;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+    }
+
+    .modal-close-btn:hover {
+        background: var(--color-primary-dark);
+        transform: scale(1.03);
     }
 
     .modal-body {
+        padding: 1.5rem 1.75rem;
         display: flex;
         flex-direction: column;
-        gap: 0.75rem;
+        gap: 0.5rem;
     }
 
     .modal-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0.5rem 0;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        padding: 0.75rem 1rem;
+        background: rgba(0, 0, 0, 0.02);
+        border-radius: var(--border-radius);
+        border: 1px solid rgba(0, 0, 0, 0.04);
     }
 
-    .modal-row:last-child {
-        border-bottom: none;
-        font-weight: 700;
+    .modal-row--total {
+        background: rgba(0, 168, 120, 0.07);
+        border-color: rgba(0, 168, 120, 0.15);
+        padding: 1rem 1.25rem;
     }
 
     .modal-label {
@@ -1222,17 +1233,49 @@ const proveedores = Array.from(
         font-size: 0.95rem;
         font-weight: 600;
         text-align: right;
-        max-width: 60%;
+        max-width: 55%;
         word-break: break-word;
     }
 
-    @media (max-width: 480px) {
-        .modal-content {
-            padding: 1.5rem;
+    .modal-row--total .modal-label {
+        font-weight: 700;
+        color: var(--color-primary);
+        font-size: 1rem;
+    }
+
+    .modal-row--total .modal-value {
+        font-size: 1.15rem;
+        font-weight: 800;
+        color: var(--color-primary);
+    }
+
+    @media (max-width: 768px) {
+        .modal-fullscreen {
+            max-width: 100%;
+            max-height: 90vh;
+            border-radius: var(--border-radius-xl);
+        }
+
+        .modal-header {
+            padding: 1rem;
         }
 
         .modal-title {
             font-size: 1.1rem;
+        }
+
+        .modal-close-btn {
+            padding: 0.4rem 0.85rem;
+            font-size: 0.8rem;
+        }
+
+        .modal-body {
+            padding: 1rem;
+            gap: 0.35rem;
+        }
+
+        .modal-row {
+            padding: 0.65rem 0.75rem;
         }
     }
 </style>
