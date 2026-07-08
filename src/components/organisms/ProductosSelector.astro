@@ -34,7 +34,7 @@ const proveedores = Array.from(
 
 <div class="products-container">
     {products.map((product) => (
-        <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo} data-product-barcode={product.barra} data-product-proveedor={product.proveedor} data-precio-unidad={product.precioUnidad ?? product.precio} data-precio-despacho={product.precioDespacho ?? product.precio} data-despacho={product.despacho ?? 1} data-unidad={product.unidad ?? 'unidad'} style={Number(product.invetario) < 1 ? 'background-color: #ffb3b3;' : ''}>
+        <div class="product-card" data-active={product.activo} data-product-name={product.nombre.toLowerCase()} data-product-code={product.codigo} data-product-barcode={product.barra} data-product-proveedor={product.proveedor} data-precio-unidad={product.precioUnidad ?? product.precio} data-precio-despacho={product.precioDespacho ?? product.precio} data-despacho={product.despacho ?? 1} data-unidad={product.unidad ?? 'unidad'} data-subtotal={product.subtotal ?? 0} data-iva={product.iva ?? '0'} data-ipoconsumo={product.ipoconsumo ?? '0'} data-precio-total={product.precio ?? product.precioDespacho ?? 0} style={Number(product.invetario) < 1 ? 'background-color: #ffb3b3;' : ''}>
         <div class="imagen-card">
             {product.imagen && hasValidImageFilename(product.imagen) ? (
                 <img 
@@ -52,6 +52,7 @@ const proveedores = Array.from(
                 </div>
             )}
         </div>
+            <button class="info-btn" data-codigo={product.codigo} data-barra={product.barra} data-nombre={product.nombre} data-subtotal={product.subtotal ?? 0} data-iva={product.iva ?? '0'} data-ipoconsumo={product.ipoconsumo ?? '0'} data-precio-total={product.precio ?? product.precioDespacho ?? 0} title="Información del producto">ℹ️</button>
             <h3>{product.nombre}</h3>
             <p class="code">Código: {product.codigo}</p>
             <p class="product-unidad">Unidad: {product.unidad ?? 'unidad'}</p>
@@ -78,6 +79,23 @@ const proveedores = Array.from(
             </button>
         </div>
     ))}
+</div>
+
+<!-- Modal información del producto -->
+<div class="modal-overlay" id="productModal">
+    <div class="modal-content">
+        <button class="modal-close" id="modalClose">✕</button>
+        <h3 class="modal-title">Información del Producto</h3>
+        <div class="modal-body">
+            <div class="modal-row"><span class="modal-label">Código:</span><span class="modal-value" id="modalCodigo">-</span></div>
+            <div class="modal-row"><span class="modal-label">Código de Barras:</span><span class="modal-value" id="modalBarra">-</span></div>
+            <div class="modal-row"><span class="modal-label">Descripción:</span><span class="modal-value" id="modalDescripcion">-</span></div>
+            <div class="modal-row"><span class="modal-label">Subtotal:</span><span class="modal-value" id="modalSubtotal">-</span></div>
+            <div class="modal-row"><span class="modal-label">IVA:</span><span class="modal-value" id="modalIva">-</span></div>
+            <div class="modal-row"><span class="modal-label">Ipoconsumo:</span><span class="modal-value" id="modalIpoconsumo">-</span></div>
+            <div class="modal-row"><span class="modal-label">Total:</span><span class="modal-value" id="modalTotal">-</span></div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -152,6 +170,10 @@ const proveedores = Array.from(
         container.dataset.precioDespacho = String(Math.round(precioDespacho));
         container.dataset.despacho = String(despacho);
         container.dataset.unidad = product.unidad || 'unidad';
+        container.dataset.subtotal = product.subtotal ?? '0';
+        container.dataset.iva = product.iva ?? '0';
+        container.dataset.ipoconsumo = product.ipoconsumo ?? '0';
+        container.dataset.precioTotal = product.precio ?? product.precioDespacho ?? 0;
         if (isCustom) {
             container.dataset.custom = 'true';
         }
@@ -166,6 +188,7 @@ const proveedores = Array.from(
                     : `<div class="imagen-placeholder"><span>Sin imagen</span></div>`
                 }
             </div>
+            <button class="info-btn" data-codigo="${product.codigo}" data-barra="${product.barra || ''}" data-nombre="${product.nombre}" data-subtotal="${product.subtotal ?? 0}" data-iva="${product.iva ?? '0'}" data-ipoconsumo="${product.ipoconsumo ?? '0'}" data-precio-total="${product.precio ?? Math.round(precioDespacho) ?? 0}" title="Información del producto">ℹ️</button>
             <h3>${product.nombre}</h3>
             <p class="code">Código: ${product.codigo}</p>
             <p class="product-unidad">Unidad: ${product.unidad || 'unidad'}</p>
@@ -430,6 +453,50 @@ const proveedores = Array.from(
         }) as EventListener);
     });
 
+    // Modal información del producto
+    const modal = document.getElementById('productModal');
+    const modalCodigo = document.getElementById('modalCodigo');
+    const modalBarra = document.getElementById('modalBarra');
+    const modalDescripcion = document.getElementById('modalDescripcion');
+    const modalSubtotal = document.getElementById('modalSubtotal');
+    const modalIva = document.getElementById('modalIva');
+    const modalIpoconsumo = document.getElementById('modalIpoconsumo');
+    const modalTotal = document.getElementById('modalTotal');
+    const modalClose = document.getElementById('modalClose');
+
+    document.addEventListener('click', (e) => {
+        const btn = (e.target as HTMLElement).closest('.info-btn');
+        if (btn) {
+            const data = (btn as HTMLElement).dataset;
+            if (modalCodigo) modalCodigo.textContent = data.codigo || '-';
+            if (modalBarra) modalBarra.textContent = data.barra || '-';
+            if (modalDescripcion) modalDescripcion.textContent = data.nombre || '-';
+            if (modalSubtotal) modalSubtotal.textContent = data.subtotal ? `$${Number(data.subtotal).toLocaleString('es-CO')}` : '-';
+            if (modalIva) modalIva.textContent = data.iva || '-';
+            if (modalIpoconsumo) modalIpoconsumo.textContent = data.ipoconsumo || '-';
+            if (modalTotal) modalTotal.textContent = data.precioTotal ? `$${Number(data.precioTotal).toLocaleString('es-CO')}` : '-';
+            if (modal) modal.classList.add('modal-overlay--visible');
+        }
+    });
+
+    if (modalClose) {
+        modalClose.addEventListener('click', () => {
+            if (modal) modal.classList.remove('modal-overlay--visible');
+        });
+    }
+
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) modal.classList.remove('modal-overlay--visible');
+        });
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal?.classList.contains('modal-overlay--visible')) {
+            modal.classList.remove('modal-overlay--visible');
+        }
+    });
+
     // Evento de búsqueda y proveedor
     const searchInput = document.getElementById('searchInput');
     const proveedorSelect = document.getElementById('proveedorSelect');
@@ -637,6 +704,7 @@ const proveedores = Array.from(
         justify-content: flex-start;
         min-height: 480px;
         box-sizing: border-box;
+        position: relative;
     }
 
     .imagen-card {
@@ -1019,5 +1087,152 @@ const proveedores = Array.from(
 
     .add-to-cart-btn:hover {
         background-color: #38a169;
+    }
+
+    /* Botón información del producto */
+    .info-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 28px;
+        height: 28px;
+        border: none;
+        border-radius: 50%;
+        background: rgba(0, 168, 120, 0.15);
+        color: var(--color-primary);
+        font-size: 0.9rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s, transform 0.2s;
+        padding: 0;
+        line-height: 1;
+        z-index: 2;
+    }
+
+    .info-btn:hover {
+        background: var(--color-primary);
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+    /* Modal overlay */
+    .modal-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: calc(var(--z-index-modal) + 20);
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        animation: modalFadeIn 0.2s ease-out;
+    }
+
+    .modal-overlay--visible {
+        display: flex;
+    }
+
+    @keyframes modalFadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    .modal-content {
+        background: var(--color-surface);
+        border-radius: var(--border-radius-2xl);
+        padding: 2rem;
+        max-width: 420px;
+        width: 100%;
+        position: relative;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+        animation: modalSlideIn 0.25s ease-out;
+    }
+
+    @keyframes modalSlideIn {
+        from { transform: translateY(-20px) scale(0.95); opacity: 0; }
+        to { transform: translateY(0) scale(1); opacity: 1; }
+    }
+
+    .modal-close {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 28px;
+        height: 28px;
+        border: none;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.06);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.85rem;
+        color: var(--color-text-secondary);
+        transition: background 0.2s;
+        padding: 0;
+        line-height: 1;
+    }
+
+    .modal-close:hover {
+        background: rgba(0, 0, 0, 0.12);
+        color: var(--color-text-primary);
+    }
+
+    .modal-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--color-primary);
+        margin: 0 0 1.25rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 2px solid rgba(0, 168, 120, 0.1);
+    }
+
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .modal-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .modal-row:last-child {
+        border-bottom: none;
+        font-weight: 700;
+    }
+
+    .modal-label {
+        color: var(--color-text-secondary);
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .modal-value {
+        color: var(--color-text-primary);
+        font-size: 0.95rem;
+        font-weight: 600;
+        text-align: right;
+        max-width: 60%;
+        word-break: break-word;
+    }
+
+    @media (max-width: 480px) {
+        .modal-content {
+            padding: 1.5rem;
+        }
+
+        .modal-title {
+            font-size: 1.1rem;
+        }
     }
 </style>
