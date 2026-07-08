@@ -57,13 +57,20 @@
 
 <style>
   .navigation {
-    background: linear-gradient(135deg, rgba(0, 168, 120, 0.05) 0%, rgba(0, 217, 154, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(0, 168, 120, 0.9) 0%, rgba(0, 217, 154, 0.9) 100%);
     position: sticky;
     top: 0;
     z-index: var(--z-index-sticky);
     margin-bottom: 2rem;
     border-bottom: 1px solid rgba(0, 168, 120, 0.1);
     border-radius: 0 0 var(--border-radius-2xl) var(--border-radius-2xl);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .navigation--scrolled {
+    background: linear-gradient(135deg, rgba(0, 168, 120, 0.9) 0%, rgba(0, 217, 154, 0.9) 100%);
+    box-shadow: 0 2px 20px rgba(0, 168, 120, 0.15);
+    border-bottom-color: rgba(0, 168, 120, 0.2);
   }
 
   .nav-container {
@@ -79,7 +86,7 @@
   .brand-link {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--color-primary);
+    color: black;
     text-decoration: none;
     transition: var(--transition);
   }
@@ -457,6 +464,18 @@
         closeMobileMenu();
       }
     });
+
+    // Efecto scroll en la navegación
+    const navigation = document.querySelector(".navigation");
+    if (navigation) {
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 10) {
+          navigation.classList.add("navigation--scrolled");
+        } else {
+          navigation.classList.remove("navigation--scrolled");
+        }
+      });
+    }
   });
 
   // Escuchar cambios en el localStorage

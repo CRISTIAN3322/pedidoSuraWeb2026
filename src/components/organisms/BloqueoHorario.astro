@@ -1,42 +1,13 @@
 ---
-// Componente de bloqueo horario
-// Bloquea la aplicación desde blockStartHour hasta startHour del día siguiente
 import { APP_CONFIG } from '../../config/app.config';
 
-const ahora = new Date();
-const horaActual = ahora.getHours();
-
-// Configuración de bloqueo desde app.config
-const horaInicioBloqueo = APP_CONFIG.schedule.blockStartHour; // 23 (11PM)
-const horaFinBloqueo = APP_CONFIG.schedule.startHour;         // 5 (5AM)
-
-// Verificar si estamos en horario de bloqueo (desde 23:00 hasta 5:00)
-const estaBloqueado = horaActual >= horaInicioBloqueo || horaActual < horaFinBloqueo;
-
-// Calcular tiempo restante hasta el próximo horario disponible
-let tiempoRestante = "";
-if (estaBloqueado) {
-    const ahoraMs = ahora.getTime();
-    const proximoDisponible = new Date(ahora);
-    
-    if (horaActual >= horaInicioBloqueo) {
-        // Después de las 23:00, esperar hasta las 5:00 del día siguiente
-        proximoDisponible.setDate(proximoDisponible.getDate() + 1);
-        proximoDisponible.setHours(horaFinBloqueo, 0, 0, 0);
-    } else {
-        // Antes de las 5:00, esperar hasta las 5:00 del mismo día
-        proximoDisponible.setHours(horaFinBloqueo, 0, 0, 0);
-    }
-    
-    const diferencia = proximoDisponible.getTime() - ahoraMs;
-    const horas = Math.floor(diferencia / (1000 * 60 * 60));
-    const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
-    tiempoRestante = `${horas}h ${minutos}m`;
-}
+const horaInicioBloqueo = APP_CONFIG.schedule.blockStartHour;
+const horaFinBloqueo = APP_CONFIG.schedule.startHour;
+const zonaHoraria = APP_CONFIG.schedule.timezone;
+const tiempoRestante = "";
 ---
 
-{estaBloqueado && (
-    <div class="bloqueo-overlay" id="bloqueo-overlay">
+<div class="bloqueo-overlay" id="bloqueo-overlay" style="display: none">
         <div class="bloqueo-container">
             <div class="bloqueo-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -64,7 +35,6 @@ if (estaBloqueado) {
             </div>
         </div>
     </div>
-)}
 
 <style>
     .bloqueo-overlay {
@@ -205,14 +175,29 @@ if (estaBloqueado) {
     }
 </style>
 
-<script define:vars={{ horaInicioBloqueo, horaFinBloqueo }}>
+<script define:vars={{ horaInicioBloqueo, horaFinBloqueo, zonaHoraria }}>
+    function getColombiaHour() {
+        const ahora = new Date();
+        const formatter = new Intl.DateTimeFormat('es-CO', {
+            timeZone: zonaHoraria,
+            hour: 'numeric',
+            hour12: false
+        });
+        return parseInt(formatter.format(ahora), 10);
+    }
+
     function actualizarTiempoRestante() {
         const ahora = new Date();
-        const horaActual = ahora.getHours();
+        const horaActual = getColombiaHour();
         
         const estaBloqueado = horaActual >= horaInicioBloqueo || horaActual < horaFinBloqueo;
+        const bloqueoOverlay = document.getElementById('bloqueo-overlay');
+        
+        if (!bloqueoOverlay) return;
         
         if (estaBloqueado) {
+            bloqueoOverlay.style.display = 'flex';
+            
             const proximoDisponible = new Date(ahora);
             
             if (horaActual >= horaInicioBloqueo) {
@@ -238,10 +223,7 @@ if (estaBloqueado) {
                 }, 1000);
             }
         } else {
-            const bloqueoOverlay = document.getElementById('bloqueo-overlay');
-            if (bloqueoOverlay) {
-                bloqueoOverlay.style.display = 'none';
-            }
+            bloqueoOverlay.style.display = 'none';
         }
     }
 
