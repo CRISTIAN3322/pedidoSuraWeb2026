@@ -11,6 +11,15 @@ const proveedores = Array.from(
       .map(p => p.proveedor)
   )
 ).sort((a, b) => a.localeCompare(b));
+
+// Normaliza rutas de imágenes: ../assets/... → /assets/...
+const normalizeImagePath = (path: string): string => {
+  if (!path) return '';
+  if (path.startsWith('../')) return '/' + path.slice(3);
+  if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:')) return path;
+  if (!path.startsWith('/')) return '/' + path;
+  return path;
+};
 ---
 
 <div class="filter-container">
@@ -38,13 +47,13 @@ const proveedores = Array.from(
         <div class="imagen-card">
             {product.imagen && hasValidImageFilename(product.imagen) ? (
                 <img 
-                    src={product.imagen} 
+                    src={normalizeImagePath(product.imagen)}
                     alt={product.nombre} 
                     class="imagen-Product"
                     data-product-id={product.id}
                     data-default-image={product.imagen}
                     loading="lazy"
-                    onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'120\' height=\'140\'%3E%3Crect width=\'120\' height=\'140\' fill=\'%23f0f0f0\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dy=\'.3em\' fill=\'%23999\' font-size=\'12\'%3ESin imagen%3C/text%3E%3C/svg%3E';"
+                    onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%27140%27%3E%3Crect width=%27120%27 height=%27140%27 fill=%27%23f0f0f0%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 text-anchor=%27middle%27 dy=%27.3em%27 fill=%27%23999%27 font-size=%2712%27%3ESin imagen%3C/text%3E%3C/svg%3E';"
                 />
             ) : (
                 <div class="imagen-placeholder">
