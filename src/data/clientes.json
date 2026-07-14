@@ -6207,6 +6207,14 @@
             "direccion": "CL 145 47 43  Prado ",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
+    },
+    {
+        "id": 1024562859,
+        "nombre": "LILIANA ANDREA PIRAQUIVE AVILA",
+        "sucursales": [{
+            "direccion": "CL 65 A SUR 73 G 39 Perdomo ",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
     }
 
 ]
