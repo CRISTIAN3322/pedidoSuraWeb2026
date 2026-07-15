@@ -6914,7 +6914,7 @@
     "barra": 7705137100151,
     "invetario": 480,
     "unidad": "caja",
-    "despacho": 48,
+    "despacho": 12,
     "proveedor": "LABORATORIOS OSA SAS",
     "activo": true
   },
@@ -6931,7 +6931,7 @@
     "barra": 7705137100106,
     "invetario": 480,
     "unidad": "caja",
-    "despacho": 24,
+    "despacho": 12,
     "proveedor": "LABORATORIOS OSA SAS",
     "activo": true
   },
