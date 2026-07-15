@@ -6215,6 +6215,22 @@
             "direccion": "CL 65 A SUR 73 G 39 Perdomo ",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
+    },
+    {
+        "id": 901796206,
+        "nombre": "LOSMERKAS SAS",
+        "sucursales": [{
+            "direccion": "CR 2 A 11 A 08  Silvania ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        },
+    {
+            "direccion": "CR 4 3 41  Subía ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        },
+    {
+            "direccion": "CR 10 9 22  Fusagasugá ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]
