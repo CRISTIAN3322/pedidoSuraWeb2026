@@ -6243,6 +6243,14 @@
             "direccion": "DG 32 SUR 3 60 Villa De Los Alpes ",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 51813094,
+        "nombre": "ALBA LUZ RAMIREZ FANDIÑO",
+        "sucursales": [{
+            "direccion": "CL 73 A SUR 18 B 02 La Estrella ",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+        }]
     }
 
 ]
