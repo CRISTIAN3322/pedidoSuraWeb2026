@@ -8,7 +8,7 @@ export const APP_CONFIG = {
   // Configuración de horarios
   schedule: {
     startHour: 5,       // 5:00 AM - Inicio horario de atención
-    endHour: 18,        // 6:00 PM - Fin horario de atención
+    endHour: 22,        // 10:00 PM - Fin horario de atención
     timezone: 'America/Bogota',
     blockStartHour: 22  // 10:00 PM - Inicio bloqueo horario (configurable: 22 a 5)
   },
