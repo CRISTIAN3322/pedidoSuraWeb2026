@@ -6231,6 +6231,18 @@
             "direccion": "CR 10 9 22  Fusagasugá ",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 11411506,
+        "nombre": "JULIO ENRIQUE CESPEDES QUEVEDO",
+        "sucursales": [{
+            "direccion": "CL 74 B SUR 9 40 Santa Librada ",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+        },
+    {
+            "direccion": "DG 32 SUR 3 60 Villa De Los Alpes ",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+        }]
     }
 
 ]
