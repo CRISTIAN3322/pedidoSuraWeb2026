@@ -9636,7 +9636,7 @@
     "unidad": "Paca",
     "despacho": 24,
     "proveedor": "PRECOCIDOS DEL ORIENTE SA",
-    "activo": false
+    "activo": true
   },
   {
     "id": 568,
