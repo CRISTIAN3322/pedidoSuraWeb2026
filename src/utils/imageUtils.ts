@@ -189,6 +189,63 @@ export function getProductImageUrl(productId: string | number, defaultImage?: st
 }
 
 /**
+ * Redimensiona una imagen manteniendo calidad alta
+ * @param file - Archivo de imagen original
+ * @param maxWidth - Ancho máximo (default 800)
+ * @param maxHeight - Alto máximo (default 800)
+ * @param quality - Calidad JPEG/WebP (0.85 = 85%)
+ * @returns Promise con base64 de imagen redimensionada
+ */
+export function resizeImage(
+    file: File,
+    maxWidth = 800,
+    maxHeight = 800,
+    quality = 0.85
+): Promise<string> {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        const url = URL.createObjectURL(file);
+
+        img.onload = () => {
+            URL.revokeObjectURL(url);
+
+            let { width, height } = img;
+
+            if (width > maxWidth || height > maxHeight) {
+                const ratio = Math.min(maxWidth / width, maxHeight / height);
+                width = Math.round(width * ratio);
+                height = Math.round(height * ratio);
+            }
+
+            const canvas = document.createElement('canvas');
+            canvas.width = width;
+            canvas.height = height;
+
+            const ctx = canvas.getContext('2d');
+            if (!ctx) {
+                reject(new Error('No se pudo crear contexto Canvas'));
+                return;
+            }
+
+            ctx.imageSmoothingEnabled = true;
+            ctx.imageSmoothingQuality = 'high';
+            ctx.drawImage(img, 0, 0, width, height);
+
+            const outputType = file.type === 'image/png' ? 'image/png' : 'image/jpeg';
+            const base64 = canvas.toDataURL(outputType, quality);
+            resolve(base64);
+        };
+
+        img.onerror = () => {
+            URL.revokeObjectURL(url);
+            reject(new Error('Error al cargar imagen para redimensionar'));
+        };
+
+        img.src = url;
+    });
+}
+
+/**
  * Valida si una URL es una imagen válida
  */
 export function isValidImageUrl(url: string): boolean {
