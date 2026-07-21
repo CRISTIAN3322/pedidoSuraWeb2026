@@ -7443,7 +7443,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 439,
@@ -7460,7 +7460,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 440,
@@ -7477,7 +7477,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 441,
@@ -7494,7 +7494,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 442,
@@ -7511,7 +7511,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 443,
@@ -7528,7 +7528,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 444,
@@ -7545,7 +7545,7 @@
     "unidad": "Display",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 445,
@@ -7562,7 +7562,7 @@
     "unidad": "Display",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 446,
@@ -7579,7 +7579,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 447,
@@ -7596,7 +7596,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 448,
@@ -7613,7 +7613,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 449,
@@ -7630,7 +7630,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 450,
@@ -7647,7 +7647,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 451,
@@ -7664,7 +7664,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 452,
@@ -7681,7 +7681,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 453,
@@ -7698,7 +7698,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 454,
@@ -7715,7 +7715,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 455,
@@ -7732,7 +7732,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 456,
@@ -7749,7 +7749,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 457,
@@ -7766,7 +7766,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 458,
@@ -7783,7 +7783,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 459,
@@ -7800,7 +7800,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 460,
@@ -7817,7 +7817,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 461,
@@ -7834,7 +7834,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 462,
@@ -7851,7 +7851,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 463,
@@ -7868,7 +7868,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 464,
@@ -7885,7 +7885,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 465,
@@ -7902,7 +7902,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 466,
@@ -7919,7 +7919,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 467,
@@ -7936,7 +7936,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 468,
@@ -7953,7 +7953,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 469,
@@ -7970,7 +7970,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 470,
@@ -7987,7 +7987,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 471,
@@ -8004,7 +8004,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 472,
@@ -8021,7 +8021,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 473,
@@ -8038,7 +8038,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 474,
@@ -8055,7 +8055,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 475,
@@ -8072,7 +8072,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 476,
@@ -8089,7 +8089,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 477,
@@ -8106,7 +8106,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 478,
@@ -8123,7 +8123,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 479,
@@ -8140,7 +8140,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 480,
@@ -8157,7 +8157,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 481,
@@ -8174,7 +8174,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 482,
@@ -8191,7 +8191,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 483,
@@ -8208,7 +8208,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 484,
@@ -8225,7 +8225,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 485,
@@ -8242,7 +8242,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 486,
@@ -8259,7 +8259,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 487,
@@ -8276,7 +8276,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 488,
@@ -8293,7 +8293,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 489,
@@ -8310,7 +8310,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 490,
@@ -8327,7 +8327,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 491,
@@ -8344,7 +8344,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 492,
@@ -8361,7 +8361,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 493,
@@ -8378,7 +8378,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 494,
@@ -8395,7 +8395,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 495,
@@ -8412,7 +8412,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 496,
@@ -8429,7 +8429,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 497,
@@ -8446,7 +8446,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 498,
@@ -8463,7 +8463,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 499,
@@ -8480,7 +8480,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 500,
@@ -8497,7 +8497,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 501,
@@ -8514,7 +8514,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 502,
@@ -8531,7 +8531,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 503,
@@ -8548,7 +8548,7 @@
     "unidad": "Display",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 504,
@@ -8565,7 +8565,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 505,
@@ -8582,7 +8582,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 506,
@@ -8599,7 +8599,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 507,
@@ -8616,7 +8616,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 508,
@@ -8650,7 +8650,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 510,
@@ -8667,7 +8667,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 511,
@@ -8684,7 +8684,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 512,
@@ -8701,7 +8701,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 513,
@@ -8718,7 +8718,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 514,
@@ -8735,7 +8735,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 515,
@@ -8752,7 +8752,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 516,
@@ -8769,7 +8769,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 517,
@@ -8786,7 +8786,7 @@
     "unidad": "unidad",
     "despacho": 6,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 518,
@@ -8803,7 +8803,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 519,
@@ -8820,7 +8820,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PREBEL SA BIC",
-    "activo": true
+    "activo": false
   },
   {
     "id": 520,
