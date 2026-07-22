@@ -2438,7 +2438,7 @@
     "fac": "SURA 55522",
     "fecha": "03/06/2026",
     "valor": 941242,
-    "dias": 35,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -2449,7 +2449,7 @@
     "fac": "SURA 55523",
     "fecha": "03/06/2026",
     "valor": 14037849,
-    "dias": 35,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -8400,7 +8400,7 @@
     "fac": "SURA 53324",
     "fecha": "20/03/2026",
     "valor": 2295195,
-    "dias": 91,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -8411,14 +8411,14 @@
     "fac": "SURA 53916",
     "fecha": "09/04/2026",
     "valor": 4165201,
-    "dias": 70,
+    "dias": 20,
     "nota": ""
   },
   {
     "id": 79584509,
     "cliente": "JOSE URIEL RESTREPO QUIROGA",
     "Email": "E-Mail: merkcentro2000@gmail.com",
-    "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 54460",
     "fecha": "27/04/2026",
     "valor": 416643,
@@ -8433,7 +8433,7 @@
     "fac": "SURA 54539",
     "fecha": "30/04/2026",
     "valor": 2471028,
-    "dias": 50,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -8444,7 +8444,7 @@
     "fac": "SURA 54600",
     "fecha": "30/04/2026",
     "valor": 2752164,
-    "dias": 49,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -8455,14 +8455,14 @@
     "fac": "SURA 54602",
     "fecha": "30/04/2026",
     "valor": 2116788,
-    "dias": 49,
+    "dias": 20,
     "nota": ""
   },
   {
     "id": 79584509,
     "cliente": "JOSE URIEL RESTREPO QUIROGA",
     "Email": "E-Mail: merkcentro2000@gmail.com",
-    "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 55238",
     "fecha": "25/05/2026",
     "valor": 1068064,
@@ -8477,7 +8477,7 @@
     "fac": "SURA 55307",
     "fecha": "27/05/2026",
     "valor": 1927423,
-    "dias": 22,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -8488,7 +8488,7 @@
     "fac": "SURA 55335",
     "fecha": "27/05/2026",
     "valor": 700077,
-    "dias": 22,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -12514,7 +12514,7 @@
     "fac": "SURA 54760",
     "fecha": "07/05/2026",
     "valor": 896144,
-    "dias": 62,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -12822,7 +12822,7 @@
     "fac": "SURA 55356",
     "fecha": "28/05/2026",
     "valor": 2143240,
-    "dias": 21,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -13779,7 +13779,7 @@
     "fac": "SURA 55708",
     "fecha": "10/06/2026",
     "valor": 2346152,
-    "dias": 28,
+    "dias": 20,
     "nota": ""
   },
   {
@@ -14296,7 +14296,7 @@
     "fac": "SURA 55689",
     "fecha": "10/06/2026",
     "valor": 2488214,
-    "dias": 28,
+    "dias": 20,
     "nota": ""
   },
   {
