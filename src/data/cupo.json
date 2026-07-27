@@ -4455,5 +4455,11 @@
         "nombre": "VC COMERCIALIZADORA Y CIA SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+     {
+        "id": 1016079486,
+        "nombre": "WILMAN HERNAN MORENO SOLER",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

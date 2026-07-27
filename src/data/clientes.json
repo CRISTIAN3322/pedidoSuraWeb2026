@@ -6260,6 +6260,14 @@
             "direccion": "CL 73 A SUR 18 B 02 La Estrella ",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
+    },
+    {
+        "id": 1016079486,
+        "nombre": "WILMAN HERNAN MORENO SOLER",
+        "sucursales": [{
+            "direccion": "CL 76 108 45 Garces Navas ",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        }]
     }
 
 ]
