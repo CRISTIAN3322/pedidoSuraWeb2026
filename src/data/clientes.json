@@ -6268,6 +6268,14 @@
             "direccion": "CL 76 108 45 Garces Navas ",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
+    },
+    {
+        "id": 52881869,
+        "nombre": "NANCY MILENA SANCHEZ GAONA",
+        "sucursales": [{
+            "direccion": "CL 42A SUR 98B 09 Los Alpes ",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
     }
 
 ]
