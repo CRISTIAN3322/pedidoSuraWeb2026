@@ -9590,7 +9590,7 @@
   {
     "id": 565,
     "codigo": "JPO0001",
-    "nombre": "AREPASAN BLANCA X 1000 GR PC X 10",
+    "nombre": "AREPASAN BLANCA X 1000 GR PC X 20",
     "subtotal": 2652,
     "iva": "0,05",
     "ipoconsumo": 0,
@@ -9600,7 +9600,7 @@
     "barra": 7705525010123,
     "invetario": 1326,
     "unidad": "Paca",
-    "despacho": 10,
+    "despacho": 20,
     "proveedor": "PRECOCIDOS DEL ORIENTE SA",
     "activo": true
   },
