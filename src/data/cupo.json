@@ -4456,9 +4456,15 @@
         "cupo": 1000000,
         "Forma": "Contado"
     },
-     {
+    {
         "id": 1016079486,
         "nombre": "WILMAN HERNAN MORENO SOLER",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 1072428845,
+        "nombre": "YEISSON ALEJANDRO MENDEZ TORRES",
         "cupo": 1000000,
         "Forma": "Contado"
     }

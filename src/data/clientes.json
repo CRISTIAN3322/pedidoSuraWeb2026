@@ -6276,6 +6276,14 @@
             "direccion": "CL 42A SUR 98B 09 Los Alpes ",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
+    },
+    {
+        "id": 1072428845,
+        "nombre": "YEISSON ALEJANDRO MENDEZ TORRES",
+        "sucursales": [{
+            "direccion": "CR 22 4 19  La Mesa ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]
