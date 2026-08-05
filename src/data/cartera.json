@@ -2551,7 +2551,7 @@
     "fac": "SURA 52934",
     "fecha": "06/03/2026",
     "valor": -44872,
-    "dias": 122,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
@@ -2563,7 +2563,7 @@
     "fac": "SURA 53384",
     "fecha": "20/03/2026",
     "valor": -46349,
-    "dias": 107,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
@@ -2571,7 +2571,7 @@
     "id": 901312259,
     "cliente": "COMMUNAL INVESTMENTS SAS",
     "Email": "E-Mail: supertiendas.comunal@gmail.com",
-    "vendedor": "XIMENA DEL PILAR SANTANA GAMBOA",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 55006",
     "fecha": "15/05/2026",
     "valor": 393084,
@@ -8371,7 +8371,7 @@
     "fac": "SURA 55825",
     "fecha": "16/06/2026",
     "valor": 400754,
-    "dias": 22,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
