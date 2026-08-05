@@ -4944,7 +4944,7 @@
     "unidad": "Display",
     "despacho": 1,
     "proveedor": "COMERCIALIZADORA JS PRODUCTOS SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 292,
@@ -4961,7 +4961,7 @@
     "unidad": "Display",
     "despacho": 1,
     "proveedor": "COMERCIALIZADORA JS PRODUCTOS SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 293,
