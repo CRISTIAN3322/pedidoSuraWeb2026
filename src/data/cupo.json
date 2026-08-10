@@ -4467,5 +4467,11 @@
         "nombre": "YEISSON ALEJANDRO MENDEZ TORRES",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1032499312,
+        "nombre": "ROBERT MANUEL PULIDO CASTELLANOS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

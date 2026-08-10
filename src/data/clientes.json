@@ -6279,6 +6279,14 @@
             "direccion": "CR 22 4 19  La Mesa ",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 1032499312,
+        "nombre": "ROBERT MANUEL PULIDO CASTELLANOS",
+        "sucursales": [{
+            "direccion": "CR 88 C 71 A 65 SUR   Villas Del Progreso ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+        }]
     }
 
 ]
