@@ -47,14 +47,21 @@ function isActivo(producto: ProductoListaPrecios): boolean {
   return v === 'true' || v === '1' || v === 'si' || v === 'sí';
 }
 
+function parseDecimalComoNumero(valor: unknown): number {
+  if (typeof valor === 'number') return valor;
+  if (typeof valor !== 'string') return 0;
+  const normalizado = valor.replace(',', '.');
+  return Number(normalizado) || 0;
+}
+
 export function toFilaListaPrecios(producto: ProductoListaPrecios): FilaListaPrecios {
   return {
     codigo: producto.codigo ?? '',
-    barra: producto.barra ?? '',
+    barra: String(producto.barra ?? ''),
     nombre: producto.nombre ?? '',
     subtotal: Number(producto.subtotal) || 0,
-    iva: Number(producto.iva) ?? 0,
-    ipoconsumo: Number(producto.ipoconsumo) ?? 0,
+    iva: parseDecimalComoNumero(producto.iva),
+    ipoconsumo: parseDecimalComoNumero(producto.ipoconsumo),
     precioUnidad: Number(producto.precioUnidad ?? producto.precio) || 0,
     precio: Number(producto.precio) || 0,
   };
@@ -110,7 +117,15 @@ export function exportListaPreciosExcel(
 
   const headers = LISTA_PRECIOS_COLUMNS.map((col) => LISTA_PRECIOS_LABELS[col]);
   const data = filas.map((fila) =>
-    LISTA_PRECIOS_COLUMNS.map((col) => fila[col])
+    LISTA_PRECIOS_COLUMNS.map((col) => {
+      if (col === 'barra') {
+        return { t: 's' as const, v: String(fila[col]) };
+      }
+      if (col === 'iva') {
+        return `${Math.round(Number(fila[col]) * 100)}%`;
+      }
+      return fila[col];
+    })
   );
 
   const worksheet = XLSX.utils.aoa_to_sheet([headers, ...data]);
@@ -160,6 +175,9 @@ export function exportListaPreciosPdf(
   const body = filas.map((fila) =>
     LISTA_PRECIOS_COLUMNS.map((col) => {
       const val = fila[col];
+      if (col === 'iva') {
+        return `${Math.round(Number(val) * 100)}%`;
+      }
       if (col === 'subtotal' || col === 'precioUnidad' || col === 'precio') {
         return Number(val).toLocaleString('es-CO');
       }
@@ -175,10 +193,10 @@ export function exportListaPreciosPdf(
     headStyles: { fillColor: [0, 168, 120], textColor: 255 },
     columnStyles: {
       0: { cellWidth: 18 },
-      1: { cellWidth: 22 },
-      2: { cellWidth: 70 },
+      1: { cellWidth: 28 },
+      2: { cellWidth: 65 },
       3: { cellWidth: 18, halign: 'right' },
-      4: { cellWidth: 12, halign: 'right' },
+      4: { cellWidth: 14, halign: 'right' },
       5: { cellWidth: 18, halign: 'right' },
       6: { cellWidth: 22, halign: 'right' },
       7: { cellWidth: 22, halign: 'right' },
