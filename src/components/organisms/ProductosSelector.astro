@@ -91,11 +91,11 @@ const normalizeImagePath = (path: string): string => {
 </div>
 
 <!-- Modal información del producto -->
-<div class="modal-overlay" id="productModal">
+<div class="modal-overlay" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
     <div class="modal-fullscreen">
         <div class="modal-header">
-            <h3 class="modal-title">Información del Producto</h3>
-            <button class="modal-close-btn" id="modalClose">✕ Cerrar</button>
+            <h3 class="modal-title" id="modalTitle">Información del Producto</h3>
+            <button class="modal-close-btn" id="modalClose" type="button">✕ Cerrar</button>
         </div>
         <div class="modal-body">
             <div class="modal-row"><span class="modal-label">Código:</span><span class="modal-value" id="modalCodigo">-</span></div>
@@ -475,9 +475,16 @@ const normalizeImagePath = (path: string): string => {
     const modalTotal = document.getElementById('modalTotal');
     const modalClose = document.getElementById('modalClose');
 
+    // Mover el modal a <body> para que position:fixed no se vea afectado
+    // por ancestros con transform (ej. .card:hover) que provocan titileo.
+    if (modal && modal.parentNode && modal.parentNode !== document.body) {
+        document.body.appendChild(modal);
+    }
+
     function openModal() {
         if (modal) {
             modal.classList.add('modal-overlay--visible');
+            modal.setAttribute('aria-hidden', 'false');
             document.body.style.overflow = 'hidden';
         }
     }
@@ -485,6 +492,7 @@ const normalizeImagePath = (path: string): string => {
     function closeModal() {
         if (modal) {
             modal.classList.remove('modal-overlay--visible');
+            modal.setAttribute('aria-hidden', 'true');
             document.body.style.overflow = '';
         }
     }
@@ -496,10 +504,17 @@ const normalizeImagePath = (path: string): string => {
             if (modalCodigo) modalCodigo.textContent = data.codigo || '-';
             if (modalBarra) modalBarra.textContent = data.barra || '-';
             if (modalDescripcion) modalDescripcion.textContent = data.nombre || '-';
-            if (modalSubtotal) modalSubtotal.textContent = data.subtotal ? `$${Number(data.subtotal).toLocaleString('es-CO')}` : '-';
+
+            const subtotal = Number(data.subtotal) || 0;
+            const ivaTarifa = Number(String(data.iva ?? '0').replace(',', '.')) || 0;
+            const ipoconsumo = Number(String(data.ipoconsumo ?? '0').replace(',', '.')) || 0;
+            const ivaMonto = subtotal * ivaTarifa;
+            const total = Math.round(subtotal + ivaMonto + ipoconsumo);
+
+            if (modalSubtotal) modalSubtotal.textContent = subtotal ? `$${subtotal.toLocaleString('es-CO')}` : '-';
             if (modalIva) modalIva.textContent = data.iva || '-';
             if (modalIpoconsumo) modalIpoconsumo.textContent = data.ipoconsumo || '-';
-            if (modalTotal) modalTotal.textContent = data.precioTotal ? `$${Number(data.precioTotal).toLocaleString('es-CO')}` : '-';
+            if (modalTotal) modalTotal.textContent = total > 0 ? `$${total.toLocaleString('es-CO')}` : '-';
             openModal();
         }
     });
@@ -507,6 +522,28 @@ const normalizeImagePath = (path: string): string => {
     if (modalClose) {
         modalClose.addEventListener('click', closeModal);
     }
+
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+    }
+
+    // Evitar que los clics dentro del contenido del modal cierren el modal
+    const modalContent = modal?.querySelector('.modal-fullscreen');
+    if (modalContent) {
+        modalContent.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal?.classList.contains('modal-overlay--visible')) {
+            closeModal();
+        }
+    });
 
     // Evento de búsqueda y proveedor
     const searchInput = document.getElementById('searchInput');
