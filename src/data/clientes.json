@@ -6287,6 +6287,14 @@
             "direccion": "CR 88 C 71 A 65 SUR   Villas Del Progreso ",
             "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
         }]
+    },
+    {
+        "id": 1023010961,
+        "nombre": "TANIA GERALDINE PEÑA GUATAVA",
+        "sucursales": [{
+            "direccion": "CL 4 4 06   San Antonio Del Tequendama ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]
