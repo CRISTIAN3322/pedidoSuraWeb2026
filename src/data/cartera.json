@@ -439,7 +439,7 @@
     "fac": "SURA 55803",
     "fecha": "12/06/2026",
     "valor": 5805563,
-    "dias": 23,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
@@ -451,7 +451,7 @@
     "fac": "SURA 55804",
     "fecha": "12/06/2026",
     "valor": 1970783,
-    "dias": 23,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
@@ -463,7 +463,7 @@
     "fac": "SURA 55805",
     "fecha": "12/06/2026",
     "valor": 1372762,
-    "dias": 23,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
@@ -11323,7 +11323,7 @@
     "fac": "SURA 55392",
     "fecha": "28/05/2026",
     "valor": 2646428,
-    "dias": 38,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
@@ -11335,7 +11335,7 @@
     "fac": "SURA 55478",
     "fecha": "30/05/2026",
     "valor": 374132,
-    "dias": 36,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
@@ -15151,7 +15151,7 @@
     "fac": "SURA 54046",
     "fecha": "13/04/2026",
     "valor": 5102766,
-    "dias": 86,
+    "dias": 20,
     "nota": "",
     "estado": "FALSO"
   },
