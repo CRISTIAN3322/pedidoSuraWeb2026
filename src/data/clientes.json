@@ -6295,6 +6295,14 @@
             "direccion": "CL 4 4 06   San Antonio Del Tequendama ",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 901560984,
+        "nombre": "AHORRATIENDAS SAS",
+        "sucursales": [{
+            "direccion": "CR 26 7 71 CENTRO Melgar El Toro ",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]
