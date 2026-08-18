@@ -6311,6 +6311,14 @@
             "direccion": "CL 44 SUR 7 13 ESTE La Gloria ",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 79431278,
+        "nombre": "SAUL HUMBERTO GAMEZ GAMBOA",
+        "sucursales": [{
+            "direccion": "CL 56 SUR 1 ESTE 11 Danubio ",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+        }]
     }
 
 ]
