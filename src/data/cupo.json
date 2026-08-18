@@ -4473,5 +4473,11 @@
         "nombre": "ROBERT MANUEL PULIDO CASTELLANOS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 79529245,
+        "nombre": "JOSE ALFREDO MORA RIVERA",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

@@ -6303,6 +6303,14 @@
             "direccion": "CR 26 7 71 CENTRO Melgar El Toro ",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
+    },
+    {
+        "id": 79529245,
+        "nombre": "JOSE ALFREDO MORA RIVERA",
+        "sucursales": [{
+            "direccion": "CL 44 SUR 7 13 ESTE La Gloria ",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     }
 
 ]
