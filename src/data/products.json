@@ -503,7 +503,7 @@
     "precio": 105815,
     "imagen": "../assets/toWEBP/7702622329127.webp",
     "barra": 7702622329127,
-    "invetario": 720,
+    "invetario": 0,
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "TONING SAS",
@@ -1323,7 +1323,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "ATW INTERNACIONAL SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 79,
