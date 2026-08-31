@@ -3300,7 +3300,7 @@
         "id": 900588014,
         "nombre": "SUPERTIENDAS CONFABOY SAS",
         "sucursales": [{
-            "direccion": "CR 121 70 03 Engativa",
+            "direccion": "CR 121 70 03 La Faena Engativa",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
     },
@@ -4750,7 +4750,7 @@
         "id": 1016018804,
         "nombre": "JUAN DAVID CALDERON SALINAS",
         "sucursales": [{
-            "direccion": "CR 117 A 69 A 21 Villa Teresita",
+            "direccion": "CR 117 A 69 A 21 EL Palmar Engativa",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
     },
@@ -4854,7 +4854,7 @@
         "id": 1022375719,
         "nombre": "JUAN DAVID OVALLE RAMIREZ",
         "sucursales": [{
-            "direccion": "CR 90 69 A 20 Engativa",
+            "direccion": "CR 90 69 A 20 La Florida Engativa",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
     },
