@@ -10467,9 +10467,9 @@
     "barra": 7709548702973,
     "invetario": 0,
     "unidad": "Caja",
-    "despacho": 20,
+    "despacho": 24,
     "proveedor": "SURAMERICANA JI SAS - TEMPORADA",
-    "activo": false
+    "activo": true
   },
   {
     "id": 617,
@@ -10484,9 +10484,9 @@
     "barra": 7709548702973,
     "invetario": 0,
     "unidad": "Caja",
-    "despacho": 20,
+    "despacho": 40,
     "proveedor": "SURAMERICANA JI SAS - TEMPORADA",
-    "activo": false
+    "activo": true
   },
   {
     "id": 618,
