@@ -4479,5 +4479,11 @@
         "nombre": "JOSE ALFREDO MORA RIVERA",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 80122758,
+        "nombre": "CESAR AUGUSTO DUARTE VALENCIA",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

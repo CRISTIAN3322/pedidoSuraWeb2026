@@ -6319,6 +6319,18 @@
             "direccion": "CL 56 SUR 1 ESTE 11 Danubio ",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
+    },
+    {
+        "id": 80122758,
+        "nombre": "CESAR AUGUSTO DUARTE VALENCIA",
+        "sucursales": [{
+            "direccion": "AV CL 24 85 C 48 Pinar ",
+            "vendedor": "CONSUELO MUÑOZ"
+        },
+    {
+            "direccion": "CR 94 G 91 A 05 Bachue ",
+            "vendedor": "CONSUELO MUÑOZ"
+        }]
     }
 
 ]
