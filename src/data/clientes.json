@@ -6331,6 +6331,22 @@
             "direccion": "CR 94 G 91 A 05 Bachue ",
             "vendedor": "CONSUELO MUÑOZ"
         }]
+    },
+    {
+        "id": 901075330,
+        "nombre": "MUNDIAL DE INVERSIONES AR S A S",
+        "sucursales": [{
+            "direccion": "CR 13 142 32 La Capuchina ",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        },
+    {
+            "direccion": "CL 142 15 55 LC 1 Las Margaritas ",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        },
+    {
+            "direccion": "AK 19 154 26 LC 1 La Magdelena ",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        }]
     }
 
 ]
