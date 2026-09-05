@@ -6334,7 +6334,7 @@
     },
     {
         "id": 901075330,
-        "nombre": "MUNDIAL DE INVERSIONES AR S A S",
+        "nombre": "MUNDIAL DE INVERSIONES AR SAS",
         "sucursales": [{
             "direccion": "CR 13 142 32 La Capuchina ",
             "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
@@ -6346,6 +6346,34 @@
     {
             "direccion": "AK 19 154 26 LC 1 La Magdelena ",
             "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        }]
+    },
+    {
+        "id": 902089898,
+        "nombre": "INVERSIONES MERKADIARIO SAS",
+        "sucursales": [{
+            "direccion": "CL 167 54 D 73 Cantalejo ",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        }]
+    },
+    {
+        "id": 901154859,
+        "nombre": "CITRUS FRUVER SAS",
+        "sucursales": [{
+            "direccion": "CL 2 B 69 C 36 Nueva Marsella ",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        },
+    {
+            "direccion": "CR 69 98 24 La Alborada ",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        },
+    {
+            "direccion": "CL 9 B 6 42 Sibaté ",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        },
+    {
+            "direccion": "CR 123 14 B 73 NG 6 Sibaté ",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
     }
 

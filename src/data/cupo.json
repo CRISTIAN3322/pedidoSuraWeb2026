@@ -4485,5 +4485,23 @@
         "nombre": "CESAR AUGUSTO DUARTE VALENCIA",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 901075330 ,
+        "nombre": "MUNDIAL DE INVERSIONES AR SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 902089898 ,
+        "nombre": "INVERSIONES MERKADIARIO SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 901154859 ,
+        "nombre": "CITRUS FRUVER SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
