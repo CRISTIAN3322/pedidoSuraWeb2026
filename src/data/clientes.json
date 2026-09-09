@@ -6375,6 +6375,14 @@
             "direccion": "CR 123 14 B 73 NG 6 Sibaté ",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
+    },
+    {
+        "id": 902093687,
+        "nombre": "MERKAOLARTE SAS",
+        "sucursales": [{
+            "direccion": "CR 72 D 56 A 21 SUR Olarte ",
+            "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+        }]
     }
 
 ]
