@@ -1323,7 +1323,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "ATW INTERNACIONAL SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 79,
@@ -9948,11 +9948,11 @@
     "id": 586,
     "codigo": "JPS0006",
     "nombre": "VINAGRE DE MANZANA X 3000 ML CJ X 6",
-    "subtotal": 4270,
+    "subtotal": 4102,
     "iva": "0,19",
     "ipoconsumo": 0,
-    "precioUnidad": 5081,
-    "precio": 30488,
+    "precioUnidad": 4881,
+    "precio": 29288,
     "imagen": "../assets/toWEBP/7709645809810.webp",
     "barra": 7709645809810,
     "invetario": 30,
