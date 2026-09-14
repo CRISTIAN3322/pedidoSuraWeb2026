@@ -111,7 +111,7 @@
         "id": 4228833,
         "nombre": "ALIRIO ENRIQUE CASTELLANOS CORTES",
         "sucursales": [{
-            "direccion": "CL 21 1 A 16 San Pedro Madrid",
+            "direccion": "CL 21 E 1 A 333 San Pedro Madrid",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
@@ -2488,7 +2488,7 @@
         "id": 80312790,
         "nombre": "EDILSON AYALA TOLOSA",
         "sucursales": [{
-            "direccion": "CL 3  3 00  Cachipay",
+            "direccion": "CL 3 3 B 00 Cachipay",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
@@ -5519,7 +5519,7 @@
         "id": 1077032709,
         "nombre": "CARLOS ORLANDO GARCIA WILCHES",
         "sucursales": [{
-            "direccion": "CR 5 3A 83 PUENTE PIEDRA Madrid",
+            "direccion": "CR 5 3 148 Puente Piedra Madrid",
             "vendedor": "HELIO ARTURO GAMBOA RODRIGUEZ"
         }]
     },
