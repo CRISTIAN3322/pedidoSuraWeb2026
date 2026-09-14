@@ -6383,6 +6383,14 @@
             "direccion": "CR 72 D 56 A 21 SUR Olarte ",
             "vendedor": "YENY MARIBEL MONROY PATIÑO"
         }]
+    },
+    {
+        "id": 80147712,
+        "nombre": "GERMAN OSPINA URIBE",
+        "sucursales": [{
+            "direccion": "CR 41 A 4F 27 LC 2 Primavera",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     }
 
 ]
