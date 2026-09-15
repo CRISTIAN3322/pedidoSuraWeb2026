@@ -4509,5 +4509,11 @@
         "nombre": "MERKAOLARTE SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 7334641 ,
+        "nombre": "JORGE RAMIRO ROJAS CUESTA",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

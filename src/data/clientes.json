@@ -6391,6 +6391,14 @@
             "direccion": "CR 41 A 4F 27 LC 2 Primavera",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 7334641,
+        "nombre": "JORGE RAMIRO ROJAS CUESTA",
+        "sucursales": [{
+            "direccion": "CL 72 F 111 B 15 Engativa",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        }]
     }
 
 ]
