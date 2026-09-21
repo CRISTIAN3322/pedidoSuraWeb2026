@@ -16,7 +16,7 @@ import ExportListaPrecios from '../components/molecules/ExportListaPrecios.astro
 </script>
 <BaseLayout>
     <BloqueoHorario />
-    <h1>🛍️ Catálogo de Productos</h1>
+    <h2 class="title-product">Catálogo de Productos</h2>
     <ExportListaPrecios />
     <div class="container">    
         <div class="card">
@@ -26,6 +26,13 @@ import ExportListaPrecios from '../components/molecules/ExportListaPrecios.astro
 </BaseLayout>
 
 <style>
+    .title-product
+    {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: var(--color-primary);
+    }
     .page-header {
         text-align: center;
         margin-bottom: 2rem;
