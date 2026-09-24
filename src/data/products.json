@@ -6933,7 +6933,7 @@
     "unidad": "caja",
     "despacho": 4,
     "proveedor": "LABORATORIOS OSA SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 409,
@@ -11509,23 +11509,6 @@
     "activo": true
   },
   {
-    "id": 678,
-    "codigo": "JVN0005",
-    "nombre": "GELATINA FRUT DAY SIN SABOR X 500 CJ X  25",
-    "subtotal": 25168,
-    "iva": "0,19",
-    "ipoconsumo": 0,
-    "precioUnidad": 29950,
-    "precio": 748748,
-    "imagen": "../assets/toWEBP/7700718565008.webp",
-    "barra": 7700718565008,
-    "invetario": 32,
-    "unidad": "unidad",
-    "despacho": 1,
-    "proveedor": "VENTAS NACIONALES SAS",
-    "activo": true
-  },
-  {
     "id": 679,
     "codigo": "JVN0010",
     "nombre": "GELATINA MORA FRUT DAY X 250 CJ X  50",
@@ -11765,23 +11748,6 @@
   },
   {
     "id": 693,
-    "codigo": "JVN0028",
-    "nombre": "GELATINA FRUT DAY SIN SABOR X 250  CJ X  50",
-    "subtotal": 12584,
-    "iva": "0,19",
-    "ipoconsumo": 0,
-    "precioUnidad": 14975,
-    "precio": 748748,
-    "imagen": "../assets/toWEBP/7700718564131.webp",
-    "barra": 7700718564131,
-    "invetario": 46,
-    "unidad": "unidad",
-    "despacho": 1,
-    "proveedor": "VENTAS NACIONALES SAS",
-    "activo": true
-  },
-  {
-    "id": 694,
     "codigo": "JVN0028",
     "nombre": "GELATINA FRUT DAY SIN SABOR X 250  CJ X  50",
     "subtotal": 12584,
