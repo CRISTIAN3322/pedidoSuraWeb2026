@@ -10592,6 +10592,23 @@
   },
   {
     "id": 624,
+    "codigo": "JRS0010",
+    "nombre": "MEGA BUÑUELOS X 200 CJ X 20 UND",
+    "subtotal": 2129,
+    "iva": "0,19",
+    "ipoconsumo": 0,
+    "precioUnidad": 2534,
+    "precio": 50670,
+    "imagen": "../assets/toWEBP/7709548702911.webp",
+    "barra": 7709548702911,
+    "invetario": 4420,
+    "unidad": "unidad",
+    "despacho": 20,
+    "proveedor": "SURAMERICANA JI SAS - TEMPORADA",
+    "activo": true
+  },
+  {
+    "id": 625,
     "codigo": "JRS0011",
     "nombre": "MEGA BUÑUELOS X 300 CJ X 20 UND",
     "subtotal": 2658,
@@ -10608,7 +10625,7 @@
     "activo": false
   },
   {
-    "id": 625,
+    "id": 626,
     "codigo": "JRS0012",
     "nombre": "MEGA GALLETA NAVIDAD X 160 CJ X 24",
     "subtotal": 3320,
@@ -10625,7 +10642,7 @@
     "activo": true
   },
   {
-    "id": 626,
+    "id": 627,
     "codigo": "JRS0013",
     "nombre": "MEGA DURAZNO X 820 CJ X 12",
     "subtotal": 6219,
@@ -10642,7 +10659,7 @@
     "activo": false
   },
   {
-    "id": 627,
+    "id": 628,
     "codigo": "JSA0001",
     "nombre": "PIÑA COLADA MAUI X 700 ML CJ X 12",
     "subtotal": 20166,
@@ -10659,7 +10676,7 @@
     "activo": true
   },
   {
-    "id": 628,
+    "id": 629,
     "codigo": "JSA0002",
     "nombre": "SABAJON APOLO SABOR A BRANDY X 700 ML CJ X 12",
     "subtotal": 20155,
@@ -10676,7 +10693,7 @@
     "activo": true
   },
   {
-    "id": 629,
+    "id": 630,
     "codigo": "JSA0003",
     "nombre": "SABAJON APOLO SABOR A VAINILLA X 700 ML CJ X 12",
     "subtotal": 19935,
@@ -10693,7 +10710,7 @@
     "activo": true
   },
   {
-    "id": 630,
+    "id": 631,
     "codigo": "JSA0004",
     "nombre": "PIÑA COLADA TAHITI X 700 ML CJ X 12",
     "subtotal": 21396,
@@ -10710,7 +10727,7 @@
     "activo": true
   },
   {
-    "id": 631,
+    "id": 632,
     "codigo": "JSA0005",
     "nombre": "CREMA DE CAFÉ SAN MARINO X 700 CJ X 12",
     "subtotal": 26037,
@@ -10727,7 +10744,7 @@
     "activo": true
   },
   {
-    "id": 632,
+    "id": 633,
     "codigo": "JTL0001",
     "nombre": "PIN POP FRUNAS SURTIDO BS X 12 CJ X 36",
     "subtotal": 3166,
@@ -10744,7 +10761,7 @@
     "activo": true
   },
   {
-    "id": 633,
+    "id": 634,
     "codigo": "JTL0002",
     "nombre": "PIN POP SURTIDO BS X 24 CJ X 16",
     "subtotal": 6597,
@@ -10761,7 +10778,7 @@
     "activo": true
   },
   {
-    "id": 634,
+    "id": 635,
     "codigo": "JTL0003",
     "nombre": "CHUPETA MANGUITOS CON LIMON Y SAL BS X 48 CJ X 16",
     "subtotal": 6404,
@@ -10778,7 +10795,7 @@
     "activo": true
   },
   {
-    "id": 635,
+    "id": 636,
     "codigo": "JTL0004",
     "nombre": "TOFFELO ARTESANO TRES LECHES BS X 50 CJ X 20",
     "subtotal": 6331,
@@ -10795,7 +10812,7 @@
     "activo": true
   },
   {
-    "id": 636,
+    "id": 637,
     "codigo": "JTL0005",
     "nombre": "PIN POP MANDARINA FRESA BS X 24 CJ X 16",
     "subtotal": 6944,
@@ -10812,7 +10829,7 @@
     "activo": true
   },
   {
-    "id": 637,
+    "id": 638,
     "codigo": "JTL0006",
     "nombre": "MORITAS CARAMELO RELLENO BS X 100 CJ X 14",
     "subtotal": 5907,
@@ -10829,7 +10846,7 @@
     "activo": true
   },
   {
-    "id": 638,
+    "id": 639,
     "codigo": "JTL0007",
     "nombre": "CARAMELO PIN POP BUMBA SURTIDO BS X 100 CJ X 16",
     "subtotal": 7142,
@@ -10846,7 +10863,7 @@
     "activo": true
   },
   {
-    "id": 639,
+    "id": 640,
     "codigo": "JTL0008",
     "nombre": "FRUNAS RELLENAS BS X 100 CJ X 18",
     "subtotal": 9442,
@@ -10863,7 +10880,7 @@
     "activo": true
   },
   {
-    "id": 640,
+    "id": 641,
     "codigo": "JTL0009",
     "nombre": "PIN POP FRESA BS X 24 CJ X 16",
     "subtotal": 6944,
@@ -10880,7 +10897,7 @@
     "activo": true
   },
   {
-    "id": 641,
+    "id": 642,
     "codigo": "JTL0010",
     "nombre": "PIN POP MANGO ENCHILADO BS X 24 CJ X 24",
     "subtotal": 6597,
@@ -10897,7 +10914,7 @@
     "activo": true
   },
   {
-    "id": 642,
+    "id": 643,
     "codigo": "JTL0012",
     "nombre": "FRUNAS GOMAS GUSANOS (FRAMBUESA - UVA VERDE) CJ X 24",
     "subtotal": 46078,
@@ -10914,7 +10931,7 @@
     "activo": true
   },
   {
-    "id": 643,
+    "id": 644,
     "codigo": "JTL0013",
     "nombre": "FRUNAS GOMAS GUSANOS (FRESA - MANDARINA) CJ X24",
     "subtotal": 46078,
@@ -10931,7 +10948,7 @@
     "activo": true
   },
   {
-    "id": 644,
+    "id": 645,
     "codigo": "JTL0014",
     "nombre": "FRUNAS ORIGINALES CLIMA FRIO BS X 12 CJ 24",
     "subtotal": 3688,
@@ -10948,7 +10965,7 @@
     "activo": true
   },
   {
-    "id": 645,
+    "id": 646,
     "codigo": "JTL0015",
     "nombre": "PIN POP POLVO EXPLOSIVO DISPLAY X 12 CJ X 12",
     "subtotal": 7850,
@@ -10965,7 +10982,7 @@
     "activo": true
   },
   {
-    "id": 646,
+    "id": 647,
     "codigo": "JTL0016",
     "nombre": "FRUNAS ORIGINAL CLIMA FRIO BS X 26 CJ X 18",
     "subtotal": 9070,
@@ -10982,7 +10999,7 @@
     "activo": true
   },
   {
-    "id": 647,
+    "id": 648,
     "codigo": "JTL0018",
     "nombre": "PIN POP PINTALEGUAS MORAZUL BS X 24 CJ X 16",
     "subtotal": 6944,
@@ -10999,7 +11016,7 @@
     "activo": true
   },
   {
-    "id": 648,
+    "id": 649,
     "codigo": "JTL0019",
     "nombre": "TROLLI TORTU SPLASH BS X 100 CJ X 8",
     "subtotal": 13109,
@@ -11016,7 +11033,7 @@
     "activo": true
   },
   {
-    "id": 649,
+    "id": 650,
     "codigo": "JTL0020",
     "nombre": "TROLLI GUSANOS CRACKS XL CJ X 24",
     "subtotal": 0,
@@ -11033,7 +11050,7 @@
     "activo": false
   },
   {
-    "id": 650,
+    "id": 651,
     "codigo": "JTL0021",
     "nombre": "TROLLI MORDISCOS XL CJ 24",
     "subtotal": 28064,
@@ -11050,7 +11067,7 @@
     "activo": false
   },
   {
-    "id": 651,
+    "id": 652,
     "codigo": "JTL0022",
     "nombre": "TROLLI BANANAS XL CJ X 24",
     "subtotal": 28064,
@@ -11067,7 +11084,7 @@
     "activo": true
   },
   {
-    "id": 652,
+    "id": 653,
     "codigo": "JTL0023",
     "nombre": "TROLLI ANAYCONDA XL CJ X 24",
     "subtotal": 28064,
@@ -11084,7 +11101,7 @@
     "activo": true
   },
   {
-    "id": 653,
+    "id": 654,
     "codigo": "JTL0024",
     "nombre": "TROLLI FANTASÍA MIX (AROS, MORDISCOS, GUSANOS, BANANAS) CJ X 24",
     "subtotal": 40937,
@@ -11101,7 +11118,7 @@
     "activo": true
   },
   {
-    "id": 654,
+    "id": 655,
     "codigo": "JTL0025",
     "nombre": "TROLLI FRESA RELLENAS XXL CJ X 24",
     "subtotal": 39552,
@@ -11118,7 +11135,7 @@
     "activo": true
   },
   {
-    "id": 655,
+    "id": 656,
     "codigo": "JTL0026",
     "nombre": "TROLLI VA LLENA XXL CJ X 24",
     "subtotal": 39552,
@@ -11135,7 +11152,7 @@
     "activo": true
   },
   {
-    "id": 656,
+    "id": 657,
     "codigo": "JTL0027",
     "nombre": "TROLLI BANANAS XXL CJ X 24",
     "subtotal": 39552,
@@ -11152,7 +11169,7 @@
     "activo": true
   },
   {
-    "id": 657,
+    "id": 658,
     "codigo": "JTL0028",
     "nombre": "TROLLI ANAYCONDA XXL CJ X 24",
     "subtotal": 39552,
@@ -11169,7 +11186,7 @@
     "activo": true
   },
   {
-    "id": 658,
+    "id": 659,
     "codigo": "JTL0029",
     "nombre": "TROLLI ANAYCONDA AIREADA BS X 100 CJ X 16",
     "subtotal": 6008,
@@ -11186,7 +11203,7 @@
     "activo": true
   },
   {
-    "id": 659,
+    "id": 660,
     "codigo": "JTL0030",
     "nombre": "TROLLI ANAYCONDA AIREADA JARRA X 200 CJ X 6",
     "subtotal": 13372,
@@ -11203,7 +11220,7 @@
     "activo": true
   },
   {
-    "id": 660,
+    "id": 661,
     "codigo": "JTL0031",
     "nombre": "MECHAS LOCAS RENOVACION DE SABORES SURTIDO DP X 6 CJ X 10",
     "subtotal": 17286,
@@ -11220,7 +11237,7 @@
     "activo": true
   },
   {
-    "id": 661,
+    "id": 662,
     "codigo": "JTL0032",
     "nombre": "PIN POP POLVO ACIDOS DP X 12 CJ X 12",
     "subtotal": 7509,
@@ -11237,7 +11254,7 @@
     "activo": true
   },
   {
-    "id": 662,
+    "id": 663,
     "codigo": "JTL0033",
     "nombre": "FRUNAS MINI AROS ( FRAMBUESA-UVA VERDE) BS X 100 CJ X 16",
     "subtotal": 6269,
@@ -11254,7 +11271,7 @@
     "activo": true
   },
   {
-    "id": 663,
+    "id": 664,
     "codigo": "JTL0034",
     "nombre": "FRUNAS AROS BS X 100 CJ X 8",
     "subtotal": 12815,
@@ -11271,7 +11288,7 @@
     "activo": true
   },
   {
-    "id": 664,
+    "id": 665,
     "codigo": "JTL0041",
     "nombre": "CARAMELO VIVA VITA NARANJA BS X 25 CJ X 20",
     "subtotal": 4852,
@@ -11288,7 +11305,7 @@
     "activo": true
   },
   {
-    "id": 665,
+    "id": 666,
     "codigo": "JTL0042",
     "nombre": "CARAMELO VIVA VITA JENGIBRE Y MIEL BS X 25 CJ X 20",
     "subtotal": 4852,
@@ -11305,7 +11322,7 @@
     "activo": true
   },
   {
-    "id": 666,
+    "id": 667,
     "codigo": "JTL0045",
     "nombre": "YOGUETA CHOCOMIX BS X 24 CJ X 16",
     "subtotal": 6675,
@@ -11322,7 +11339,7 @@
     "activo": true
   },
   {
-    "id": 667,
+    "id": 668,
     "codigo": "JTL0046",
     "nombre": "YOGUETA DESSERTS POSTRES BS X 24 CJ X 16",
     "subtotal": 6675,
@@ -11339,7 +11356,7 @@
     "activo": true
   },
   {
-    "id": 668,
+    "id": 669,
     "codigo": "JTL0047",
     "nombre": "YOGUETA FRUTALES SURTIDA BS X 24 CJ X 16",
     "subtotal": 6674,
@@ -11356,7 +11373,7 @@
     "activo": true
   },
   {
-    "id": 669,
+    "id": 670,
     "codigo": "JTL0051",
     "nombre": "TROLLI SURTIDO AZUL ( MANGO BICHE 40G - COCODRILO 40G - MORGAN 45G - PINTOSOS 39 G ) CJ X 24",
     "subtotal": 26328,
@@ -11373,7 +11390,7 @@
     "activo": true
   },
   {
-    "id": 670,
+    "id": 671,
     "codigo": "JTL0052",
     "nombre": "TROLLI SURTIDO MAGENTA ( ANILLOS 40G - MORDISCOS 40G - ANAYCONDA 35G - BANANA 40G ) CJ X 24",
     "subtotal": 26328,
@@ -11390,7 +11407,7 @@
     "activo": true
   },
   {
-    "id": 671,
+    "id": 672,
     "codigo": "JTL0053",
     "nombre": "TROLLI SURTIDO ROJO ( FANTASIA MIX 63G - TORTU SPLASH 63G - BANANAS 63G - MORDISCOS 60G ) CJ X 20",
     "subtotal": 31160,
@@ -11407,7 +11424,7 @@
     "activo": true
   },
   {
-    "id": 672,
+    "id": 673,
     "codigo": "JTL0054",
     "nombre": "TROLLI NUEVO SURTIDO XL CON CRACKS ( GUSANOS CRACKS 59G - VA LLENA 63G - ANAYCONDA 60G - TORTU SPLASH 63G ) CJ X 20",
     "subtotal": 31160,
@@ -11424,7 +11441,7 @@
     "activo": true
   },
   {
-    "id": 673,
+    "id": 674,
     "codigo": "JVN0001",
     "nombre": "GELATINA FRUT DAY X 250 CJ X  50",
     "subtotal": 3960,
@@ -11441,7 +11458,7 @@
     "activo": true
   },
   {
-    "id": 674,
+    "id": 675,
     "codigo": "JVN0002",
     "nombre": "GELATINA FRUT DAY X 500 CJ X 50",
     "subtotal": 7922,
@@ -11458,7 +11475,7 @@
     "activo": true
   },
   {
-    "id": 675,
+    "id": 676,
     "codigo": "JVN0003",
     "nombre": "GELATINA FRUT DAY X 1000 CJ  X 25",
     "subtotal": 15843,
@@ -11475,7 +11492,7 @@
     "activo": true
   },
   {
-    "id": 676,
+    "id": 677,
     "codigo": "JVN0004",
     "nombre": "GELATINA FRUT DAY X 105 GR 3 SABORES CJ X 32",
     "subtotal": 3074,
@@ -11492,7 +11509,7 @@
     "activo": true
   },
   {
-    "id": 677,
+    "id": 678,
     "codigo": "JVN0005",
     "nombre": "GELATINA FRUT DAY SIN SABOR X 500 CJ X  25",
     "subtotal": 25168,
@@ -11764,7 +11781,7 @@
     "activo": true
   },
   {
-    "id": 695,
+    "id": 694,
     "codigo": "JVN0031",
     "nombre": "PASTILLA DE COCOA LA MALAGUEÑA TRADICIONAL  X 500 GR CJ X 50",
     "subtotal": 6499,
@@ -11781,7 +11798,7 @@
     "activo": true
   },
   {
-    "id": 696,
+    "id": 695,
     "codigo": "JVN0032",
     "nombre": "PASTILLA DE COCOA LA MALAGUEÑA CLAVOS Y CANELA  X 500 GR CJ X 50",
     "subtotal": 6499,
@@ -11798,7 +11815,7 @@
     "activo": true
   },
   {
-    "id": 697,
+    "id": 696,
     "codigo": "JVN0033",
     "nombre": "PASTILLA DE COCOA LA MALAGUEÑA VAINILLA  X 500 GR CJ X 50",
     "subtotal": 6499,
