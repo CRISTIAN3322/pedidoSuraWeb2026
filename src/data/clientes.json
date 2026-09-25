@@ -6399,6 +6399,14 @@
             "direccion": "CL 72 F 111 B 15 Engativa",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
+    },
+    {
+        "id": 52519851,
+        "nombre": "ESTHER ANGELA SALAZAR MORA",
+        "sucursales": [{
+            "direccion": "CR 81 B 13 30",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
+        }]
     }
 
 ]
