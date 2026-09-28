@@ -4515,5 +4515,11 @@
         "nombre": "JORGE RAMIRO ROJAS CUESTA",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 80072511 ,
+        "nombre": "EDILBERTO CRUZ BELTRAN",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
