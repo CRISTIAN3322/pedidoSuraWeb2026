@@ -1883,7 +1883,7 @@
         "id": 74439272,
         "nombre": "JOSE BERNABE PAEZ AVENDAÑO",
         "sucursales": [{
-            "direccion": "CL 31 1 28  Chía",
+            "direccion": "CL 31 1 28 Calahorra Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -2549,7 +2549,7 @@
         "id": 80501454,
         "nombre": "JUAN CARLOS PUENTES RUIZ",
         "sucursales": [{
-            "direccion": "CL 3 A 13 08 Cajicá",
+            "direccion": "CL 3 13 08 ESQUINA Cajicá",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -2857,7 +2857,7 @@
         "id": 830072536,
         "nombre": "ORGANIZACIÓN SELECTO SAS",
         "sucursales": [{
-            "direccion": "CL 1 3 20  Sopó",
+            "direccion": "CL 1 3 20 Sopó",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -2902,7 +2902,7 @@
         "id": 832010731,
         "nombre": "GRUPO COMERCIAL ANDES SA",
         "sucursales": [{
-            "direccion": "CR 1  7  200  Tabio",
+            "direccion": "TV 1 A 8 A 08 Tabio",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -3329,11 +3329,11 @@
         "id": 900600935,
         "nombre": "SANCHEZ CORDOBA SAS",
         "sucursales": [{
-                "direccion": "CR 5 3 25  Villapinzón",
+                "direccion": "CL 4 4 45 Villapinzón",
                 "vendedor": "ANA SOFIA ROLDAN RIQUE"
             },
             {
-                "direccion": "CL 4 4 45  Villapinzón",
+                "direccion": "CR 5 3 25  Villapinzón",
                 "vendedor": "ANA SOFIA ROLDAN RIQUE"
             }
         ]
@@ -4201,7 +4201,7 @@
         "id": 901557242,
         "nombre": "AUTOSERVICIO DEC SAN MIGUEL SAS",
         "sucursales": [{
-            "direccion": "CR 15 A 4 E 11  Tocancipá",
+            "direccion": "CR 4 E 14 A 27 La Esmeralda Tocancipá",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -4336,7 +4336,7 @@
         "id": 901697452,
         "nombre": "INVERSIONES OMC SAS",
         "sucursales": [{
-            "direccion": "CR 11 2 B 89  Cota",
+            "direccion": "CL 11 2 B 89 Cota",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -4572,7 +4572,7 @@
         "id": 901963150,
         "nombre": "INVERSIONES SAN ANTONIO SAS",
         "sucursales": [{
-            "direccion": "CL 21 6 43  Chía",
+            "direccion": "CR 13 11 39 Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -5317,7 +5317,7 @@
         "id": 1072706587,
         "nombre": "DAVID NICOLAS MENECES LOPEZ",
         "sucursales": [{
-            "direccion": "CL 31 1 65   Chía",
+            "direccion": "CL 31 1 53 Mercedez De Caladora Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
@@ -5917,7 +5917,7 @@
         "id": 7124541,
         "nombre": "MARCO TULIO LAITON PAEZ",
         "sucursales": [{
-            "direccion": "CR 3 1 36  Tabio ",
+            "direccion": "CR 3 1 28  Tabio ",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
         }]
     },
