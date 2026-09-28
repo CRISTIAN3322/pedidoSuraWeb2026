@@ -6407,6 +6407,14 @@
             "direccion": "CR 81 B 13 30",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
+    },
+    {
+        "id": 80072511,
+        "nombre": "EDILBERTO CRUZ BELTRAN",
+        "sucursales": [{
+            "direccion": "CL 28 SUR 25 05 Centenario",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
     }
 
 ]
