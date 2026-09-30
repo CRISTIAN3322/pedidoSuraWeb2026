@@ -3652,7 +3652,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "DISLICORES - DISTRIBUIDORA DE VINOS Y LICORES",
-    "activo": "ttr"
+    "activo": true
   },
   {
     "id": 216,
