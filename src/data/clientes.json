@@ -468,10 +468,6 @@
         "sucursales": [{
                 "direccion": "CL 71 A SUR 81 F 03 Bosa Palestina",
                 "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
-            },
-            {
-                "direccion": "CR 81 68 A 51 SUR Bosa Palestina",
-                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
             }
         ]
     },
@@ -4984,6 +4980,10 @@
             },
             {
                 "direccion": "TV 32 A 34 77 Lirios Soacha",
+                "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
+            },
+            {
+                "direccion": "CR 81 68 A 51 SUR Bosa Palestina",
                 "vendedor": "FRANCY JANETH HUERTAS MARTINEZ"
             }
         ]
