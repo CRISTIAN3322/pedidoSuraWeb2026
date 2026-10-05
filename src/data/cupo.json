@@ -4521,5 +4521,23 @@
         "nombre": "EDILBERTO CRUZ BELTRAN",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 41751247 ,
+        "nombre": "MARINA HERNANDEZ PARRADO",
+        "cupo": 4000000,
+        "Forma": "Credito"
+    },
+    {
+        "id": 98586123 ,
+        "nombre": "ABSALON MUÑOZ GUTIERREZ",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 80252356 ,
+        "nombre": "EDWIN ESPINOSA MUÑOZ",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

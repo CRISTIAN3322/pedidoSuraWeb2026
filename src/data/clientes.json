@@ -6415,6 +6415,30 @@
             "direccion": "CL 28 SUR 25 05 Centenario",
             "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
         }]
+    },
+    {
+        "id": 41751247,
+        "nombre": "MARINA HERNANDEZ PARRADO",
+        "sucursales": [{
+            "direccion": "CL 68 A SUR 80 H 94 Bosa Naranjos",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
+    },
+    {
+        "id": 98586123,
+        "nombre": "ABSALON MUÑOZ GUTIERREZ",
+        "sucursales": [{
+            "direccion": "CL 22 1 23 ESTE Soacha San Mateo",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
+    },
+    {
+        "id": 80252356,
+        "nombre": "EDWIN ESPINOSA MUÑOZ",
+        "sucursales": [{
+            "direccion": "TV 18 H 6 66 La Estrella",
+            "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
+        }]
     }
 
 ]
