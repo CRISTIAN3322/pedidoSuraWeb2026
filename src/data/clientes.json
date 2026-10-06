@@ -5268,15 +5268,19 @@
         "id": 1069727373,
         "nombre": "GISELLA CAROLINA GIL LINARES",
         "sucursales": [{
-                "direccion": "CR 10 7 A 32  Fusagasugá",
+                "direccion": "CR 10 7 A 32 Fusagasugá",
                 "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
             },
             {
-                "direccion": "CL 6 7 22  Fusagasugá",
+                "direccion": "CL 6 7 22 Fusagasugá",
                 "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
             },
             {
-                "direccion": "CL 10 A 10 02  Fusagasugá",
+                "direccion": "CL 10 A 10 02 Fusagasugá",
+                "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+            },
+            {
+                "direccion": "CL 7 B 16 103 Melgar",
                 "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
             }
         ]
