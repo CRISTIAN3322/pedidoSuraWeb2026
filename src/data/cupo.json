@@ -4539,5 +4539,11 @@
         "nombre": "EDWIN ESPINOSA MUÑOZ",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1007698797 ,
+        "nombre": "JUNIOR SALOMON CASTILLO CALDERON",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

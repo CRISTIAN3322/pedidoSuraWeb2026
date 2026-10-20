@@ -6443,6 +6443,14 @@
             "direccion": "TV 18 H 6 66 Soacha Danubio",
             "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
         }]
+    },
+    {
+        "id": 1007698797,
+        "nombre": "JUNIOR SALOMON CASTILLO CALDERON",
+        "sucursales": [{
+            "direccion": "DG 62 SUR 21 A 15 San Francisco",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
+        }]
     }
 
 ]
