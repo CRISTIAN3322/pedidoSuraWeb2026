@@ -6455,6 +6455,22 @@
             "direccion": "DG 62 SUR 21 A 15 San Francisco",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
+    },
+    {
+        "id": 1000257158,
+        "nombre": "JULIANA ANDREA ZULUAGA GALINDO",
+        "sucursales": [{
+            "direccion": "CR 72 A 56 C 13 SUR",
+            "vendedor": "YENY MARIBEL MONROY PATIÑO"
+        }]
+    },
+    {
+        "id": 1073558235,
+        "nombre": "YURANI TEUTA SERENO",
+        "sucursales": [{
+            "direccion": "CL 5 3 29 41 El Carmen Nariño",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]
