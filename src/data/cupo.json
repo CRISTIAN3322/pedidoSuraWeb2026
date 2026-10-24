@@ -4545,5 +4545,17 @@
         "nombre": "JUNIOR SALOMON CASTILLO CALDERON",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 1000257158 ,
+        "nombre": "JULIANA ANDREA ZULUAGA GALINDO",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 1073558235 ,
+        "nombre": "YURANI TEUTA SERENO",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
