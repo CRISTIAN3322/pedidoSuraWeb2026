@@ -2312,11 +2312,11 @@
             },
             {
                 "direccion": "CR 14 26 27 SUR Compartir Soacha",
-                "vendedor": "YEIMY LUCELY MEDINA FRANCO"
+                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
             },
             {
                 "direccion": "CL 30 SUR 16 F 15  Soacha",
-                "vendedor": "YEIMY LUCELY MEDINA FRANCO"
+                "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON"
             }
         ]
     },
@@ -6470,6 +6470,14 @@
         "sucursales": [{
             "direccion": "CL 5 3 29 41 El Carmen Nariño",
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
+    },
+    {
+        "id": 902052888,
+        "nombre": "ISI GRUPO SAS",
+        "sucursales": [{
+            "direccion": "CL 76 SUR 45 C 15 Las Brisas",
+            "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
     }
 

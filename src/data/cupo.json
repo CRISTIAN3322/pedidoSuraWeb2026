@@ -4557,5 +4557,11 @@
         "nombre": "YURANI TEUTA SERENO",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 902052888 ,
+        "nombre": "ISI GRUPO SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
