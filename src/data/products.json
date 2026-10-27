@@ -8701,7 +8701,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PROCEVINOS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 513,
