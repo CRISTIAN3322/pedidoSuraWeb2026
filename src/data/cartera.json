@@ -3610,16 +3610,6 @@
     "dias": -1
   },
   {
-    "id": 39532339,
-    "cliente": "ELIZABETH CASALLAS RICAURTE",
-    "Email": "E-Mail: autoservicio.ricaurte@hotmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 57899",
-    "fecha": "28/08/2026",
-    "valor": 969210,
-    "dias": 53
-  },
-  {
     "id": 1022322410,
     "cliente": "ELIZABETH LOPEZ PULIDO",
     "Email": "E-Mail: fe.rapidexpress@gmail.com",
@@ -8788,16 +8778,6 @@
     "fecha": "23/10/2026",
     "valor": 1261143,
     "dias": -23
-  },
-  {
-    "id": 1023924997,
-    "cliente": "JOSE DAVID PEREZ RODRIGUEZ",
-    "Email": "E-Mail: jdpr12394@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 57334",
-    "fecha": "10/08/2026",
-    "valor": 1132647,
-    "dias": 20
   },
   {
     "id": 1023924997,
