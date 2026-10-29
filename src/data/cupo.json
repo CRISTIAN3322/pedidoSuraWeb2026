@@ -4563,5 +4563,11 @@
         "nombre": "ISI GRUPO SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 901388396 ,
+        "nombre": "BODEGA AGRO SAN JOSE SAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
