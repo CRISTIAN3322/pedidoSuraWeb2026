@@ -1434,16 +1434,6 @@
     "cliente": "BEATRIZ LUNA LIZ",
     "Email": "E-Mail: ccamiloluna@gmail.com",
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 57438",
-    "fecha": "14/08/2026",
-    "valor": 474392,
-    "dias": 48
-  },
-  {
-    "id": 38285755,
-    "cliente": "BEATRIZ LUNA LIZ",
-    "Email": "E-Mail: ccamiloluna@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 58745",
     "fecha": "25/09/2026",
     "valor": 347690,
@@ -4078,26 +4068,6 @@
     "fecha": "30/09/2026",
     "valor": 1196371,
     "dias": 0
-  },
-  {
-    "id": 74244524,
-    "cliente": "FRANCISCO RODRIGUEZ FORERO",
-    "Email": "E-Mail: franrofo@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58522",
-    "fecha": "17/09/2026",
-    "valor": 418046,
-    "dias": 13
-  },
-  {
-    "id": 74244524,
-    "cliente": "FRANCISCO RODRIGUEZ FORERO",
-    "Email": "E-Mail: franrofo@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58523",
-    "fecha": "17/09/2026",
-    "valor": 140341,
-    "dias": 13
   },
   {
     "id": 74244524,
@@ -14368,16 +14338,6 @@
     "fecha": "30/09/2026",
     "valor": 833828,
     "dias": -1
-  },
-  {
-    "id": 5766659,
-    "cliente": "SEGUNDO PARDO OJEDA",
-    "Email": "E-Mail: segundopardoojeda@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57915",
-    "fecha": "28/08/2026",
-    "valor": 500248,
-    "dias": 33
   },
   {
     "id": 5766659,
