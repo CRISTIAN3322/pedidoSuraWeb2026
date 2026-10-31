@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import clientesData from '../data/clientes.json';
 import cuposData from '../data/cupo.json';
 import carteraData from '../data/cartera.json';
+import { actualizarDiasFacturas } from '../utils/carteraUtils';
 
 // Función auxiliar para obtener el nombre del vendedor de la sesión
 function getVendedorNombre() {
@@ -79,6 +80,9 @@ export const useClienteData = (clienteSeleccionado) => {
           return compareVendedorNames(vendedorFactura, vendedorNombre);
         });
       }
+
+      // Recalcular días desde fecha (hoy Bogotá); ignora dias estático del JSON
+      carteraCliente = actualizarDiasFacturas(carteraCliente);
 
       const totalCartera = carteraCliente.reduce((sum, factura) => {
         const valor = String(factura.valor).replace(/\./g, '').replace(',', '.');

@@ -1,9 +1,10 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import { useClienteData, useClientesFiltrados } from '../../hooks/useClienteData';
 import { APP_CONFIG } from '../../config/app.config';
+import { esFacturaBloqueante } from '../../utils/carteraUtils';
 import styles from './ClienteSelectorReact.module.css';
 
-const { blockDays } = APP_CONFIG.portfolio;
+const { blockDays, warningDays, criticalDays } = APP_CONFIG.portfolio;
 
 // Función auxiliar para obtener el nombre del vendedor de la sesión
 function getVendedorNombre() {
@@ -65,9 +66,8 @@ const CupoCliente = React.memo(({ cupoDisponible, totalCartera, sinCupo, error }
 const CarteraCliente = React.memo(({ cartera, totalCartera, isLoading }) => {
     const getDiasClass = useCallback((dias) => {
         const diasNum = Number(dias) || 0;
-        if (diasNum >= 30) return styles['cliente-selector__days-badge--critical'];
-        if (diasNum >= 11) return styles['cliente-selector__days-badge--danger'];
-        if (diasNum >= 1) return styles['cliente-selector__days-badge--warning'];
+        if (diasNum >= criticalDays) return styles['cliente-selector__days-badge--critical'];
+        if (diasNum >= warningDays) return styles['cliente-selector__days-badge--warning'];
         return styles['cliente-selector__days-badge--normal'];
     }, []);
 
@@ -227,10 +227,9 @@ function ClienteSelectorReact() {
     const tieneFacturasVencidas = useMemo(() => {
         if (!carteraCliente || carteraCliente.length === 0) return false;
 
-        return carteraCliente.some(factura => {
-            const dias = Number(factura.dias) || 0;
-            return dias > blockDays;
-        });
+        return carteraCliente.some((factura) =>
+            esFacturaBloqueante(factura.dias, blockDays)
+        );
     }, [carteraCliente]);
 
     // Datos seleccionados para mostrar
@@ -390,7 +389,7 @@ function ClienteSelectorReact() {
                         style={{ fontSize: '0.9rem', color: 'var(--color-neutral)', marginTop: '0.5rem' }}
                     >
                         {tieneFacturasVencidas
-                            ? `El cliente tiene facturas vencidas mayores a ${blockDays} días. Contacte al área de cartera para resolver.`
+                            ? `El cliente tiene facturas de ${blockDays} días o más. Contacte al área de cartera para resolver.`
                             : 'Seleccione una sucursal para continuar'
                         }
                     </div>

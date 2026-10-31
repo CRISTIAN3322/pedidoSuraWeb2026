@@ -39,6 +39,8 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
 </BaseLayout>
 
 <script>
+  import { enrichCarteraGrupo } from '../utils/carteraUtils';
+
   // Función para formatear números como moneda
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('es-CO', {
@@ -135,7 +137,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
             <tbody>
               ${facturas.map((factura: any, index: number) => {
                 const dias = Number(factura.dias) || 0;
-                const rowClass = dias >= 30 ? 'dias-vencida' : dias >= 11 ? 'dias-por-vencer' : dias >= 1 ? 'dias-vigente' : '';
+                const rowClass = dias >= 41 ? 'dias-vencida' : dias >= 25 ? 'dias-por-vencer' : dias >= 1 ? 'dias-vigente' : '';
                 return `
                   <tr class="${rowClass}">
                     <td class="text-center">${index + 1}</td>
@@ -143,7 +145,7 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
                     <td>${factura.cliente || 'N/A'}</td>
                     <td>${factura.fecha || 'N/A'}</td>
                     <td class="text-right amount">${formatCurrency(typeof factura.valor === 'number' ? factura.valor : parseFloat(String(factura.valor).replace(/\./g, '').replace(',', '.')) || 0)}</td>
-                    <td class="text-center ${dias >= 30 ? 'dias-danger' : dias >= 11 ? 'dias-warning' : ''}">${dias}</td>
+                    <td class="text-center ${dias >= 41 ? 'dias-danger' : dias >= 25 ? 'dias-warning' : ''}">${dias}</td>
                   </tr>
                 `;
               }).join('')}
@@ -641,8 +643,9 @@ import BloqueoHorario from '../components/organisms/BloqueoHorario.astro';
       if (carterasResponse.ok) {
         const carterasDataJson = await carterasResponse.json();
         if (Array.isArray(carterasDataJson)) {
-          carterasData = carterasDataJson;
-          carterasDataGlobal = carterasData; // Guardar en variable global
+          // Recalcular días desde fecha al cargar (actualización diaria en cliente)
+          carterasData = carterasDataJson.map((g: any) => enrichCarteraGrupo(g));
+          carterasDataGlobal = carterasData;
         }
       } else {
         console.warn('No se pudieron cargar las carteras, continuando sin ellas');

@@ -1,4 +1,6 @@
 ---
+import { actualizarDiasFacturas } from '../../utils/carteraUtils';
+
 // Props esperados:
 // cartera: array de facturas del cliente
 // totalCartera: número
@@ -6,6 +8,7 @@
 // sinCupo: boolean
 // mostrar: boolean (opcional, default true)
 const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mostrar = true } = Astro.props;
+const carteraConDias = actualizarDiasFacturas(cartera);
 ---
 {mostrar && (
   <div class="tabla-cartera">
@@ -21,7 +24,7 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
         </tr>
       </thead>
       <tbody>
-        {cartera.length > 0 ? cartera.map((factura: any) => {
+        {carteraConDias.length > 0 ? carteraConDias.map((factura: any) => {
           // Manejar el campo vendedor que puede venir como "Vendedor" o "vendedor"
           const vendedorNombre = factura.Vendedor || factura.vendedor || 'N/A';
           // Manejar el valor que puede ser número o string
@@ -31,15 +34,14 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
           
           return (
             <tr class={
-              Number(factura.dias) >= 30 ? 'dias-mayor-treinta' :
-              Number(factura.dias) >= 11 ? 'dias-mayor-diez' :
-              Number(factura.dias) >= 1 ? 'dias-mayor-uno' : ''
+              factura.dias >= 41 ? 'dias-mayor-treinta' :
+              factura.dias >= 25 ? 'dias-mayor-diez' : ''
             }>
               <td>{factura.fac || 'N/A'}</td>
               <td>{factura.fecha || 'N/A'}</td>
               <td>{vendedorNombre}</td>
               <td>${valorNumerico.toLocaleString('es-CO')}</td>
-              <td>{factura.dias || 0}</td>
+              <td>{factura.dias}</td>
             </tr>
           );
         }) : (
@@ -98,17 +100,11 @@ const { cartera = [], totalCartera = 0, cupoDisponible = 0, sinCupo = false, mos
 .tabla-cartera tr:hover {
     background-color: var(--color-surface-hover);
 }
-.tabla-cartera tr.dias-mayor-uno {
+.tabla-cartera tr.dias-mayor-diez {
     background-color: var(--color-warning-light) !important;
 }
-.tabla-cartera tr.dias-mayor-uno:hover {
-    background-color: var(--color-warning-light);
-}
-.tabla-cartera tr.dias-mayor-diez {
-    background-color: var(--color-danger-light) !important;
-}
 .tabla-cartera tr.dias-mayor-diez:hover {
-    background-color: var(--color-danger-light);
+    background-color: var(--color-warning-light);
 }
 .tabla-cartera tr.dias-mayor-treinta {
     background-color: var(--color-danger) !important;

@@ -1,6 +1,7 @@
 ---
 import StatusBadge from "../atoms/StatusBadge.astro";
 import Icon from "../atoms/Icon.astro";
+import { actualizarDiasFacturas, getDiasStatus } from "../../utils/carteraUtils";
 
 // Componente molecular CarteraTable - Muestra tabla de facturas del cliente
 // Props esperadas:
@@ -9,15 +10,7 @@ import Icon from "../atoms/Icon.astro";
 // - isLoading: boolean
 
 const { cartera = [], totalCartera = 0, isLoading = false } = Astro.props;
-
-// Función para determinar el estado de los días
-const getDiasStatus = (dias: any) => {
-  const diasNum = Number(dias) || 0;
-  if (diasNum >= 30) return "danger";
-  if (diasNum >= 11) return "warning";
-  if (diasNum >= 1) return "info";
-  return "success";
-};
+const carteraConDias = actualizarDiasFacturas(cartera);
 
 // Función para formatear moneda
 const formatCurrency = (valor: any) => {
@@ -57,8 +50,8 @@ const formatCurrency = (valor: any) => {
             </tr>
           </thead>
           <tbody>
-            {cartera.length > 0 ? (
-              cartera.map((factura: any) => {
+            {carteraConDias.length > 0 ? (
+              carteraConDias.map((factura: any) => {
                 // Manejar el campo vendedor que puede venir como "Vendedor" o "vendedor"
                 const vendedorNombre = factura.Vendedor || factura.vendedor || "N/A";
                 return (
@@ -71,7 +64,7 @@ const formatCurrency = (valor: any) => {
                     </td>
                     <td>
                       <StatusBadge status={getDiasStatus(factura.dias)}>
-                        {factura.dias || 0}
+                        {factura.dias}
                       </StatusBadge>
                     </td>
                   </tr>

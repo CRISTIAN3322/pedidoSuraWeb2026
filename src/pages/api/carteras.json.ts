@@ -1,6 +1,7 @@
 import carteraData from '../../data/cartera.json';
 import type { APIRoute } from 'astro';
 import {
+  conDiasActualizados,
   DIAS_POR_VENCER_MIN,
   DIAS_VENCIDA,
   parseValor,
@@ -38,11 +39,16 @@ export const GET: APIRoute = () => {
       const facturasRaw = carterasPorVendedor[vendedorKey];
       const vendedorNombre = facturasRaw[0].vendedor;
       const facturas = sortFacturasByDiasDesc(
-        facturasRaw.map((factura: Record<string, unknown>) => ({
-          ...factura,
-          valor: parseValor(factura.valor),
-          dias: Number(factura.dias) || 0,
-        })) as Parameters<typeof sortFacturasByDiasDesc>[0]
+        facturasRaw.map((factura: Record<string, unknown>) => {
+          const actualizada = conDiasActualizados({
+            ...factura,
+            fecha: String(factura.fecha || ''),
+          });
+          return {
+            ...actualizada,
+            valor: parseValor(factura.valor),
+          };
+        }) as Parameters<typeof sortFacturasByDiasDesc>[0]
       );
 
       const totalCartera = facturas.reduce((sum, factura) => sum + parseValor(factura.valor), 0);

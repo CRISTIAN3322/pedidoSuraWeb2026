@@ -3,6 +3,13 @@
  * Sigue la metodología Atomic Design para mantener la lógica de negocio centralizada
  */
 
+import { APP_CONFIG } from '../../config/app.config';
+import {
+  calcularDiasDesdeFecha,
+  conDiasActualizados,
+  esFacturaBloqueante,
+} from '../carteraUtils';
+
 /**
  * Interface para representar una factura
  */
@@ -26,55 +33,54 @@ export interface ClienteDeuda {
   cartera?: Factura[];
 }
 
+function diasFactura(factura: Factura): number {
+  if (factura.fecha) {
+    return calcularDiasDesdeFecha(String(factura.fecha));
+  }
+  return Number(factura.dias) || 0;
+}
+
 /**
- * Verifica si un cliente tiene facturas vencidas mayores a N días
+ * Verifica si un cliente tiene facturas que bloquean el catálogo
  * @param cliente - Objeto con información del cliente y su cartera
- * @param diasLimite - Límite de días para considerar una factura como vencida (default: 40)
- * @returns boolean - true si tiene facturas vencidas mayores al límite
+ * @param diasLimite - Límite de días (default: APP_CONFIG.portfolio.blockDays)
+ * @returns boolean - true si tiene facturas con antigüedad >= límite
  */
 export function tieneFacturasVencidas(
   cliente: ClienteDeuda | null,
-  diasLimite: number = 40
+  diasLimite: number = APP_CONFIG.portfolio.blockDays
 ): boolean {
   if (!cliente || !cliente.cartera || cliente.cartera.length === 0) {
     return false;
   }
 
-  return cliente.cartera.some((factura: Factura) => {
-    const dias = Number(factura.dias) || 0;
-    return dias > diasLimite;
-  });
+  return cliente.cartera.some((factura: Factura) =>
+    esFacturaBloqueante(diasFactura(factura), diasLimite)
+  );
 }
 
 /**
- * Obtiene todas las facturas vencidas de un cliente
- * @param cliente - Objeto con información del cliente y su cartera
- * @param diasLimite - Límite de días para considerar una factura como vencida (default: 40)
- * @returns Array de facturas vencidas
+ * Obtiene todas las facturas bloqueantes de un cliente
  */
 export function obtenerFacturasVencidas(
   cliente: ClienteDeuda | null,
-  diasLimite: number = 40
+  diasLimite: number = APP_CONFIG.portfolio.blockDays
 ): Factura[] {
   if (!cliente || !cliente.cartera || cliente.cartera.length === 0) {
     return [];
   }
 
-  return cliente.cartera.filter((factura: Factura) => {
-    const dias = Number(factura.dias) || 0;
-    return dias > diasLimite;
-  });
+  return cliente.cartera
+    .map((factura) => conDiasActualizados(factura))
+    .filter((factura) => esFacturaBloqueante(factura.dias, diasLimite));
 }
 
 /**
- * Calcula el total de deuda vencida de un cliente
- * @param cliente - Objeto con información del cliente y su cartera
- * @param diasLimite - Límite de días para considerar una factura como vencida (default: 40)
- * @returns Total de valor de facturas vencidas
+ * Calcula el total de deuda bloqueante de un cliente
  */
 export function calcularDeudaVencida(
   cliente: ClienteDeuda | null,
-  diasLimite: number = 40
+  diasLimite: number = APP_CONFIG.portfolio.blockDays
 ): number {
   const facturasVencidas = obtenerFacturasVencidas(cliente, diasLimite);
 
@@ -86,8 +92,6 @@ export function calcularDeudaVencida(
 
 /**
  * Determina el estado de riesgo de un cliente basado en sus facturas
- * @param cliente - Objeto con información del cliente y su cartera
- * @returns Estado de riesgo: 'bajo' | 'medio' | 'alto' | 'bloqueado'
  */
 export function obtenerEstadoRiesgoCliente(
   cliente: ClienteDeuda | null
@@ -96,9 +100,11 @@ export function obtenerEstadoRiesgoCliente(
     return 'bajo';
   }
 
-  const facturasVencidas = obtenerFacturasVencidas(cliente, 40);
+  const blockDays = APP_CONFIG.portfolio.blockDays;
+  const facturasVencidas = obtenerFacturasVencidas(cliente, blockDays);
   const maxDiasVencido = Math.max(
-    ...cliente.cartera.map((f: Factura) => Number(f.dias) || 0)
+    ...cliente.cartera.map((f: Factura) => diasFactura(f)),
+    0
   );
 
   if (facturasVencidas.length > 0) {
@@ -118,8 +124,6 @@ export function obtenerEstadoRiesgoCliente(
 
 /**
  * Formatea un valor numérico como moneda colombiana
- * @param valor - Valor numérico a formatear
- * @returns String formateado como moneda
  */
 export function formatearMoneda(valor: number): string {
   return valor.toLocaleString('es-CO', {
@@ -131,28 +135,26 @@ export function formatearMoneda(valor: number): string {
 }
 
 /**
- * Valida si una factura está vencida basado en los días
- * @param factura - Objeto factura a validar
- * @param diasLimite - Límite de días para considerar vencida
- * @returns boolean
+ * Valida si una factura bloquea según días calculados desde fecha
  */
-export function esFacturaVencida(factura: Factura, diasLimite: number = 40): boolean {
-  const dias = Number(factura.dias) || 0;
-  return dias > diasLimite;
+export function esFacturaVencida(
+  factura: Factura,
+  diasLimite: number = APP_CONFIG.portfolio.blockDays
+): boolean {
+  return esFacturaBloqueante(diasFactura(factura), diasLimite);
 }
 
 /**
  * Genera un mensaje de bloqueo para el cliente
- * @param cliente - Información del cliente
- * @returns Mensaje explicativo del bloqueo
  */
 export function generarMensajeBloqueo(cliente: ClienteDeuda | null): string {
   if (!cliente) {
     return 'Cliente no encontrado';
   }
 
-  const facturasVencidas = obtenerFacturasVencidas(cliente, 40);
-  const deudaTotal = calcularDeudaVencida(cliente, 40);
+  const blockDays = APP_CONFIG.portfolio.blockDays;
+  const facturasVencidas = obtenerFacturasVencidas(cliente, blockDays);
+  const deudaTotal = calcularDeudaVencida(cliente, blockDays);
 
   if (facturasVencidas.length === 0) {
     return 'El cliente no tiene facturas vencidas';

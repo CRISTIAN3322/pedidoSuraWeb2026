@@ -1,5 +1,9 @@
 ---
 import { APP_CONFIG } from "../../config/app.config";
+import {
+  actualizarDiasFacturas,
+  esFacturaBloqueante,
+} from "../../utils/carteraUtils";
 import SearchInput from "../molecules/SearchInput.astro";
 import ClienteResults from "../molecules/ClienteResults.astro";
 import ClienteInfo from "../molecules/ClienteInfo.astro";
@@ -37,6 +41,13 @@ const {
 } = Astro.props;
 
 const blockDays = APP_CONFIG.portfolio.blockDays;
+const carteraConDias = actualizarDiasFacturas(carteraCliente || []);
+const facturasParaBloqueo = actualizarDiasFacturas(
+  clienteSeleccionado?.cartera || carteraConDias
+);
+const carteraBloqueante = facturasParaBloqueo.some((f) =>
+  esFacturaBloqueante(f.dias, blockDays)
+);
 ---
 
 <div class="template-cliente-selector">
@@ -133,7 +144,7 @@ const blockDays = APP_CONFIG.portfolio.blockDays;
 
             {/* Tabla de cartera */}
             <CarteraTable
-              cartera={carteraCliente}
+              cartera={carteraConDias}
               totalCartera={totalCartera}
               isLoading={isLoading}
             />
@@ -141,41 +152,25 @@ const blockDays = APP_CONFIG.portfolio.blockDays;
             {/* Botón continuar */}
             <div class="template-cliente-selector__action">
               <Button
-                variant={
-                  clienteSeleccionado.cartera &&
-                  clienteSeleccionado.cartera.some(
-                    (f: any) => Number(f.dias) > blockDays
-                  )
-                    ? "blocked"
-                    : "primary"
-                }
+                variant={carteraBloqueante ? "blocked" : "primary"}
                 size="lg"
                 disabled={
                   !sucursalSeleccionada ||
                   isLoading ||
-                  (clienteSeleccionado.cartera &&
-                    clienteSeleccionado.cartera.some(
-                      (f: any) => Number(f.dias) > blockDays
-                    ))
+                  carteraBloqueante
                 }
                 onclick={onContinue}
               >
                 {isLoading
                   ? "Procesando..."
-                  : clienteSeleccionado.cartera &&
-                      clienteSeleccionado.cartera.some(
-                        (f: any) => Number(f.dias) > blockDays
-                      )
+                  : carteraBloqueante
                     ? "Cliente bloqueado por factura"
                     : "Continuar al Producto"}
               </Button>
 
               <div class="template-cliente-selector__help">
-                {clienteSeleccionado.cartera &&
-                clienteSeleccionado.cartera.some(
-                  (f: any) => Number(f.dias) > blockDays
-                )
-                  ? `El cliente tiene facturas vencidas mayores a ${blockDays} días. Contacte al área de cartera para resolver.`
+                {carteraBloqueante
+                  ? `El cliente tiene facturas de ${blockDays} días o más. Contacte al área de cartera para resolver.`
                   : "Seleccione una sucursal para continuar"}
               </div>
             </div>

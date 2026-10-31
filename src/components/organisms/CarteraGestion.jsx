@@ -3,6 +3,7 @@ import {
   buildWhatsAppMessage,
   buildWhatsAppUrl,
   compareVendedorNames,
+  DIAS_POR_VENCER_MIN,
   DIAS_VENCIDA,
   enrichCarteraGrupo,
   formatCarteraCurrency,
@@ -68,7 +69,7 @@ function FacturasTable({ facturas, showVendedor = false }) {
             const diasClass =
               dias >= DIAS_VENCIDA
                 ? styles['cartera-gestion__dias--danger']
-                : dias >= 11
+                : dias >= DIAS_POR_VENCER_MIN
                   ? styles['cartera-gestion__dias--warning']
                   : '';
 
@@ -115,7 +116,7 @@ function StatsCards({ totalFacturas, vencidas, porVencer, totalCartera }) {
         <span className={styles['cartera-gestion__stat-value']}>{vencidas}</span>
       </div>
       <div className={`${styles['cartera-gestion__stat-card']} ${styles['cartera-gestion__stat-card--warning']}`}>
-        <span className={styles['cartera-gestion__stat-label']}>Por vencer (11-29 días)</span>
+        <span className={styles['cartera-gestion__stat-label']}>Por vencer ({DIAS_POR_VENCER_MIN}-{DIAS_VENCIDA - 1} días)</span>
         <span className={styles['cartera-gestion__stat-value']}>{porVencer}</span>
       </div>
       <div className={`${styles['cartera-gestion__stat-card']} ${styles['cartera-gestion__stat-card--primary']}`}>
@@ -191,7 +192,7 @@ export default function CarteraGestion() {
       if (filtroDias === 'por_vencer') {
         return facturas.filter((f) => {
           const d = Number(f.dias) || 0;
-          return d >= 11 && d < DIAS_VENCIDA;
+          return d >= DIAS_POR_VENCER_MIN && d < DIAS_VENCIDA;
         });
       }
       return facturas;
@@ -219,7 +220,7 @@ export default function CarteraGestion() {
     return {
       totalFacturas: facturas.length,
       vencidas: facturas.filter((f) => f.dias >= DIAS_VENCIDA).length,
-      porVencer: facturas.filter((f) => f.dias >= 11 && f.dias < DIAS_VENCIDA).length,
+      porVencer: facturas.filter((f) => f.dias >= DIAS_POR_VENCER_MIN && f.dias < DIAS_VENCIDA).length,
       totalCartera: facturas.reduce((s, f) => s + parseValor(f.valor), 0),
     };
   }, [carterasVisibles]);
@@ -289,7 +290,7 @@ export default function CarteraGestion() {
             >
               <option value="todos">Todas las facturas</option>
               <option value="vencidas">Solo vencidas (≥30 días)</option>
-              <option value="por_vencer">Por vencer (11-29 días)</option>
+              <option value="por_vencer">Por vencer ({DIAS_POR_VENCER_MIN}-{DIAS_VENCIDA - 1} días)</option>
             </select>
           </div>
         </div>

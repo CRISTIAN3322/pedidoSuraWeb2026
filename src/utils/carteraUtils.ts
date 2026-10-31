@@ -1,3 +1,5 @@
+import { APP_CONFIG } from '../config/app.config';
+
 export interface FacturaCartera {
   id: number;
   cliente: string;
@@ -26,8 +28,61 @@ export interface VendedorContacto {
   telefono: number;
 }
 
-export const DIAS_VENCIDA = 30;
-export const DIAS_POR_VENCER_MIN = 11;
+/** Rojo: días >= criticalDays (41) */
+export const DIAS_VENCIDA = APP_CONFIG.portfolio.criticalDays;
+/** Amarillo: desde warningDays (25) hasta criticalDays - 1 */
+export const DIAS_POR_VENCER_MIN = APP_CONFIG.portfolio.warningDays;
+
+/**
+ * Días de antigüedad desde la fecha de factura (DD/MM/YYYY) hasta hoy
+ * en America/Bogota. Ignora el campo `dias` estático del JSON.
+ */
+export function calcularDiasDesdeFecha(
+  fecha: string,
+  timezone: string = APP_CONFIG.schedule.timezone
+): number {
+  const match = String(fecha || '')
+    .trim()
+    .match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (!match) return 0;
+
+  const dia = Number(match[1]);
+  const mes = Number(match[2]);
+  const anio = Number(match[3]);
+  if (!dia || !mes || !anio) return 0;
+
+  // en-CA → YYYY-MM-DD en la zona indicada
+  const hoyStr = new Date().toLocaleDateString('en-CA', { timeZone: timezone });
+  const [hoyAnio, hoyMes, hoyDia] = hoyStr.split('-').map(Number);
+
+  const msFactura = Date.UTC(anio, mes - 1, dia);
+  const msHoy = Date.UTC(hoyAnio, hoyMes - 1, hoyDia);
+  return Math.floor((msHoy - msFactura) / 86_400_000);
+}
+
+/** Recalcula `dias` desde `fecha`; no usa el valor del JSON. */
+export function conDiasActualizados<T extends { fecha?: string }>(
+  factura: T
+): T & { dias: number } {
+  return {
+    ...factura,
+    dias: calcularDiasDesdeFecha(String(factura.fecha || '')),
+  };
+}
+
+export function actualizarDiasFacturas<T extends { fecha?: string }>(
+  facturas: T[]
+): Array<T & { dias: number }> {
+  return facturas.map(conDiasActualizados);
+}
+
+/** Bloqueo de catálogo: antigüedad >= blockDays (configurable en app.config). */
+export function esFacturaBloqueante(
+  dias: number,
+  diasLimite: number = APP_CONFIG.portfolio.blockDays
+): boolean {
+  return (Number(dias) || 0) >= diasLimite;
+}
 
 export function compareVendedorNames(name1: string, name2: string): boolean {
   if (!name1 || !name2) return false;
@@ -108,16 +163,24 @@ export function buildWhatsAppUrl(telefono: number | string, mensaje: string): st
 
 export function enrichCarteraGrupo(grupo: CarteraVendedor): CarteraVendedor {
   const facturas = sortFacturasByDiasDesc(
-    grupo.facturas.map((f) => ({
-      ...f,
-      valor: parseValor(f.valor),
-      dias: Number(f.dias) || 0,
-    }))
+    grupo.facturas.map((f) => {
+      const conDias = conDiasActualizados(f);
+      return {
+        ...conDias,
+        valor: parseValor(conDias.valor),
+      };
+    })
   );
   const maxDias = facturas.reduce((max, f) => Math.max(max, f.dias), 0);
+  const facturasVencidas = facturas.filter((f) => f.dias >= DIAS_VENCIDA).length;
+  const facturasPorVencer = facturas.filter(
+    (f) => f.dias >= DIAS_POR_VENCER_MIN && f.dias < DIAS_VENCIDA
+  ).length;
   return {
     ...grupo,
     facturas,
+    facturasVencidas,
+    facturasPorVencer,
     maxDias,
   };
 }
