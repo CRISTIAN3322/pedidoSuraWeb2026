@@ -1,5 +1,4 @@
 ---
-import { APP_CONFIG } from "../../config/app.config";
 import {
   actualizarDiasFacturas,
   esFacturaBloqueante,
@@ -40,13 +39,10 @@ const {
   error = "",
 } = Astro.props;
 
-const blockDays = APP_CONFIG.portfolio.blockDays;
 const carteraConDias = actualizarDiasFacturas(carteraCliente || []);
-const facturasParaBloqueo = actualizarDiasFacturas(
-  clienteSeleccionado?.cartera || carteraConDias
-);
+const facturasParaBloqueo = clienteSeleccionado?.cartera || carteraConDias;
 const carteraBloqueante = facturasParaBloqueo.some((f) =>
-  esFacturaBloqueante(f.dias, blockDays)
+  esFacturaBloqueante(f)
 );
 ---
 
@@ -170,7 +166,7 @@ const carteraBloqueante = facturasParaBloqueo.some((f) =>
 
               <div class="template-cliente-selector__help">
                 {carteraBloqueante
-                  ? `El cliente tiene facturas de ${blockDays} días o más. Contacte al área de cartera para resolver.`
+                  ? "El cliente tiene facturas bloqueadas en cartera. Contacte al área de cartera para habilitar."
                   : "Seleccione una sucursal para continuar"}
               </div>
             </div>

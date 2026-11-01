@@ -7,7 +7,10 @@ export interface FacturaCartera {
   fac: string;
   fecha: string;
   valor: number;
-  dias: number;
+  /** false = bloquea catálogo para el vendedor de esta factura */
+  habilitado?: boolean;
+  /** Calculado en runtime desde fecha; no viene del JSON */
+  dias?: number;
   nota?: string;
 }
 
@@ -76,12 +79,14 @@ export function actualizarDiasFacturas<T extends { fecha?: string }>(
   return facturas.map(conDiasActualizados);
 }
 
-/** Bloqueo de catálogo: antigüedad >= blockDays (configurable en app.config). */
+/**
+ * Bloqueo de catálogo: solo `habilitado === false` (o ausente) bloquea.
+ * Los días calculados desde fecha son informativos para la UI.
+ */
 export function esFacturaBloqueante(
-  dias: number,
-  diasLimite: number = APP_CONFIG.portfolio.blockDays
+  factura: { habilitado?: boolean } | null | undefined
 ): boolean {
-  return (Number(dias) || 0) >= diasLimite;
+  return !factura || factura.habilitado !== true;
 }
 
 export function compareVendedorNames(name1: string, name2: string): boolean {

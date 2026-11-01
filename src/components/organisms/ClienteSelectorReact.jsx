@@ -4,7 +4,7 @@ import { APP_CONFIG } from '../../config/app.config';
 import { esFacturaBloqueante } from '../../utils/carteraUtils';
 import styles from './ClienteSelectorReact.module.css';
 
-const { blockDays, warningDays, criticalDays } = APP_CONFIG.portfolio;
+const { warningDays, criticalDays } = APP_CONFIG.portfolio;
 
 // Función auxiliar para obtener el nombre del vendedor de la sesión
 function getVendedorNombre() {
@@ -227,9 +227,7 @@ function ClienteSelectorReact() {
     const tieneFacturasVencidas = useMemo(() => {
         if (!carteraCliente || carteraCliente.length === 0) return false;
 
-        return carteraCliente.some((factura) =>
-            esFacturaBloqueante(factura.dias, blockDays)
-        );
+        return carteraCliente.some((factura) => esFacturaBloqueante(factura));
     }, [carteraCliente]);
 
     // Datos seleccionados para mostrar
@@ -389,7 +387,7 @@ function ClienteSelectorReact() {
                         style={{ fontSize: '0.9rem', color: 'var(--color-neutral)', marginTop: '0.5rem' }}
                     >
                         {tieneFacturasVencidas
-                            ? `El cliente tiene facturas de ${blockDays} días o más. Contacte al área de cartera para resolver.`
+                            ? 'El cliente tiene facturas bloqueadas en cartera. Contacte al área de cartera para habilitar.'
                             : 'Seleccione una sucursal para continuar'
                         }
                     </div>

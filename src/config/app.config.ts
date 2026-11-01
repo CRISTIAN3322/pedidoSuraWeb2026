@@ -41,7 +41,10 @@ export const APP_CONFIG = {
     warningDays: 25,
     /** Rojo en el cuadro de días: desde este valor en adelante */
     criticalDays: 41,
-    /** Facturas con antigüedad >= este valor (días desde fecha hasta hoy Bogotá) bloquean el catálogo */
+    /**
+     * Referencia histórica de la semilla de `habilitado` en cartera.json.
+     * El bloqueo del catálogo usa el campo booleano `habilitado`, no este umbral.
+     */
     blockDays: 45
   },
   

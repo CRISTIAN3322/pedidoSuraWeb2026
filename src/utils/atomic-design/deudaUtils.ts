@@ -1,5 +1,5 @@
 /**
- * Utilidades para verificación de deudas y facturas vencidas
+ * Utilidades para verificación de deudas y facturas bloqueadas
  * Sigue la metodología Atomic Design para mantener la lógica de negocio centralizada
  */
 
@@ -20,7 +20,8 @@ export interface Factura {
   fac: string;
   fecha: string;
   valor: string | number;
-  dias: string | number;
+  habilitado?: boolean;
+  dias?: string | number;
 }
 
 /**
@@ -42,47 +43,36 @@ function diasFactura(factura: Factura): number {
 
 /**
  * Verifica si un cliente tiene facturas que bloquean el catálogo
- * @param cliente - Objeto con información del cliente y su cartera
- * @param diasLimite - Límite de días (default: APP_CONFIG.portfolio.blockDays)
- * @returns boolean - true si tiene facturas con antigüedad >= límite
+ * (habilitado !== true en alguna factura de su cartera filtrada).
  */
-export function tieneFacturasVencidas(
-  cliente: ClienteDeuda | null,
-  diasLimite: number = APP_CONFIG.portfolio.blockDays
-): boolean {
+export function tieneFacturasVencidas(cliente: ClienteDeuda | null): boolean {
   if (!cliente || !cliente.cartera || cliente.cartera.length === 0) {
     return false;
   }
 
   return cliente.cartera.some((factura: Factura) =>
-    esFacturaBloqueante(diasFactura(factura), diasLimite)
+    esFacturaBloqueante(factura)
   );
 }
 
 /**
  * Obtiene todas las facturas bloqueantes de un cliente
  */
-export function obtenerFacturasVencidas(
-  cliente: ClienteDeuda | null,
-  diasLimite: number = APP_CONFIG.portfolio.blockDays
-): Factura[] {
+export function obtenerFacturasVencidas(cliente: ClienteDeuda | null): Factura[] {
   if (!cliente || !cliente.cartera || cliente.cartera.length === 0) {
     return [];
   }
 
   return cliente.cartera
     .map((factura) => conDiasActualizados(factura))
-    .filter((factura) => esFacturaBloqueante(factura.dias, diasLimite));
+    .filter((factura) => esFacturaBloqueante(factura));
 }
 
 /**
  * Calcula el total de deuda bloqueante de un cliente
  */
-export function calcularDeudaVencida(
-  cliente: ClienteDeuda | null,
-  diasLimite: number = APP_CONFIG.portfolio.blockDays
-): number {
-  const facturasVencidas = obtenerFacturasVencidas(cliente, diasLimite);
+export function calcularDeudaVencida(cliente: ClienteDeuda | null): number {
+  const facturasVencidas = obtenerFacturasVencidas(cliente);
 
   return facturasVencidas.reduce((total: number, factura: Factura) => {
     const valor = Number(String(factura.valor).replace(/\./g, '').replace(',', '.')) || 0;
@@ -100,8 +90,7 @@ export function obtenerEstadoRiesgoCliente(
     return 'bajo';
   }
 
-  const blockDays = APP_CONFIG.portfolio.blockDays;
-  const facturasVencidas = obtenerFacturasVencidas(cliente, blockDays);
+  const facturasVencidas = obtenerFacturasVencidas(cliente);
   const maxDiasVencido = Math.max(
     ...cliente.cartera.map((f: Factura) => diasFactura(f)),
     0
@@ -135,13 +124,10 @@ export function formatearMoneda(valor: number): string {
 }
 
 /**
- * Valida si una factura bloquea según días calculados desde fecha
+ * Valida si una factura bloquea el catálogo según `habilitado`
  */
-export function esFacturaVencida(
-  factura: Factura,
-  diasLimite: number = APP_CONFIG.portfolio.blockDays
-): boolean {
-  return esFacturaBloqueante(diasFactura(factura), diasLimite);
+export function esFacturaVencida(factura: Factura): boolean {
+  return esFacturaBloqueante(factura);
 }
 
 /**
@@ -152,13 +138,12 @@ export function generarMensajeBloqueo(cliente: ClienteDeuda | null): string {
     return 'Cliente no encontrado';
   }
 
-  const blockDays = APP_CONFIG.portfolio.blockDays;
-  const facturasVencidas = obtenerFacturasVencidas(cliente, blockDays);
-  const deudaTotal = calcularDeudaVencida(cliente, blockDays);
+  const facturasVencidas = obtenerFacturasVencidas(cliente);
+  const deudaTotal = calcularDeudaVencida(cliente);
 
   if (facturasVencidas.length === 0) {
-    return 'El cliente no tiene facturas vencidas';
+    return 'El cliente no tiene facturas bloqueadas';
   }
 
-  return `Cliente bloqueado por ${facturasVencidas.length} factura(s) vencida(s) por un total de ${formatearMoneda(deudaTotal)}. Contacte al área de cartera para resolver.`;
+  return `Cliente bloqueado por ${facturasVencidas.length} factura(s) en cartera por un total de ${formatearMoneda(deudaTotal)}. Contacte al área de cartera para habilitar.`;
 }

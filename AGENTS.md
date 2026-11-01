@@ -44,7 +44,7 @@ Atomic Design: `atoms/` → `molecules/` → `organisms/` → `templates/` → `
 
 ## Business Rules
 
-- **Debt blocking**: `APP_CONFIG.portfolio.blockDays` (currently 45). Days are calculated at runtime from invoice `fecha` (DD/MM/YYYY) to today in `America/Bogota` via `calcularDiasDesdeFecha` in `carteraUtils.ts` — the static `dias` field in `cartera.json` is ignored. If any invoice has `dias >= blockDays`, client is blocked from catalog. Logic in `ClienteSelectorReact.jsx` / `ClienteSelectorTemplate.astro` uses `esFacturaBloqueante`.
+- **Debt blocking**: per-invoice `habilitado` boolean in `cartera.json`. If any invoice visible to the logged-in vendor has `habilitado !== true`, the client is blocked from catalog (`esFacturaBloqueante`). Enabling one vendor's invoice does not unblock another vendor on the same client (cartera is filtered by session vendor in `useClienteData`). Days shown in UI are still calculated at runtime from `fecha` via `calcularDiasDesdeFecha`. `portfolio.blockDays` is only the historical seed threshold used when generating `habilitado`.
 - **Time blocking**: `APP_CONFIG.schedule` — hours 5:00–18:00, timezone `America/Bogota`. `BloqueoHorario.astro` enforces this.
 - **WhatsApp orders**: Number in `APP_CONFIG.whatsapp.number`. Opens `wa.me` with formatted message.
 
