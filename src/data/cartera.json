@@ -180,16 +180,6 @@
     "habilitado": false
   },
   {
-    "id": 11412265,
-    "cliente": "ALBEIRO GUTIERREZ CUBILLOS",
-    "Email": "E-Mail: surtihogaresagc@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57506",
-    "fecha": "14/08/2026",
-    "valor": 1522327,
-    "habilitado": false
-  },
-  {
     "id": 1007409712,
     "cliente": "ALBERTH STEVEN AVILA MENJURA",
     "Email": "E-Mail: albertnavme@unisabana.edu.co",
@@ -14347,16 +14337,6 @@
     "fac": "SURA 59569",
     "fecha": "23/10/2026",
     "valor": 409175,
-    "habilitado": true
-  },
-  {
-    "id": 79811106,
-    "cliente": "VICTOR HUGO NIETO PRIETO",
-    "Email": "E-Mail: nvictor20.h@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 59789",
-    "fecha": "29/10/2026",
-    "valor": 2457505,
     "habilitado": true
   },
   {
