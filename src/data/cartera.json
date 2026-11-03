@@ -2274,29 +2274,9 @@
     "cliente": "CONSUELO JUDIT PINEDA ROJAS",
     "Email": "E-Mail: supermercadoeltriunfo@gmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57964",
-    "fecha": "31/08/2026",
-    "valor": 855993,
-    "habilitado": true
-  },
-  {
-    "id": 28191766,
-    "cliente": "CONSUELO JUDIT PINEDA ROJAS",
-    "Email": "E-Mail: supermercadoeltriunfo@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 58765",
     "fecha": "25/09/2026",
     "valor": 2239128,
-    "habilitado": true
-  },
-  {
-    "id": 28191766,
-    "cliente": "CONSUELO JUDIT PINEDA ROJAS",
-    "Email": "E-Mail: supermercadoeltriunfo@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58766",
-    "fecha": "25/09/2026",
-    "valor": 676472,
     "habilitado": true
   },
   {
@@ -3507,36 +3487,6 @@
     "fac": "SURA 59406",
     "fecha": "20/10/2026",
     "valor": 687280,
-    "habilitado": true
-  },
-  {
-    "id": 11409492,
-    "cliente": "FIDOLO CUBILLOS DELGADO",
-    "Email": "E-Mail: cooratiendas228@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58199",
-    "fecha": "08/09/2026",
-    "valor": 2636407,
-    "habilitado": true
-  },
-  {
-    "id": 11409492,
-    "cliente": "FIDOLO CUBILLOS DELGADO",
-    "Email": "E-Mail: cooratiendas228@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58241",
-    "fecha": "09/09/2026",
-    "valor": 3994527,
-    "habilitado": true
-  },
-  {
-    "id": 11409492,
-    "cliente": "FIDOLO CUBILLOS DELGADO",
-    "Email": "E-Mail: cooratiendas228@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58264",
-    "fecha": "10/09/2026",
-    "valor": 63468,
     "habilitado": true
   },
   {
