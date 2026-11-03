@@ -2274,29 +2274,9 @@
     "cliente": "CONSUELO JUDIT PINEDA ROJAS",
     "Email": "E-Mail: supermercadoeltriunfo@gmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57964",
-    "fecha": "31/08/2026",
-    "valor": 855993,
-    "habilitado": true
-  },
-  {
-    "id": 28191766,
-    "cliente": "CONSUELO JUDIT PINEDA ROJAS",
-    "Email": "E-Mail: supermercadoeltriunfo@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 58765",
     "fecha": "25/09/2026",
     "valor": 2239128,
-    "habilitado": true
-  },
-  {
-    "id": 28191766,
-    "cliente": "CONSUELO JUDIT PINEDA ROJAS",
-    "Email": "E-Mail: supermercadoeltriunfo@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58766",
-    "fecha": "25/09/2026",
-    "valor": 676472,
     "habilitado": true
   },
   {
