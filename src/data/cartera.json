@@ -30,46 +30,6 @@
     "habilitado": true
   },
   {
-    "id": 52536490,
-    "cliente": "ADRIANA MARCELA ESCAMILLA BAZURTO",
-    "Email": "E-Mail: adrianaescamillaba@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59601",
-    "fecha": "26/10/2026",
-    "valor": 11182332,
-    "habilitado": true
-  },
-  {
-    "id": 52536490,
-    "cliente": "ADRIANA MARCELA ESCAMILLA BAZURTO",
-    "Email": "E-Mail: adrianaescamillaba@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59602",
-    "fecha": "26/10/2026",
-    "valor": 1367509,
-    "habilitado": true
-  },
-  {
-    "id": 52536490,
-    "cliente": "ADRIANA MARCELA ESCAMILLA BAZURTO",
-    "Email": "E-Mail: adrianaescamillaba@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59603",
-    "fecha": "26/10/2026",
-    "valor": 2805388,
-    "habilitado": true
-  },
-  {
-    "id": 901242905,
-    "cliente": "AHORRACENTRO SAS",
-    "Email": "E-Mail: ahorracentro@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58513",
-    "fecha": "17/09/2026",
-    "valor": 789143,
-    "habilitado": true
-  },
-  {
     "id": 901242905,
     "cliente": "AHORRACENTRO SAS",
     "Email": "E-Mail: ahorracentro@gmail.com",
@@ -208,16 +168,6 @@
     "fecha": "26/11/2025",
     "valor": 1880030,
     "habilitado": false
-  },
-  {
-    "id": 51813094,
-    "cliente": "ALBA LUZ RAMIREZ FANDIÑO",
-    "Email": "E-Mail: albasurtihogar@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59560",
-    "fecha": "23/10/2026",
-    "valor": 712094,
-    "habilitado": true
   },
   {
     "id": 11412265,
@@ -370,6 +320,16 @@
     "habilitado": true
   },
   {
+    "id": 52221041,
+    "cliente": "ALYHED YOLIMA RONCANCIO DELGADO",
+    "Email": "E-Mail: merkafacilja@gmail.com",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59855",
+    "fecha": "31/10/2026",
+    "valor": 1149919,
+    "habilitado": true
+  },
+  {
     "id": 52166995,
     "cliente": "ANA BELSU AVENDANO AVENDANO",
     "Email": "E-Mail: anabelsuavendano2020@gmail.com",
@@ -420,23 +380,23 @@
     "habilitado": true
   },
   {
-    "id": 74280374,
-    "cliente": "ANCELMO MAHECHA CUESTA",
-    "Email": "E-Mail: ancelmom2021@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57523",
-    "fecha": "14/08/2026",
-    "valor": 1565633,
-    "habilitado": false
+    "id": 1020713021,
+    "cliente": "ANA CRISTINA GOMEZ BERNAL",
+    "Email": "E-Mail: khris0582@hotmail.com",
+    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
+    "fac": "SURA 59898",
+    "fecha": "31/10/2026",
+    "valor": 172800,
+    "habilitado": true
   },
   {
-    "id": 74280374,
-    "cliente": "ANCELMO MAHECHA CUESTA",
-    "Email": "E-Mail: ancelmom2021@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57847",
-    "fecha": "27/08/2026",
-    "valor": 1573718,
+    "id": 52530962,
+    "cliente": "ANA SOFIA ROLDAN RIQUE",
+    "Email": "E-Mail: anasoroldan2@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 59915",
+    "fecha": "31/10/2026",
+    "valor": 67109,
     "habilitado": true
   },
   {
@@ -524,16 +484,6 @@
     "cliente": "ANDRES ALDANA",
     "Email": "E-Mail: andresaldana1965@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57610",
-    "fecha": "20/08/2026",
-    "valor": 489154,
-    "habilitado": true
-  },
-  {
-    "id": 3249833,
-    "cliente": "ANDRES ALDANA",
-    "Email": "E-Mail: andresaldana1965@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 58859",
     "fecha": "30/09/2026",
     "valor": 921213,
@@ -550,23 +500,13 @@
     "habilitado": true
   },
   {
-    "id": "PA 5399588 ",
+    "id": 5399588,
     "cliente": "ANDRY JOEL BARRERA MARTINEZ",
     "Email": "E-Mail: andry.yoel.barrera.martinez@gmail.com",
     "vendedor": "LISBETH JULIETH NARANJO ROJAS",
     "fac": "SURA 59724",
     "fecha": "28/10/2026",
     "valor": 5191,
-    "habilitado": true
-  },
-  {
-    "id": 1056029677,
-    "cliente": "ANGEL ANTONIO NIÑO ZAMBRANO",
-    "Email": "E-Mail: angelnino09@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 59393",
-    "fecha": "20/10/2026",
-    "valor": 1102190,
     "habilitado": true
   },
   {
@@ -634,16 +574,6 @@
     "cliente": "ARACELY MORA BUITRAGO",
     "Email": "E-Mail: mercadosalcostoaures@gmail.com",
     "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58232",
-    "fecha": "09/09/2026",
-    "valor": 3023026,
-    "habilitado": true
-  },
-  {
-    "id": 23561016,
-    "cliente": "ARACELY MORA BUITRAGO",
-    "Email": "E-Mail: mercadosalcostoaures@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 58759",
     "fecha": "25/09/2026",
     "valor": 1452263,
@@ -670,14 +600,34 @@
     "habilitado": true
   },
   {
-    "id": 79713555,
-    "cliente": "ARMANDO AUGUSTO MOLINA RAMIREZ",
-    "Email": "E-Mail: armamolinar@hotmail.com",
+    "id": 80902913,
+    "cliente": "ARLEY MORENO MAYORGA",
+    "Email": "E-Mail: autopopularaa@outlook.es",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 57418",
-    "fecha": "12/08/2026",
-    "valor": 3598700,
-    "habilitado": false
+    "fac": "SURA 58798",
+    "fecha": "28/09/2026",
+    "valor": 308091,
+    "habilitado": true
+  },
+  {
+    "id": 80902913,
+    "cliente": "ARLEY MORENO MAYORGA",
+    "Email": "E-Mail: autopopularaa@outlook.es",
+    "vendedor": "YENY MARIBEL MONROY PATIÑO",
+    "fac": "SURA 58812",
+    "fecha": "28/09/2026",
+    "valor": 502975,
+    "habilitado": true
+  },
+  {
+    "id": 80902913,
+    "cliente": "ARLEY MORENO MAYORGA",
+    "Email": "E-Mail: autopopularaa@outlook.es",
+    "vendedor": "YENY MARIBEL MONROY PATIÑO",
+    "fac": "SURA 59890",
+    "fecha": "31/10/2026",
+    "valor": 304564,
+    "habilitado": true
   },
   {
     "id": 79713555,
@@ -740,63 +690,13 @@
     "habilitado": true
   },
   {
-    "id": 35251032,
-    "cliente": "AURORA RODRIGUEZ PUIN",
-    "Email": "E-Mail: aurorarodriguez523@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59465",
-    "fecha": "23/10/2026",
-    "valor": 440919,
-    "habilitado": true
-  },
-  {
-    "id": 35251032,
-    "cliente": "AURORA RODRIGUEZ PUIN",
-    "Email": "E-Mail: aurorarodriguez523@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59520",
-    "fecha": "23/10/2026",
-    "valor": 109433,
-    "habilitado": true
-  },
-  {
-    "id": 901407185,
-    "cliente": "AUTOSERVICIO CONTIGO JA SAS",
-    "Email": "E-Mail: autoserviciocontigo@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 56133",
-    "fecha": "26/06/2026",
-    "valor": 2328912,
-    "habilitado": false
-  },
-  {
-    "id": 901407185,
-    "cliente": "AUTOSERVICIO CONTIGO JA SAS",
-    "Email": "E-Mail: autoserviciocontigo@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57049",
-    "fecha": "30/07/2026",
-    "valor": 358798,
-    "habilitado": false
-  },
-  {
-    "id": 901407185,
-    "cliente": "AUTOSERVICIO CONTIGO JA SAS",
-    "Email": "E-Mail: autoserviciocontigo@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57050",
-    "fecha": "30/07/2026",
-    "valor": 926058,
-    "habilitado": false
-  },
-  {
     "id": 901407185,
     "cliente": "AUTOSERVICIO CONTIGO JA SAS",
     "Email": "E-Mail: autoserviciocontigo@gmail.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59628",
     "fecha": "26/10/2026",
-    "valor": 4322837,
+    "valor": 4183910,
     "habilitado": true
   },
   {
@@ -857,47 +757,7 @@
     "fac": "SURA 57431",
     "fecha": "12/08/2026",
     "valor": 21787,
-    "habilitado": true
-  },
-  {
-    "id": 800010668,
-    "cliente": "AUTOSERVICIO EL PERDOMO SAS",
-    "Email": "E-Mail: facturacion.autoperdomo@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58330",
-    "fecha": "11/09/2026",
-    "valor": 2501606,
-    "habilitado": true
-  },
-  {
-    "id": 800010668,
-    "cliente": "AUTOSERVICIO EL PERDOMO SAS",
-    "Email": "E-Mail: facturacion.autoperdomo@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58331",
-    "fecha": "11/09/2026",
-    "valor": 1490600,
-    "habilitado": true
-  },
-  {
-    "id": 800010668,
-    "cliente": "AUTOSERVICIO EL PERDOMO SAS",
-    "Email": "E-Mail: facturacion.autoperdomo@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58332",
-    "fecha": "11/09/2026",
-    "valor": 2970892,
-    "habilitado": true
-  },
-  {
-    "id": 800010668,
-    "cliente": "AUTOSERVICIO EL PERDOMO SAS",
-    "Email": "E-Mail: facturacion.autoperdomo@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58333",
-    "fecha": "11/09/2026",
-    "valor": 6831429,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 800010668,
@@ -965,7 +825,7 @@
     "Email": "E-Mail: facturacion.autoperdomo@gmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59811",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 3074654,
     "habilitado": true
   },
@@ -975,7 +835,7 @@
     "Email": "E-Mail: facturacion.autoperdomo@gmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59812",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 620875,
     "habilitado": true
   },
@@ -985,7 +845,7 @@
     "Email": "E-Mail: facturacion.autoperdomo@gmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59813",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 439538,
     "habilitado": true
   },
@@ -994,9 +854,9 @@
     "cliente": "AUTOSERVICIO EL SHADDAI SAS",
     "Email": "E-Mail: autoservicioshaday@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58130",
-    "fecha": "04/09/2026",
-    "valor": 3471569,
+    "fac": "SURA 59846",
+    "fecha": "31/10/2026",
+    "valor": 3021288,
     "habilitado": true
   },
   {
@@ -1004,9 +864,9 @@
     "cliente": "AUTOSERVICIO EL SHADDAI SAS",
     "Email": "E-Mail: autoservicioshaday@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58131",
-    "fecha": "04/09/2026",
-    "valor": 296643,
+    "fac": "SURA 59853",
+    "fecha": "31/10/2026",
+    "valor": 189110,
     "habilitado": true
   },
   {
@@ -1017,16 +877,6 @@
     "fac": "SURA 59302",
     "fecha": "16/10/2026",
     "valor": 138695,
-    "habilitado": true
-  },
-  {
-    "id": 901406868,
-    "cliente": "AUTOSERVICIO MERKETODO JYC SAS",
-    "Email": "E-Mail: merketodo@hotmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58726",
-    "fecha": "24/09/2026",
-    "valor": 763343,
     "habilitado": true
   },
   {
@@ -1125,7 +975,7 @@
     "Email": "E-Mail: facturacion@autoserviciosantander.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59820",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 3869664,
     "habilitado": true
   },
@@ -1135,98 +985,8 @@
     "Email": "E-Mail: facturacion@autoserviciosantander.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59821",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 256005,
-    "habilitado": true
-  },
-  {
-    "id": 901927852,
-    "cliente": "AUTOSERVICIO SURTIHOGAR JO BE SAS",
-    "Email": "E-Mail: surtihogarjobealiadosurtimax@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59620",
-    "fecha": "26/10/2026",
-    "valor": 567081,
-    "habilitado": true
-  },
-  {
-    "id": 900598355,
-    "cliente": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-    "Email": "E-Mail: autoserviciossantandereanosas@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57981",
-    "fecha": "31/08/2026",
-    "valor": 499607,
-    "habilitado": true
-  },
-  {
-    "id": 900598355,
-    "cliente": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-    "Email": "E-Mail: autoserviciossantandereanosas@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57982",
-    "fecha": "31/08/2026",
-    "valor": 889930,
-    "habilitado": true
-  },
-  {
-    "id": 900598355,
-    "cliente": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-    "Email": "E-Mail: autoserviciossantandereanosas@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57983",
-    "fecha": "31/08/2026",
-    "valor": 199920,
-    "habilitado": true
-  },
-  {
-    "id": 900598355,
-    "cliente": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-    "Email": "E-Mail: autoserviciossantandereanosas@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57984",
-    "fecha": "31/08/2026",
-    "valor": 4245950,
-    "habilitado": true
-  },
-  {
-    "id": 900598355,
-    "cliente": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-    "Email": "E-Mail: autoserviciossantandereanosas@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57985",
-    "fecha": "31/08/2026",
-    "valor": 956156,
-    "habilitado": true
-  },
-  {
-    "id": 900598355,
-    "cliente": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-    "Email": "E-Mail: autoserviciossantandereanosas@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57986",
-    "fecha": "31/08/2026",
-    "valor": 2904112,
-    "habilitado": true
-  },
-  {
-    "id": 900598355,
-    "cliente": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-    "Email": "E-Mail: autoserviciossantandereanosas@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57988",
-    "fecha": "31/08/2026",
-    "valor": 593286,
-    "habilitado": true
-  },
-  {
-    "id": 900598355,
-    "cliente": "AUTOSERVICIOS EL SANTANDEREANO SAS",
-    "Email": "E-Mail: autoserviciossantandereanosas@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57997",
-    "fecha": "31/08/2026",
-    "valor": 8106050,
     "habilitado": true
   },
   {
@@ -1374,16 +1134,6 @@
     "cliente": "BAIRON ALEXIS JARAMILLO RAMIREZ",
     "Email": "E-Mail: mercamaxmelgar86@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57509",
-    "fecha": "14/08/2026",
-    "valor": 3000305,
-    "habilitado": false
-  },
-  {
-    "id": 1106895886,
-    "cliente": "BAIRON ALEXIS JARAMILLO RAMIREZ",
-    "Email": "E-Mail: mercamaxmelgar86@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 57510",
     "fecha": "14/08/2026",
     "valor": 2862585,
@@ -1434,6 +1184,16 @@
     "cliente": "BEATRIZ LUNA LIZ",
     "Email": "E-Mail: ccamiloluna@gmail.com",
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 57438",
+    "fecha": "14/08/2026",
+    "valor": 474392,
+    "habilitado": false
+  },
+  {
+    "id": 38285755,
+    "cliente": "BEATRIZ LUNA LIZ",
+    "Email": "E-Mail: ccamiloluna@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 58745",
     "fecha": "25/09/2026",
     "valor": 347690,
@@ -1450,14 +1210,14 @@
     "habilitado": true
   },
   {
-    "id": 79106007,
-    "cliente": "BELARMINO SALAMANCA GARCIA",
-    "Email": "E-Mail: salamancagarciabelarmino@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 54976",
-    "fecha": "14/05/2026",
-    "valor": 142816,
-    "habilitado": false
+    "id": 38285755,
+    "cliente": "BEATRIZ LUNA LIZ",
+    "Email": "E-Mail: ccamiloluna@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59919",
+    "fecha": "31/10/2026",
+    "valor": 360699,
+    "habilitado": true
   },
   {
     "id": 79106007,
@@ -1488,16 +1248,6 @@
     "fecha": "30/07/2026",
     "valor": 5004,
     "habilitado": false
-  },
-  {
-    "id": 79540112,
-    "cliente": "BELISARIO GARCIA VALENZUELA",
-    "Email": "E-Mail: viviana.garzia.03@hotmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58528",
-    "fecha": "17/09/2026",
-    "valor": 1476981,
-    "habilitado": true
   },
   {
     "id": 79540112,
@@ -1538,46 +1288,6 @@
     "fecha": "15/05/2025",
     "valor": 189808,
     "habilitado": false
-  },
-  {
-    "id": 79340759,
-    "cliente": "BERNARDO PRIETO BENAVIDES",
-    "Email": "E-Mail: sg79340759@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 45279",
-    "fecha": "16/06/2025",
-    "valor": 9180979,
-    "habilitado": false
-  },
-  {
-    "id": 79340759,
-    "cliente": "BERNARDO PRIETO BENAVIDES",
-    "Email": "E-Mail: sg79340759@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 59351",
-    "fecha": "19/10/2026",
-    "valor": 1097113,
-    "habilitado": true
-  },
-  {
-    "id": 79340759,
-    "cliente": "BERNARDO PRIETO BENAVIDES",
-    "Email": "E-Mail: sg79340759@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 59683",
-    "fecha": "27/10/2026",
-    "valor": 669009,
-    "habilitado": true
-  },
-  {
-    "id": 31037296,
-    "cliente": "BLANCA DIONILDE CENDALES ANDRADE",
-    "Email": "E-Mail: blancad.c@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58200",
-    "fecha": "08/09/2026",
-    "valor": 338449,
-    "habilitado": true
   },
   {
     "id": 31037296,
@@ -1704,16 +1414,6 @@
     "cliente": "CARLOS ADOLFO VASQUEZ LAMEDA",
     "Email": "E-Mail: matademango58@gmail.com",
     "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "fac": "SURA 58620",
-    "fecha": "21/09/2026",
-    "valor": 13171,
-    "habilitado": true
-  },
-  {
-    "id": 2949177,
-    "cliente": "CARLOS ADOLFO VASQUEZ LAMEDA",
-    "Email": "E-Mail: matademango58@gmail.com",
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
     "fac": "SURA 59321",
     "fecha": "16/10/2026",
     "valor": 19536,
@@ -1784,19 +1484,9 @@
     "cliente": "CARLOS FERNEY PUENTE BAQUERO",
     "Email": "E-Mail: carlosferneypuente@gmail.com",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 56765",
-    "fecha": "22/07/2026",
-    "valor": 1676804,
-    "habilitado": false
-  },
-  {
-    "id": 80003719,
-    "cliente": "CARLOS FERNEY PUENTE BAQUERO",
-    "Email": "E-Mail: carlosferneypuente@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 59769",
     "fecha": "29/10/2026",
-    "valor": 3604910,
+    "valor": 3603060,
     "habilitado": true
   },
   {
@@ -1877,6 +1567,16 @@
     "fac": "SURA 59266",
     "fecha": "15/10/2026",
     "valor": 3095990,
+    "habilitado": true
+  },
+  {
+    "id": 11408989,
+    "cliente": "CARLOS JULIO PUENTES CESPEDES",
+    "Email": "E-Mail: mercadefamplaza@gmail.com",
+    "vendedor": "YENY MARIBEL MONROY PATIÑO",
+    "fac": "SURA 59880",
+    "fecha": "31/10/2026",
+    "valor": 3146415,
     "habilitado": true
   },
   {
@@ -2005,7 +1705,7 @@
     "Email": "E-Mail: cooratiendas399@hotmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59807",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 2070803,
     "habilitado": true
   },
@@ -2015,18 +1715,8 @@
     "Email": "E-Mail: cooratiendas399@hotmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59808",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 697799,
-    "habilitado": true
-  },
-  {
-    "id": 52087091,
-    "cliente": "CARMEN MARTINEZ VIANA",
-    "Email": "E-Mail: surtitodoelbaraton@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58361",
-    "fecha": "14/09/2026",
-    "valor": 1534088,
     "habilitado": true
   },
   {
@@ -2037,6 +1727,16 @@
     "fac": "SURA 58748",
     "fecha": "25/09/2026",
     "valor": 4212517,
+    "habilitado": true
+  },
+  {
+    "id": 80365476,
+    "cliente": "CERBELION NOVOA ROJAS",
+    "Email": "E-Mail: sanfranciscosurtialcosto@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59918",
+    "fecha": "31/10/2026",
+    "valor": 1557351,
     "habilitado": true
   },
   {
@@ -2077,16 +1777,6 @@
     "fac": "SURA 58244",
     "fecha": "09/09/2026",
     "valor": 170960,
-    "habilitado": true
-  },
-  {
-    "id": 79646306,
-    "cliente": "CESAR HERNANDO DELGADO ORTIZ",
-    "Email": "E-Mail: cesarhdelgadoo@hotmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58629",
-    "fecha": "21/09/2026",
-    "valor": 1884063,
     "habilitado": true
   },
   {
@@ -2210,16 +1900,6 @@
     "habilitado": true
   },
   {
-    "id": 52321795,
-    "cliente": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "Email": "E-Mail: claucorredor028@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59734",
-    "fecha": "28/10/2026",
-    "valor": 29500,
-    "habilitado": true
-  },
-  {
     "id": 900100796,
     "cliente": "COMERCIAL DE VIVERES SAN ANDRES SAS",
     "Email": "E-Mail: viveres41@hotmail.com",
@@ -2316,17 +1996,7 @@
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59776",
     "fecha": "29/10/2026",
-    "valor": 2559137,
-    "habilitado": true
-  },
-  {
-    "id": 900571281,
-    "cliente": "COMERCIALIZADORA MERCA SOCIAL S.A.S",
-    "Email": "E-Mail: mercasbarrancas@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 59271",
-    "fecha": "15/10/2026",
-    "valor": 2178790,
+    "valor": 2447243,
     "habilitado": true
   },
   {
@@ -2346,7 +2016,7 @@
     "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59794",
     "fecha": "29/10/2026",
-    "valor": 2972403,
+    "valor": 2612578,
     "habilitado": true
   },
   {
@@ -2447,7 +2117,7 @@
     "fac": "SURA 53384",
     "fecha": "20/03/2026",
     "valor": -46349,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901312259,
@@ -2596,7 +2266,7 @@
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59777",
     "fecha": "29/10/2026",
-    "valor": 1848971,
+    "valor": 1736870,
     "habilitado": true
   },
   {
@@ -2627,6 +2297,16 @@
     "fac": "SURA 58766",
     "fecha": "25/09/2026",
     "valor": 676472,
+    "habilitado": true
+  },
+  {
+    "id": 28191766,
+    "cliente": "CONSUELO JUDIT PINEDA ROJAS",
+    "Email": "E-Mail: supermercadoeltriunfo@gmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59916",
+    "fecha": "31/10/2026",
+    "valor": 93920,
     "habilitado": true
   },
   {
@@ -2674,16 +2354,6 @@
     "cliente": "CRISTIAN JOSE MOLINA LOMBANA",
     "Email": "E-Mail: mercadoyasupermercado@gmail.com",
     "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 56836",
-    "fecha": "23/07/2026",
-    "valor": 8913266,
-    "habilitado": false
-  },
-  {
-    "id": 1118559112,
-    "cliente": "CRISTIAN JOSE MOLINA LOMBANA",
-    "Email": "E-Mail: mercadoyasupermercado@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59439",
     "fecha": "21/10/2026",
     "valor": 1178647,
@@ -2724,16 +2394,6 @@
     "cliente": "CUBILLOS & CAGUEÑAS SAS",
     "Email": "E-Mail: cubilloscaguenas@gmail.com",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 57469",
-    "fecha": "14/08/2026",
-    "valor": 1377714,
-    "habilitado": false
-  },
-  {
-    "id": 901430480,
-    "cliente": "CUBILLOS & CAGUEÑAS SAS",
-    "Email": "E-Mail: cubilloscaguenas@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 58827",
     "fecha": "28/09/2026",
     "valor": 586461,
@@ -2745,7 +2405,7 @@
     "Email": "E-Mail: cubilloscaguenas@gmail.com",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 59818",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 1869499,
     "habilitado": true
   },
@@ -2874,19 +2534,9 @@
     "cliente": "DARIO HERNANDEZ BLANCO",
     "Email": "E-Mail: lapalmaexpress@gmail.com",
     "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 59272",
-    "fecha": "15/10/2026",
-    "valor": 1039883,
-    "habilitado": true
-  },
-  {
-    "id": 5787025,
-    "cliente": "DARIO HERNANDEZ BLANCO",
-    "Email": "E-Mail: lapalmaexpress@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59788",
     "fecha": "29/10/2026",
-    "valor": 1810561,
+    "valor": 1699065,
     "habilitado": true
   },
   {
@@ -3040,16 +2690,6 @@
     "habilitado": true
   },
   {
-    "id": 52876341,
-    "cliente": "DEYSI PAOLA LEON HERNANDEZ",
-    "Email": "E-Mail: paola.l.h35@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57010",
-    "fecha": "29/07/2026",
-    "valor": 699988,
-    "habilitado": false
-  },
-  {
     "id": 52832197,
     "cliente": "DIANA MARCELA BERMUDEZ SERRANO",
     "Email": "E-Mail: mercalabermudez_81@hotmail.com",
@@ -3067,6 +2707,16 @@
     "fac": "SURA 59661",
     "fecha": "26/10/2026",
     "valor": 58171,
+    "habilitado": true
+  },
+  {
+    "id": 52832197,
+    "cliente": "DIANA MARCELA BERMUDEZ SERRANO",
+    "Email": "E-Mail: mercalabermudez_81@hotmail.com",
+    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
+    "fac": "SURA 59907",
+    "fecha": "31/10/2026",
+    "valor": 79388,
     "habilitado": true
   },
   {
@@ -3097,26 +2747,6 @@
     "fac": "SURA 57839",
     "fecha": "26/08/2026",
     "valor": 51375,
-    "habilitado": true
-  },
-  {
-    "id": 1020771336,
-    "cliente": "DIANA PAOLA MOLINA GUERRERO",
-    "Email": "E-Mail: DIANAPGUERRERO1283@GMAIL.COM",
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "fac": "SURA 57991",
-    "fecha": "31/08/2026",
-    "valor": 13133,
-    "habilitado": true
-  },
-  {
-    "id": 1020771336,
-    "cliente": "DIANA PAOLA MOLINA GUERRERO",
-    "Email": "E-Mail: DIANAPGUERRERO1283@GMAIL.COM",
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "fac": "SURA 58250",
-    "fecha": "10/09/2026",
-    "valor": 4522,
     "habilitado": true
   },
   {
@@ -3174,29 +2804,9 @@
     "cliente": "DIEGO ALEJANDRO CASTRO CARDENAS",
     "Email": "E-Mail: diegocastro2080@gmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57856",
-    "fecha": "27/08/2026",
-    "valor": 896244,
-    "habilitado": true
-  },
-  {
-    "id": 1020830109,
-    "cliente": "DIEGO ALEJANDRO CASTRO CARDENAS",
-    "Email": "E-Mail: diegocastro2080@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 58899",
     "fecha": "30/09/2026",
     "valor": 965997,
-    "habilitado": true
-  },
-  {
-    "id": 1020830109,
-    "cliente": "DIEGO ALEJANDRO CASTRO CARDENAS",
-    "Email": "E-Mail: diegocastro2080@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 59700",
-    "fecha": "27/10/2026",
-    "valor": 924967,
     "habilitado": true
   },
   {
@@ -3210,13 +2820,13 @@
     "habilitado": true
   },
   {
-    "id": 900487139,
-    "cliente": "DISTRIBUCIONES SUPERMERCADOS LATINOS SAS",
-    "Email": "E-Mail: cirosotelo@hotmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 59744",
-    "fecha": "28/10/2026",
-    "valor": 1444017,
+    "id": 1020830109,
+    "cliente": "DIEGO ALEJANDRO CASTRO CARDENAS",
+    "Email": "E-Mail: diegocastro2080@gmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59909",
+    "fecha": "31/10/2026",
+    "valor": 522362,
     "habilitado": true
   },
   {
@@ -3250,63 +2860,23 @@
     "habilitado": true
   },
   {
-    "id": 900486134,
-    "cliente": "DISTRIOFERTAS EC SAS",
-    "Email": "E-Mail: fedistriofertas@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58811",
-    "fecha": "28/09/2026",
-    "valor": 8267232,
-    "habilitado": true
-  },
-  {
-    "id": 24134341,
-    "cliente": "DORYS MARIA ELENA COY VILLAMIL",
-    "Email": "E-Mail: doris.coy@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 59570",
-    "fecha": "23/10/2026",
-    "valor": 326266,
-    "habilitado": true
-  },
-  {
-    "id": 80251144,
-    "cliente": "EDIER ALONSO ZULUAGA ZULUAGA",
-    "Email": "E-Mail: zuluagadier188@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 59412",
-    "fecha": "21/10/2026",
-    "valor": 1104793,
-    "habilitado": true
-  },
-  {
-    "id": 11205736,
-    "cliente": "EDILSON MUÑOZ URBANO",
-    "Email": "E-Mail: supermercadodmilofertas@gmail.com",
+    "id": 80072511,
+    "cliente": "EDILBERTO CRUZ BELTRAN",
+    "Email": "E-Mail: cruzbeltranedilberto@gmail.com",
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59546",
-    "fecha": "23/10/2026",
-    "valor": 199640,
+    "fac": "SURA 59831",
+    "fecha": "31/10/2026",
+    "valor": 356867,
     "habilitado": true
   },
   {
-    "id": 11205736,
-    "cliente": "EDILSON MUÑOZ URBANO",
-    "Email": "E-Mail: supermercadodmilofertas@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59550",
-    "fecha": "23/10/2026",
-    "valor": 632258,
-    "habilitado": true
-  },
-  {
-    "id": 1071628095,
-    "cliente": "EDINSON ARLEY CUELLAR GARAY",
-    "Email": "E-Mail: edinssonarley26@outlook.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58572",
-    "fecha": "21/09/2026",
-    "valor": 1336249,
+    "id": 80312790,
+    "cliente": "EDILSON AYALA TOLOSA",
+    "Email": "E-Mail: pichin.14@hotmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59843",
+    "fecha": "31/10/2026",
+    "valor": 649968,
     "habilitado": true
   },
   {
@@ -3327,16 +2897,6 @@
     "fac": "SURA 59547",
     "fecha": "23/10/2026",
     "valor": 381931,
-    "habilitado": true
-  },
-  {
-    "id": 1024537215,
-    "cliente": "EDISSON LEONARDO MORA MORA",
-    "Email": "E-Mail: cooratiendaslafragua@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58391",
-    "fecha": "14/09/2026",
-    "valor": 2030596,
     "habilitado": true
   },
   {
@@ -3454,16 +3014,6 @@
     "cliente": "EDWIN LEONARDO CARDENAS SILVA",
     "Email": "E-Mail: leo.publicis@hotmail.com",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58335",
-    "fecha": "11/09/2026",
-    "valor": 276655,
-    "habilitado": true
-  },
-  {
-    "id": 1022416671,
-    "cliente": "EDWIN LEONARDO CARDENAS SILVA",
-    "Email": "E-Mail: leo.publicis@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 58352",
     "fecha": "14/09/2026",
     "valor": 2135288,
@@ -3498,6 +3048,16 @@
     "fecha": "20/11/2025",
     "valor": 20586980,
     "habilitado": false
+  },
+  {
+    "id": 900421736,
+    "cliente": "EL GRAN PRECIOS SAS",
+    "Email": "E-Mail: angtru79@gmail.com",
+    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+    "fac": "SURA 59827",
+    "fecha": "31/10/2026",
+    "valor": 693671,
+    "habilitado": true
   },
   {
     "id": 800196550,
@@ -3540,6 +3100,46 @@
     "habilitado": true
   },
   {
+    "id": 1074131630,
+    "cliente": "ELIECER ADELMO GUTIERREZ ACOSTA",
+    "Email": "E-Mail: distrieliecerg@gmail.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59857",
+    "fecha": "31/10/2026",
+    "valor": 171054,
+    "habilitado": true
+  },
+  {
+    "id": 1074131630,
+    "cliente": "ELIECER ADELMO GUTIERREZ ACOSTA",
+    "Email": "E-Mail: distrieliecerg@gmail.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59858",
+    "fecha": "31/10/2026",
+    "valor": 617124,
+    "habilitado": true
+  },
+  {
+    "id": 1074131630,
+    "cliente": "ELIECER ADELMO GUTIERREZ ACOSTA",
+    "Email": "E-Mail: distrieliecerg@gmail.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59859",
+    "fecha": "31/10/2026",
+    "valor": 2310364,
+    "habilitado": true
+  },
+  {
+    "id": 39532339,
+    "cliente": "ELIZABETH CASALLAS RICAURTE",
+    "Email": "E-Mail: autoservicio.ricaurte@hotmail.com",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59866",
+    "fecha": "31/10/2026",
+    "valor": 477909,
+    "habilitado": true
+  },
+  {
     "id": 1022322410,
     "cliente": "ELIZABETH LOPEZ PULIDO",
     "Email": "E-Mail: fe.rapidexpress@gmail.com",
@@ -3570,6 +3170,16 @@
     "habilitado": true
   },
   {
+    "id": 900809669,
+    "cliente": "EMMER GROUP SAS",
+    "Email": "E-Mail: grupoemmer@gmai.com",
+    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+    "fac": "SURA 59874",
+    "fecha": "31/10/2026",
+    "valor": 2560477,
+    "habilitado": true
+  },
+  {
     "id": 80375791,
     "cliente": "ENRIQUE RAFAEL RODRIGUEZ MARTINEZ",
     "Email": "E-Mail: enriquerafael.fac@gmail.com",
@@ -3594,16 +3204,6 @@
     "cliente": "EULIDES MOLINA BUSTOS",
     "Email": "E-Mail: eulides2@hotmail.com",
     "vendedor": "SURAMERICANA JI SAS",
-    "fac": "SURA 58953",
-    "fecha": "02/10/2026",
-    "valor": 639247,
-    "habilitado": true
-  },
-  {
-    "id": 1065568933,
-    "cliente": "EULIDES MOLINA BUSTOS",
-    "Email": "E-Mail: eulides2@hotmail.com",
-    "vendedor": "SURAMERICANA JI SAS",
     "fac": "SURA 58954",
     "fecha": "02/10/2026",
     "valor": 626405,
@@ -3614,9 +3214,19 @@
     "cliente": "EULIDES MOLINA BUSTOS",
     "Email": "E-Mail: eulides2@hotmail.com",
     "vendedor": "SURAMERICANA JI SAS",
-    "fac": "SURA 59200",
-    "fecha": "13/10/2026",
-    "valor": 34108,
+    "fac": "SURA 59864",
+    "fecha": "31/10/2026",
+    "valor": 44250,
+    "habilitado": true
+  },
+  {
+    "id": 1065568933,
+    "cliente": "EULIDES MOLINA BUSTOS",
+    "Email": "E-Mail: eulides2@hotmail.com",
+    "vendedor": "SURAMERICANA JI SAS",
+    "fac": "SURA 59902",
+    "fecha": "31/10/2026",
+    "valor": 626405,
     "habilitado": true
   },
   {
@@ -3650,13 +3260,33 @@
     "habilitado": true
   },
   {
-    "id": 1022953049,
-    "cliente": "FABIAN ALIRIO CUBILLOS TORRES",
-    "Email": "E-Mail: fabian.cubillostorre@hotmail.com",
+    "id": 1013641080,
+    "cliente": "FABIAN ANDRES GUERRERO BUITRAGO",
+    "Email": "E-Mail: supertiendasdelvallefg@gmail.com",
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59529",
-    "fecha": "23/10/2026",
-    "valor": 258111,
+    "fac": "SURA 57599",
+    "fecha": "19/08/2026",
+    "valor": 2220165,
+    "habilitado": true
+  },
+  {
+    "id": 1013641080,
+    "cliente": "FABIAN ANDRES GUERRERO BUITRAGO",
+    "Email": "E-Mail: supertiendasdelvallefg@gmail.com",
+    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
+    "fac": "SURA 57600",
+    "fecha": "19/08/2026",
+    "valor": 2120679,
+    "habilitado": true
+  },
+  {
+    "id": 1013641080,
+    "cliente": "FABIAN ANDRES GUERRERO BUITRAGO",
+    "Email": "E-Mail: supertiendasdelvallefg@gmail.com",
+    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
+    "fac": "SURA 58085",
+    "fecha": "03/09/2026",
+    "valor": 1168211,
     "habilitado": true
   },
   {
@@ -3697,6 +3327,16 @@
     "fac": "SURA 59786",
     "fecha": "29/10/2026",
     "valor": 1856332,
+    "habilitado": true
+  },
+  {
+    "id": 1013641080,
+    "cliente": "FABIAN ANDRES GUERRERO BUITRAGO",
+    "Email": "E-Mail: supertiendasdelvallefg@gmail.com",
+    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
+    "fac": "SURA 59914",
+    "fecha": "31/10/2026",
+    "valor": 2800000,
     "habilitado": true
   },
   {
@@ -3745,39 +3385,9 @@
     "Email": "E-Mail: fabian-0801@hotmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59805",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 210433,
     "habilitado": true
-  },
-  {
-    "id": 1069733233,
-    "cliente": "FABIO ANDERSSON CASTELLANOS MOLINA",
-    "Email": "E-Mail: supermercadoscastellanos@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59131",
-    "fecha": "09/10/2026",
-    "valor": 3082408,
-    "habilitado": true
-  },
-  {
-    "id": 1069733233,
-    "cliente": "FABIO ANDERSSON CASTELLANOS MOLINA",
-    "Email": "E-Mail: supermercadoscastellanos@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59135",
-    "fecha": "09/10/2026",
-    "valor": 3462846,
-    "habilitado": true
-  },
-  {
-    "id": 1033710359,
-    "cliente": "FABIO ANDRES GUTIERREZ MORA",
-    "Email": "E-Mail: djgutierrz@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58078",
-    "fecha": "03/09/2026",
-    "valor": 569534,
-    "habilitado": false
   },
   {
     "id": 1033710359,
@@ -3787,16 +3397,6 @@
     "fac": "SURA 59792",
     "fecha": "29/10/2026",
     "valor": 843374,
-    "habilitado": true
-  },
-  {
-    "id": 79486816,
-    "cliente": "FABIO LEONEL MORENO MORENO",
-    "Email": "E-Mail: fabioleonelmorenomoreno@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58663",
-    "fecha": "23/09/2026",
-    "valor": 785451,
     "habilitado": true
   },
   {
@@ -3826,7 +3426,7 @@
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
     "fac": "SURA 59740",
     "fecha": "28/10/2026",
-    "valor": 701071,
+    "valor": 661553,
     "habilitado": true
   },
   {
@@ -3864,29 +3464,9 @@
     "cliente": "FERNANDO JOSE ARREAZA ROJAS",
     "Email": "E-Mail: fernandojarreazar@gmail.com",
     "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "fac": "SURA 59189",
-    "fecha": "13/10/2026",
-    "valor": 20413,
-    "habilitado": true
-  },
-  {
-    "id": 2543746,
-    "cliente": "FERNANDO JOSE ARREAZA ROJAS",
-    "Email": "E-Mail: fernandojarreazar@gmail.com",
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
     "fac": "SURA 59347",
     "fecha": "19/10/2026",
     "valor": 108998,
-    "habilitado": true
-  },
-  {
-    "id": 2543746,
-    "cliente": "FERNANDO JOSE ARREAZA ROJAS",
-    "Email": "E-Mail: fernandojarreazar@gmail.com",
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "fac": "SURA 59712",
-    "fecha": "28/10/2026",
-    "valor": 37535,
     "habilitado": true
   },
   {
@@ -3924,39 +3504,9 @@
     "cliente": "FIDEL ANTONIO GONZALEZ AVENDAÑO",
     "Email": "E-Mail: fidelantoniogonzalez79@gmail.com",
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58181",
-    "fecha": "07/09/2026",
-    "valor": 588934,
-    "habilitado": true
-  },
-  {
-    "id": 79525064,
-    "cliente": "FIDEL ANTONIO GONZALEZ AVENDAÑO",
-    "Email": "E-Mail: fidelantoniogonzalez79@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
     "fac": "SURA 59406",
     "fecha": "20/10/2026",
     "valor": 687280,
-    "habilitado": true
-  },
-  {
-    "id": 11409492,
-    "cliente": "FIDOLO CUBILLOS DELGADO",
-    "Email": "E-Mail: cooratiendas228@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57321",
-    "fecha": "10/08/2026",
-    "valor": 1901216,
-    "habilitado": false
-  },
-  {
-    "id": 11409492,
-    "cliente": "FIDOLO CUBILLOS DELGADO",
-    "Email": "E-Mail: cooratiendas228@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57912",
-    "fecha": "28/08/2026",
-    "valor": 2225327,
     "habilitado": true
   },
   {
@@ -3994,16 +3544,6 @@
     "cliente": "FIDOLO CUBILLOS DELGADO",
     "Email": "E-Mail: cooratiendas228@gmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58318",
-    "fecha": "11/09/2026",
-    "valor": 1486935,
-    "habilitado": true
-  },
-  {
-    "id": 11409492,
-    "cliente": "FIDOLO CUBILLOS DELGADO",
-    "Email": "E-Mail: cooratiendas228@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 58719",
     "fecha": "24/09/2026",
     "valor": 1595336,
@@ -4027,6 +3567,26 @@
     "fac": "SURA 59195",
     "fecha": "13/10/2026",
     "valor": 1341092,
+    "habilitado": true
+  },
+  {
+    "id": 11409492,
+    "cliente": "FIDOLO CUBILLOS DELGADO",
+    "Email": "E-Mail: cooratiendas228@gmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59828",
+    "fecha": "31/10/2026",
+    "valor": 1257955,
+    "habilitado": true
+  },
+  {
+    "id": 11409492,
+    "cliente": "FIDOLO CUBILLOS DELGADO",
+    "Email": "E-Mail: cooratiendas228@gmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59832",
+    "fecha": "31/10/2026",
+    "valor": 2471471,
     "habilitado": true
   },
   {
@@ -4110,36 +3670,6 @@
     "habilitado": true
   },
   {
-    "id": 901409672,
-    "cliente": "FRUTOS LA HUERTA SAS",
-    "Email": "E-Mail: frutoslahuertasas@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59787",
-    "fecha": "29/10/2026",
-    "valor": 160921,
-    "habilitado": true
-  },
-  {
-    "id": 900035973,
-    "cliente": "FRUVER DEL CAMPO ALIMENTOS FRESCOS S.A.S",
-    "Email": "E-Mail: femicampo@outlook.es",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57363",
-    "fecha": "11/08/2026",
-    "valor": 380370,
-    "habilitado": false
-  },
-  {
-    "id": 900035973,
-    "cliente": "FRUVER DEL CAMPO ALIMENTOS FRESCOS S.A.S",
-    "Email": "E-Mail: femicampo@outlook.es",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57364",
-    "fecha": "11/08/2026",
-    "valor": 326398,
-    "habilitado": false
-  },
-  {
     "id": 17076451,
     "cliente": "GABRIEL FINO MENDIETA",
     "Email": "E-Mail: multihogar.alq@hotmail.com",
@@ -4180,33 +3710,23 @@
     "habilitado": true
   },
   {
-    "id": 80501869,
-    "cliente": "GEOVANY VARGAS VASQUEZ",
-    "Email": "E-Mail: vargasgeovannyvasquez@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57452",
-    "fecha": "14/08/2026",
-    "valor": 977317,
-    "habilitado": false
-  },
-  {
-    "id": 80147712,
-    "cliente": "GERMAN OSPINA URIBE",
-    "Email": "E-Mail: german-ospina@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59548",
-    "fecha": "23/10/2026",
-    "valor": 339098,
+    "id": 5825947,
+    "cliente": "GERALDINE DEL CARMEN CHAPARRO MAPPARI",
+    "Email": "E-Mail: geraldinechaparro075@gmail.com",
+    "vendedor": "SURAMERICANA JI SAS",
+    "fac": "SURA 59847",
+    "fecha": "31/10/2026",
+    "valor": 4845834,
     "habilitado": true
   },
   {
-    "id": 80147712,
-    "cliente": "GERMAN OSPINA URIBE",
-    "Email": "E-Mail: german-ospina@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59549",
-    "fecha": "23/10/2026",
-    "valor": 168507,
+    "id": 1074128678,
+    "cliente": "GERARDO ALONSO MORENO AYA",
+    "Email": "E-Mail: albasipega5@gmail.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59856",
+    "fecha": "31/10/2026",
+    "valor": 609989,
     "habilitado": true
   },
   {
@@ -4380,13 +3900,13 @@
     "habilitado": true
   },
   {
-    "id": 52286075,
-    "cliente": "GLADYS ESTHER SANABRIA MORENO",
-    "Email": "E-Mail: sanabriagladysesther@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57884",
-    "fecha": "27/08/2026",
-    "valor": 10813512,
+    "id": 38246976,
+    "cliente": "GLADYS ARDILA POVEDA",
+    "Email": "E-Mail: ardilapovedagladys@gmail.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59885",
+    "fecha": "31/10/2026",
+    "valor": 1187985,
     "habilitado": true
   },
   {
@@ -4470,33 +3990,23 @@
     "habilitado": true
   },
   {
-    "id": 51816734,
-    "cliente": "GLORIA EDILSA PARRA AMAYA",
-    "Email": "E-Mail: colfeboy@hotmail.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57723",
-    "fecha": "24/08/2026",
-    "valor": 200377,
+    "id": 41100646,
+    "cliente": "GLORIA DEL CARMEN RODRIGUEZ DE RODRIGUEZ",
+    "Email": "E-Mail: secretariaporvenir1@gmail.com",
+    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+    "fac": "SURA 59876",
+    "fecha": "31/10/2026",
+    "valor": 3877311,
     "habilitado": true
   },
   {
-    "id": 51816734,
-    "cliente": "GLORIA EDILSA PARRA AMAYA",
-    "Email": "E-Mail: colfeboy@hotmail.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57878",
-    "fecha": "27/08/2026",
-    "valor": 4079326,
-    "habilitado": true
-  },
-  {
-    "id": 51816734,
-    "cliente": "GLORIA EDILSA PARRA AMAYA",
-    "Email": "E-Mail: colfeboy@hotmail.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57879",
-    "fecha": "27/08/2026",
-    "valor": 2520307,
+    "id": 41100646,
+    "cliente": "GLORIA DEL CARMEN RODRIGUEZ DE RODRIGUEZ",
+    "Email": "E-Mail: secretariaporvenir1@gmail.com",
+    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+    "fac": "SURA 59877",
+    "fecha": "31/10/2026",
+    "valor": 2635982,
     "habilitado": true
   },
   {
@@ -4707,7 +4217,7 @@
     "fac": "SURA 58247",
     "fecha": "09/09/2026",
     "valor": 25285287,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 79607465,
@@ -4717,7 +4227,7 @@
     "fac": "SURA 58248",
     "fecha": "09/09/2026",
     "valor": 16060724,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 79607465,
@@ -4727,7 +4237,7 @@
     "fac": "SURA 58249",
     "fecha": "09/09/2026",
     "valor": 27386728,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 79607465,
@@ -4846,7 +4356,7 @@
     "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA",
     "fac": "SURA 59725",
     "fecha": "28/10/2026",
-    "valor": 12420051,
+    "valor": 12376969,
     "habilitado": true
   },
   {
@@ -4867,6 +4377,26 @@
     "fac": "SURA 59749",
     "fecha": "28/10/2026",
     "valor": 633327,
+    "habilitado": true
+  },
+  {
+    "id": 79607465,
+    "cliente": "GONZALO RODRIGUEZ ORTIZ",
+    "Email": "E-Mail: facturaelectronicametropol@hotmail.com",
+    "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA",
+    "fac": "SURA 59849",
+    "fecha": "31/10/2026",
+    "valor": 7901652,
+    "habilitado": true
+  },
+  {
+    "id": 79607465,
+    "cliente": "GONZALO RODRIGUEZ ORTIZ",
+    "Email": "E-Mail: facturaelectronicametropol@hotmail.com",
+    "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA",
+    "fac": "SURA 59850",
+    "fecha": "31/10/2026",
+    "valor": 3950826,
     "habilitado": true
   },
   {
@@ -5070,6 +4600,16 @@
     "habilitado": true
   },
   {
+    "id": 900465361,
+    "cliente": "GROUP MC COLOMBIA SAS",
+    "Email": "E-Mail: facturamcgrupo@gmail.com",
+    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
+    "fac": "SURA 59899",
+    "fecha": "31/10/2026",
+    "valor": 2517905,
+    "habilitado": true
+  },
+  {
     "id": 832010731,
     "cliente": "GRUPO COMERCIAL ANDES SA",
     "Email": "E-Mail: facturaelectronicagca@outlook.com",
@@ -5100,6 +4640,16 @@
     "habilitado": true
   },
   {
+    "id": 901398607,
+    "cliente": "GRUPO COMERCIAL MERCADOS LA SABANA SAS",
+    "Email": "E-Mail: mercadosabana@yahoo.es",
+    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
+    "fac": "SURA 59871",
+    "fecha": "31/10/2026",
+    "valor": 25502446,
+    "habilitado": true
+  },
+  {
     "id": 900814358,
     "cliente": "GRUPO EMPRESARIAL AHORRAMAS SAS",
     "Email": "E-Mail: mercadosahorramas@hotmail.com",
@@ -5107,6 +4657,36 @@
     "fac": "SURA 58996",
     "fecha": "05/10/2026",
     "valor": 6913872,
+    "habilitado": true
+  },
+  {
+    "id": 900814358,
+    "cliente": "GRUPO EMPRESARIAL AHORRAMAS SAS",
+    "Email": "E-Mail: mercadosahorramas@hotmail.com",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59904",
+    "fecha": "31/10/2026",
+    "valor": 396747,
+    "habilitado": true
+  },
+  {
+    "id": 900814358,
+    "cliente": "GRUPO EMPRESARIAL AHORRAMAS SAS",
+    "Email": "E-Mail: mercadosahorramas@hotmail.com",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59905",
+    "fecha": "31/10/2026",
+    "valor": 4646404,
+    "habilitado": true
+  },
+  {
+    "id": 900814358,
+    "cliente": "GRUPO EMPRESARIAL AHORRAMAS SAS",
+    "Email": "E-Mail: mercadosahorramas@hotmail.com",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59917",
+    "fecha": "31/10/2026",
+    "valor": 566793,
     "habilitado": true
   },
   {
@@ -5188,136 +4768,6 @@
     "fecha": "29/11/2025",
     "valor": 4584421,
     "habilitado": false
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 55757",
-    "fecha": "11/06/2026",
-    "valor": 623064,
-    "habilitado": false
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 56762",
-    "fecha": "22/07/2026",
-    "valor": 999988,
-    "habilitado": false
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 56763",
-    "fecha": "22/07/2026",
-    "valor": 984005,
-    "habilitado": false
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 56764",
-    "fecha": "22/07/2026",
-    "valor": 668963,
-    "habilitado": false
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57400",
-    "fecha": "12/08/2026",
-    "valor": 13389199,
-    "habilitado": false
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57682",
-    "fecha": "21/08/2026",
-    "valor": 449437,
-    "habilitado": true
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57683",
-    "fecha": "21/08/2026",
-    "valor": 275499,
-    "habilitado": true
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57684",
-    "fecha": "21/08/2026",
-    "valor": 437106,
-    "habilitado": true
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57685",
-    "fecha": "21/08/2026",
-    "valor": 441576,
-    "habilitado": true
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57686",
-    "fecha": "21/08/2026",
-    "valor": 308305,
-    "habilitado": true
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57688",
-    "fecha": "21/08/2026",
-    "valor": 174092,
-    "habilitado": true
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57689",
-    "fecha": "21/08/2026",
-    "valor": 391472,
-    "habilitado": true
-  },
-  {
-    "id": 901566558,
-    "cliente": "GRUPO SUPERDIA SAS",
-    "Email": "E-Mail: facturacionelectronica@gruposuperdia.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57690",
-    "fecha": "21/08/2026",
-    "valor": 258518,
-    "habilitado": true
   },
   {
     "id": 901566558,
@@ -5420,6 +4870,16 @@
     "habilitado": true
   },
   {
+    "id": 1074616041,
+    "cliente": "GUILLERMO ANDRES RUIZ",
+    "Email": "E-Mail: donsuperzona@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59844",
+    "fecha": "31/10/2026",
+    "valor": 374184,
+    "habilitado": true
+  },
+  {
     "id": 79295687,
     "cliente": "GUSTAVO PABON MORA",
     "Email": "E-Mail: eximer2010@hotmail.com",
@@ -5507,6 +4967,16 @@
     "fac": "SURA 58777",
     "fecha": "25/09/2026",
     "valor": 2533510,
+    "habilitado": true
+  },
+  {
+    "id": 5632510,
+    "cliente": "HECTOR BARBOSA CEPEDA",
+    "Email": "E-Mail: yolanda_37_71@hotmail.com",
+    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
+    "fac": "SURA 59891",
+    "fecha": "31/10/2026",
+    "valor": 1013008,
     "habilitado": true
   },
   {
@@ -5640,16 +5110,6 @@
     "habilitado": true
   },
   {
-    "id": 79899571,
-    "cliente": "HENRY ORLANDO RAMIREZ AREVALO",
-    "Email": "E-Mail: cooratiendas223@yahoo.es",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59384",
-    "fecha": "20/10/2026",
-    "valor": 495458,
-    "habilitado": true
-  },
-  {
     "id": 91106954,
     "cliente": "HENRY RUIZ FRANCO",
     "Email": "E-Mail: supermercadoscompremax@gmail.com",
@@ -5676,7 +5136,7 @@
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59630",
     "fecha": "26/10/2026",
-    "valor": 3048336,
+    "valor": 2931991,
     "habilitado": true
   },
   {
@@ -5764,16 +5224,6 @@
     "cliente": "HERVIN FERNEY BASTO MORENO",
     "Email": "E-Mail: ferneybastomoreno@hotmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58001",
-    "fecha": "31/08/2026",
-    "valor": 520507,
-    "habilitado": false
-  },
-  {
-    "id": 2996886,
-    "cliente": "HERVIN FERNEY BASTO MORENO",
-    "Email": "E-Mail: ferneybastomoreno@hotmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 58631",
     "fecha": "21/09/2026",
     "valor": 3422270,
@@ -5807,16 +5257,6 @@
     "fac": "SURA 59619",
     "fecha": "26/10/2026",
     "valor": 5207329,
-    "habilitado": true
-  },
-  {
-    "id": 19358282,
-    "cliente": "HUGO ALFONSO TRIANA LOPEZ",
-    "Email": "E-Mail: leonardofonseca12@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58048",
-    "fecha": "02/09/2026",
-    "valor": 1622228,
     "habilitado": true
   },
   {
@@ -6110,6 +5550,46 @@
     "habilitado": true
   },
   {
+    "id": 901354639,
+    "cliente": "INVERSIONES AHORREMAS SAS",
+    "Email": "E-Mail: humbertovillar.fac@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 57943",
+    "fecha": "31/08/2026",
+    "valor": 1599926,
+    "habilitado": true
+  },
+  {
+    "id": 901354639,
+    "cliente": "INVERSIONES AHORREMAS SAS",
+    "Email": "E-Mail: humbertovillar.fac@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 57944",
+    "fecha": "31/08/2026",
+    "valor": 1615357,
+    "habilitado": true
+  },
+  {
+    "id": 901354639,
+    "cliente": "INVERSIONES AHORREMAS SAS",
+    "Email": "E-Mail: humbertovillar.fac@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59894",
+    "fecha": "31/10/2026",
+    "valor": 1661435,
+    "habilitado": true
+  },
+  {
+    "id": 901354639,
+    "cliente": "INVERSIONES AHORREMAS SAS",
+    "Email": "E-Mail: humbertovillar.fac@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59895",
+    "fecha": "31/10/2026",
+    "valor": 1667349,
+    "habilitado": true
+  },
+  {
     "id": 901451192,
     "cliente": "INVERSIONES BNC S.A.S",
     "Email": "E-Mail: frutyverdurascasabana@gmail.com",
@@ -6147,226 +5627,6 @@
     "fac": "SURA 58648",
     "fecha": "22/09/2026",
     "valor": 940602,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 57895",
-    "fecha": "28/08/2026",
-    "valor": 1301142,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 57896",
-    "fecha": "28/08/2026",
-    "valor": 278460,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 57897",
-    "fecha": "28/08/2026",
-    "valor": 4086494,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 57898",
-    "fecha": "28/08/2026",
-    "valor": 1753051,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 57958",
-    "fecha": "31/08/2026",
-    "valor": 2616056,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 57959",
-    "fecha": "31/08/2026",
-    "valor": 1106460,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58142",
-    "fecha": "07/09/2026",
-    "valor": 5292699,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58143",
-    "fecha": "07/09/2026",
-    "valor": 1051290,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58144",
-    "fecha": "07/09/2026",
-    "valor": 828000,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58145",
-    "fecha": "07/09/2026",
-    "valor": 1017916,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58163",
-    "fecha": "07/09/2026",
-    "valor": 2835321,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58164",
-    "fecha": "07/09/2026",
-    "valor": 618770,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58251",
-    "fecha": "10/09/2026",
-    "valor": 3046022,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58252",
-    "fecha": "10/09/2026",
-    "valor": 516653,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58253",
-    "fecha": "10/09/2026",
-    "valor": 278460,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58292",
-    "fecha": "10/09/2026",
-    "valor": 3963919,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58293",
-    "fecha": "10/09/2026",
-    "valor": 692460,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58294",
-    "fecha": "10/09/2026",
-    "valor": 1114814,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58307",
-    "fecha": "11/09/2026",
-    "valor": 1049848,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58308",
-    "fecha": "11/09/2026",
-    "valor": 278460,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58309",
-    "fecha": "11/09/2026",
-    "valor": 542502,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58310",
-    "fecha": "11/09/2026",
-    "valor": 1520460,
     "habilitado": true
   },
   {
@@ -6956,17 +6216,7 @@
     "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59624",
     "fecha": "26/10/2026",
-    "valor": 1597395,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 59625",
-    "fecha": "26/10/2026",
-    "valor": 679453,
+    "valor": 1325613,
     "habilitado": true
   },
   {
@@ -6977,6 +6227,56 @@
     "fac": "SURA 59756",
     "fecha": "29/10/2026",
     "valor": 862230,
+    "habilitado": true
+  },
+  {
+    "id": 900069557,
+    "cliente": "INVERSIONES EL MERCADEO SAS",
+    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59887",
+    "fecha": "31/10/2026",
+    "valor": 1249688,
+    "habilitado": true
+  },
+  {
+    "id": 900069557,
+    "cliente": "INVERSIONES EL MERCADEO SAS",
+    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59888",
+    "fecha": "31/10/2026",
+    "valor": 1045051,
+    "habilitado": true
+  },
+  {
+    "id": 900069557,
+    "cliente": "INVERSIONES EL MERCADEO SAS",
+    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59889",
+    "fecha": "31/10/2026",
+    "valor": 543660,
+    "habilitado": true
+  },
+  {
+    "id": 900069557,
+    "cliente": "INVERSIONES EL MERCADEO SAS",
+    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59900",
+    "fecha": "31/10/2026",
+    "valor": 543660,
+    "habilitado": true
+  },
+  {
+    "id": 900069557,
+    "cliente": "INVERSIONES EL MERCADEO SAS",
+    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59901",
+    "fecha": "31/10/2026",
+    "valor": 1558799,
     "habilitado": true
   },
   {
@@ -7475,9 +6775,29 @@
     "Email": "E-Mail: frutimax.avcali@hotmail.com",
     "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
     "fac": "SURA 59814",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 1997361,
     "habilitado": true
+  },
+  {
+    "id": 902089898,
+    "cliente": "INVERSIONES MERKADIARIO SAS",
+    "Email": "E-Mail: nelsuar@hotmail.com",
+    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
+    "fac": "SURA 59908",
+    "fecha": "31/10/2026",
+    "valor": 459474,
+    "habilitado": true
+  },
+  {
+    "id": 901656962,
+    "cliente": "INVERSIONES MERKALISTO SAS",
+    "Email": "E-Mail: merkalistocora489@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 57018",
+    "fecha": "29/07/2026",
+    "valor": 3294459,
+    "habilitado": false
   },
   {
     "id": 901656962,
@@ -7660,6 +6980,36 @@
     "habilitado": true
   },
   {
+    "id": 901438859,
+    "cliente": "INVERSIONES RODRIGUEZ & CIA SAS",
+    "Email": "E-Mail: secretariaporvenir1@gmail.com",
+    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+    "fac": "SURA 59878",
+    "fecha": "31/10/2026",
+    "valor": 3599044,
+    "habilitado": true
+  },
+  {
+    "id": 901438859,
+    "cliente": "INVERSIONES RODRIGUEZ & CIA SAS",
+    "Email": "E-Mail: secretariaporvenir1@gmail.com",
+    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+    "fac": "SURA 59879",
+    "fecha": "31/10/2026",
+    "valor": 775333,
+    "habilitado": true
+  },
+  {
+    "id": 901963150,
+    "cliente": "INVERSIONES SAN ANTONIO SAS",
+    "Email": "E-Mail: supersantonio87@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 59883",
+    "fecha": "31/10/2026",
+    "valor": 2236069,
+    "habilitado": true
+  },
+  {
     "id": 900786978,
     "cliente": "INVERSIONES SAN JOSE HA SAS",
     "Email": "E-Mail: inversionessanjoseha@hotmail.com",
@@ -7680,6 +7030,26 @@
     "habilitado": true
   },
   {
+    "id": 900786978,
+    "cliente": "INVERSIONES SAN JOSE HA SAS",
+    "Email": "E-Mail: inversionessanjoseha@hotmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59837",
+    "fecha": "31/10/2026",
+    "valor": 317088,
+    "habilitado": true
+  },
+  {
+    "id": 900786978,
+    "cliente": "INVERSIONES SAN JOSE HA SAS",
+    "Email": "E-Mail: inversionessanjoseha@hotmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59838",
+    "fecha": "31/10/2026",
+    "valor": 3977918,
+    "habilitado": true
+  },
+  {
     "id": 900715498,
     "cliente": "INVERSIONES SHOP RITE SAS",
     "Email": "E-Mail: cooratiendas371@hotmail.com",
@@ -7687,6 +7057,16 @@
     "fac": "SURA 59523",
     "fecha": "23/10/2026",
     "valor": 4605465,
+    "habilitado": true
+  },
+  {
+    "id": 901705446,
+    "cliente": "INVERSIONES SURTIYA EXPRESSO SAS",
+    "Email": "E-Mail: facturacion.surtiya@gmail.com",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59897",
+    "fecha": "31/10/2026",
+    "valor": 841795,
     "habilitado": true
   },
   {
@@ -7736,7 +7116,7 @@
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 59719",
     "fecha": "28/10/2026",
-    "valor": 12547192,
+    "valor": 12498193,
     "habilitado": true
   },
   {
@@ -7747,6 +7127,16 @@
     "fac": "SURA 59747",
     "fecha": "28/10/2026",
     "valor": 597951,
+    "habilitado": true
+  },
+  {
+    "id": 800205713,
+    "cliente": "INVERSIONES VARGAS OTELO S.A.S",
+    "Email": "E-Mail: contacto@supermercadoanapoima.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59852",
+    "fecha": "31/10/2026",
+    "valor": 1236007,
     "habilitado": true
   },
   {
@@ -7810,16 +7200,6 @@
     "habilitado": true
   },
   {
-    "id": 902052888,
-    "cliente": "ISI GRUPO SAS",
-    "Email": "E-Mail: isigruposas@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59689",
-    "fecha": "27/10/2026",
-    "valor": 3260306,
-    "habilitado": true
-  },
-  {
     "id": 79669468,
     "cliente": "IVAN ANTONIO GARCIA CABEZAS",
     "Email": "E-Mail: merquefull.facturacion@outlook.es",
@@ -7880,16 +7260,6 @@
     "habilitado": true
   },
   {
-    "id": 1074136176,
-    "cliente": "IVAN CAMILO GUEVARA NIETO",
-    "Email": "E-Mail: nietocamilo1997@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59697",
-    "fecha": "27/10/2026",
-    "valor": 823663,
-    "habilitado": true
-  },
-  {
     "id": 1023902316,
     "cliente": "JACKSON DANIEL D ALEMAN DE ANTONIO",
     "Email": "E-Mail: ahorramasjn@gmail.com",
@@ -7926,7 +7296,7 @@
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 59591",
     "fecha": "26/10/2026",
-    "valor": 1377397,
+    "valor": 1344453,
     "habilitado": true
   },
   {
@@ -8060,26 +7430,6 @@
     "habilitado": true
   },
   {
-    "id": 79609701,
-    "cliente": "JAVIER VERDUGO BARON",
-    "Email": "E-Mail: tesoreria@superdia.co",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 56433",
-    "fecha": "09/07/2026",
-    "valor": 903091,
-    "habilitado": false
-  },
-  {
-    "id": 79609701,
-    "cliente": "JAVIER VERDUGO BARON",
-    "Email": "E-Mail: tesoreria@superdia.co",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57693",
-    "fecha": "21/08/2026",
-    "valor": 505451,
-    "habilitado": true
-  },
-  {
     "id": 1031149820,
     "cliente": "JEFERSSON SNEYDER GUTIERREZ VELASQUEZ",
     "Email": "E-Mail: neogetrix@hotmail.com",
@@ -8096,7 +7446,7 @@
     "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59741",
     "fecha": "28/10/2026",
-    "valor": 1312682,
+    "valor": 1290437,
     "habilitado": true
   },
   {
@@ -8105,7 +7455,7 @@
     "Email": "E-Mail: jeissonorpa@gmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59809",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 262138,
     "habilitado": true
   },
@@ -8190,13 +7540,13 @@
     "habilitado": true
   },
   {
-    "id": 79061468,
-    "cliente": "JOAQUIN AUGUSTO MORENO MARTINEZ",
-    "Email": "E-Mail: mitania2025@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58116",
-    "fecha": "04/09/2026",
-    "valor": 2406492,
+    "id": 1010205627,
+    "cliente": "JHOSMAN ALEXANDER RINCON VANEGAS",
+    "Email": "E-Mail: jhosman_2460@hotmail.com",
+    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+    "fac": "SURA 59839",
+    "fecha": "31/10/2026",
+    "valor": 386628,
     "habilitado": true
   },
   {
@@ -8287,16 +7637,6 @@
     "fac": "SURA 59585",
     "fecha": "23/10/2026",
     "valor": 680615,
-    "habilitado": true
-  },
-  {
-    "id": 79393812,
-    "cliente": "JOHN GUSTAVO MATIZ CASTRO",
-    "Email": "E-Mail: johnmatiz@hotmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59456",
-    "fecha": "23/10/2026",
-    "valor": 59795,
     "habilitado": true
   },
   {
@@ -8410,24 +7750,24 @@
     "habilitado": true
   },
   {
-    "id": 79753340,
-    "cliente": "JOSE ALIRIO TRIANA GARCIA",
-    "Email": "E-Mail: distrimerkar.sandiego@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 56974",
-    "fecha": "28/07/2026",
-    "valor": 447690,
-    "habilitado": false
+    "id": 7334641,
+    "cliente": "JORGE RAMIRO ROJAS CUESTA",
+    "Email": "E-Mail: jramiro.rojas2313@yahoo.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59910",
+    "fecha": "31/10/2026",
+    "valor": 5530041,
+    "habilitado": true
   },
   {
-    "id": 79753340,
-    "cliente": "JOSE ALIRIO TRIANA GARCIA",
-    "Email": "E-Mail: distrimerkar.sandiego@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 56975",
-    "fecha": "28/07/2026",
-    "valor": 1050698,
-    "habilitado": false
+    "id": 79529245,
+    "cliente": "JOSE ALFREDO MORA RIVERA",
+    "Email": "E-Mail: alfedmora85@gmail.com",
+    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
+    "fac": "SURA 59875",
+    "fecha": "31/10/2026",
+    "valor": 954338,
+    "habilitado": true
   },
   {
     "id": 79753340,
@@ -8490,26 +7830,6 @@
     "habilitado": true
   },
   {
-    "id": 4263947,
-    "cliente": "JOSE ARGEMIRO PIÑEROS VACA",
-    "Email": "E-Mail: asesorias_con@yahoo.es",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57343",
-    "fecha": "10/08/2026",
-    "valor": 2046992,
-    "habilitado": false
-  },
-  {
-    "id": 4263947,
-    "cliente": "JOSE ARGEMIRO PIÑEROS VACA",
-    "Email": "E-Mail: asesorias_con@yahoo.es",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58606",
-    "fecha": "21/09/2026",
-    "valor": 2729289,
-    "habilitado": true
-  },
-  {
     "id": 1023893573,
     "cliente": "JOSE ARMANDO CELIS NOVOA",
     "Email": "E-Mail: autoserviciomerkatodosibate@gmail.com",
@@ -8554,6 +7874,36 @@
     "cliente": "JOSE BERNABE PAEZ AVENDAÑO",
     "Email": "E-Mail: mercadospaez@gmail.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 57737",
+    "fecha": "24/08/2026",
+    "valor": 2553969,
+    "habilitado": true
+  },
+  {
+    "id": 74439272,
+    "cliente": "JOSE BERNABE PAEZ AVENDAÑO",
+    "Email": "E-Mail: mercadospaez@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 58473",
+    "fecha": "16/09/2026",
+    "valor": 700743,
+    "habilitado": true
+  },
+  {
+    "id": 74439272,
+    "cliente": "JOSE BERNABE PAEZ AVENDAÑO",
+    "Email": "E-Mail: mercadospaez@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 58474",
+    "fecha": "16/09/2026",
+    "valor": 177986,
+    "habilitado": true
+  },
+  {
+    "id": 74439272,
+    "cliente": "JOSE BERNABE PAEZ AVENDAÑO",
+    "Email": "E-Mail: mercadospaez@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 58477",
     "fecha": "16/09/2026",
     "valor": 1011798,
@@ -8577,6 +7927,26 @@
     "fac": "SURA 59526",
     "fecha": "23/10/2026",
     "valor": 1261143,
+    "habilitado": true
+  },
+  {
+    "id": 74439272,
+    "cliente": "JOSE BERNABE PAEZ AVENDAÑO",
+    "Email": "E-Mail: mercadospaez@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 59881",
+    "fecha": "31/10/2026",
+    "valor": 2789648,
+    "habilitado": true
+  },
+  {
+    "id": 74439272,
+    "cliente": "JOSE BERNABE PAEZ AVENDAÑO",
+    "Email": "E-Mail: mercadospaez@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 59882",
+    "fecha": "31/10/2026",
+    "valor": 157592,
     "habilitado": true
   },
   {
@@ -8630,16 +8000,6 @@
     "habilitado": true
   },
   {
-    "id": 91455724,
-    "cliente": "JOSE GREGORIO PALACIOS BRAVO",
-    "Email": "E-Mail: superfruverla96@outlook.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58850",
-    "fecha": "29/09/2026",
-    "valor": 1006763,
-    "habilitado": true
-  },
-  {
     "id": 4207661,
     "cliente": "JOSE GUERRERO GUERRERO",
     "Email": "E-Mail: jose@gmail.com",
@@ -8647,6 +8007,16 @@
     "fac": "SURA 58922",
     "fecha": "30/09/2026",
     "valor": -335823,
+    "habilitado": true
+  },
+  {
+    "id": 4207661,
+    "cliente": "JOSE GUERRERO GUERRERO",
+    "Email": "E-Mail: jose@gmail.com",
+    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+    "fac": "SURA 59920",
+    "fecha": "31/10/2026",
+    "valor": 43067,
     "habilitado": true
   },
   {
@@ -8764,79 +8134,9 @@
     "cliente": "JOSE MARIA CELIS GUTIERREZ",
     "Email": "E-Mail: merlanuevacosecha@gmail.com",
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59182",
-    "fecha": "13/10/2026",
-    "valor": 2320179,
-    "habilitado": true
-  },
-  {
-    "id": 11406189,
-    "cliente": "JOSE MARIA CELIS GUTIERREZ",
-    "Email": "E-Mail: merlanuevacosecha@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59227",
-    "fecha": "14/10/2026",
-    "valor": 1490827,
-    "habilitado": true
-  },
-  {
-    "id": 11406189,
-    "cliente": "JOSE MARIA CELIS GUTIERREZ",
-    "Email": "E-Mail: merlanuevacosecha@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59314",
-    "fecha": "16/10/2026",
-    "valor": 1500799,
-    "habilitado": true
-  },
-  {
-    "id": 11406189,
-    "cliente": "JOSE MARIA CELIS GUTIERREZ",
-    "Email": "E-Mail: merlanuevacosecha@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
     "fac": "SURA 59696",
     "fecha": "27/10/2026",
     "valor": 1635306,
-    "habilitado": true
-  },
-  {
-    "id": 830075637,
-    "cliente": "JOSE MARIA S.A.S",
-    "Email": "E-Mail: felectronica@josemariasas.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57872",
-    "fecha": "27/08/2026",
-    "valor": 508862,
-    "habilitado": true
-  },
-  {
-    "id": 830075637,
-    "cliente": "JOSE MARIA S.A.S",
-    "Email": "E-Mail: felectronica@josemariasas.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57873",
-    "fecha": "27/08/2026",
-    "valor": 721416,
-    "habilitado": true
-  },
-  {
-    "id": 830075637,
-    "cliente": "JOSE MARIA S.A.S",
-    "Email": "E-Mail: felectronica@josemariasas.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57874",
-    "fecha": "27/08/2026",
-    "valor": 8733465,
-    "habilitado": true
-  },
-  {
-    "id": 830075637,
-    "cliente": "JOSE MARIA S.A.S",
-    "Email": "E-Mail: felectronica@josemariasas.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57875",
-    "fecha": "27/08/2026",
-    "valor": 1525913,
     "habilitado": true
   },
   {
@@ -8963,36 +8263,6 @@
     "id": 17634873,
     "cliente": "JOSE VARGAS RINCON",
     "Email": "E-Mail: secretarialibertadore@colsitiendas.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58304",
-    "fecha": "11/09/2026",
-    "valor": 266203,
-    "habilitado": true
-  },
-  {
-    "id": 17634873,
-    "cliente": "JOSE VARGAS RINCON",
-    "Email": "E-Mail: secretarialibertadore@colsitiendas.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58305",
-    "fecha": "11/09/2026",
-    "valor": 1035470,
-    "habilitado": true
-  },
-  {
-    "id": 17634873,
-    "cliente": "JOSE VARGAS RINCON",
-    "Email": "E-Mail: secretarialibertadore@colsitiendas.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58306",
-    "fecha": "11/09/2026",
-    "valor": 2550155,
-    "habilitado": true
-  },
-  {
-    "id": 17634873,
-    "cliente": "JOSE VARGAS RINCON",
-    "Email": "E-Mail: secretarialibertadore@colsitiendas.com",
     "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 58758",
     "fecha": "25/09/2026",
@@ -9065,7 +8335,7 @@
     "Email": "E-Mail: secretarialibertadore@colsitiendas.com",
     "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59816",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 849308,
     "habilitado": true
   },
@@ -9107,6 +8377,16 @@
     "fac": "SURA 59505",
     "fecha": "23/10/2026",
     "valor": 4468568,
+    "habilitado": true
+  },
+  {
+    "id": 11408769,
+    "cliente": "JUAN BATUEL ROJAS PABON",
+    "Email": "E-Mail: supermercadoeximerkars@outlook.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59833",
+    "fecha": "31/10/2026",
+    "valor": 2821846,
     "habilitado": true
   },
   {
@@ -9280,24 +8560,14 @@
     "habilitado": true
   },
   {
-    "id": 1076241556,
-    "cliente": "JUAN DIEGO RODRIGUEZ UMAÑA",
-    "Email": "E-Mail: eutimiopacho.gomez@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58074",
-    "fecha": "03/09/2026",
-    "valor": 531252,
-    "habilitado": false
-  },
-  {
-    "id": 1076241556,
-    "cliente": "JUAN DIEGO RODRIGUEZ UMAÑA",
-    "Email": "E-Mail: eutimiopacho.gomez@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58080",
-    "fecha": "03/09/2026",
-    "valor": 185312,
-    "habilitado": false
+    "id": 1003650671,
+    "cliente": "JUAN DIEGO CASTILLO RAMOS",
+    "Email": "E-Mail: supermercadoelcastillojr@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59893",
+    "fecha": "31/10/2026",
+    "valor": 475317,
+    "habilitado": true
   },
   {
     "id": 1076241556,
@@ -9327,6 +8597,26 @@
     "fac": "SURA 59367",
     "fecha": "19/10/2026",
     "valor": 767281,
+    "habilitado": true
+  },
+  {
+    "id": 1076241556,
+    "cliente": "JUAN DIEGO RODRIGUEZ UMAÑA",
+    "Email": "E-Mail: eutimiopacho.gomez@gmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59834",
+    "fecha": "31/10/2026",
+    "valor": 2253000,
+    "habilitado": true
+  },
+  {
+    "id": 1076241556,
+    "cliente": "JUAN DIEGO RODRIGUEZ UMAÑA",
+    "Email": "E-Mail: eutimiopacho.gomez@gmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59836",
+    "fecha": "31/10/2026",
+    "valor": 348289,
     "habilitado": true
   },
   {
@@ -9380,16 +8670,6 @@
     "habilitado": true
   },
   {
-    "id": 1007698797,
-    "cliente": "JUNIOR SALOMON CASTILLO CALDERON",
-    "Email": "E-Mail: junior.casti2196@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59453",
-    "fecha": "21/10/2026",
-    "valor": 213108,
-    "habilitado": true
-  },
-  {
     "id": 901789779,
     "cliente": "K.D. INVESTMENTS SAS",
     "Email": "E-Mail: info.kdinversiones@gmail.com",
@@ -9397,6 +8677,16 @@
     "fac": "SURA 59308",
     "fecha": "16/10/2026",
     "valor": 567462,
+    "habilitado": true
+  },
+  {
+    "id": 901789779,
+    "cliente": "K.D. INVESTMENTS SAS",
+    "Email": "E-Mail: info.kdinversiones@gmail.com",
+    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
+    "fac": "SURA 59868",
+    "fecha": "31/10/2026",
+    "valor": 375336,
     "habilitado": true
   },
   {
@@ -9408,6 +8698,16 @@
     "fecha": "16/02/2026",
     "valor": 132500,
     "habilitado": false
+  },
+  {
+    "id": 1032457976,
+    "cliente": "KAREN LORENA CORCHO PAEZ",
+    "Email": "E-Mail: lorena251993corccho@gmail.com",
+    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+    "fac": "SURA 59848",
+    "fecha": "31/10/2026",
+    "valor": 32030,
+    "habilitado": true
   },
   {
     "id": 1002646857,
@@ -9534,36 +8834,6 @@
     "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
     "Email": "E-Mail: asesoriascontables67@gmail.com",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 56982",
-    "fecha": "28/07/2026",
-    "valor": 1457890,
-    "habilitado": false
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 56983",
-    "fecha": "28/07/2026",
-    "valor": 1379023,
-    "habilitado": false
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 56984",
-    "fecha": "28/07/2026",
-    "valor": 437825,
-    "habilitado": false
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 58031",
     "fecha": "02/09/2026",
     "valor": 1319047,
@@ -9646,17 +8916,7 @@
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 59703",
     "fecha": "27/10/2026",
-    "valor": 4110357,
-    "habilitado": true
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 59707",
-    "fecha": "27/10/2026",
-    "valor": 4078328,
+    "valor": 3699236,
     "habilitado": true
   },
   {
@@ -9684,30 +8944,10 @@
     "cliente": "LEIDY DIANA MARTIN ALARCON",
     "Email": "E-Mail: dydia19@gmail.com",
     "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 56434",
-    "fecha": "09/07/2026",
-    "valor": 1000000,
-    "habilitado": false
-  },
-  {
-    "id": 1022935469,
-    "cliente": "LEIDY DIANA MARTIN ALARCON",
-    "Email": "E-Mail: dydia19@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
     "fac": "SURA 59717",
     "fecha": "28/10/2026",
     "valor": 2971164,
     "habilitado": true
-  },
-  {
-    "id": 1012437303,
-    "cliente": "LEIDY LORENA ARIAS QUINTERO",
-    "Email": "E-Mail: leidyquintero_20@hotmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57591",
-    "fecha": "19/08/2026",
-    "valor": 1107872,
-    "habilitado": false
   },
   {
     "id": 52965020,
@@ -9804,28 +9044,8 @@
     "cliente": "LIBARDO CUBILLOS NOVOA",
     "Email": "E-Mail: laeconomiadelbrasil2020@gmail.com",
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59304",
-    "fecha": "16/10/2026",
-    "valor": 744011,
-    "habilitado": true
-  },
-  {
-    "id": 11410130,
-    "cliente": "LIBARDO CUBILLOS NOVOA",
-    "Email": "E-Mail: laeconomiadelbrasil2020@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59307",
-    "fecha": "16/10/2026",
-    "valor": 2570329,
-    "habilitado": true
-  },
-  {
-    "id": 11410130,
-    "cliente": "LIBARDO CUBILLOS NOVOA",
-    "Email": "E-Mail: laeconomiadelbrasil2020@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
     "fac": "SURA 59785",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 1819135,
     "habilitado": true
   },
@@ -9900,13 +9120,13 @@
     "habilitado": true
   },
   {
-    "id": 1098629630,
-    "cliente": "LINETH APARICIO QUINTERO",
-    "Email": "E-Mail: laparicioquintero@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 59743",
-    "fecha": "28/10/2026",
-    "valor": 755239,
+    "id": 39731350,
+    "cliente": "LILIA NELCY ROMERO QUEVEDO",
+    "Email": "E-Mail: nelcyromerotesoro@gmail.com",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59906",
+    "fecha": "31/10/2026",
+    "valor": 1412127,
     "habilitado": true
   },
   {
@@ -9980,6 +9200,36 @@
     "habilitado": true
   },
   {
+    "id": 1023890032,
+    "cliente": "LISBETH JULIETH NARANJO ROJAS",
+    "Email": "E-Mail: suramericanajisas@gmail.com",
+    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+    "fac": "SURA 59862",
+    "fecha": "31/10/2026",
+    "valor": 320803,
+    "habilitado": true
+  },
+  {
+    "id": 1023890032,
+    "cliente": "LISBETH JULIETH NARANJO ROJAS",
+    "Email": "E-Mail: suramericanajisas@gmail.com",
+    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+    "fac": "SURA 59896",
+    "fecha": "31/10/2026",
+    "valor": 46888,
+    "habilitado": true
+  },
+  {
+    "id": 1057214843,
+    "cliente": "LISETH ADRIANA LAITON GONZALEZ",
+    "Email": "E-Mail: lichis22@hotmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 59826",
+    "fecha": "31/10/2026",
+    "valor": 3265285,
+    "habilitado": true
+  },
+  {
     "id": 901796206,
     "cliente": "LOSMERKAS SAS",
     "Email": "E-Mail: losmerkassas@gmail.com",
@@ -10034,36 +9284,6 @@
     "cliente": "LUCELLY RESTREPO AVILA",
     "Email": "E-Mail: lucyres17@gmail.com",
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57059",
-    "fecha": "30/07/2026",
-    "valor": 823813,
-    "habilitado": false
-  },
-  {
-    "id": 42076136,
-    "cliente": "LUCELLY RESTREPO AVILA",
-    "Email": "E-Mail: lucyres17@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57341",
-    "fecha": "10/08/2026",
-    "valor": 233793,
-    "habilitado": false
-  },
-  {
-    "id": 42076136,
-    "cliente": "LUCELLY RESTREPO AVILA",
-    "Email": "E-Mail: lucyres17@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57557",
-    "fecha": "18/08/2026",
-    "valor": 1966455,
-    "habilitado": false
-  },
-  {
-    "id": 42076136,
-    "cliente": "LUCELLY RESTREPO AVILA",
-    "Email": "E-Mail: lucyres17@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
     "fac": "SURA 59731",
     "fecha": "28/10/2026",
     "valor": 811223,
@@ -10076,7 +9296,7 @@
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
     "fac": "SURA 59773",
     "fecha": "29/10/2026",
-    "valor": 6464568,
+    "valor": 5983551,
     "habilitado": true
   },
   {
@@ -10184,16 +9404,6 @@
     "cliente": "LUIS ENRIQUE ROMERO",
     "Email": "E-Mail: macroexpressrym@gmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58444",
-    "fecha": "15/09/2026",
-    "valor": 1659995,
-    "habilitado": true
-  },
-  {
-    "id": 79837915,
-    "cliente": "LUIS ENRIQUE ROMERO",
-    "Email": "E-Mail: macroexpressrym@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59027",
     "fecha": "06/10/2026",
     "valor": 1296083,
@@ -10277,16 +9487,6 @@
     "fac": "SURA 58856",
     "fecha": "29/09/2026",
     "valor": 1564547,
-    "habilitado": true
-  },
-  {
-    "id": 11408455,
-    "cliente": "LUIS HUMBERTO PABON HERRERA",
-    "Email": "E-Mail: norkafan@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 59099",
-    "fecha": "08/10/2026",
-    "valor": 9822218,
     "habilitado": true
   },
   {
@@ -10420,13 +9620,13 @@
     "habilitado": true
   },
   {
-    "id": 30237214,
-    "cliente": "LUZ OFELIA CLAROS CARDENAS",
-    "Email": "E-Mail: luzofeliaclaros01@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58531",
-    "fecha": "17/09/2026",
-    "valor": 1992350,
+    "id": 20546970,
+    "cliente": "LUZ MERY BARBOSA PEREZ",
+    "Email": "E-Mail: luzmi00328@hotmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59892",
+    "fecha": "31/10/2026",
+    "valor": 1387230,
     "habilitado": true
   },
   {
@@ -10534,16 +9734,6 @@
     "cliente": "LUZ STELLA TOVAR",
     "Email": "E-Mail: luzstella272016@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58117",
-    "fecha": "04/09/2026",
-    "valor": 227673,
-    "habilitado": true
-  },
-  {
-    "id": 35375254,
-    "cliente": "LUZ STELLA TOVAR",
-    "Email": "E-Mail: luzstella272016@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 59455",
     "fecha": "23/10/2026",
     "valor": 504149,
@@ -10596,27 +9786,7 @@
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 59737",
     "fecha": "28/10/2026",
-    "valor": 2168704,
-    "habilitado": true
-  },
-  {
-    "id": 901684774,
-    "cliente": "MACRODESPENSA SAS",
-    "Email": "E-Mail: macrodespensa@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58114",
-    "fecha": "04/09/2026",
-    "valor": 3234585,
-    "habilitado": true
-  },
-  {
-    "id": 901684774,
-    "cliente": "MACRODESPENSA SAS",
-    "Email": "E-Mail: macrodespensa@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58472",
-    "fecha": "16/09/2026",
-    "valor": 322529,
+    "valor": 2126404,
     "habilitado": true
   },
   {
@@ -10706,6 +9876,16 @@
     "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
     "fac": "SURA 59791",
     "fecha": "29/10/2026",
+    "valor": 2445914,
+    "habilitado": true
+  },
+  {
+    "id": 1024554579,
+    "cliente": "MARCYA JULIETH CASTILLO SANCHEZ",
+    "Email": "E-Mail: 1024554579@recepciondefacturas.co",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59854",
+    "fecha": "31/10/2026",
     "valor": 2462244,
     "habilitado": true
   },
@@ -10718,16 +9898,6 @@
     "fecha": "28/09/2026",
     "valor": 306412,
     "habilitado": true
-  },
-  {
-    "id": 39720913,
-    "cliente": "MARIA CONSUELO SANCHEZ NIÑO",
-    "Email": "E-Mail: garias1988@hotmail.com",
-    "vendedor": "BLANCA LUZ IBAÑEZ ARTUNDUAGA",
-    "fac": "SURA 14495",
-    "fecha": "01/12/2021",
-    "valor": 1990000,
-    "habilitado": false
   },
   {
     "id": 51556418,
@@ -10780,13 +9950,13 @@
     "habilitado": true
   },
   {
-    "id": 41591391,
-    "cliente": "MARIA ELISA MORALES DE HERNANDEZ",
-    "Email": "E-Mail: mercasverbenal@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 59270",
-    "fecha": "15/10/2026",
-    "valor": 2019888,
+    "id": 52444654,
+    "cliente": "MARIA DELFA MURCIA HERNANDEZ",
+    "Email": "E-Mail: marialaeconomia@gmail.com",
+    "vendedor": "YENY MARIBEL MONROY PATIÑO",
+    "fac": "SURA 59913",
+    "fecha": "31/10/2026",
+    "valor": 765350,
     "habilitado": true
   },
   {
@@ -10816,7 +9986,7 @@
     "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59796",
     "fecha": "29/10/2026",
-    "valor": 3237406,
+    "valor": 3144909,
     "habilitado": true
   },
   {
@@ -10874,16 +10044,6 @@
     "cliente": "MARIA MERLENY ARROYAVE TABARES",
     "Email": "E-Mail: facturaselectronicasarroyave@gmail.com",
     "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58231",
-    "fecha": "09/09/2026",
-    "valor": 4885992,
-    "habilitado": true
-  },
-  {
-    "id": 39536225,
-    "cliente": "MARIA MERLENY ARROYAVE TABARES",
-    "Email": "E-Mail: facturaselectronicasarroyave@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59063",
     "fecha": "07/10/2026",
     "valor": 4344516,
@@ -10907,6 +10067,26 @@
     "fac": "SURA 58530",
     "fecha": "17/09/2026",
     "valor": 1677675,
+    "habilitado": true
+  },
+  {
+    "id": 51634547,
+    "cliente": "MARIA STELLA RIVEROS BARRAGAN",
+    "Email": "E-Mail: maristellariveros@gmail.com",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59865",
+    "fecha": "31/10/2026",
+    "valor": 955338,
+    "habilitado": true
+  },
+  {
+    "id": 51634547,
+    "cliente": "MARIA STELLA RIVEROS BARRAGAN",
+    "Email": "E-Mail: maristellariveros@gmail.com",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59865",
+    "fecha": "31/10/2026",
+    "valor": 104487,
     "habilitado": true
   },
   {
@@ -10948,6 +10128,16 @@
     "fecha": "11/12/2025",
     "valor": 1941649,
     "habilitado": false
+  },
+  {
+    "id": 20851645,
+    "cliente": "MARLENY AIDEE REY TORRES",
+    "Email": "E-Mail: aideerey851@gmail.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59860",
+    "fecha": "31/10/2026",
+    "valor": 2194602,
+    "habilitado": true
   },
   {
     "id": 1018409101,
@@ -10996,7 +10186,7 @@
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59762",
     "fecha": "29/10/2026",
-    "valor": 1207680,
+    "valor": 1200632,
     "habilitado": true
   },
   {
@@ -11006,7 +10196,7 @@
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59763",
     "fecha": "29/10/2026",
-    "valor": 1219590,
+    "valor": 1025033,
     "habilitado": true
   },
   {
@@ -11166,7 +10356,7 @@
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 59618",
     "fecha": "26/10/2026",
-    "valor": 846832,
+    "valor": 706438,
     "habilitado": true
   },
   {
@@ -11177,16 +10367,6 @@
     "fac": "SURA 59419",
     "fecha": "21/10/2026",
     "valor": 1212277,
-    "habilitado": true
-  },
-  {
-    "id": 901577775,
-    "cliente": "MERCA 3 DE LA SABANA",
-    "Email": "E-Mail: contabilidadcm0813@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 59395",
-    "fecha": "20/10/2026",
-    "valor": 293300,
     "habilitado": true
   },
   {
@@ -11466,7 +10646,7 @@
     "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
     "fac": "SURA 59801",
     "fecha": "29/10/2026",
-    "valor": 3422932,
+    "valor": 3194519,
     "habilitado": true
   },
   {
@@ -11476,7 +10656,7 @@
     "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
     "fac": "SURA 59804",
     "fecha": "29/10/2026",
-    "valor": 3328416,
+    "valor": 3058334,
     "habilitado": true
   },
   {
@@ -11685,7 +10865,7 @@
     "Email": "E-Mail: comercial.pgc@mercadosbm.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59810",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 1167399,
     "habilitado": true
   },
@@ -11814,26 +10994,6 @@
     "cliente": "MERCADOS FAMILIARES MERCAFAM LTDA",
     "Email": "E-Mail: mercafam.auxcompras@gmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58520",
-    "fecha": "17/09/2026",
-    "valor": 12800325,
-    "habilitado": true
-  },
-  {
-    "id": 800165142,
-    "cliente": "MERCADOS FAMILIARES MERCAFAM LTDA",
-    "Email": "E-Mail: mercafam.auxcompras@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58521",
-    "fecha": "17/09/2026",
-    "valor": 1526665,
-    "habilitado": true
-  },
-  {
-    "id": 800165142,
-    "cliente": "MERCADOS FAMILIARES MERCAFAM LTDA",
-    "Email": "E-Mail: mercafam.auxcompras@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 59211",
     "fecha": "13/10/2026",
     "valor": 1862371,
@@ -11884,6 +11044,16 @@
     "cliente": "MERCADOS LAS ROSITAS SAS",
     "Email": "E-Mail: tenjomoreno@yahoo.com",
     "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59024",
+    "fecha": "06/10/2026",
+    "valor": 15755,
+    "habilitado": true
+  },
+  {
+    "id": 900487941,
+    "cliente": "MERCADOS LAS ROSITAS SAS",
+    "Email": "E-Mail: tenjomoreno@yahoo.com",
+    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59436",
     "fecha": "21/10/2026",
     "valor": 1439312,
@@ -11905,7 +11075,7 @@
     "Email": "E-Mail: tenjomoreno@yahoo.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59632",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 1904115,
     "habilitado": true
   },
@@ -11917,26 +11087,6 @@
     "fac": "SURA 59409",
     "fecha": "20/10/2026",
     "valor": 2756752,
-    "habilitado": true
-  },
-  {
-    "id": 900432634,
-    "cliente": "MERCADOS NUEVO PROGRESAR SAS",
-    "Email": "E-Mail: facturacion.elprogresar@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58350",
-    "fecha": "14/09/2026",
-    "valor": 358165,
-    "habilitado": true
-  },
-  {
-    "id": 900432634,
-    "cliente": "MERCADOS NUEVO PROGRESAR SAS",
-    "Email": "E-Mail: facturacion.elprogresar@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58351",
-    "fecha": "14/09/2026",
-    "valor": 3270978,
     "habilitado": true
   },
   {
@@ -12010,13 +11160,13 @@
     "habilitado": true
   },
   {
-    "id": 901140160,
-    "cliente": "MERCADOS SUPER MERCA SUPER GUEVARA SAS",
-    "Email": "E-Mail: contabilidad@supermercadomercasuper.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58495",
-    "fecha": "17/09/2026",
-    "valor": 12458591,
+    "id": 901490453,
+    "cliente": "MERCADOS POPULARES AP SAS",
+    "Email": "E-Mail: mercadospopularescontabilidad@gmail.com",
+    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
+    "fac": "SURA 59912",
+    "fecha": "31/10/2026",
+    "valor": 636721,
     "habilitado": true
   },
   {
@@ -12027,26 +11177,6 @@
     "fac": "SURA 58496",
     "fecha": "17/09/2026",
     "valor": 15986883,
-    "habilitado": true
-  },
-  {
-    "id": 901140160,
-    "cliente": "MERCADOS SUPER MERCA SUPER GUEVARA SAS",
-    "Email": "E-Mail: contabilidad@supermercadomercasuper.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58498",
-    "fecha": "17/09/2026",
-    "valor": 5576659,
-    "habilitado": true
-  },
-  {
-    "id": 901140160,
-    "cliente": "MERCADOS SUPER MERCA SUPER GUEVARA SAS",
-    "Email": "E-Mail: contabilidad@supermercadomercasuper.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58499",
-    "fecha": "17/09/2026",
-    "valor": 2912574,
     "habilitado": true
   },
   {
@@ -12286,7 +11416,7 @@
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59653",
     "fecha": "26/10/2026",
-    "valor": 1310436,
+    "valor": 1214636,
     "habilitado": true
   },
   {
@@ -12327,6 +11457,36 @@
     "fac": "SURA 59210",
     "fecha": "13/10/2026",
     "valor": 3641799,
+    "habilitado": true
+  },
+  {
+    "id": 901005247,
+    "cliente": "MERKAQUEZA S.A.S.",
+    "Email": "E-Mail: merktodocaqueza@gmail.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59886",
+    "fecha": "31/10/2026",
+    "valor": 2850862,
+    "habilitado": true
+  },
+  {
+    "id": 901925510,
+    "cliente": "MERKASUR EOQ SAS",
+    "Email": "E-Mail: merkasur401@gmail.com",
+    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
+    "fac": "SURA 59872",
+    "fecha": "31/10/2026",
+    "valor": 4875935,
+    "habilitado": true
+  },
+  {
+    "id": 901925510,
+    "cliente": "MERKASUR EOQ SAS",
+    "Email": "E-Mail: merkasur401@gmail.com",
+    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
+    "fac": "SURA 59873",
+    "fecha": "31/10/2026",
+    "valor": 2078986,
     "habilitado": true
   },
   {
@@ -12490,6 +11650,16 @@
     "habilitado": true
   },
   {
+    "id": 902037078,
+    "cliente": "METROPOL SUPERMERCADO SAS",
+    "Email": "E-Mail: contacto@metropolsas.com",
+    "vendedor": "JAIRO IBAÑEZ ARTUNDUAGA",
+    "fac": "SURA 59851",
+    "fecha": "31/10/2026",
+    "valor": 3950826,
+    "habilitado": true
+  },
+  {
     "id": 79714102,
     "cliente": "MIGUEL ANGEL VELANDIA VELANDIA",
     "Email": "E-Mail: miguelvelandia.fac@gmail.com",
@@ -12560,6 +11730,16 @@
     "habilitado": true
   },
   {
+    "id": 901553862,
+    "cliente": "MUNDO TERNURA PA SAS",
+    "Email": "E-Mail: mundoternura@gmail.com",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59911",
+    "fecha": "31/10/2026",
+    "valor": 672382,
+    "habilitado": true
+  },
+  {
     "id": 52881869,
     "cliente": "NANCY MILENA SANCHEZ GAONA",
     "Email": "E-Mail: nancysanchezganoa@gmail.com",
@@ -12604,19 +11784,9 @@
     "cliente": "NARCISO VILLALOBOS FONSECA",
     "Email": "E-Mail: narcisovillalobos@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58115",
-    "fecha": "04/09/2026",
-    "valor": 860592,
-    "habilitado": true
-  },
-  {
-    "id": 3209683,
-    "cliente": "NARCISO VILLALOBOS FONSECA",
-    "Email": "E-Mail: narcisovillalobos@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 59582",
     "fecha": "23/10/2026",
-    "valor": 779417,
+    "valor": 764009,
     "habilitado": true
   },
   {
@@ -12627,16 +11797,6 @@
     "fac": "SURA 59650",
     "fecha": "26/10/2026",
     "valor": 1973247,
-    "habilitado": true
-  },
-  {
-    "id": 1069756670,
-    "cliente": "NELLY JOHANA GUTIERREZ MORA",
-    "Email": "E-Mail: johanamoragn@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59464",
-    "fecha": "23/10/2026",
-    "valor": 390051,
     "habilitado": true
   },
   {
@@ -12675,7 +11835,7 @@
     "Email": "E-Mail: mercafullzipaquira@gmail.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59822",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 5143927,
     "habilitado": true
   },
@@ -12685,7 +11845,7 @@
     "Email": "E-Mail: mercafullzipaquira@gmail.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59823",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 3247549,
     "habilitado": true
   },
@@ -12728,16 +11888,6 @@
     "fecha": "08/10/2026",
     "valor": 3134910,
     "habilitado": true
-  },
-  {
-    "id": 80360709,
-    "cliente": "NESTOR HOLGUIN DIAZ",
-    "Email": "E-Mail: nestorholguin60@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 56840",
-    "fecha": "24/07/2026",
-    "valor": 299952,
-    "habilitado": false
   },
   {
     "id": 80360709,
@@ -12810,6 +11960,26 @@
     "habilitado": true
   },
   {
+    "id": 988054,
+    "cliente": "NICOLAS EDUARDO ROJAS GODOY",
+    "Email": "E-Mail: nirojas602@gmail.com",
+    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+    "fac": "SURA 59863",
+    "fecha": "31/10/2026",
+    "valor": 16869,
+    "habilitado": true
+  },
+  {
+    "id": 988054,
+    "cliente": "NICOLAS EDUARDO ROJAS GODOY",
+    "Email": "E-Mail: nirojas602@gmail.com",
+    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
+    "fac": "SURA 59903",
+    "fecha": "31/10/2026",
+    "valor": 22391,
+    "habilitado": true
+  },
+  {
     "id": 52951174,
     "cliente": "NIDIA JOHANNA CARRILLO ORTIZ",
     "Email": "E-Mail: nidia1700@hotmail.com",
@@ -12876,7 +12046,7 @@
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 59732",
     "fecha": "28/10/2026",
-    "valor": 1693955,
+    "valor": 1643914,
     "habilitado": true
   },
   {
@@ -12900,16 +12070,6 @@
     "habilitado": true
   },
   {
-    "id": 1003586831,
-    "cliente": "OMAR SNEIDER CLAVIJO VELASQUEZ",
-    "Email": "E-Mail: autoservicioelparquepq@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59206",
-    "fecha": "13/10/2026",
-    "valor": 996381,
-    "habilitado": true
-  },
-  {
     "id": 11408380,
     "cliente": "OMAR TORRES CAGUEÑAS",
     "Email": "E-Mail: kollmercadosdela48@gmail.com",
@@ -12917,16 +12077,6 @@
     "fac": "SURA 58892",
     "fecha": "30/09/2026",
     "valor": 1550286,
-    "habilitado": true
-  },
-  {
-    "id": 37825719,
-    "cliente": "ORFIDIA GOMEZ DIAZ",
-    "Email": "E-Mail: oromiel62@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59468",
-    "fecha": "23/10/2026",
-    "valor": 455049,
     "habilitado": true
   },
   {
@@ -13164,26 +12314,6 @@
     "cliente": "PAOLA ALEJANDRA GUTIERREZ NOVOA",
     "Email": "E-Mail: gutierreznovoapaolaalejandra@gmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 55094",
-    "fecha": "20/05/2026",
-    "valor": 742440,
-    "habilitado": false
-  },
-  {
-    "id": 1033771045,
-    "cliente": "PAOLA ALEJANDRA GUTIERREZ NOVOA",
-    "Email": "E-Mail: gutierreznovoapaolaalejandra@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 56673",
-    "fecha": "18/07/2026",
-    "valor": 1563768,
-    "habilitado": false
-  },
-  {
-    "id": 1033771045,
-    "cliente": "PAOLA ALEJANDRA GUTIERREZ NOVOA",
-    "Email": "E-Mail: gutierreznovoapaolaalejandra@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 56675",
     "fecha": "18/07/2026",
     "valor": 2411176,
@@ -13336,7 +12466,7 @@
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 59766",
     "fecha": "29/10/2026",
-    "valor": 963252,
+    "valor": 959448,
     "habilitado": true
   },
   {
@@ -13348,26 +12478,6 @@
     "fecha": "10/07/2026",
     "valor": 103900,
     "habilitado": false
-  },
-  {
-    "id": 80065456,
-    "cliente": "RAUL FERNANDO JIMENEZ TRIANA",
-    "Email": "E-Mail: suministrosfj@dataico-recepcion.com",
-    "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
-    "fac": "SURA 58806",
-    "fecha": "28/09/2026",
-    "valor": 9176051,
-    "habilitado": true
-  },
-  {
-    "id": 80065456,
-    "cliente": "RAUL FERNANDO JIMENEZ TRIANA",
-    "Email": "E-Mail: suministrosfj@dataico-recepcion.com",
-    "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
-    "fac": "SURA 58807",
-    "fecha": "28/09/2026",
-    "valor": 2192081,
-    "habilitado": true
   },
   {
     "id": 80065456,
@@ -13546,7 +12656,7 @@
     "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
     "fac": "SURA 59770",
     "fecha": "29/10/2026",
-    "valor": 3296948,
+    "valor": 3284502,
     "habilitado": true
   },
   {
@@ -13595,18 +12705,8 @@
     "Email": "E-Mail: suministrosfj@dataico-recepcion.com",
     "vendedor": "RAUL FERNANDO JIMENEZ TRIANA",
     "fac": "SURA 59817",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 1388514,
-    "habilitado": true
-  },
-  {
-    "id": 1000459736,
-    "cliente": "RAYMOUND STEVEN ALFONSO OLARTE",
-    "Email": "E-Mail: raymound10@gmail.com",
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "fac": "SURA 59178",
-    "fecha": "09/10/2026",
-    "valor": 70138,
     "habilitado": true
   },
   {
@@ -13647,6 +12747,26 @@
     "fac": "SURA 59248",
     "fecha": "15/10/2026",
     "valor": 1416939,
+    "habilitado": true
+  },
+  {
+    "id": 93382941,
+    "cliente": "RICARDO CADENA BERNAL",
+    "Email": "E-Mail: ricardocadena4181@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59841",
+    "fecha": "31/10/2026",
+    "valor": 608072,
+    "habilitado": true
+  },
+  {
+    "id": 93382941,
+    "cliente": "RICARDO CADENA BERNAL",
+    "Email": "E-Mail: ricardocadena4181@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59842",
+    "fecha": "31/10/2026",
+    "valor": 131253,
     "habilitado": true
   },
   {
@@ -13706,7 +12826,7 @@
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59654",
     "fecha": "26/10/2026",
-    "valor": 593038,
+    "valor": 514947,
     "habilitado": true
   },
   {
@@ -13754,16 +12874,6 @@
     "cliente": "RODRIGO LEON ROA",
     "Email": "E-Mail: superelahorrorl01@hotmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58592",
-    "fecha": "21/09/2026",
-    "valor": 715804,
-    "habilitado": true
-  },
-  {
-    "id": 80217944,
-    "cliente": "RODRIGO LEON ROA",
-    "Email": "E-Mail: superelahorrorl01@hotmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 58916",
     "fecha": "30/09/2026",
     "valor": 190124,
@@ -13800,23 +12910,23 @@
     "habilitado": true
   },
   {
-    "id": 79758621,
-    "cliente": "ROOSEVELT CASTELLANOS MORALES",
-    "Email": "E-Mail: eldorado3mass@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57823",
-    "fecha": "26/08/2026",
-    "valor": 3176187,
+    "id": 17636895,
+    "cliente": "ROOSEBETT CASTELLANOS MORENO",
+    "Email": "E-Mail: rapitiendascampeon@gmail.com",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59869",
+    "fecha": "31/10/2026",
+    "valor": 3208471,
     "habilitado": true
   },
   {
-    "id": 79758621,
-    "cliente": "ROOSEVELT CASTELLANOS MORALES",
-    "Email": "E-Mail: eldorado3mass@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57824",
-    "fecha": "26/08/2026",
-    "valor": 671217,
+    "id": 17636895,
+    "cliente": "ROOSEBETT CASTELLANOS MORENO",
+    "Email": "E-Mail: rapitiendascampeon@gmail.com",
+    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
+    "fac": "SURA 59870",
+    "fecha": "31/10/2026",
+    "valor": 3334566,
     "habilitado": true
   },
   {
@@ -13994,9 +13104,9 @@
     "cliente": "SANDRA BIBIANA RODRIGUEZ HUERFANO",
     "Email": "E-Mail: bibirodriguezhuerfano@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59203",
-    "fecha": "13/10/2026",
-    "valor": 2765097,
+    "fac": "SURA 59592",
+    "fecha": "26/10/2026",
+    "valor": 613815,
     "habilitado": true
   },
   {
@@ -14004,9 +13114,9 @@
     "cliente": "SANDRA BIBIANA RODRIGUEZ HUERFANO",
     "Email": "E-Mail: bibirodriguezhuerfano@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59592",
-    "fecha": "26/10/2026",
-    "valor": 613815,
+    "fac": "SURA 59884",
+    "fecha": "31/10/2026",
+    "valor": 2185004,
     "habilitado": true
   },
   {
@@ -14054,29 +13164,9 @@
     "cliente": "SANDRA MILENA DELGADO RODRIGUEZ",
     "Email": "E-Mail: sandra2520115@yahoo.es",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58234",
-    "fecha": "09/09/2026",
-    "valor": 405790,
-    "habilitado": true
-  },
-  {
-    "id": 1032369338,
-    "cliente": "SANDRA MILENA DELGADO RODRIGUEZ",
-    "Email": "E-Mail: sandra2520115@yahoo.es",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 58613",
     "fecha": "21/09/2026",
     "valor": 5373850,
-    "habilitado": true
-  },
-  {
-    "id": 1032369338,
-    "cliente": "SANDRA MILENA DELGADO RODRIGUEZ",
-    "Email": "E-Mail: sandra2520115@yahoo.es",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59515",
-    "fecha": "23/10/2026",
-    "valor": 636625,
     "habilitado": true
   },
   {
@@ -14230,13 +13320,13 @@
     "habilitado": true
   },
   {
-    "id": 83230173,
-    "cliente": "SEGUNDO JOSE ORTEGA GALLARDO",
-    "Email": "E-Mail: joseortega2528@gmail.com",
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "fac": "SURA 58846",
-    "fecha": "29/09/2026",
-    "valor": 23379,
+    "id": 79431278,
+    "cliente": "SAUL HUMBERTO GAMEZ GAMBOA",
+    "Email": "E-Mail: humbertogamez2018@gmail.com",
+    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
+    "fac": "SURA 59830",
+    "fecha": "31/10/2026",
+    "valor": 897239,
     "habilitado": true
   },
   {
@@ -14300,26 +13390,6 @@
     "habilitado": true
   },
   {
-    "id": 1084223292,
-    "cliente": "SILVIO MUÑOZ URBANO",
-    "Email": "E-Mail: genesissmu-1990@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59698",
-    "fecha": "27/10/2026",
-    "valor": 1034962,
-    "habilitado": true
-  },
-  {
-    "id": 1084223292,
-    "cliente": "SILVIO MUÑOZ URBANO",
-    "Email": "E-Mail: genesissmu-1990@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 59699",
-    "fecha": "27/10/2026",
-    "valor": 2319170,
-    "habilitado": true
-  },
-  {
     "id": 900652829,
     "cliente": "SOCIEDAD DE MERCADOS WILLIAM CASTELLANOS SAS",
     "Email": "E-Mail: somerwicas@gmail.com",
@@ -14380,6 +13450,16 @@
     "habilitado": true
   },
   {
+    "id": 900430306,
+    "cliente": "SUPER COMPRAS SAS",
+    "Email": "E-Mail: facturaelectronica.supercompras@gmail.com",
+    "vendedor": "CONSUELO MUÑOZ",
+    "fac": "SURA 59867",
+    "fecha": "31/10/2026",
+    "valor": 2465412,
+    "habilitado": true
+  },
+  {
     "id": 900900313,
     "cliente": "SUPERMERCADEO SAS",
     "Email": "E-Mail: facturacionmercadeo18@gmail.com",
@@ -14397,6 +13477,16 @@
     "fac": "SURA 58664",
     "fecha": "23/09/2026",
     "valor": 2355551,
+    "habilitado": true
+  },
+  {
+    "id": 900900313,
+    "cliente": "SUPERMERCADEO SAS",
+    "Email": "E-Mail: facturacionmercadeo18@gmail.com",
+    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
+    "fac": "SURA 59829",
+    "fecha": "31/10/2026",
+    "valor": 2265335,
     "habilitado": true
   },
   {
@@ -14444,16 +13534,6 @@
     "cliente": "SUPERMERCADO GUAILAMA SAS",
     "Email": "E-Mail: comercial@guailama.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57641",
-    "fecha": "20/08/2026",
-    "valor": 1118210,
-    "habilitado": true
-  },
-  {
-    "id": 900415552,
-    "cliente": "SUPERMERCADO GUAILAMA SAS",
-    "Email": "E-Mail: comercial@guailama.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 58471",
     "fecha": "16/09/2026",
     "valor": 1176039,
@@ -14477,26 +13557,6 @@
     "fac": "SURA 59289",
     "fecha": "16/10/2026",
     "valor": 1570323,
-    "habilitado": true
-  },
-  {
-    "id": 901317438,
-    "cliente": "SUPERMERCADO LA BAHIA EXPRESS MS SAS",
-    "Email": "E-Mail: superbahiaxpress@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58658",
-    "fecha": "23/09/2026",
-    "valor": 3705826,
-    "habilitado": true
-  },
-  {
-    "id": 901876744,
-    "cliente": "SUPERMERCADO LA ESQUINA DE LA 87 RR SAS",
-    "Email": "E-Mail: angelicaperiodista@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 57886",
-    "fecha": "27/08/2026",
-    "valor": 841858,
     "habilitado": true
   },
   {
@@ -14570,13 +13630,13 @@
     "habilitado": true
   },
   {
-    "id": 900609101,
-    "cliente": "SUPERMERCADO MERCACENTRO 2000 MER SAS",
-    "Email": "E-Mail: joseu2802@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57913",
-    "fecha": "28/08/2026",
-    "valor": 797118,
+    "id": 901925956,
+    "cliente": "SUPERMERCADO MAX MADRID SAS",
+    "Email": "E-Mail: supermercadomaxmadridsas@gmail.com",
+    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
+    "fac": "SURA 59840",
+    "fecha": "31/10/2026",
+    "valor": 1444447,
     "habilitado": true
   },
   {
@@ -14725,7 +13785,7 @@
     "Email": "E-Mail: supermercado1a@gmail.com",
     "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59815",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 2695123,
     "habilitado": true
   },
@@ -14816,7 +13876,7 @@
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59627",
     "fecha": "26/10/2026",
-    "valor": 3085147,
+    "valor": 2259571,
     "habilitado": true
   },
   {
@@ -14827,16 +13887,6 @@
     "fac": "SURA 58435",
     "fecha": "15/09/2026",
     "valor": 3870751,
-    "habilitado": true
-  },
-  {
-    "id": 830503163,
-    "cliente": "SUPERMERCADOS PINARI CI SAS",
-    "Email": "E-Mail: recepcionfacturaspinari@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 57811",
-    "fecha": "26/08/2026",
-    "valor": 840225,
     "habilitado": true
   },
   {
@@ -14877,16 +13927,6 @@
     "fac": "SURA 58243",
     "fecha": "09/09/2026",
     "valor": 309521,
-    "habilitado": true
-  },
-  {
-    "id": 901330947,
-    "cliente": "SUPERTIENDAS 1A SAS",
-    "Email": "E-Mail: supertiendas1asas@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58311",
-    "fecha": "11/09/2026",
-    "valor": 2641672,
     "habilitado": true
   },
   {
@@ -14935,7 +13975,7 @@
     "Email": "E-Mail: ruiztorsdistribuciones@gmail.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59819",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 1549019,
     "habilitado": true
   },
@@ -15140,26 +14180,6 @@
     "habilitado": true
   },
   {
-    "id": 1023010961,
-    "cliente": "TANIA GERALDINE PEÑA GUATAVA",
-    "Email": "E-Mail: sanantonio.2026@outlook.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59460",
-    "fecha": "23/10/2026",
-    "valor": 456753,
-    "habilitado": true
-  },
-  {
-    "id": 1023010961,
-    "cliente": "TANIA GERALDINE PEÑA GUATAVA",
-    "Email": "E-Mail: sanantonio.2026@outlook.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59461",
-    "fecha": "23/10/2026",
-    "valor": 724292,
-    "habilitado": true
-  },
-  {
     "id": 901365697,
     "cliente": "TIENDAS - PROMY SAS",
     "Email": "E-Mail: tiendaspromy@gmail.com",
@@ -15167,26 +14187,6 @@
     "fac": "SURA 57828",
     "fecha": "26/08/2026",
     "valor": 133132,
-    "habilitado": true
-  },
-  {
-    "id": 901365697,
-    "cliente": "TIENDAS - PROMY SAS",
-    "Email": "E-Mail: tiendaspromy@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58321",
-    "fecha": "11/09/2026",
-    "valor": 256440,
-    "habilitado": true
-  },
-  {
-    "id": 901365697,
-    "cliente": "TIENDAS - PROMY SAS",
-    "Email": "E-Mail: tiendaspromy@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58469",
-    "fecha": "16/09/2026",
-    "valor": 289656,
     "habilitado": true
   },
   {
@@ -15224,16 +14224,6 @@
     "cliente": "TITO RAFAEL ECHEVERRIA CATIVE",
     "Email": "E-Mail: autoservicio_lideres_express@outlook.es",
     "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 57602",
-    "fecha": "19/08/2026",
-    "valor": 1399739,
-    "habilitado": true
-  },
-  {
-    "id": 6776472,
-    "cliente": "TITO RAFAEL ECHEVERRIA CATIVE",
-    "Email": "E-Mail: autoservicio_lideres_express@outlook.es",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
     "fac": "SURA 58862",
     "fecha": "30/09/2026",
     "valor": 1600772,
@@ -15254,19 +14244,9 @@
     "cliente": "UNIDAD COMERCIAL LOS BAQUEROS SAS",
     "Email": "E-Mail: unibaqltda@yahoo.com",
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58392",
-    "fecha": "14/09/2026",
-    "valor": 3571078,
-    "habilitado": true
-  },
-  {
-    "id": 900635000,
-    "cliente": "UNIDAD COMERCIAL LOS BAQUEROS SAS",
-    "Email": "E-Mail: unibaqltda@yahoo.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
     "fac": "SURA 59711",
     "fecha": "27/10/2026",
-    "valor": 3874822,
+    "valor": 3758082,
     "habilitado": true
   },
   {
@@ -15358,6 +14338,26 @@
     "fecha": "06/08/2026",
     "valor": 1101232,
     "habilitado": false
+  },
+  {
+    "id": 1075669649,
+    "cliente": "VICTOR DANIEL GONZALEZ GONZALEZ",
+    "Email": "E-Mail: vicdan100@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 59824",
+    "fecha": "31/10/2026",
+    "valor": 874755,
+    "habilitado": true
+  },
+  {
+    "id": 1075669649,
+    "cliente": "VICTOR DANIEL GONZALEZ GONZALEZ",
+    "Email": "E-Mail: vicdan100@gmail.com",
+    "vendedor": "ANA SOFIA ROLDAN RIQUE",
+    "fac": "SURA 59825",
+    "fecha": "31/10/2026",
+    "valor": 2118745,
+    "habilitado": true
   },
   {
     "id": 4478868,
@@ -15480,14 +14480,14 @@
     "habilitado": true
   },
   {
-    "id": 79562320,
-    "cliente": "WALDO ALFONSO GOMEZ BELTRAN",
-    "Email": "E-Mail: alfonsobeltran23@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 56601",
-    "fecha": "15/07/2026",
-    "valor": 2960918,
-    "habilitado": false
+    "id": 1030531440,
+    "cliente": "WALTER DANIEL ZAMBRANO CASTELLANOS",
+    "Email": "E-Mail: dannielzc@hotmail.com",
+    "vendedor": "ESTHER ANGELA SALAZAR MORA",
+    "fac": "SURA 59835",
+    "fecha": "31/10/2026",
+    "valor": 958414,
+    "habilitado": true
   },
   {
     "id": 1019075149,
@@ -15497,16 +14497,6 @@
     "fac": "SURA 59383",
     "fecha": "20/10/2026",
     "valor": 1199912,
-    "habilitado": true
-  },
-  {
-    "id": 93127801,
-    "cliente": "WILLIAM ENRIQUE SUAREZ CARVAJAL",
-    "Email": "E-Mail: wsuarez331@gmail.com",
-    "vendedor": "LISBETH JULIETH NARANJO ROJAS",
-    "fac": "SURA 58491",
-    "fecha": "17/09/2026",
-    "valor": 2799,
     "habilitado": true
   },
   {
@@ -15534,29 +14524,9 @@
     "cliente": "WILMER LEONIDAS MEDINA CAGUEÑAS",
     "Email": "E-Mail: saidarocio@hotmail.com",
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58172",
-    "fecha": "07/09/2026",
-    "valor": 1933552,
-    "habilitado": true
-  },
-  {
-    "id": 11412862,
-    "cliente": "WILMER LEONIDAS MEDINA CAGUEÑAS",
-    "Email": "E-Mail: saidarocio@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
     "fac": "SURA 59054",
     "fecha": "07/10/2026",
     "valor": 1531523,
-    "habilitado": true
-  },
-  {
-    "id": 11413337,
-    "cliente": "WILMER OVIDIO PRIETO PEREZ",
-    "Email": "E-Mail: maxitodolaeconomia@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 59303",
-    "fecha": "16/10/2026",
-    "valor": 244559,
     "habilitado": true
   },
   {
@@ -15666,7 +14636,7 @@
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59782",
     "fecha": "29/10/2026",
-    "valor": 4537923,
+    "valor": 4090349,
     "habilitado": true
   },
   {
@@ -15775,7 +14745,7 @@
     "Email": "E-Mail: yennialexa2000@hotmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59806",
-    "fecha": "29/10/2026",
+    "fecha": "31/10/2026",
     "valor": 1015213,
     "habilitado": true
   },
@@ -15917,6 +14887,16 @@
     "fac": "SURA 59649",
     "fecha": "26/10/2026",
     "valor": 4122366,
+    "habilitado": true
+  },
+  {
+    "id": 1073558235,
+    "cliente": "YURANI TEUTA SERENO",
+    "Email": "E-Mail: maruchy79@hotmail.com",
+    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
+    "fac": "SURA 59845",
+    "fecha": "31/10/2026",
+    "valor": 1129945,
     "habilitado": true
   },
   {
