@@ -8,7 +8,7 @@
     "fecha": "21/08/2026",
     "valor": 197467,
     "dias": 42,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52769070,
@@ -195,7 +195,7 @@
     "fecha": "02/09/2026",
     "valor": 1697780,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1016070394,
@@ -294,7 +294,7 @@
     "fecha": "14/09/2026",
     "valor": 1533013,
     "dias": 19,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900334641,
@@ -360,7 +360,7 @@
     "fecha": "04/09/2026",
     "valor": 5421797,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52166995,
@@ -426,7 +426,7 @@
     "fecha": "27/08/2026",
     "valor": 889930,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 74280374,
@@ -646,7 +646,7 @@
     "fecha": "28/09/2026",
     "valor": 308091,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 80902913,
@@ -657,7 +657,7 @@
     "fecha": "28/09/2026",
     "valor": 502975,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 80902913,
@@ -789,7 +789,7 @@
     "fecha": "02/09/2026",
     "valor": 1843455,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900107424,
@@ -976,7 +976,7 @@
     "fecha": "26/08/2026",
     "valor": 133462,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 808002857,
@@ -1009,7 +1009,7 @@
     "fecha": "24/08/2026",
     "valor": 6612834,
     "dias": 41,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900350171,
@@ -1020,7 +1020,7 @@
     "fecha": "24/08/2026",
     "valor": 2192541,
     "dias": 41,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900350171,
@@ -1075,7 +1075,7 @@
     "fecha": "15/09/2026",
     "valor": 313879,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900598355,
@@ -1427,7 +1427,7 @@
     "fecha": "07/09/2026",
     "valor": 1334046,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 41631269,
@@ -1471,7 +1471,7 @@
     "fecha": "14/09/2026",
     "valor": 3610269,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901388396,
@@ -1493,7 +1493,7 @@
     "fecha": "24/08/2026",
     "valor": 2300261,
     "dias": 41,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11407815,
@@ -1504,7 +1504,7 @@
     "fecha": "21/08/2026",
     "valor": 2239227,
     "dias": 42,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11407815,
@@ -1515,7 +1515,7 @@
     "fecha": "21/08/2026",
     "valor": 114157,
     "dias": 42,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11407815,
@@ -1603,7 +1603,7 @@
     "fecha": "05/10/2026",
     "valor": 43016,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1126502,
@@ -1614,7 +1614,7 @@
     "fecha": "13/10/2026",
     "valor": 104401,
     "dias": 18,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79358518,
@@ -1669,7 +1669,7 @@
     "fecha": "24/08/2026",
     "valor": 5860281,
     "dias": 40,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11408989,
@@ -1702,7 +1702,7 @@
     "fecha": "10/09/2026",
     "valor": 1036385,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11407618,
@@ -1889,7 +1889,7 @@
     "fecha": "07/09/2026",
     "valor": 2482876,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1020722165,
@@ -1900,7 +1900,7 @@
     "fecha": "09/09/2026",
     "valor": 320455,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1020722165,
@@ -1911,7 +1911,7 @@
     "fecha": "09/09/2026",
     "valor": 170960,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79646306,
@@ -2010,7 +2010,7 @@
     "fecha": "30/09/2026",
     "valor": 3061921,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 25100373,
@@ -2032,7 +2032,7 @@
     "fecha": "13/10/2026",
     "valor": 17921,
     "dias": 18,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900100796,
@@ -2186,7 +2186,7 @@
     "fecha": "07/09/2026",
     "valor": 11621889,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901387019,
@@ -2197,7 +2197,7 @@
     "fecha": "11/09/2026",
     "valor": 868012,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901567386,
@@ -2230,7 +2230,7 @@
     "fecha": "31/08/2026",
     "valor": 12661393,
     "dias": 33,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901567386,
@@ -2241,7 +2241,7 @@
     "fecha": "03/09/2026",
     "valor": 2389198,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901312259,
@@ -2263,7 +2263,7 @@
     "fecha": "24/08/2026",
     "valor": 1775556,
     "dias": 41,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901312259,
@@ -2483,7 +2483,7 @@
     "fecha": "27/08/2026",
     "valor": 1595139,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1118559112,
@@ -2615,7 +2615,7 @@
     "fecha": "15/09/2026",
     "valor": 2528741,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 51793924,
@@ -2659,7 +2659,7 @@
     "fecha": "09/10/2026",
     "valor": 45713,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 80727057,
@@ -2747,7 +2747,7 @@
     "fecha": "31/08/2026",
     "valor": 5865470,
     "dias": 33,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901112101,
@@ -2780,7 +2780,7 @@
     "fecha": "11/09/2026",
     "valor": 1070504,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52412454,
@@ -2791,7 +2791,7 @@
     "fecha": "16/09/2026",
     "valor": 4288268,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 52412454,
@@ -2802,7 +2802,7 @@
     "fecha": "16/09/2026",
     "valor": 3776074,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 52412454,
@@ -2901,7 +2901,7 @@
     "fecha": "27/08/2026",
     "valor": 300000,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52761798,
@@ -2923,7 +2923,7 @@
     "fecha": "26/08/2026",
     "valor": 51375,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1073603477,
@@ -2934,7 +2934,7 @@
     "fecha": "09/09/2026",
     "valor": 339285,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1073603477,
@@ -2967,7 +2967,7 @@
     "fecha": "09/09/2026",
     "valor": 3235188,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52288035,
@@ -3220,7 +3220,7 @@
     "fecha": "14/09/2026",
     "valor": 2135288,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1022416671,
@@ -3275,7 +3275,7 @@
     "fecha": "24/08/2026",
     "valor": 1681099,
     "dias": 41,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52740727,
@@ -3363,7 +3363,7 @@
     "fecha": "11/09/2026",
     "valor": 1139760,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 91455947,
@@ -3429,7 +3429,7 @@
     "fecha": "02/10/2026",
     "valor": 626405,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1065568933,
@@ -3473,7 +3473,7 @@
     "fecha": "07/09/2026",
     "valor": 1343278,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1022953049,
@@ -3495,7 +3495,7 @@
     "fecha": "19/08/2026",
     "valor": 2220165,
     "dias": 44,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1013641080,
@@ -3506,7 +3506,7 @@
     "fecha": "19/08/2026",
     "valor": 2120679,
     "dias": 44,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1013641080,
@@ -3517,7 +3517,7 @@
     "fecha": "03/09/2026",
     "valor": 1168211,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1013641080,
@@ -3583,7 +3583,7 @@
     "fecha": "03/09/2026",
     "valor": 3000293,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1022961774,
@@ -3693,7 +3693,7 @@
     "fecha": "22/09/2026",
     "valor": 1133236,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 2543746,
@@ -3726,7 +3726,7 @@
     "fecha": "09/09/2026",
     "valor": 3620536,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1054680496,
@@ -3880,7 +3880,7 @@
     "fecha": "25/08/2026",
     "valor": 2474524,
     "dias": 38,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 80732140,
@@ -3913,7 +3913,7 @@
     "fecha": "11/09/2026",
     "valor": 1945233,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 17076451,
@@ -4001,7 +4001,7 @@
     "fecha": "27/08/2026",
     "valor": 87379,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1069727373,
@@ -4012,7 +4012,7 @@
     "fecha": "10/09/2026",
     "valor": 4195566,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1069727373,
@@ -4023,7 +4023,7 @@
     "fecha": "10/09/2026",
     "valor": 2121618,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1069727373,
@@ -4034,7 +4034,7 @@
     "fecha": "10/09/2026",
     "valor": 2662907,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1069727373,
@@ -4045,7 +4045,7 @@
     "fecha": "14/09/2026",
     "valor": 653100,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1069727373,
@@ -4056,7 +4056,7 @@
     "fecha": "14/09/2026",
     "valor": 653100,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1069727373,
@@ -4067,7 +4067,7 @@
     "fecha": "14/09/2026",
     "valor": 653100,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1069727373,
@@ -4122,7 +4122,7 @@
     "fecha": "31/08/2026",
     "valor": 760153,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 38246976,
@@ -4133,7 +4133,7 @@
     "fecha": "02/09/2026",
     "valor": 215019,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 38246976,
@@ -4177,7 +4177,7 @@
     "fecha": "16/09/2026",
     "valor": 4740960,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 39727085,
@@ -4188,7 +4188,7 @@
     "fecha": "16/09/2026",
     "valor": 3324224,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 39727085,
@@ -4221,7 +4221,7 @@
     "fecha": "16/09/2026",
     "valor": 3692359,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 20440535,
@@ -4507,7 +4507,7 @@
     "fecha": "09/09/2026",
     "valor": 25285287,
     "dias": 45,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4518,7 +4518,7 @@
     "fecha": "09/09/2026",
     "valor": 16060724,
     "dias": 45,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4529,7 +4529,7 @@
     "fecha": "09/09/2026",
     "valor": 27386728,
     "dias": 45,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4540,7 +4540,7 @@
     "fecha": "15/09/2026",
     "valor": 2496250,
     "dias": 39,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4551,7 +4551,7 @@
     "fecha": "29/09/2026",
     "valor": 15469632,
     "dias": 25,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4562,7 +4562,7 @@
     "fecha": "01/10/2026",
     "valor": 5960992,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4573,7 +4573,7 @@
     "fecha": "06/10/2026",
     "valor": 5111881,
     "dias": 18,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4584,7 +4584,7 @@
     "fecha": "06/10/2026",
     "valor": 4257941,
     "dias": 18,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4595,7 +4595,7 @@
     "fecha": "06/10/2026",
     "valor": 698007,
     "dias": 18,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79607465,
@@ -4716,7 +4716,7 @@
     "fecha": "16/09/2026",
     "valor": 3283343,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 11410638,
@@ -4804,7 +4804,7 @@
     "fecha": "08/09/2026",
     "valor": 5857603,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900465361,
@@ -4815,7 +4815,7 @@
     "fecha": "08/09/2026",
     "valor": 3700999,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900465361,
@@ -4826,7 +4826,7 @@
     "fecha": "08/09/2026",
     "valor": 883778,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900465361,
@@ -4837,7 +4837,7 @@
     "fecha": "08/09/2026",
     "valor": 452916,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900465361,
@@ -4848,7 +4848,7 @@
     "fecha": "08/09/2026",
     "valor": 8242078,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900465361,
@@ -4859,7 +4859,7 @@
     "fecha": "08/09/2026",
     "valor": 1335182,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900465361,
@@ -4947,7 +4947,7 @@
     "fecha": "28/08/2026",
     "valor": 3307898,
     "dias": 35,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 832010731,
@@ -5057,7 +5057,7 @@
     "fecha": "02/10/2026",
     "valor": 1439493,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900664206,
@@ -5123,7 +5123,7 @@
     "fecha": "16/09/2026",
     "valor": 8073006,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 901566558,
@@ -5134,7 +5134,7 @@
     "fecha": "16/09/2026",
     "valor": 331610,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 901566558,
@@ -5145,7 +5145,7 @@
     "fecha": "16/09/2026",
     "valor": 228748,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 901566558,
@@ -5156,7 +5156,7 @@
     "fecha": "16/09/2026",
     "valor": 135227,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 901566558,
@@ -5167,7 +5167,7 @@
     "fecha": "16/09/2026",
     "valor": 462429,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 901566558,
@@ -5178,7 +5178,7 @@
     "fecha": "16/09/2026",
     "valor": 392031,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 901566558,
@@ -5266,7 +5266,7 @@
     "fecha": "15/09/2026",
     "valor": 2669315,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 19493768,
@@ -5398,7 +5398,7 @@
     "fecha": "14/09/2026",
     "valor": 28942,
     "dias": 19,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79495282,
@@ -5420,7 +5420,7 @@
     "fecha": "07/09/2026",
     "valor": 1876665,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1013579237,
@@ -5431,7 +5431,7 @@
     "fecha": "16/09/2026",
     "valor": 3246646,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 1013579237,
@@ -5497,7 +5497,7 @@
     "fecha": "15/09/2026",
     "valor": 3245825,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 91106954,
@@ -5508,7 +5508,7 @@
     "fecha": "15/09/2026",
     "valor": 355972,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 91106954,
@@ -5552,7 +5552,7 @@
     "fecha": "07/09/2026",
     "valor": 1851170,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 15989475,
@@ -5585,7 +5585,7 @@
     "fecha": "09/09/2026",
     "valor": 400890,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1074128084,
@@ -5618,7 +5618,7 @@
     "fecha": "21/09/2026",
     "valor": 3422270,
     "dias": 40,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901149388,
@@ -5662,7 +5662,7 @@
     "fecha": "09/09/2026",
     "valor": 420384,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 19358282,
@@ -5827,7 +5827,7 @@
     "fecha": "26/08/2026",
     "valor": 2434315,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901226698,
@@ -5838,7 +5838,7 @@
     "fecha": "26/08/2026",
     "valor": 7774036,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901226698,
@@ -5849,7 +5849,7 @@
     "fecha": "26/08/2026",
     "valor": 889674,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901226698,
@@ -5860,7 +5860,7 @@
     "fecha": "26/08/2026",
     "valor": 3795604,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901226698,
@@ -5871,7 +5871,7 @@
     "fecha": "28/08/2026",
     "valor": 3280932,
     "dias": 35,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901226698,
@@ -5981,7 +5981,7 @@
     "fecha": "31/08/2026",
     "valor": 1599926,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901354639,
@@ -5992,7 +5992,7 @@
     "fecha": "31/08/2026",
     "valor": 1615357,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901354639,
@@ -6025,7 +6025,7 @@
     "fecha": "18/09/2026",
     "valor": 10312,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901451192,
@@ -6036,7 +6036,7 @@
     "fecha": "30/09/2026",
     "valor": 1071258,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900073355,
@@ -6058,7 +6058,7 @@
     "fecha": "22/09/2026",
     "valor": 940602,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900069557,
@@ -6069,7 +6069,7 @@
     "fecha": "11/09/2026",
     "valor": 1868882,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900069557,
@@ -6080,7 +6080,7 @@
     "fecha": "11/09/2026",
     "valor": 205523,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900069557,
@@ -6091,7 +6091,7 @@
     "fecha": "14/09/2026",
     "valor": 401255,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900069557,
@@ -6102,7 +6102,7 @@
     "fecha": "14/09/2026",
     "valor": 328770,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900069557,
@@ -6113,7 +6113,7 @@
     "fecha": "14/09/2026",
     "valor": 2421944,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900069557,
@@ -7169,7 +7169,7 @@
     "fecha": "09/09/2026",
     "valor": 2747146,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900580849,
@@ -7257,7 +7257,7 @@
     "fecha": "24/09/2026",
     "valor": 2072185,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901909009,
@@ -7279,7 +7279,7 @@
     "fecha": "04/09/2026",
     "valor": 3376507,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900793046,
@@ -7356,7 +7356,7 @@
     "fecha": "24/09/2026",
     "valor": 3833291,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901656962,
@@ -7367,7 +7367,7 @@
     "fecha": "24/09/2026",
     "valor": 1856544,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901162267,
@@ -7378,7 +7378,7 @@
     "fecha": "14/09/2026",
     "valor": 2453753,
     "dias": 19,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901162267,
@@ -7433,7 +7433,7 @@
     "fecha": "21/08/2026",
     "valor": 1913933,
     "dias": 42,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901271958,
@@ -7444,7 +7444,7 @@
     "fecha": "21/08/2026",
     "valor": 2661789,
     "dias": 42,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901271958,
@@ -7455,7 +7455,7 @@
     "fecha": "07/09/2026",
     "valor": 4123745,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901271958,
@@ -7466,7 +7466,7 @@
     "fecha": "07/09/2026",
     "valor": 944118,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901271958,
@@ -7653,7 +7653,7 @@
     "fecha": "16/09/2026",
     "valor": 5196135,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 800205713,
@@ -7763,7 +7763,7 @@
     "fecha": "27/08/2026",
     "valor": 10032280,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900237181,
@@ -7796,7 +7796,7 @@
     "fecha": "16/09/2026",
     "valor": 118657,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 79669468,
@@ -7851,7 +7851,7 @@
     "fecha": "08/09/2026",
     "valor": 874274,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1023902316,
@@ -7862,7 +7862,7 @@
     "fecha": "11/09/2026",
     "valor": 224523,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1023902316,
@@ -7983,7 +7983,7 @@
     "fecha": "07/09/2026",
     "valor": 3747917,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1030582270,
@@ -8005,7 +8005,7 @@
     "fecha": "11/09/2026",
     "valor": 911581,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 80002112,
@@ -8104,7 +8104,7 @@
     "fecha": "07/09/2026",
     "valor": 1620917,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79334453,
@@ -8148,7 +8148,7 @@
     "fecha": "31/08/2026",
     "valor": 159473,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1061624207,
@@ -8159,7 +8159,7 @@
     "fecha": "31/08/2026",
     "valor": 299579,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1061624207,
@@ -8203,7 +8203,7 @@
     "fecha": "07/09/2026",
     "valor": 1231692,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79726717,
@@ -8236,7 +8236,7 @@
     "fecha": "27/08/2026",
     "valor": 1588930,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 93437187,
@@ -8291,7 +8291,7 @@
     "fecha": "16/09/2026",
     "valor": 4158983,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 1022986142,
@@ -8313,7 +8313,7 @@
     "fecha": "05/10/2026",
     "valor": 24876,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 3238824,
@@ -8324,7 +8324,7 @@
     "fecha": "06/10/2026",
     "valor": 140058,
     "dias": 25,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 3238824,
@@ -8379,7 +8379,7 @@
     "fecha": "03/09/2026",
     "valor": 1233233,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79753340,
@@ -8390,7 +8390,7 @@
     "fecha": "03/09/2026",
     "valor": 734802,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79753340,
@@ -8467,7 +8467,7 @@
     "fecha": "07/09/2026",
     "valor": 1866921,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1023893573,
@@ -8489,7 +8489,7 @@
     "fecha": "24/08/2026",
     "valor": 2553969,
     "dias": 41,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 74439272,
@@ -8500,7 +8500,7 @@
     "fecha": "16/09/2026",
     "valor": 700743,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 74439272,
@@ -8511,7 +8511,7 @@
     "fecha": "16/09/2026",
     "valor": 177986,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 74439272,
@@ -8522,7 +8522,7 @@
     "fecha": "16/09/2026",
     "valor": 1011798,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 74439272,
@@ -8577,7 +8577,7 @@
     "fecha": "14/09/2026",
     "valor": 1223610,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 13616263,
@@ -8632,7 +8632,7 @@
     "fecha": "30/09/2026",
     "valor": -335823,
     "dias": 31,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 4207661,
@@ -8654,7 +8654,7 @@
     "fecha": "26/08/2026",
     "valor": 434282,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 3208282,
@@ -8819,7 +8819,7 @@
     "fecha": "25/08/2026",
     "valor": 1817228,
     "dias": 38,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79584509,
@@ -9061,7 +9061,7 @@
     "fecha": "15/09/2026",
     "valor": 3157898,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1107054687,
@@ -9149,7 +9149,7 @@
     "fecha": "04/09/2026",
     "valor": 1129805,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1016018804,
@@ -9160,7 +9160,7 @@
     "fecha": "22/09/2026",
     "valor": 762782,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1022375719,
@@ -9193,7 +9193,7 @@
     "fecha": "04/09/2026",
     "valor": 547267,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79424099,
@@ -9325,7 +9325,7 @@
     "fecha": "16/09/2026",
     "valor": 1512746,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 1033769677,
@@ -9457,7 +9457,7 @@
     "fecha": "09/09/2026",
     "valor": 1771832,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901465481,
@@ -9545,7 +9545,7 @@
     "fecha": "02/09/2026",
     "valor": 1319047,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52504325,
@@ -9556,7 +9556,7 @@
     "fecha": "02/09/2026",
     "valor": 1358112,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52504325,
@@ -9567,7 +9567,7 @@
     "fecha": "16/09/2026",
     "valor": 1458515,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 52504325,
@@ -9578,7 +9578,7 @@
     "fecha": "16/09/2026",
     "valor": 296643,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 52504325,
@@ -9589,7 +9589,7 @@
     "fecha": "16/09/2026",
     "valor": 1438989,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 52504325,
@@ -9644,7 +9644,7 @@
     "fecha": "09/09/2026",
     "valor": 672185,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1069713939,
@@ -9677,7 +9677,7 @@
     "fecha": "27/08/2026",
     "valor": 4937130,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11384738,
@@ -9688,7 +9688,7 @@
     "fecha": "10/09/2026",
     "valor": 7894620,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11384738,
@@ -9699,7 +9699,7 @@
     "fecha": "10/09/2026",
     "valor": 8464779,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11384738,
@@ -9710,7 +9710,7 @@
     "fecha": "10/09/2026",
     "valor": 889930,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11384738,
@@ -9721,7 +9721,7 @@
     "fecha": "14/09/2026",
     "valor": 593286,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11384738,
@@ -9732,7 +9732,7 @@
     "fecha": "14/09/2026",
     "valor": 1225053,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11412584,
@@ -9743,7 +9743,7 @@
     "fecha": "25/09/2026",
     "valor": 3520693,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 39805276,
@@ -9820,7 +9820,7 @@
     "fecha": "14/09/2026",
     "valor": 629844,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 20700539,
@@ -9875,7 +9875,7 @@
     "fecha": "16/09/2026",
     "valor": 49222,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 1023890032,
@@ -9985,7 +9985,7 @@
     "fecha": "27/08/2026",
     "valor": 374061,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901796206,
@@ -9996,7 +9996,7 @@
     "fecha": "27/08/2026",
     "valor": 1045093,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901796206,
@@ -10007,7 +10007,7 @@
     "fecha": "28/08/2026",
     "valor": 113400,
     "dias": 35,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901796206,
@@ -10018,7 +10018,7 @@
     "fecha": "14/09/2026",
     "valor": 764339,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901796206,
@@ -10029,7 +10029,7 @@
     "fecha": "14/09/2026",
     "valor": 231531,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 42076136,
@@ -10062,7 +10062,7 @@
     "fecha": "16/09/2026",
     "valor": 2081430,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 11413874,
@@ -10106,7 +10106,7 @@
     "fecha": "07/09/2026",
     "valor": 3846183,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1004774166,
@@ -10238,7 +10238,7 @@
     "fecha": "04/09/2026",
     "valor": 2216601,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 78581762,
@@ -10326,7 +10326,7 @@
     "fecha": "16/09/2026",
     "valor": 1117392,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 79262264,
@@ -10370,7 +10370,7 @@
     "fecha": "25/09/2026",
     "valor": 3287014,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 20546970,
@@ -10601,7 +10601,7 @@
     "fecha": "30/09/2026",
     "valor": 2038254,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 901684774,
@@ -10612,7 +10612,7 @@
     "fecha": "30/09/2026",
     "valor": 629698,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901684774,
@@ -10711,7 +10711,7 @@
     "fecha": "28/09/2026",
     "valor": 306412,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 51556418,
@@ -10722,7 +10722,7 @@
     "fecha": "19/08/2026",
     "valor": 3898602,
     "dias": 44,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 51556418,
@@ -10733,7 +10733,7 @@
     "fecha": "09/09/2026",
     "valor": 1276075,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 51556418,
@@ -10755,7 +10755,7 @@
     "fecha": "15/09/2026",
     "valor": 1117957,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52444654,
@@ -10821,7 +10821,7 @@
     "fecha": "05/10/2026",
     "valor": 43016,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52464418,
@@ -10887,7 +10887,7 @@
     "fecha": "17/09/2026",
     "valor": 374119,
     "dias": 35,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 25127700,
@@ -10986,7 +10986,7 @@
     "fecha": "14/09/2026",
     "valor": 4654603,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79613103,
@@ -11052,7 +11052,7 @@
     "fecha": "21/08/2026",
     "valor": 12003,
     "dias": 42,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52239636,
@@ -11063,7 +11063,7 @@
     "fecha": "03/09/2026",
     "valor": 9725,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52239636,
@@ -11173,7 +11173,7 @@
     "fecha": "04/09/2026",
     "valor": 1696174,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 3082327,
@@ -11305,7 +11305,7 @@
     "fecha": "04/09/2026",
     "valor": 80752,
     "dias": 43,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900495748,
@@ -11393,7 +11393,7 @@
     "fecha": "19/08/2026",
     "valor": 7782299,
     "dias": 44,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900204753,
@@ -11404,7 +11404,7 @@
     "fecha": "19/08/2026",
     "valor": 5802840,
     "dias": 44,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900204753,
@@ -11415,7 +11415,7 @@
     "fecha": "27/08/2026",
     "valor": 2298780,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900204753,
@@ -11426,7 +11426,7 @@
     "fecha": "28/08/2026",
     "valor": 7039826,
     "dias": 35,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900204753,
@@ -11437,7 +11437,7 @@
     "fecha": "10/09/2026",
     "valor": 3172584,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900204753,
@@ -11448,7 +11448,7 @@
     "fecha": "11/09/2026",
     "valor": 2605582,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900204753,
@@ -11459,7 +11459,7 @@
     "fecha": "11/09/2026",
     "valor": 7882929,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900204753,
@@ -11547,7 +11547,7 @@
     "fecha": "18/08/2026",
     "valor": 16285004,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901556595,
@@ -11558,7 +11558,7 @@
     "fecha": "18/08/2026",
     "valor": 4093389,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901556595,
@@ -11569,7 +11569,7 @@
     "fecha": "02/09/2026",
     "valor": 39837,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901556595,
@@ -11580,7 +11580,7 @@
     "fecha": "07/09/2026",
     "valor": 4158921,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901556595,
@@ -11591,7 +11591,7 @@
     "fecha": "07/09/2026",
     "valor": 16101727,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901556595,
@@ -11778,7 +11778,7 @@
     "fecha": "31/08/2026",
     "valor": 4075668,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901220256,
@@ -11789,7 +11789,7 @@
     "fecha": "31/08/2026",
     "valor": 883926,
     "dias": 31,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901220256,
@@ -11855,7 +11855,7 @@
     "fecha": "25/08/2026",
     "valor": 1363806,
     "dias": 38,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901479509,
@@ -11866,7 +11866,7 @@
     "fecha": "31/08/2026",
     "valor": 590738,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901479509,
@@ -12207,7 +12207,7 @@
     "fecha": "04/09/2026",
     "valor": 124324,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901729775,
@@ -12218,7 +12218,7 @@
     "fecha": "14/09/2026",
     "valor": 374193,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901729775,
@@ -12229,7 +12229,7 @@
     "fecha": "14/09/2026",
     "valor": 1837678,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901729775,
@@ -12240,7 +12240,7 @@
     "fecha": "14/09/2026",
     "valor": 223627,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901729775,
@@ -12328,7 +12328,7 @@
     "fecha": "24/08/2026",
     "valor": 1841941,
     "dias": 41,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901274302,
@@ -12339,7 +12339,7 @@
     "fecha": "04/09/2026",
     "valor": 981466,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901274302,
@@ -12449,7 +12449,7 @@
     "fecha": "25/08/2026",
     "valor": 5442082,
     "dias": 38,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900652691,
@@ -12460,7 +12460,7 @@
     "fecha": "10/09/2026",
     "valor": 5032489,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900652691,
@@ -12636,7 +12636,7 @@
     "fecha": "02/09/2026",
     "valor": 1598080,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79714102,
@@ -12735,7 +12735,7 @@
     "fecha": "03/09/2026",
     "valor": 3245014,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 333773493,
@@ -12911,7 +12911,7 @@
     "fecha": "02/10/2026",
     "valor": 31924,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 988054,
@@ -12922,7 +12922,7 @@
     "fecha": "09/10/2026",
     "valor": 36015,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 988054,
@@ -12933,7 +12933,7 @@
     "fecha": "13/10/2026",
     "valor": 31330,
     "dias": 18,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 988054,
@@ -12988,7 +12988,7 @@
     "fecha": "07/09/2026",
     "valor": 3591266,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11231075,
@@ -13010,7 +13010,7 @@
     "fecha": "21/09/2026",
     "valor": 821961,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 21061902,
@@ -13065,7 +13065,7 @@
     "fecha": "21/08/2026",
     "valor": 467712,
     "dias": 42,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11408380,
@@ -13076,7 +13076,7 @@
     "fecha": "30/09/2026",
     "valor": 1550286,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 830072536,
@@ -13087,7 +13087,7 @@
     "fecha": "31/08/2026",
     "valor": 3478416,
     "dias": 34,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 830072536,
@@ -13252,7 +13252,7 @@
     "fecha": "11/09/2026",
     "valor": 1058362,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 17699604,
@@ -13307,7 +13307,7 @@
     "fecha": "07/09/2026",
     "valor": 1505253,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79379108,
@@ -13351,7 +13351,7 @@
     "fecha": "28/08/2026",
     "valor": 1653441,
     "dias": 35,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52735738,
@@ -13406,7 +13406,7 @@
     "fecha": "07/09/2026",
     "valor": 3608410,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11409392,
@@ -13417,7 +13417,7 @@
     "fecha": "08/09/2026",
     "valor": 3078078,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79559988,
@@ -13780,7 +13780,7 @@
     "fecha": "10/09/2026",
     "valor": 546987,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 93382941,
@@ -13791,7 +13791,7 @@
     "fecha": "10/09/2026",
     "valor": 423531,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 93382941,
@@ -13846,7 +13846,7 @@
     "fecha": "07/09/2026",
     "valor": 2225332,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1074129424,
@@ -13857,7 +13857,7 @@
     "fecha": "09/09/2026",
     "valor": 535272,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1074129424,
@@ -13890,7 +13890,7 @@
     "fecha": "21/09/2026",
     "valor": 738904,
     "dias": 33,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 13615703,
@@ -14099,7 +14099,7 @@
     "fecha": "25/08/2026",
     "valor": 8468610,
     "dias": 38,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900600935,
@@ -14110,7 +14110,7 @@
     "fecha": "15/09/2026",
     "valor": 4754531,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900600935,
@@ -14231,7 +14231,7 @@
     "fecha": "01/09/2026",
     "valor": 2950374,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 39544326,
@@ -14242,7 +14242,7 @@
     "fecha": "14/09/2026",
     "valor": 502956,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 39544326,
@@ -14275,7 +14275,7 @@
     "fecha": "21/09/2026",
     "valor": 5373850,
     "dias": 33,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 20706009,
@@ -14286,7 +14286,7 @@
     "fecha": "15/09/2026",
     "valor": 2794863,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 20706009,
@@ -14297,7 +14297,7 @@
     "fecha": "15/09/2026",
     "valor": 664621,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 20706009,
@@ -14308,7 +14308,7 @@
     "fecha": "16/09/2026",
     "valor": 1017102,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 20706009,
@@ -14363,7 +14363,7 @@
     "fecha": "04/09/2026",
     "valor": 2274015,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52503994,
@@ -14429,7 +14429,7 @@
     "fecha": "14/09/2026",
     "valor": 524470,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 79431278,
@@ -14462,7 +14462,7 @@
     "fecha": "09/09/2026",
     "valor": 1108006,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 5710852,
@@ -14484,7 +14484,7 @@
     "fecha": "07/09/2026",
     "valor": 504562,
     "dias": 26,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 5766659,
@@ -14495,7 +14495,7 @@
     "fecha": "11/09/2026",
     "valor": 204892,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 5766659,
@@ -14605,7 +14605,7 @@
     "fecha": "27/08/2026",
     "valor": 742225,
     "dias": 36,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900900313,
@@ -14638,7 +14638,7 @@
     "fecha": "17/09/2026",
     "valor": 2453610,
     "dias": 35,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901953432,
@@ -14660,7 +14660,7 @@
     "fecha": "24/08/2026",
     "valor": 3248146,
     "dias": 41,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901404531,
@@ -14682,7 +14682,7 @@
     "fecha": "16/09/2026",
     "valor": 1176039,
     "dias": 16,
-    "habilitado": true
+    "habilitado": "#N/D"
   },
   {
     "id": 900415552,
@@ -14891,7 +14891,7 @@
     "fecha": "20/08/2026",
     "valor": 326340,
     "dias": 43,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901300047,
@@ -14968,7 +14968,7 @@
     "fecha": "14/09/2026",
     "valor": 348608,
     "dias": 20,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 830508860,
@@ -15023,7 +15023,7 @@
     "fecha": "15/09/2026",
     "valor": 2420994,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900486250,
@@ -15067,7 +15067,7 @@
     "fecha": "15/09/2026",
     "valor": 3870751,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 830503163,
@@ -15100,7 +15100,7 @@
     "fecha": "09/09/2026",
     "valor": 562623,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901490182,
@@ -15111,7 +15111,7 @@
     "fecha": "09/09/2026",
     "valor": 309521,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900588014,
@@ -15122,7 +15122,7 @@
     "fecha": "08/09/2026",
     "valor": 166163,
     "dias": 24,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900588014,
@@ -15265,7 +15265,7 @@
     "fecha": "14/09/2026",
     "valor": 2503043,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901989017,
@@ -15276,7 +15276,7 @@
     "fecha": "23/09/2026",
     "valor": 19914300,
     "dias": 30,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901989017,
@@ -15309,7 +15309,7 @@
     "fecha": "19/08/2026",
     "valor": 4278874,
     "dias": 44,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901104157,
@@ -15320,7 +15320,7 @@
     "fecha": "19/08/2026",
     "valor": 4911640,
     "dias": 44,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901104157,
@@ -15375,7 +15375,7 @@
     "fecha": "15/09/2026",
     "valor": 1827858,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 900466404,
@@ -15386,7 +15386,7 @@
     "fecha": "15/09/2026",
     "valor": 2467617,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901365697,
@@ -15397,7 +15397,7 @@
     "fecha": "26/08/2026",
     "valor": 133132,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901365697,
@@ -15485,7 +15485,7 @@
     "fecha": "10/09/2026",
     "valor": 1825848,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1073158382,
@@ -15507,7 +15507,7 @@
     "fecha": "15/09/2026",
     "valor": 3051974,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901826880,
@@ -15518,7 +15518,7 @@
     "fecha": "15/09/2026",
     "valor": 4184214,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901826880,
@@ -15650,7 +15650,7 @@
     "fecha": "23/09/2026",
     "valor": 1413333,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11435016,
@@ -15661,7 +15661,7 @@
     "fecha": "04/09/2026",
     "valor": 2072854,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11435016,
@@ -15672,7 +15672,7 @@
     "fecha": "15/09/2026",
     "valor": 1506964,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11435016,
@@ -15749,7 +15749,7 @@
     "fecha": "09/09/2026",
     "valor": 2570032,
     "dias": 23,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 11410207,
@@ -15815,7 +15815,7 @@
     "fecha": "04/09/2026",
     "valor": 3407527,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 74439243,
@@ -15892,7 +15892,7 @@
     "fecha": "25/09/2026",
     "valor": 790198,
     "dias": 27,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1075660912,
@@ -15958,7 +15958,7 @@
     "fecha": "20/08/2026",
     "valor": 515918,
     "dias": 43,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 53050012,
@@ -16013,7 +16013,7 @@
     "fecha": "11/09/2026",
     "valor": 2828652,
     "dias": 21,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52763959,
@@ -16024,7 +16024,7 @@
     "fecha": "03/07/2026",
     "valor": 95019,
     "dias": 31,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52957099,
@@ -16035,7 +16035,7 @@
     "fecha": "17/09/2026",
     "valor": 84235,
     "dias": 44,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 52957099,
@@ -16068,7 +16068,7 @@
     "fecha": "15/09/2026",
     "valor": 3424566,
     "dias": 17,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 80120130,
@@ -16079,7 +16079,7 @@
     "fecha": "10/09/2026",
     "valor": 2407030,
     "dias": 22,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 1024463391,
@@ -16200,6 +16200,6 @@
     "fecha": "26/08/2026",
     "valor": 38602,
     "dias": 37,
-    "habilitado": true
+    "habilitado": false
   }
 ]
