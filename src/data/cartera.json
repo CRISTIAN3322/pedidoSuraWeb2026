@@ -1984,26 +1984,6 @@
     "cliente": "COMERCIALIZADORA MERCA2 SAS",
     "Email": "E-Mail: comercializadoramerca2@hotmail.com",
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57573",
-    "fecha": "18/08/2026",
-    "valor": 8214939,
-    "habilitado": false
-  },
-  {
-    "id": 901387019,
-    "cliente": "COMERCIALIZADORA MERCA2 SAS",
-    "Email": "E-Mail: comercializadoramerca2@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57580",
-    "fecha": "19/08/2026",
-    "valor": 178557,
-    "habilitado": false
-  },
-  {
-    "id": 901387019,
-    "cliente": "COMERCIALIZADORA MERCA2 SAS",
-    "Email": "E-Mail: comercializadoramerca2@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
     "fac": "SURA 58133",
     "fecha": "07/09/2026",
     "valor": 11621889,
