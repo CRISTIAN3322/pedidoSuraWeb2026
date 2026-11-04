@@ -7103,16 +7103,6 @@
     "id": 79669468,
     "cliente": "IVAN ANTONIO GARCIA CABEZAS",
     "Email": "E-Mail: merquefull.facturacion@outlook.es",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 54189",
-    "fecha": "17/04/2026",
-    "valor": 389973,
-    "habilitado": false
-  },
-  {
-    "id": 79669468,
-    "cliente": "IVAN ANTONIO GARCIA CABEZAS",
-    "Email": "E-Mail: merquefull.facturacion@outlook.es",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 58489",
     "fecha": "16/09/2026",
@@ -11238,16 +11228,6 @@
     "fecha": "19/10/2026",
     "valor": 1131703,
     "habilitado": true
-  },
-  {
-    "id": 901841597,
-    "cliente": "MERCAPRECIOS SAS",
-    "Email": "E-Mail: mercapreciossas@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57524",
-    "fecha": "14/08/2026",
-    "valor": 2568296,
-    "habilitado": false
   },
   {
     "id": 901274302,
