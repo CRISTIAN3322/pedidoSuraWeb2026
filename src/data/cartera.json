@@ -1987,7 +1987,7 @@
     "fac": "SURA 58133",
     "fecha": "07/09/2026",
     "valor": 11621889,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901387019,
@@ -1997,7 +1997,7 @@
     "fac": "SURA 58312",
     "fecha": "11/09/2026",
     "valor": 868012,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 901567386,
