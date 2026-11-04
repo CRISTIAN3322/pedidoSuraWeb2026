@@ -1440,26 +1440,6 @@
     "habilitado": true
   },
   {
-    "id": 79207144,
-    "cliente": "CARLOS ARTURO SARMIENTO HERNANDEZ",
-    "Email": "E-Mail: facturacion.cashcompartir@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58102",
-    "fecha": "04/09/2026",
-    "valor": 953663,
-    "habilitado": true
-  },
-  {
-    "id": 79207144,
-    "cliente": "CARLOS ARTURO SARMIENTO HERNANDEZ",
-    "Email": "E-Mail: facturacion.cashcompartir@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58552",
-    "fecha": "18/09/2026",
-    "valor": 3472349,
-    "habilitado": true
-  },
-  {
     "id": 80003719,
     "cliente": "CARLOS FERNEY PUENTE BAQUERO",
     "Email": "E-Mail: carlosferneypuente@gmail.com",
