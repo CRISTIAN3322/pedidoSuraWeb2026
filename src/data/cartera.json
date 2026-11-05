@@ -12639,39 +12639,6 @@
     "habilitado": true
   },
   {
-    "id": 79800344,
-    "cliente": "NELSON JAVIER CARRILLO ORTIZ",
-    "Email": "E-Mail: carrilloortiznelsonjavier440@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57340",
-    "fecha": "10/08/2026",
-    "valor": 2573512,
-    "dias": 56,
-    "habilitado": false
-  },
-  {
-    "id": 79800344,
-    "cliente": "NELSON JAVIER CARRILLO ORTIZ",
-    "Email": "E-Mail: carrilloortiznelsonjavier440@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57356",
-    "fecha": "11/08/2026",
-    "valor": 2598182,
-    "dias": 54,
-    "habilitado": false
-  },
-  {
-    "id": 79800344,
-    "cliente": "NELSON JAVIER CARRILLO ORTIZ",
-    "Email": "E-Mail: carrilloortiznelsonjavier440@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57556",
-    "fecha": "18/08/2026",
-    "valor": 282351,
-    "dias": 48,
-    "habilitado": false
-  },
-  {
     "id": 79752083,
     "cliente": "NELSON JOANY ROMERO CASTRO",
     "Email": "E-Mail: romeronjrc2707@hotmail.com",
