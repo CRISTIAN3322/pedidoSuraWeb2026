@@ -1374,7 +1374,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "ATW INTERNACIONAL SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 82,
@@ -1391,7 +1391,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "ATW INTERNACIONAL SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 83,
