@@ -2269,17 +2269,6 @@
     "id": 901312259,
     "cliente": "COMMUNAL INVESTMENTS SAS",
     "Email": "E-Mail: supertiendas.comunal@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 58567",
-    "fecha": "18/09/2026",
-    "valor": 5247298,
-    "dias": 14,
-    "habilitado": true
-  },
-  {
-    "id": 901312259,
-    "cliente": "COMMUNAL INVESTMENTS SAS",
-    "Email": "E-Mail: supertiendas.comunal@gmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 58603",
     "fecha": "21/09/2026",
@@ -8815,17 +8804,6 @@
     "cliente": "JOSE URIEL RESTREPO QUIROGA",
     "Email": "E-Mail: merkcentro2000@gmail.com",
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 57794",
-    "fecha": "25/08/2026",
-    "valor": 1817228,
-    "dias": 38,
-    "habilitado": false
-  },
-  {
-    "id": 79584509,
-    "cliente": "JOSE URIEL RESTREPO QUIROGA",
-    "Email": "E-Mail: merkcentro2000@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
     "fac": "SURA 58571",
     "fecha": "18/09/2026",
     "valor": 2068321,
@@ -9128,17 +9106,6 @@
     "valor": 1982652,
     "dias": -27,
     "habilitado": true
-  },
-  {
-    "id": 80501454,
-    "cliente": "JUAN CARLOS PUENTES RUIZ",
-    "Email": "E-Mail: juanpuentesruiz@yahoo.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57166",
-    "fecha": "31/07/2026",
-    "valor": 1535332,
-    "dias": 62,
-    "habilitado": false
   },
   {
     "id": 1022978637,
