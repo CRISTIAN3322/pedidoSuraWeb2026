@@ -9889,61 +9889,6 @@
     "habilitado": true
   },
   {
-    "id": 901796206,
-    "cliente": "LOSMERKAS SAS",
-    "Email": "E-Mail: losmerkassas@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57864",
-    "fecha": "27/08/2026",
-    "valor": 374061,
-    "dias": 36,
-    "habilitado": false
-  },
-  {
-    "id": 901796206,
-    "cliente": "LOSMERKAS SAS",
-    "Email": "E-Mail: losmerkassas@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57865",
-    "fecha": "27/08/2026",
-    "valor": 1045093,
-    "dias": 36,
-    "habilitado": false
-  },
-  {
-    "id": 901796206,
-    "cliente": "LOSMERKAS SAS",
-    "Email": "E-Mail: losmerkassas@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57900",
-    "fecha": "28/08/2026",
-    "valor": 113400,
-    "dias": 35,
-    "habilitado": false
-  },
-  {
-    "id": 901796206,
-    "cliente": "LOSMERKAS SAS",
-    "Email": "E-Mail: losmerkassas@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58364",
-    "fecha": "14/09/2026",
-    "valor": 764339,
-    "dias": 20,
-    "habilitado": false
-  },
-  {
-    "id": 901796206,
-    "cliente": "LOSMERKAS SAS",
-    "Email": "E-Mail: losmerkassas@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58365",
-    "fecha": "14/09/2026",
-    "valor": 231531,
-    "dias": 20,
-    "habilitado": false
-  },
-  {
     "id": 42076136,
     "cliente": "LUCELLY RESTREPO AVILA",
     "Email": "E-Mail: lucyres17@gmail.com",
