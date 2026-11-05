@@ -15081,28 +15081,6 @@
     "habilitado": true
   },
   {
-    "id": 901490182,
-    "cliente": "SUPERTIENDA MERCA VALLE SUR SAS",
-    "Email": "E-Mail: supertiendamercavallesursas@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58242",
-    "fecha": "09/09/2026",
-    "valor": 562623,
-    "dias": 23,
-    "habilitado": false
-  },
-  {
-    "id": 901490182,
-    "cliente": "SUPERTIENDA MERCA VALLE SUR SAS",
-    "Email": "E-Mail: supertiendamercavallesursas@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58243",
-    "fecha": "09/09/2026",
-    "valor": 309521,
-    "dias": 23,
-    "habilitado": false
-  },
-  {
     "id": 900588014,
     "cliente": "SUPERTIENDAS CONFABOY SAS",
     "Email": "E-Mail: confaboysas@yahoo.com",
