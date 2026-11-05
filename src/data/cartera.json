@@ -10560,17 +10560,6 @@
     "habilitado": true
   },
   {
-    "id": 25401711,
-    "cliente": "MARIA AYDEE MONTENEGRO",
-    "Email": "E-Mail: carolinapaz050@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58829",
-    "fecha": "28/09/2026",
-    "valor": 306412,
-    "dias": 26,
-    "habilitado": false
-  },
-  {
     "id": 51556418,
     "cliente": "MARIA DEL CARMEN OROZCO PEREZ",
     "Email": "E-Mail: carmenorozco11@hotmail.com",
@@ -12126,28 +12115,6 @@
     "cliente": "MERKAEXITO HNOS SAS",
     "Email": "E-Mail: merkaexitosas@hotmail.com",
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 57733",
-    "fecha": "24/08/2026",
-    "valor": 1841941,
-    "dias": 41,
-    "habilitado": false
-  },
-  {
-    "id": 901274302,
-    "cliente": "MERKAEXITO HNOS SAS",
-    "Email": "E-Mail: merkaexitosas@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58113",
-    "fecha": "04/09/2026",
-    "valor": 981466,
-    "dias": 28,
-    "habilitado": false
-  },
-  {
-    "id": 901274302,
-    "cliente": "MERKAEXITO HNOS SAS",
-    "Email": "E-Mail: merkaexitosas@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 58685",
     "fecha": "24/09/2026",
     "valor": 1861856,
@@ -12747,17 +12714,6 @@
     "valor": 22391,
     "dias": 0,
     "habilitado": true
-  },
-  {
-    "id": 52951174,
-    "cliente": "NIDIA JOHANNA CARRILLO ORTIZ",
-    "Email": "E-Mail: nidia1700@hotmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58148",
-    "fecha": "07/09/2026",
-    "valor": 3591266,
-    "dias": 27,
-    "habilitado": false
   },
   {
     "id": 11231075,
@@ -14414,17 +14370,6 @@
     "cliente": "SUPERMERCADO DUARTE SAS",
     "Email": "E-Mail: supermercadoduarteapulo@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 57736",
-    "fecha": "24/08/2026",
-    "valor": 3248146,
-    "dias": 41,
-    "habilitado": false
-  },
-  {
-    "id": 901404531,
-    "cliente": "SUPERMERCADO DUARTE SAS",
-    "Email": "E-Mail: supermercadoduarteapulo@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 58839",
     "fecha": "29/09/2026",
     "valor": 2501177,
@@ -15618,17 +15563,6 @@
     "valor": 4090349,
     "dias": -27,
     "habilitado": true
-  },
-  {
-    "id": 52279663,
-    "cliente": "YAQUELIN RODRIGUEZ RODRIGUEZ",
-    "Email": "E-Mail: jacky_20117520@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58771",
-    "fecha": "25/09/2026",
-    "valor": 790198,
-    "dias": 27,
-    "habilitado": false
   },
   {
     "id": 1075660912,
