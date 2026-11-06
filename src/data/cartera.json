@@ -5999,83 +5999,6 @@
     "cliente": "INVERSIONES EL MERCADEO SAS",
     "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
     "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58343",
-    "fecha": "11/09/2026",
-    "valor": 1868882,
-    "dias": 20,
-    "habilitado": false
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58343",
-    "fecha": "11/09/2026",
-    "valor": 205523,
-    "dias": 20,
-    "habilitado": false
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58344",
-    "fecha": "14/09/2026",
-    "valor": 401255,
-    "dias": 20,
-    "habilitado": false
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58345",
-    "fecha": "14/09/2026",
-    "valor": 328770,
-    "dias": 20,
-    "habilitado": false
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58393",
-    "fecha": "14/09/2026",
-    "valor": 2421944,
-    "dias": 20,
-    "habilitado": false
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58493",
-    "fecha": "17/09/2026",
-    "valor": 2219061,
-    "dias": 15,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58494",
-    "fecha": "17/09/2026",
-    "valor": 702945,
-    "dias": 15,
-    "habilitado": true
-  },
-  {
-    "id": 900069557,
-    "cliente": "INVERSIONES EL MERCADEO SAS",
-    "Email": "E-Mail: facturaelectronica@elmercadeo.com.co",
-    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 58583",
     "fecha": "21/09/2026",
     "valor": 810605,
@@ -15034,17 +14957,6 @@
     "fecha": "15/09/2026",
     "valor": 2467617,
     "dias": 17,
-    "habilitado": false
-  },
-  {
-    "id": 901365697,
-    "cliente": "TIENDAS - PROMY SAS",
-    "Email": "E-Mail: tiendaspromy@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 57828",
-    "fecha": "26/08/2026",
-    "valor": 133132,
-    "dias": 37,
     "habilitado": false
   },
   {
