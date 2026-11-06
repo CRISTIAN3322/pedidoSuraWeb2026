@@ -1394,7 +1394,7 @@
     "fecha": "15/05/2025",
     "valor": 189808,
     "dias": 505,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 31037296,
@@ -12863,28 +12863,6 @@
     "cliente": "OSWALDO ZAMBRANO OME",
     "Email": "E-Mail: mercadostintala@hotmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58315",
-    "fecha": "11/09/2026",
-    "valor": 1058362,
-    "dias": 21,
-    "habilitado": false
-  },
-  {
-    "id": 17699604,
-    "cliente": "OSWALDO ZAMBRANO OME",
-    "Email": "E-Mail: mercadostintala@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58551",
-    "fecha": "18/09/2026",
-    "valor": 695227,
-    "dias": 14,
-    "habilitado": true
-  },
-  {
-    "id": 17699604,
-    "cliente": "OSWALDO ZAMBRANO OME",
-    "Email": "E-Mail: mercadostintala@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 58943",
     "fecha": "01/10/2026",
     "valor": 1062676,
@@ -13011,28 +12989,6 @@
     "valor": 4002912,
     "dias": 0,
     "habilitado": true
-  },
-  {
-    "id": 11409392,
-    "cliente": "PEDRO ADRIANO VELAZQUEZ",
-    "Email": "E-Mail: superexito1010@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58187",
-    "fecha": "07/09/2026",
-    "valor": 3608410,
-    "dias": 26,
-    "habilitado": false
-  },
-  {
-    "id": 11409392,
-    "cliente": "PEDRO ADRIANO VELAZQUEZ",
-    "Email": "E-Mail: superexito1010@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58212",
-    "fecha": "08/09/2026",
-    "valor": 3078078,
-    "dias": 24,
-    "habilitado": false
   },
   {
     "id": 79559988,
