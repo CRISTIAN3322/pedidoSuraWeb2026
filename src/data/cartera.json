@@ -2270,28 +2270,6 @@
     "cliente": "COMMUNAL INVESTMENTS SAS",
     "Email": "E-Mail: supertiendas.comunal@gmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58603",
-    "fecha": "21/09/2026",
-    "valor": 746456,
-    "dias": 13,
-    "habilitado": true
-  },
-  {
-    "id": 901312259,
-    "cliente": "COMMUNAL INVESTMENTS SAS",
-    "Email": "E-Mail: supertiendas.comunal@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58605",
-    "fecha": "21/09/2026",
-    "valor": 1326643,
-    "dias": 13,
-    "habilitado": true
-  },
-  {
-    "id": 901312259,
-    "cliente": "COMMUNAL INVESTMENTS SAS",
-    "Email": "E-Mail: supertiendas.comunal@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 58825",
     "fecha": "28/09/2026",
     "valor": 1134683,
@@ -2318,17 +2296,6 @@
     "fecha": "01/10/2026",
     "valor": 683645,
     "dias": 1,
-    "habilitado": true
-  },
-  {
-    "id": 901312259,
-    "cliente": "COMMUNAL INVESTMENTS SAS",
-    "Email": "E-Mail: supertiendas.comunal@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58986",
-    "fecha": "05/10/2026",
-    "valor": 1741735,
-    "dias": -1,
     "habilitado": true
   },
   {
