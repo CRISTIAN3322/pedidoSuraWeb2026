@@ -4569,5 +4569,17 @@
         "nombre": "BODEGA AGRO SAN JOSE SAS",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 91044817,
+        "nombre": "NELSON URIBE MORENO",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
+        "id": 1024481334,
+        "nombre": "DAIRO DE JESUS GIRALDO MARTINEZ",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
