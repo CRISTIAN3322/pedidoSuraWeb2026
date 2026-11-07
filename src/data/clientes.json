@@ -6491,6 +6491,22 @@
             "direccion": "CL 76 SUR 45 C 15 Las Brisas",
             "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ"
         }]
+    },
+    {
+        "id": 91044817,
+        "nombre": "NELSON URIBE MORENO",
+        "sucursales": [{
+            "direccion": "CR 5 3 23 Anolaima",
+            "vendedor": "YEIMY LUCELY MEDINA FRANCO"
+        }]
+    },
+    {
+        "id": 1024481334,
+        "nombre": "DAIRO DE JESUS GIRALDO MARTINEZ",
+        "sucursales": [{
+            "direccion": "CR 11 A 191 A 52 Usaquén",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
+        }]
     }
 
 ]
