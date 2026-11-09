@@ -4239,17 +4239,6 @@
     "cliente": "GLADYS QUEVEDO ROJAS",
     "Email": "E-Mail: cooratiendas229@gmail.com",
     "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58457",
-    "fecha": "16/09/2026",
-    "valor": 3692359,
-    "dias": 23,
-    "habilitado": false
-  },
-  {
-    "id": 20440535,
-    "cliente": "GLADYS QUEVEDO ROJAS",
-    "Email": "E-Mail: cooratiendas229@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
     "fac": "SURA 59729",
     "fecha": "28/10/2026",
     "valor": 4688684,
@@ -5729,17 +5718,6 @@
     "valor": 5207329,
     "dias": -15,
     "habilitado": true
-  },
-  {
-    "id": 19358282,
-    "cliente": "HUGO ALFONSO TRIANA LOPEZ",
-    "Email": "E-Mail: leonardofonseca12@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58222",
-    "fecha": "09/09/2026",
-    "valor": 420384,
-    "dias": 30,
-    "habilitado": false
   },
   {
     "id": 19358282,
