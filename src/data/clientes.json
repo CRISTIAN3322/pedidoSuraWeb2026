@@ -6507,6 +6507,14 @@
             "direccion": "CR 11 A 191 A 52 Usaquén",
             "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
         }]
+    },
+    {
+        "id": 3152293,
+        "nombre": "JULIO ENRIQUE DUARTE CANTOR",
+        "sucursales": [{
+            "direccion": "CL 4 4 06 San Antonio Del Tequendama",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]
