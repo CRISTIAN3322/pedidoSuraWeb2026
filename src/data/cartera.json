@@ -3388,17 +3388,6 @@
     "habilitado": false
   },
   {
-    "id": 91455947,
-    "cliente": "EMMANUEL SANTOS GARCIA PATIÑO",
-    "Email": "E-Mail: cooratiendassanfrancisco@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 57437",
-    "fecha": "14/08/2026",
-    "valor": 5049729,
-    "dias": 57,
-    "habilitado": false
-  },
-  {
     "id": 80375791,
     "cliente": "ENRIQUE RAFAEL RODRIGUEZ MARTINEZ",
     "Email": "E-Mail: enriquerafael.fac@gmail.com",
@@ -10316,17 +10305,6 @@
     "valor": 74430,
     "dias": -18,
     "habilitado": true
-  },
-  {
-    "id": 39794913,
-    "cliente": "LUZ MARINA HERRERA CASTILLO",
-    "Email": "E-Mail: supermeganocaima@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58750",
-    "fecha": "25/09/2026",
-    "valor": 3287014,
-    "dias": 34,
-    "habilitado": false
   },
   {
     "id": 20546970,
