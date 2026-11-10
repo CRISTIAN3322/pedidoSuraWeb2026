@@ -9317,17 +9317,6 @@
     "habilitado": "true"
   },
   {
-    "id": "1000257158",
-    "cliente": "JULIANA ANDREA ZULUAGA GALINDO",
-    "Email": "E-Mail: julia.zul2001@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59680",
-    "fecha": "27/10/2026",
-    "valor": "1986272",
-    "dias": "15",
-    "habilitado": "true"
-  },
-  {
     "id": "11411506",
     "cliente": "JULIO ENRIQUE CESPEDES QUEVEDO",
     "Email": "E-Mail: jecespedesq@gmail.com",
@@ -10052,39 +10041,6 @@
     "valor": "8094991",
     "dias": "23",
     "habilitado": "true"
-  },
-  {
-    "id": "4090430",
-    "cliente": "LUIS DANIEL LEGUIZAMO PABON",
-    "Email": "E-Mail: admonsuperdanes18@hotmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 57749",
-    "fecha": "24/08/2026",
-    "valor": "1773838",
-    "dias": "79",
-    "habilitado": "false"
-  },
-  {
-    "id": "4090430",
-    "cliente": "LUIS DANIEL LEGUIZAMO PABON",
-    "Email": "E-Mail: admonsuperdanes18@hotmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 57750",
-    "fecha": "24/08/2026",
-    "valor": "59329",
-    "dias": "79",
-    "habilitado": "false"
-  },
-  {
-    "id": "4090430",
-    "cliente": "LUIS DANIEL LEGUIZAMO PABON",
-    "Email": "E-Mail: admonsuperdanes18@hotmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 57751",
-    "fecha": "24/08/2026",
-    "valor": "154524",
-    "dias": "79",
-    "habilitado": "false"
   },
   {
     "id": "79886234",
