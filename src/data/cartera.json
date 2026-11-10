@@ -15037,17 +15037,6 @@
     "habilitado": true
   },
   {
-    "id": 900588014,
-    "cliente": "SUPERTIENDAS CONFABOY SAS",
-    "Email": "E-Mail: confaboysas@yahoo.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58208",
-    "fecha": "08/09/2026",
-    "valor": 166163,
-    "dias": 63,
-    "habilitado": false
-  },
-  {
     "id": 901796086,
     "cliente": "SUPERTIENDAS EL REY SAS",
     "Email": "E-Mail: strey.contabilidad@gmail.com",
