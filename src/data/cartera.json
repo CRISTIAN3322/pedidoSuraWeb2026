@@ -14414,17 +14414,6 @@
     "cliente": "SUPERMERCADO DIANA VALLE SAS",
     "Email": "E-Mail: facturacion.dianavalle@gmail.com",
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58529",
-    "fecha": "17/09/2026",
-    "valor": "2453610",
-    "dias": "55",
-    "habilitado": "false"
-  },
-  {
-    "id": "901953432",
-    "cliente": "SUPERMERCADO DIANA VALLE SAS",
-    "Email": "E-Mail: facturacion.dianavalle@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
     "fac": "SURA 59255",
     "fecha": "15/10/2026",
     "valor": "1970595",
