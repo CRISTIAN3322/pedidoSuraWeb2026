@@ -569,7 +569,7 @@
     "fecha": "30/09/2026",
     "valor": 921213,
     "dias": 41,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 3249833,
@@ -580,7 +580,7 @@
     "fecha": "23/10/2026",
     "valor": 490580,
     "dias": 18,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 5399588,
