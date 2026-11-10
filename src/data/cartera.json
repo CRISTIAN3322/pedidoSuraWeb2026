@@ -565,17 +565,6 @@
     "cliente": "ANDRES ALDANA",
     "Email": "E-Mail: andresaldana1965@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58859",
-    "fecha": "30/09/2026",
-    "valor": 921213,
-    "dias": 41,
-    "habilitado": true
-  },
-  {
-    "id": 3249833,
-    "cliente": "ANDRES ALDANA",
-    "Email": "E-Mail: andresaldana1965@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 59458",
     "fecha": "23/10/2026",
     "valor": 490580,
