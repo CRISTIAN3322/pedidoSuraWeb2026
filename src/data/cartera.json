@@ -11147,83 +11147,6 @@
     "cliente": "MERCADOS BLANCO TORRES SAS",
     "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
     "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57584",
-    "fecha": "19/08/2026",
-    "valor": 7782299,
-    "dias": 84,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57585",
-    "fecha": "19/08/2026",
-    "valor": 5802840,
-    "dias": 84,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57893",
-    "fecha": "27/08/2026",
-    "valor": 2298780,
-    "dias": 76,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 57910",
-    "fecha": "28/08/2026",
-    "valor": 7039826,
-    "dias": 75,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58275",
-    "fecha": "10/09/2026",
-    "valor": 3172584,
-    "dias": 62,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58323",
-    "fecha": "11/09/2026",
-    "valor": 2605582,
-    "dias": 61,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58324",
-    "fecha": "11/09/2026",
-    "valor": 7882929,
-    "dias": 61,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
     "fac": "SURA 58867",
     "fecha": "30/09/2026",
     "valor": 4200084,
@@ -13989,17 +13912,6 @@
     "fecha": "31/10/2026",
     "valor": 2185004,
     "dias": 11,
-    "habilitado": true
-  },
-  {
-    "id": 39544326,
-    "cliente": "SANDRA CECILIA PRIETO TORRES",
-    "Email": "E-Mail: sandrita07_03@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 59044",
-    "fecha": "07/10/2026",
-    "valor": 2120001,
-    "dias": 35,
     "habilitado": true
   },
   {
