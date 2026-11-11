@@ -8803,28 +8803,6 @@
     "id": "79584509",
     "cliente": "JOSE URIEL RESTREPO QUIROGA",
     "Email": "E-Mail: merkcentro2000@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58703",
-    "fecha": "24/09/2026",
-    "valor": "4126316",
-    "dias": "48",
-    "habilitado": "false"
-  },
-  {
-    "id": "79584509",
-    "cliente": "JOSE URIEL RESTREPO QUIROGA",
-    "Email": "E-Mail: merkcentro2000@gmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58704",
-    "fecha": "24/09/2026",
-    "valor": "3756529",
-    "dias": "48",
-    "habilitado": "false"
-  },
-  {
-    "id": "79584509",
-    "cliente": "JOSE URIEL RESTREPO QUIROGA",
-    "Email": "E-Mail: merkcentro2000@gmail.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 58896",
     "fecha": "30/09/2026",
@@ -14011,39 +13989,6 @@
     "fecha": "31/10/2026",
     "valor": "2185004",
     "dias": "11",
-    "habilitado": "true"
-  },
-  {
-    "id": "39544326",
-    "cliente": "SANDRA CECILIA PRIETO TORRES",
-    "Email": "E-Mail: sandrita07_03@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58025",
-    "fecha": "01/09/2026",
-    "valor": "2950374",
-    "dias": "71",
-    "habilitado": "false"
-  },
-  {
-    "id": "39544326",
-    "cliente": "SANDRA CECILIA PRIETO TORRES",
-    "Email": "E-Mail: sandrita07_03@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58399",
-    "fecha": "14/09/2026",
-    "valor": "502956",
-    "dias": "58",
-    "habilitado": "false"
-  },
-  {
-    "id": "39544326",
-    "cliente": "SANDRA CECILIA PRIETO TORRES",
-    "Email": "E-Mail: sandrita07_03@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 59044",
-    "fecha": "07/10/2026",
-    "valor": "2120001",
-    "dias": "35",
     "habilitado": "true"
   },
   {
