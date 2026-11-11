@@ -503,7 +503,7 @@
     "fecha": "24/09/2026",
     "valor": 2615212,
     "dias": 48,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 74280374,
@@ -514,7 +514,7 @@
     "fecha": "24/09/2026",
     "valor": 2516283,
     "dias": 48,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 74280374,
