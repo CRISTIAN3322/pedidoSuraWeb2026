@@ -8815,17 +8815,6 @@
     "cliente": "JOSE VARGAS RINCON",
     "Email": "E-Mail: secretarialibertadore@colsitiendas.com",
     "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58758",
-    "fecha": "25/09/2026",
-    "valor": 3986368,
-    "dias": 47,
-    "habilitado": false
-  },
-  {
-    "id": 17634873,
-    "cliente": "JOSE VARGAS RINCON",
-    "Email": "E-Mail: secretarialibertadore@colsitiendas.com",
-    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 58964",
     "fecha": "02/10/2026",
     "valor": 900129,
