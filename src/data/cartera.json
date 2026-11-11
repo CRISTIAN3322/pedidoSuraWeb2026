@@ -5464,7 +5464,7 @@
     "fecha": "24/09/2026",
     "valor": 5592752,
     "dias": 48,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1013579237,
@@ -5475,7 +5475,7 @@
     "fecha": "25/09/2026",
     "valor": 7663626,
     "dias": 47,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1013579237,
@@ -14495,7 +14495,7 @@
     "fecha": "20/08/2026",
     "valor": 326340,
     "dias": 83,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901300047,
@@ -14506,7 +14506,7 @@
     "fecha": "21/09/2026",
     "valor": 5180122,
     "dias": 51,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901300047,
