@@ -11440,61 +11440,6 @@
     "habilitado": true
   },
   {
-    "id": 901479509,
-    "cliente": "MERCADOS EL SOL SAS",
-    "Email": "E-Mail: facmercadoselsol@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 57778",
-    "fecha": "25/08/2026",
-    "valor": 1363806,
-    "dias": 80,
-    "habilitado": false
-  },
-  {
-    "id": 901479509,
-    "cliente": "MERCADOS EL SOL SAS",
-    "Email": "E-Mail: facmercadoselsol@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 57947",
-    "fecha": "31/08/2026",
-    "valor": 590738,
-    "dias": 74,
-    "habilitado": false
-  },
-  {
-    "id": 901479509,
-    "cliente": "MERCADOS EL SOL SAS",
-    "Email": "E-Mail: facmercadoselsol@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58743",
-    "fecha": "25/09/2026",
-    "valor": 480408,
-    "dias": 49,
-    "habilitado": false
-  },
-  {
-    "id": 901479509,
-    "cliente": "MERCADOS EL SOL SAS",
-    "Email": "E-Mail: facmercadoselsol@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 59705",
-    "fecha": "27/10/2026",
-    "valor": 1537437,
-    "dias": 17,
-    "habilitado": true
-  },
-  {
-    "id": 901479509,
-    "cliente": "MERCADOS EL SOL SAS",
-    "Email": "E-Mail: facmercadoselsol@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 59706",
-    "fecha": "27/10/2026",
-    "valor": 326209,
-    "dias": 17,
-    "habilitado": true
-  },
-  {
     "id": 800165142,
     "cliente": "MERCADOS FAMILIARES MERCAFAM LTDA",
     "Email": "E-Mail: mercafam.auxcompras@gmail.com",
