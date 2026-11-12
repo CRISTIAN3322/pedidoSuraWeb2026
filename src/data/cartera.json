@@ -10920,7 +10920,7 @@
     "fecha": "23/09/2026",
     "valor": 7125408,
     "dias": 51,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 900495748,
@@ -10931,7 +10931,7 @@
     "fecha": "23/09/2026",
     "valor": 531797,
     "dias": 51,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 900495748,
