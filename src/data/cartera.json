@@ -2908,28 +2908,6 @@
     "cliente": "DEYANIRA ALVAREZ OLAYA",
     "Email": "E-Mail: deyaniraolaya@hotmail.com",
     "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58466",
-    "fecha": "16/09/2026",
-    "valor": 4288268,
-    "dias": 58,
-    "habilitado": false
-  },
-  {
-    "id": 52412454,
-    "cliente": "DEYANIRA ALVAREZ OLAYA",
-    "Email": "E-Mail: deyaniraolaya@hotmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58467",
-    "fecha": "16/09/2026",
-    "valor": 3776074,
-    "dias": 58,
-    "habilitado": false
-  },
-  {
-    "id": 52412454,
-    "cliente": "DEYANIRA ALVAREZ OLAYA",
-    "Email": "E-Mail: deyaniraolaya@hotmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 58587",
     "fecha": "21/09/2026",
     "valor": 586558,
@@ -9061,28 +9039,6 @@
     "fecha": "06/11/2026",
     "valor": 5647264,
     "dias": 7,
-    "habilitado": true
-  },
-  {
-    "id": 79424099,
-    "cliente": "JUAN DE DIOS CAGUEÑAS CAGUEÑAS",
-    "Email": "E-Mail: juancamilobetancour07@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58123",
-    "fecha": "04/09/2026",
-    "valor": 547267,
-    "dias": 70,
-    "habilitado": false
-  },
-  {
-    "id": 79424099,
-    "cliente": "JUAN DE DIOS CAGUEÑAS CAGUEÑAS",
-    "Email": "E-Mail: juancamilobetancour07@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 59188",
-    "fecha": "13/10/2026",
-    "valor": 1611239,
-    "dias": 31,
     "habilitado": true
   },
   {
