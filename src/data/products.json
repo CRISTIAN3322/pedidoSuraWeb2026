@@ -3414,7 +3414,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 202,
@@ -3431,7 +3431,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 203,
@@ -3448,7 +3448,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 204,
@@ -3465,7 +3465,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 205,
@@ -3482,7 +3482,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 206,
@@ -3499,7 +3499,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 207,
@@ -3516,7 +3516,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 208,
@@ -3533,7 +3533,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "BODEGAS CASA DEL RHIN ZF SAS",
-    "activo": false
+    "activo": true
   },
   {
     "id": 209,
