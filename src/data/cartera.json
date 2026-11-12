@@ -3700,17 +3700,6 @@
     "cliente": "FERNANDO SANTAMARIA RIOS",
     "Email": "E-Mail: naanta.89@gmail.com",
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58218",
-    "fecha": "09/09/2026",
-    "valor": 3620536,
-    "dias": 65,
-    "habilitado": false
-  },
-  {
-    "id": 1054680496,
-    "cliente": "FERNANDO SANTAMARIA RIOS",
-    "Email": "E-Mail: naanta.89@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
     "fac": "SURA 59225",
     "fecha": "14/10/2026",
     "valor": 3315045,
@@ -8534,17 +8523,6 @@
     "valor": 157592,
     "dias": 13,
     "habilitado": true
-  },
-  {
-    "id": 1023924997,
-    "cliente": "JOSE DAVID PEREZ RODRIGUEZ",
-    "Email": "E-Mail: jdpr12394@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58371",
-    "fecha": "14/09/2026",
-    "valor": 1223610,
-    "dias": 60,
-    "habilitado": false
   },
   {
     "id": 1023924997,
