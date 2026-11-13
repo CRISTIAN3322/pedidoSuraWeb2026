@@ -10828,28 +10828,6 @@
     "cliente": "MAURICIO GARZON OLIVARES",
     "Email": "E-Mail: 3082327@recepcion.alegra.com",
     "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58125",
-    "fecha": "04/09/2026",
-    "valor": 1696174,
-    "dias": 70,
-    "habilitado": false
-  },
-  {
-    "id": 3082327,
-    "cliente": "MAURICIO GARZON OLIVARES",
-    "Email": "E-Mail: 3082327@recepcion.alegra.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 59201",
-    "fecha": "13/10/2026",
-    "valor": 1213425,
-    "dias": 31,
-    "habilitado": true
-  },
-  {
-    "id": 3082327,
-    "cliente": "MAURICIO GARZON OLIVARES",
-    "Email": "E-Mail: 3082327@recepcion.alegra.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
     "fac": "SURA 59618",
     "fecha": "26/10/2026",
     "valor": 706438,
