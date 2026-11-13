@@ -3958,7 +3958,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PUERTOMAR ZOMAC SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 234,
@@ -3975,7 +3975,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PUERTOMAR ZOMAC SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 235,
@@ -3992,7 +3992,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PUERTOMAR ZOMAC SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 236,
@@ -4009,7 +4009,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "PUERTOMAR ZOMAC SAS",
-    "activo": true
+    "activo": false
   },
   {
     "id": 237,
@@ -4026,7 +4026,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "COMERCIALIZADORA CONFIDULCES ELITE S.A.",
-    "activo": true
+    "activo": false
   },
   {
     "id": 238,
@@ -4043,7 +4043,7 @@
     "unidad": "unidad",
     "despacho": 1,
     "proveedor": "COMERCIALIZADORA CONFIDULCES ELITE S.A.",
-    "activo": true
+    "activo": false
   },
   {
     "id": 239,
