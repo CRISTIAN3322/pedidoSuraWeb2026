@@ -11140,7 +11140,7 @@
     "fecha": "18/08/2026",
     "valor": 16285004,
     "dias": 87,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901556595,
@@ -11151,7 +11151,7 @@
     "fecha": "18/08/2026",
     "valor": 4093389,
     "dias": 87,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901556595,
@@ -11162,7 +11162,7 @@
     "fecha": "02/09/2026",
     "valor": 39837,
     "dias": 72,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901556595,
@@ -11173,72 +11173,6 @@
     "fecha": "07/09/2026",
     "valor": 4158921,
     "dias": 67,
-    "habilitado": false
-  },
-  {
-    "id": 901556595,
-    "cliente": "MERCADOS BM SAS",
-    "Email": "E-Mail: comercial.pgc@mercadosbm.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58154",
-    "fecha": "07/09/2026",
-    "valor": 16101727,
-    "dias": 67,
-    "habilitado": false
-  },
-  {
-    "id": 901556595,
-    "cliente": "MERCADOS BM SAS",
-    "Email": "E-Mail: comercial.pgc@mercadosbm.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58802",
-    "fecha": "28/09/2026",
-    "valor": 10139429,
-    "dias": 46,
-    "habilitado": false
-  },
-  {
-    "id": 901556595,
-    "cliente": "MERCADOS BM SAS",
-    "Email": "E-Mail: comercial.pgc@mercadosbm.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59088",
-    "fecha": "08/10/2026",
-    "valor": 4169345,
-    "dias": 36,
-    "habilitado": true
-  },
-  {
-    "id": 901556595,
-    "cliente": "MERCADOS BM SAS",
-    "Email": "E-Mail: comercial.pgc@mercadosbm.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59089",
-    "fecha": "08/10/2026",
-    "valor": 5276322,
-    "dias": 36,
-    "habilitado": true
-  },
-  {
-    "id": 901556595,
-    "cliente": "MERCADOS BM SAS",
-    "Email": "E-Mail: comercial.pgc@mercadosbm.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59090",
-    "fecha": "08/10/2026",
-    "valor": 11750022,
-    "dias": 36,
-    "habilitado": true
-  },
-  {
-    "id": 901556595,
-    "cliente": "MERCADOS BM SAS",
-    "Email": "E-Mail: comercial.pgc@mercadosbm.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59091",
-    "fecha": "08/10/2026",
-    "valor": 1836248,
-    "dias": 36,
     "habilitado": true
   },
   {
