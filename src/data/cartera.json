@@ -11741,17 +11741,6 @@
     "cliente": "MERCAPITAL FULL SAS",
     "Email": "E-Mail: mercapital7@hotmail.com",
     "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58129",
-    "fecha": "04/09/2026",
-    "valor": 124324,
-    "dias": 70,
-    "habilitado": false
-  },
-  {
-    "id": 901729775,
-    "cliente": "MERCAPITAL FULL SAS",
-    "Email": "E-Mail: mercapital7@hotmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
     "fac": "SURA 59221",
     "fecha": "13/10/2026",
     "valor": 914170,
