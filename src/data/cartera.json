@@ -5361,17 +5361,6 @@
     "cliente": "GRUPO EMPRESARIAL PAEZ GONZALEZ S A S",
     "Email": "E-Mail: grupopagosas@gmail.com",
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58660",
-    "fecha": "23/09/2026",
-    "valor": 1941978,
-    "dias": 56,
-    "habilitado": false
-  },
-  {
-    "id": 901994614,
-    "cliente": "GRUPO EMPRESARIAL PAEZ GONZALEZ S A S",
-    "Email": "E-Mail: grupopagosas@gmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
     "fac": "SURA 59622",
     "fecha": "26/10/2026",
     "valor": 1066379,
@@ -8925,17 +8914,6 @@
     "cliente": "JOSE BERNABE PAEZ AVENDAÑO",
     "Email": "E-Mail: mercadospaez@gmail.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 58477",
-    "fecha": "16/09/2026",
-    "valor": 1011798,
-    "dias": 63,
-    "habilitado": false
-  },
-  {
-    "id": 74439272,
-    "cliente": "JOSE BERNABE PAEZ AVENDAÑO",
-    "Email": "E-Mail: mercadospaez@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59448",
     "fecha": "21/10/2026",
     "valor": 1693649,
@@ -11323,39 +11301,6 @@
     "cliente": "MARYLUZ CADENA GALINDO",
     "Email": "E-Mail: mcgrupomary@gmail.com",
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58760",
-    "fecha": "25/09/2026",
-    "valor": 702941,
-    "dias": 54,
-    "habilitado": false
-  },
-  {
-    "id": 52239636,
-    "cliente": "MARYLUZ CADENA GALINDO",
-    "Email": "E-Mail: mcgrupomary@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58761",
-    "fecha": "25/09/2026",
-    "valor": 2185272,
-    "dias": 54,
-    "habilitado": false
-  },
-  {
-    "id": 52239636,
-    "cliente": "MARYLUZ CADENA GALINDO",
-    "Email": "E-Mail: mcgrupomary@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58844",
-    "fecha": "29/09/2026",
-    "valor": 490783,
-    "dias": 50,
-    "habilitado": false
-  },
-  {
-    "id": 52239636,
-    "cliente": "MARYLUZ CADENA GALINDO",
-    "Email": "E-Mail: mcgrupomary@gmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
     "fac": "SURA 59115",
     "fecha": "08/10/2026",
     "valor": 2234650,
@@ -12032,17 +11977,6 @@
     "valor": 2248166,
     "dias": 1,
     "habilitado": true
-  },
-  {
-    "id": 901220256,
-    "cliente": "MERCADOS CASH SAS",
-    "Email": "E-Mail: facturacion.mercadoscash@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58689",
-    "fecha": "24/09/2026",
-    "valor": 3903101,
-    "dias": 55,
-    "habilitado": false
   },
   {
     "id": 900399796,
@@ -13435,17 +13369,6 @@
     "cliente": "OSCAR RUBEN FORERO MARQUEZ",
     "Email": "E-Mail: maxitenjo@hotmail.com",
     "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 58517",
-    "fecha": "17/09/2026",
-    "valor": 834863,
-    "dias": 62,
-    "habilitado": false
-  },
-  {
-    "id": 3199694,
-    "cliente": "OSCAR RUBEN FORERO MARQUEZ",
-    "Email": "E-Mail: maxitenjo@hotmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
     "fac": "SURA 59446",
     "fecha": "21/10/2026",
     "valor": 2527297,
@@ -14520,17 +14443,6 @@
     "habilitado": true
   },
   {
-    "id": 1032369338,
-    "cliente": "SANDRA MILENA DELGADO RODRIGUEZ",
-    "Email": "E-Mail: sandra2520115@yahoo.es",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58613",
-    "fecha": "21/09/2026",
-    "valor": 5373850,
-    "dias": 58,
-    "habilitado": false
-  },
-  {
     "id": 20706009,
     "cliente": "SANDRA MILENA GARZON OLIVARES",
     "Email": "E-Mail: car.hego@hotmail.com",
@@ -14749,17 +14661,6 @@
     "valor": 464414,
     "dias": 21,
     "habilitado": true
-  },
-  {
-    "id": 5710852,
-    "cliente": "SEGUNDO NICASIO FAJARDO PARRA",
-    "Email": "E-Mail: supercoor330@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58238",
-    "fecha": "09/09/2026",
-    "valor": 1108006,
-    "dias": 70,
-    "habilitado": false
   },
   {
     "id": 5710852,
@@ -16322,17 +16223,6 @@
     "valor": 54547,
     "dias": 14,
     "habilitado": true
-  },
-  {
-    "id": 1075660912,
-    "cliente": "YEISON HINOJOSA CONTRERAS",
-    "Email": "E-Mail: yeisonhinojosa@hotmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57303",
-    "fecha": "06/08/2026",
-    "valor": 502069,
-    "dias": 104,
-    "habilitado": false
   },
   {
     "id": 11413810,
