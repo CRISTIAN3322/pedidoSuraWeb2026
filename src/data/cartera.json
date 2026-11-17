@@ -833,7 +833,7 @@
     "fecha": "23/09/2026",
     "valor": 3040212,
     "dias": 56,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 79713555,
@@ -844,7 +844,7 @@
     "fecha": "23/09/2026",
     "valor": 3040212,
     "dias": 56,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 79713555,
@@ -855,7 +855,7 @@
     "fecha": "24/09/2026",
     "valor": 3284915,
     "dias": 55,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 79713555,
@@ -866,7 +866,7 @@
     "fecha": "24/09/2026",
     "valor": 296643,
     "dias": 55,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 79713555,
@@ -877,7 +877,7 @@
     "fecha": "30/09/2026",
     "valor": 924609,
     "dias": 49,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 79713555,
@@ -4222,17 +4222,6 @@
     "valor": 4845834,
     "dias": 18,
     "habilitado": true
-  },
-  {
-    "id": 52616246,
-    "cliente": "GIOANA DEL PILAR GALINDO POVEDA",
-    "Email": "E-Mail: supermercadoelpanelero@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58809",
-    "fecha": "28/09/2026",
-    "valor": 455116,
-    "dias": 51,
-    "habilitado": false
   },
   {
     "id": 52616246,
