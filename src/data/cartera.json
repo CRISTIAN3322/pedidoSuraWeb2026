@@ -1632,17 +1632,6 @@
     "cliente": "BLANCA DIONILDE CENDALES ANDRADE",
     "Email": "E-Mail: blancad.c@hotmail.com",
     "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
-    "fac": "SURA 58873",
-    "fecha": "30/09/2026",
-    "valor": 468988,
-    "dias": 49,
-    "habilitado": false
-  },
-  {
-    "id": 31037296,
-    "cliente": "BLANCA DIONILDE CENDALES ANDRADE",
-    "Email": "E-Mail: blancad.c@hotmail.com",
-    "vendedor": "MARIA ESTHER CABALLERO BENITEZ",
     "fac": "SURA 59760",
     "fecha": "29/10/2026",
     "valor": 407021,
@@ -11283,7 +11272,7 @@
     "fecha": "21/08/2026",
     "valor": 12003,
     "dias": 89,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 52239636,
@@ -11294,7 +11283,7 @@
     "fecha": "03/09/2026",
     "valor": 9725,
     "dias": 76,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 52239636,
