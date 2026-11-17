@@ -9970,61 +9970,6 @@
     "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
     "Email": "E-Mail: asesoriascontables67@gmail.com",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58031",
-    "fecha": "02/09/2026",
-    "valor": 1319047,
-    "dias": 77,
-    "habilitado": false
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58032",
-    "fecha": "02/09/2026",
-    "valor": 1358112,
-    "dias": 77,
-    "habilitado": false
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58449",
-    "fecha": "16/09/2026",
-    "valor": 1458515,
-    "dias": 63,
-    "habilitado": false
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58450",
-    "fecha": "16/09/2026",
-    "valor": 296643,
-    "dias": 63,
-    "habilitado": false
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58451",
-    "fecha": "16/09/2026",
-    "valor": 1438989,
-    "dias": 63,
-    "habilitado": false
-  },
-  {
-    "id": 52504325,
-    "cliente": "LAURA JAQUELINE ORTIZ VIGOYA",
-    "Email": "E-Mail: asesoriascontables67@gmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 59029",
     "fecha": "06/10/2026",
     "valor": 4520474,
@@ -15287,7 +15232,7 @@
     "fecha": "20/08/2026",
     "valor": 326340,
     "dias": 90,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901300047,
@@ -15298,7 +15243,7 @@
     "fecha": "21/09/2026",
     "valor": 5180122,
     "dias": 58,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901300047,
