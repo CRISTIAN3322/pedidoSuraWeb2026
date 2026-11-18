@@ -7821,28 +7821,6 @@
     "habilitado": true
   },
   {
-    "id": 901901265,
-    "cliente": "INVERSIONES PEDROPOLIS SAS",
-    "Email": "E-Mail: supermercadogonzalezpedropolis@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57160",
-    "fecha": "31/07/2026",
-    "valor": 1667582,
-    "dias": 111,
-    "habilitado": false
-  },
-  {
-    "id": 901901265,
-    "cliente": "INVERSIONES PEDROPOLIS SAS",
-    "Email": "E-Mail: supermercadogonzalezpedropolis@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 57162",
-    "fecha": "31/07/2026",
-    "valor": 1863684,
-    "dias": 111,
-    "habilitado": false
-  },
-  {
     "id": 901134924,
     "cliente": "INVERSIONES R & M ASOCIADOS SAS",
     "Email": "E-Mail: 901134924@recepciondefacturas.co",
@@ -16102,17 +16080,6 @@
     "valor": 54547,
     "dias": 15,
     "habilitado": true
-  },
-  {
-    "id": 11413810,
-    "cliente": "YEISSON CAMILO NOVOA GUTIERREZ",
-    "Email": "E-Mail: superofertacompartir@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58553",
-    "fecha": "18/09/2026",
-    "valor": 534638,
-    "dias": 62,
-    "habilitado": false
   },
   {
     "id": 11413810,
