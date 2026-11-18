@@ -3524,17 +3524,6 @@
     "cliente": "EDWIN LEONARDO CARDENAS SILVA",
     "Email": "E-Mail: leo.publicis@hotmail.com",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58352",
-    "fecha": "14/09/2026",
-    "valor": 2135288,
-    "dias": 66,
-    "habilitado": false
-  },
-  {
-    "id": 1022416671,
-    "cliente": "EDWIN LEONARDO CARDENAS SILVA",
-    "Email": "E-Mail: leo.publicis@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 59651",
     "fecha": "26/10/2026",
     "valor": 2230786,
@@ -9865,17 +9854,6 @@
     "valor": 2971164,
     "dias": 22,
     "habilitado": true
-  },
-  {
-    "id": 52965020,
-    "cliente": "LEIDY VIVIANA MONDRAGON ROJAS",
-    "Email": "E-Mail: viviana83_@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57860",
-    "fecha": "27/08/2026",
-    "valor": 2400000,
-    "dias": 84,
-    "habilitado": false
   },
   {
     "id": 11384738,
