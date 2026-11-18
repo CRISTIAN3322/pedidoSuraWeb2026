@@ -11422,28 +11422,6 @@
     "cliente": "MERCADOGAR SAS",
     "Email": "E-Mail: facturacionmercadogar@hotmail.com",
     "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58661",
-    "fecha": "23/09/2026",
-    "valor": 7125408,
-    "dias": 57,
-    "habilitado": false
-  },
-  {
-    "id": 900495748,
-    "cliente": "MERCADOGAR SAS",
-    "Email": "E-Mail: facturacionmercadogar@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 58662",
-    "fecha": "23/09/2026",
-    "valor": 531797,
-    "dias": 57,
-    "habilitado": false
-  },
-  {
-    "id": 900495748,
-    "cliente": "MERCADOGAR SAS",
-    "Email": "E-Mail: facturacionmercadogar@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
     "fac": "SURA 59452",
     "fecha": "21/10/2026",
     "valor": 606665,
