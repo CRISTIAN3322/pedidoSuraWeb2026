@@ -2134,39 +2134,6 @@
     "habilitado": true
   },
   {
-    "id": 1020722165,
-    "cliente": "CESAR AUGUSTO CASTELLANOS SEGURA",
-    "Email": "E-Mail: merca2castellanos@hotmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58188",
-    "fecha": "07/09/2026",
-    "valor": 2482876,
-    "dias": 73,
-    "habilitado": false
-  },
-  {
-    "id": 1020722165,
-    "cliente": "CESAR AUGUSTO CASTELLANOS SEGURA",
-    "Email": "E-Mail: merca2castellanos@hotmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58221",
-    "fecha": "09/09/2026",
-    "valor": 320455,
-    "dias": 71,
-    "habilitado": false
-  },
-  {
-    "id": 1020722165,
-    "cliente": "CESAR AUGUSTO CASTELLANOS SEGURA",
-    "Email": "E-Mail: merca2castellanos@hotmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58244",
-    "fecha": "09/09/2026",
-    "valor": 170960,
-    "dias": 71,
-    "habilitado": false
-  },
-  {
     "id": 79646306,
     "cliente": "CESAR HERNANDO DELGADO ORTIZ",
     "Email": "E-Mail: cesarhdelgadoo@hotmail.com",
