@@ -12869,17 +12869,7 @@
     "dias": 10,
     "habilitado": true
   },
-  {
-    "id": 11231075,
-    "cliente": "NORBERTO SANCHEZ ROMERO",
-    "Email": "E-Mail: mercafacilnorberto@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 58882",
-    "fecha": "30/09/2026",
-    "valor": 2492327,
-    "dias": 50,
-    "habilitado": false
-  },
+  
   {
     "id": 11231075,
     "cliente": "NORBERTO SANCHEZ ROMERO",
