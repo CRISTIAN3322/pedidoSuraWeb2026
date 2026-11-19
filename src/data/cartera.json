@@ -2798,17 +2798,6 @@
     "cliente": "DANIEL ARMENJO AGUDELO PINZON",
     "Email": "E-Mail: danielarmenjoagudelo@hotmail.com",
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58687",
-    "fecha": "24/09/2026",
-    "valor": 720136,
-    "dias": 56,
-    "habilitado": false
-  },
-  {
-    "id": 3022348,
-    "cliente": "DANIEL ARMENJO AGUDELO PINZON",
-    "Email": "E-Mail: danielarmenjoagudelo@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 60039",
     "fecha": "06/11/2026",
     "valor": 1103616,
@@ -12120,17 +12109,6 @@
     "valor": 591858,
     "dias": 24,
     "habilitado": true
-  },
-  {
-    "id": 901729775,
-    "cliente": "MERCAPITAL FULL SAS",
-    "Email": "E-Mail: mercapital7@hotmail.com",
-    "vendedor": "BERENICE HERMINDA MUÑOZ MONDRAGON",
-    "fac": "SURA 58129",
-    "fecha": "04/09/2026",
-    "valor": 124324,
-    "dias": 76,
-    "habilitado": false
   },
   {
     "id": 901729775,
