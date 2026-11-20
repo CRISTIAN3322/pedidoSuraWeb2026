@@ -4581,5 +4581,11 @@
         "nombre": "DAIRO DE JESUS GIRALDO MARTINEZ",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+     {
+        "id": 79906787,
+        "nombre": "EDISON OROZCO PINTO",
+        "cupo": 4000000,
+        "Forma": "Credito"
     }
 ]
