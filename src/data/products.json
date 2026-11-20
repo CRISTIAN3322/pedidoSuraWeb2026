@@ -99,7 +99,7 @@
     "unidad": "Caja",
     "despacho": 12,
     "proveedor": "ALIMENTOS NEBRASKA",
-    "activo": true
+    "activo": false
   },
   {
     "id": 7,
