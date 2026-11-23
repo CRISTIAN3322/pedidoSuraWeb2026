@@ -1449,7 +1449,7 @@
     "fecha": "15/05/2025",
     "valor": 189808,
     "dias": 558,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 79340759,
@@ -1460,7 +1460,7 @@
     "fecha": "16/06/2025",
     "valor": 8180979,
     "dias": 526,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 3158710,
@@ -2099,17 +2099,6 @@
     "valor": 4996178,
     "dias": 13,
     "habilitado": true
-  },
-  {
-    "id": 901154859,
-    "cliente": "CITRUS FRUVER SAS",
-    "Email": "E-Mail: citrusvillamil1@hotmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58894",
-    "fecha": "30/09/2026",
-    "valor": 3061921,
-    "dias": 55,
-    "habilitado": false
   },
   {
     "id": 25100373,
@@ -8611,17 +8600,6 @@
     "valor": 937873,
     "dias": 13,
     "habilitado": true
-  },
-  {
-    "id": 79841173,
-    "cliente": "JOSE HUMBERTO LINARES CARDENAS",
-    "Email": "E-Mail: joselinares.fac@gmail.com",
-    "vendedor": "ANA SOFIA ROLDAN RIQUE",
-    "fac": "SURA 58716",
-    "fecha": "24/09/2026",
-    "valor": 8620,
-    "dias": 61,
-    "habilitado": false
   },
   {
     "id": 1015426190,
