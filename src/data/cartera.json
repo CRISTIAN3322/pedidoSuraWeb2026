@@ -1562,17 +1562,6 @@
     "habilitado": true
   },
   {
-    "id": 52771721,
-    "cliente": "BLANCA NYDIA VARGAS",
-    "Email": "E-Mail: nita721@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58412",
-    "fecha": "14/09/2026",
-    "valor": 3610269,
-    "dias": 69,
-    "habilitado": false
-  },
-  {
     "id": 11407815,
     "cliente": "CAMILO GUTIERREZ NOVOA",
     "Email": "E-Mail: alimentadordld@gmail.com",
@@ -15518,17 +15507,6 @@
     "fecha": "23/09/2026",
     "valor": 1413333,
     "dias": 60,
-    "habilitado": false
-  },
-  {
-    "id": 11435016,
-    "cliente": "VICTOR JULIO CASTILLO SIERRA",
-    "Email": "E-Mail: niya721@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58099",
-    "fecha": "04/09/2026",
-    "valor": 2072854,
-    "dias": 79,
     "habilitado": false
   },
   {
