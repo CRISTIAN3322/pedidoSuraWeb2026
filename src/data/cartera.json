@@ -7978,17 +7978,6 @@
     "id": 79669468,
     "cliente": "IVAN ANTONIO GARCIA CABEZAS",
     "Email": "E-Mail: merquefull.facturacion@outlook.es",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 59023",
-    "fecha": "06/10/2026",
-    "valor": 588153,
-    "dias": 49,
-    "habilitado": false
-  },
-  {
-    "id": 79669468,
-    "cliente": "IVAN ANTONIO GARCIA CABEZAS",
-    "Email": "E-Mail: merquefull.facturacion@outlook.es",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 59428",
     "fecha": "21/10/2026",
