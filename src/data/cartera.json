@@ -1082,17 +1082,6 @@
     "cliente": "AUTOSERVICIO GIRARDOT DUQUE SAS",
     "Email": "E-Mail: edisoncadamil.1215@gmail.com",
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 59302",
-    "fecha": "16/10/2026",
-    "valor": 138695,
-    "dias": 39,
-    "habilitado": true
-  },
-  {
-    "id": 901413657,
-    "cliente": "AUTOSERVICIO GIRARDOT DUQUE SAS",
-    "Email": "E-Mail: edisoncadamil.1215@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 60320",
     "fecha": "13/11/2026",
     "valor": 326898,
@@ -5489,17 +5478,6 @@
     "habilitado": true
   },
   {
-    "id": 91109237,
-    "cliente": "GUSTAVO RUIZ FRANCO",
-    "Email": "E-Mail: gustavoruiz.fac@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58439",
-    "fecha": "15/09/2026",
-    "valor": 2669315,
-    "dias": 70,
-    "habilitado": false
-  },
-  {
     "id": 19493768,
     "cliente": "HECTOR ALIRIO NOVOA CAGUEÑAS",
     "Email": "E-Mail: th.asesoriascontables@gmail.com",
@@ -7708,17 +7686,6 @@
     "fecha": "20/11/2026",
     "valor": 559581,
     "dias": 4,
-    "habilitado": true
-  },
-  {
-    "id": 901349629,
-    "cliente": "INVERSIONES RODMON SAS",
-    "Email": "E-Mail: inversionesrodmonsas@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 60318",
-    "fecha": "13/11/2026",
-    "valor": 195865,
-    "dias": 11,
     "habilitado": true
   },
   {
@@ -11658,17 +11625,6 @@
     "valor": 14537246,
     "dias": 4,
     "habilitado": true
-  },
-  {
-    "id": 901220256,
-    "cliente": "MERCADOS CASH SAS",
-    "Email": "E-Mail: facturacion.mercadoscash@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58689",
-    "fecha": "24/09/2026",
-    "valor": 3903101,
-    "dias": 61,
-    "habilitado": false
   },
   {
     "id": 901220256,
@@ -15915,17 +15871,6 @@
     "valor": 54547,
     "dias": 20,
     "habilitado": true
-  },
-  {
-    "id": 11413810,
-    "cliente": "YEISSON CAMILO NOVOA GUTIERREZ",
-    "Email": "E-Mail: superofertacompartir@gmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58553",
-    "fecha": "18/09/2026",
-    "valor": 534638,
-    "dias": 67,
-    "habilitado": false
   },
   {
     "id": 11413810,
