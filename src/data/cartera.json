@@ -8643,7 +8643,7 @@
     "fecha": "24/09/2026",
     "valor": 904400,
     "dias": 61,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1023893573,
@@ -12141,7 +12141,7 @@
     "fecha": "24/09/2026",
     "valor": 1861856,
     "dias": 61,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901274302,

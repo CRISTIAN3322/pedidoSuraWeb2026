@@ -4582,10 +4582,22 @@
         "cupo": 1000000,
         "Forma": "Contado"
     },
-     {
+    {
+        "id": 1084227282,
+        "nombre": "DAVID FERNANDO BOTINA VIVAS",
+        "cupo": 1000000,
+        "Forma": "Contado"
+    },
+    {
         "id": 79906787,
         "nombre": "EDISON OROZCO PINTO",
         "cupo": 4000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 19691138,
+        "nombre": "ELEUCIPO ANTONIO GUILLEN AMADOR",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]

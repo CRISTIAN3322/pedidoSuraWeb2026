@@ -4101,6 +4101,10 @@
         "sucursales": [{
             "direccion": "CR 3 18 85 Chía",
             "vendedor": "ANA SOFIA ROLDAN RIQUE"
+        },
+    {
+            "direccion": "CR 62 167 21 Portal Norte",
+            "vendedor": "DIANA MARCELA BERMUDEZ SERRANO"
         }]
     },
     {
@@ -6524,12 +6528,28 @@
             "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
         }]
     },
-     {
+    {
         "id": 79906787,
         "nombre": "EDISON OROZCO PINTO",
         "sucursales": [{
             "direccion": "CL 4 1 26 Madrid",
             "vendedor": "YEIMY LUCELY MEDINA FRANCO"
+        }]
+    },
+    {
+        "id": 1084227282,
+        "nombre": "DAVID FERNANDO BOTINA VIVAS",
+        "sucursales": [{
+            "direccion": "CL 56 SUR 13 28 ESTE Libertadores",
+            "vendedor": "MARIA ESTHER CABALLERO BENITEZ"
+        }]
+    },
+    {
+        "id": 19691138,
+        "nombre": "ELEUCIPO ANTONIO GUILLEN AMADOR",
+        "sucursales": [{
+            "direccion": "CL 71 C 93 03 Zarzamora Engativa",
+            "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
     }
 
