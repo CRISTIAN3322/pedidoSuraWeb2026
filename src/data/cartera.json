@@ -7275,50 +7275,6 @@
     "cliente": "INVERSIONES MARTINEZ FRUTIMAX SAS",
     "Email": "E-Mail: frutimax.avcali@hotmail.com",
     "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58105",
-    "fecha": "04/09/2026",
-    "valor": 3376507,
-    "dias": 81,
-    "habilitado": false
-  },
-  {
-    "id": 900793046,
-    "cliente": "INVERSIONES MARTINEZ FRUTIMAX SAS",
-    "Email": "E-Mail: frutimax.avcali@hotmail.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58787",
-    "fecha": "25/09/2026",
-    "valor": 261667,
-    "dias": 60,
-    "habilitado": false
-  },
-  {
-    "id": 900793046,
-    "cliente": "INVERSIONES MARTINEZ FRUTIMAX SAS",
-    "Email": "E-Mail: frutimax.avcali@hotmail.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58788",
-    "fecha": "25/09/2026",
-    "valor": 3861670,
-    "dias": 60,
-    "habilitado": false
-  },
-  {
-    "id": 900793046,
-    "cliente": "INVERSIONES MARTINEZ FRUTIMAX SAS",
-    "Email": "E-Mail: frutimax.avcali@hotmail.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 59190",
-    "fecha": "13/10/2026",
-    "valor": 1385823,
-    "dias": 42,
-    "habilitado": true
-  },
-  {
-    "id": 900793046,
-    "cliente": "INVERSIONES MARTINEZ FRUTIMAX SAS",
-    "Email": "E-Mail: frutimax.avcali@hotmail.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
     "fac": "SURA 59814",
     "fecha": "31/10/2026",
     "valor": 1981434,
@@ -11075,50 +11031,6 @@
     "valor": 3004101,
     "dias": 7,
     "habilitado": true
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58867",
-    "fecha": "30/09/2026",
-    "valor": 4200084,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58868",
-    "fecha": "30/09/2026",
-    "valor": 10715060,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58869",
-    "fecha": "30/09/2026",
-    "valor": 4284588,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
-    "id": 900204753,
-    "cliente": "MERCADOS BLANCO TORRES SAS",
-    "Email": "E-Mail: facturacion@supermercadoslonuestro.com",
-    "vendedor": "DIANA MARCELA BERMUDEZ SERRANO",
-    "fac": "SURA 58874",
-    "fecha": "30/09/2026",
-    "valor": 2345280,
-    "dias": 55,
-    "habilitado": false
   },
   {
     "id": 900204753,
