@@ -935,28 +935,6 @@
     "habilitado": true
   },
   {
-    "id": 900107424,
-    "cliente": "AUTOSERVICIO EL PEDREGAL MG SAS",
-    "Email": "E-Mail: facturacionpedregal356@outlook.es",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58033",
-    "fecha": "02/09/2026",
-    "valor": 1843455,
-    "dias": 83,
-    "habilitado": false
-  },
-  {
-    "id": 900107424,
-    "cliente": "AUTOSERVICIO EL PEDREGAL MG SAS",
-    "Email": "E-Mail: facturacionpedregal356@outlook.es",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 59388",
-    "fecha": "20/10/2026",
-    "valor": 2725907,
-    "dias": 35,
-    "habilitado": true
-  },
-  {
     "id": 800010668,
     "cliente": "AUTOSERVICIO EL PERDOMO SAS",
     "Email": "E-Mail: facturacion.autoperdomo@gmail.com",
@@ -10289,54 +10267,10 @@
     "cliente": "M C CONSTRUCTORES & CONSULTORES S.A.S",
     "Email": "E-Mail: mileroma23@yahoo.com",
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 57451",
-    "fecha": "14/08/2026",
-    "valor": 1877021,
-    "dias": 102,
-    "habilitado": false
-  },
-  {
-    "id": 830055634,
-    "cliente": "M C CONSTRUCTORES & CONSULTORES S.A.S",
-    "Email": "E-Mail: mileroma23@yahoo.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58688",
-    "fecha": "24/09/2026",
-    "valor": 874774,
-    "dias": 61,
-    "habilitado": false
-  },
-  {
-    "id": 830055634,
-    "cliente": "M C CONSTRUCTORES & CONSULTORES S.A.S",
-    "Email": "E-Mail: mileroma23@yahoo.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58690",
-    "fecha": "24/09/2026",
-    "valor": 4137710,
-    "dias": 61,
-    "habilitado": false
-  },
-  {
-    "id": 830055634,
-    "cliente": "M C CONSTRUCTORES & CONSULTORES S.A.S",
-    "Email": "E-Mail: mileroma23@yahoo.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 59695",
     "fecha": "27/10/2026",
     "valor": -1,
     "dias": 28,
-    "habilitado": true
-  },
-  {
-    "id": 830055634,
-    "cliente": "M C CONSTRUCTORES & CONSULTORES S.A.S",
-    "Email": "E-Mail: mileroma23@yahoo.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 59737",
-    "fecha": "28/10/2026",
-    "valor": 2126404,
-    "dias": 27,
     "habilitado": true
   },
   {
@@ -11899,28 +11833,6 @@
     "fecha": "26/10/2026",
     "valor": 1876419,
     "dias": 29,
-    "habilitado": true
-  },
-  {
-    "id": 901005247,
-    "cliente": "MERKAQUEZA S.A.S.",
-    "Email": "E-Mail: merktodocaqueza@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58634",
-    "fecha": "21/09/2026",
-    "valor": 296643,
-    "dias": 64,
-    "habilitado": true
-  },
-  {
-    "id": 901005247,
-    "cliente": "MERKAQUEZA S.A.S.",
-    "Email": "E-Mail: merktodocaqueza@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58635",
-    "fecha": "21/09/2026",
-    "valor": 2937601,
-    "dias": 64,
     "habilitado": true
   },
   {
