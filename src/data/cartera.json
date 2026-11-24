@@ -3190,17 +3190,6 @@
     "habilitado": true
   },
   {
-    "id": 1022322410,
-    "cliente": "ELIZABETH LOPEZ PULIDO",
-    "Email": "E-Mail: fe.rapidexpress@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58317",
-    "fecha": "11/09/2026",
-    "valor": 1139760,
-    "dias": 74,
-    "habilitado": false
-  },
-  {
     "id": 91455947,
     "cliente": "EMMANUEL SANTOS GARCIA PATIÑO",
     "Email": "E-Mail: cooratiendassanfrancisco@gmail.com",
@@ -3583,7 +3572,7 @@
     "fecha": "08/10/2026",
     "valor": 4336088,
     "dias": 47,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 11409492,
@@ -6707,7 +6696,7 @@
     "fecha": "07/10/2026",
     "valor": 530717,
     "dias": 48,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901766468,
@@ -6718,7 +6707,7 @@
     "fecha": "08/10/2026",
     "valor": 1721528,
     "dias": 47,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901766468,
@@ -6729,7 +6718,7 @@
     "fecha": "08/10/2026",
     "valor": 294388,
     "dias": 47,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901766468,
@@ -6740,7 +6729,7 @@
     "fecha": "08/10/2026",
     "valor": 602309,
     "dias": 47,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901766468,
@@ -6751,7 +6740,7 @@
     "fecha": "08/10/2026",
     "valor": 210700,
     "dias": 47,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901766468,
@@ -6982,7 +6971,7 @@
     "fecha": "02/10/2026",
     "valor": 2859961,
     "dias": 53,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901767801,
@@ -6993,7 +6982,7 @@
     "fecha": "02/10/2026",
     "valor": 679905,
     "dias": 53,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 901767801,
@@ -14275,7 +14264,7 @@
     "fecha": "30/09/2026",
     "valor": 6201280,
     "dias": 55,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 900417042,
@@ -14286,7 +14275,7 @@
     "fecha": "30/09/2026",
     "valor": 6622606,
     "dias": 55,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 900417042,
@@ -14297,7 +14286,7 @@
     "fecha": "30/09/2026",
     "valor": 1070449,
     "dias": 55,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 900417042,
