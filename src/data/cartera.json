@@ -10361,18 +10361,7 @@
     "dias": 4,
     "habilitado": true
   },
-  {
-    "id": 52444654,
-    "cliente": "MARIA DELFA MURCIA HERNANDEZ",
-    "Email": "E-Mail: marialaeconomia@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58446",
-    "fecha": "15/09/2026",
-    "valor": 1117957,
-    "dias": 70,
-    "habilitado": false
-  },
-  {
+ {
     "id": 52444654,
     "cliente": "MARIA DELFA MURCIA HERNANDEZ",
     "Email": "E-Mail: marialaeconomia@gmail.com",
@@ -13825,17 +13814,6 @@
     "valor": 1282900,
     "dias": 19,
     "habilitado": true
-  },
-  {
-    "id": 5710852,
-    "cliente": "SEGUNDO NICASIO FAJARDO PARRA",
-    "Email": "E-Mail: supercoor330@gmail.com",
-    "vendedor": "ESTHER ANGELA SALAZAR MORA",
-    "fac": "SURA 58898",
-    "fecha": "30/09/2026",
-    "valor": 833828,
-    "dias": 55,
-    "habilitado": false
   },
   {
     "id": 5766659,
