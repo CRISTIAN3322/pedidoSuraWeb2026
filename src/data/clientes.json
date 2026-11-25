@@ -6563,6 +6563,14 @@
             "direccion": "CR 7 C SUR 21 B 40 Madrid",
             "vendedor": "YEIMY LUCELY MEDINA FRANCO"
         }]
+    },
+    {
+        "id": 91109627,
+        "nombre": "ARNULFO BAUTISTA ORTIZ",
+        "sucursales": [{
+            "direccion": "CR 22 7 21 SUR Madrid",
+            "vendedor": "YEIMY LUCELY MEDINA FRANCO"
+        }]
     }
 
 ]

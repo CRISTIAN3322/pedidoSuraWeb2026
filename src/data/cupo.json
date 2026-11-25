@@ -4605,5 +4605,11 @@
         "nombre": "LUZ MILA ROCIO PARDO PEREZ",
         "cupo": 1000000,
         "Forma": "Contado"
+    },
+    {
+        "id": 91109627,
+        "nombre": "ARNULFO BAUTISTA ORTIZ",
+        "cupo": 2000000,
+        "Forma": "Credito"
     }
 ]
