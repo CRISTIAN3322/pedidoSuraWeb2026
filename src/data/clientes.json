@@ -6555,6 +6555,14 @@
             "direccion": "CL 71 C 93 03 Zarzamora Engativa",
             "vendedor": "ESTHER ANGELA SALAZAR MORA"
         }]
+    },
+    {
+        "id": 20739563,
+        "nombre": "LUZ MILA ROCIO PARDO PEREZ",
+        "sucursales": [{
+            "direccion": "CR 7 C SUR 21 B 40 Madrid",
+            "vendedor": "YEIMY LUCELY MEDINA FRANCO"
+        }]
     }
 
 ]
