@@ -6571,6 +6571,14 @@
             "direccion": "CR 22 7 21 SUR Madrid",
             "vendedor": "YEIMY LUCELY MEDINA FRANCO"
         }]
+    },
+    {
+        "id": 700047855,
+        "nombre": "CESAR ANDRES SUAREZ DAZA",
+        "sucursales": [{
+            "direccion": "MANZANA F CASA 5 UBANIZACION DIVINO NIÑO EL ESPINAL",
+            "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ"
+        }]
     }
 
 ]

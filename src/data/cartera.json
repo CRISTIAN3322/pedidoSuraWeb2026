@@ -10135,39 +10135,6 @@
     "cliente": "MACRODESPENSA SAS",
     "Email": "E-Mail: macrodespensa@gmail.com",
     "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58909",
-    "fecha": "30/09/2026",
-    "valor": 2038254,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
-    "id": 901684774,
-    "cliente": "MACRODESPENSA SAS",
-    "Email": "E-Mail: macrodespensa@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 58913",
-    "fecha": "30/09/2026",
-    "valor": 629698,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
-    "id": 901684774,
-    "cliente": "MACRODESPENSA SAS",
-    "Email": "E-Mail: macrodespensa@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
-    "fac": "SURA 59583",
-    "fecha": "23/10/2026",
-    "valor": 2037956,
-    "dias": 32,
-    "habilitado": true
-  },
-  {
-    "id": 901684774,
-    "cliente": "MACRODESPENSA SAS",
-    "Email": "E-Mail: macrodespensa@gmail.com",
-    "vendedor": "YDIANA MARIA SANCHEZ JIMENEZ",
     "fac": "SURA 60414",
     "fecha": "20/11/2026",
     "valor": 4028947,
@@ -11158,17 +11125,6 @@
     "cliente": "MERCADOS EL SOL SAS",
     "Email": "E-Mail: facmercadoselsol@hotmail.com",
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 57947",
-    "fecha": "31/08/2026",
-    "valor": 590738,
-    "dias": 85,
-    "habilitado": false
-  },
-  {
-    "id": 901479509,
-    "cliente": "MERCADOS EL SOL SAS",
-    "Email": "E-Mail: facmercadoselsol@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 60322",
     "fecha": "13/11/2026",
     "valor": 4894958,
@@ -11983,17 +11939,6 @@
     "cliente": "NANCY ROCIO LOPEZ SOBA",
     "Email": "E-Mail: nancyrociolopezsoba84@gmail.com",
     "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58805",
-    "fecha": "28/09/2026",
-    "valor": 3481530,
-    "dias": 57,
-    "habilitado": false
-  },
-  {
-    "id": 333773493,
-    "cliente": "NANCY ROCIO LOPEZ SOBA",
-    "Email": "E-Mail: nancyrociolopezsoba84@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
     "fac": "SURA 59277",
     "fecha": "15/10/2026",
     "valor": 1562124,
@@ -12263,17 +12208,6 @@
     "valor": 5692072,
     "dias": 4,
     "habilitado": true
-  },
-  {
-    "id": 11411934,
-    "cliente": "OMAR HUMBERTO MEDINA CAGUEÑAS",
-    "Email": "E-Mail: surtifammedina@hotmail.com",
-    "vendedor": "CLAUDIA YOJANA CORREDOR GONZALEZ",
-    "fac": "SURA 57698",
-    "fecha": "21/08/2026",
-    "valor": 467712,
-    "dias": 95,
-    "habilitado": false
   },
   {
     "id": 1003586831,

@@ -4611,5 +4611,11 @@
         "nombre": "ARNULFO BAUTISTA ORTIZ",
         "cupo": 2000000,
         "Forma": "Credito"
+    },
+    {
+        "id": 700047855,
+        "nombre": "CESAR ANDRES SUAREZ DAZA",
+        "cupo": 1000000,
+        "Forma": "Contado"
     }
 ]
