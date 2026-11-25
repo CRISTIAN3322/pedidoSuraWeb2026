@@ -1097,7 +1097,7 @@
     "fecha": "28/07/2026",
     "valor": 52549,
     "dias": 119,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 808002857,
@@ -1108,7 +1108,7 @@
     "fecha": "26/08/2026",
     "valor": 133462,
     "dias": 90,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 808002857,
@@ -1119,7 +1119,7 @@
     "fecha": "24/09/2026",
     "valor": 3256235,
     "dias": 61,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 900350171,
@@ -3869,7 +3869,7 @@
     "fecha": "27/08/2026",
     "valor": 87379,
     "dias": 89,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3880,7 +3880,7 @@
     "fecha": "10/09/2026",
     "valor": 4195566,
     "dias": 75,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3891,7 +3891,7 @@
     "fecha": "10/09/2026",
     "valor": 2121618,
     "dias": 75,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3902,7 +3902,7 @@
     "fecha": "10/09/2026",
     "valor": 2662907,
     "dias": 75,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3913,7 +3913,7 @@
     "fecha": "14/09/2026",
     "valor": 653100,
     "dias": 71,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3924,7 +3924,7 @@
     "fecha": "14/09/2026",
     "valor": 653100,
     "dias": 71,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3935,7 +3935,7 @@
     "fecha": "14/09/2026",
     "valor": 653100,
     "dias": 71,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3946,7 +3946,7 @@
     "fecha": "09/10/2026",
     "valor": 4540730,
     "dias": 46,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3957,7 +3957,7 @@
     "fecha": "09/10/2026",
     "valor": 3293739,
     "dias": 46,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3968,7 +3968,7 @@
     "fecha": "09/10/2026",
     "valor": 5976318,
     "dias": 46,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -3979,7 +3979,7 @@
     "fecha": "09/10/2026",
     "valor": 3670800,
     "dias": 46,
-    "habilitado": false
+    "habilitado": true
   },
   {
     "id": 1069727373,
@@ -5784,39 +5784,6 @@
     "valor": 5524993,
     "dias": 13,
     "habilitado": true
-  },
-  {
-    "id": 19358282,
-    "cliente": "HUGO ALFONSO TRIANA LOPEZ",
-    "Email": "E-Mail: leonardofonseca12@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58544",
-    "fecha": "18/09/2026",
-    "valor": 813512,
-    "dias": 67,
-    "habilitado": false
-  },
-  {
-    "id": 19358282,
-    "cliente": "HUGO ALFONSO TRIANA LOPEZ",
-    "Email": "E-Mail: leonardofonseca12@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58545",
-    "fecha": "18/09/2026",
-    "valor": 1515199,
-    "dias": 67,
-    "habilitado": false
-  },
-  {
-    "id": 19358282,
-    "cliente": "HUGO ALFONSO TRIANA LOPEZ",
-    "Email": "E-Mail: leonardofonseca12@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 58546",
-    "fecha": "18/09/2026",
-    "valor": 2933228,
-    "dias": 67,
-    "habilitado": false
   },
   {
     "id": 19358282,
@@ -7753,28 +7720,6 @@
     "valor": 348663,
     "dias": 19,
     "habilitado": true
-  },
-  {
-    "id": 1033706571,
-    "cliente": "JAIDER YAMID CUERVO FORERO",
-    "Email": "E-Mail: haiderforero2189@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58582",
-    "fecha": "21/09/2026",
-    "valor": 88993,
-    "dias": 64,
-    "habilitado": false
-  },
-  {
-    "id": 1033706571,
-    "cliente": "JAIDER YAMID CUERVO FORERO",
-    "Email": "E-Mail: haiderforero2189@gmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58595",
-    "fecha": "21/09/2026",
-    "valor": 2015511,
-    "dias": 64,
-    "habilitado": false
   },
   {
     "id": 1033706571,
@@ -10711,7 +10656,7 @@
     "fecha": "26/10/2026",
     "valor": 706438,
     "dias": 29,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 3082327,
@@ -12405,7 +12350,7 @@
     "fecha": "27/10/2026",
     "valor": 445532,
     "dias": 28,
-    "habilitado": true
+    "habilitado": false
   },
   {
     "id": 80220194,
@@ -13263,50 +13208,6 @@
     "fecha": "23/10/2026",
     "valor": 27414,
     "dias": 32,
-    "habilitado": true
-  },
-  {
-    "id": 80217944,
-    "cliente": "RODRIGO LEON ROA",
-    "Email": "E-Mail: superelahorrorl01@hotmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 58916",
-    "fecha": "30/09/2026",
-    "valor": 190124,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
-    "id": 80217944,
-    "cliente": "RODRIGO LEON ROA",
-    "Email": "E-Mail: superelahorrorl01@hotmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59086",
-    "fecha": "08/10/2026",
-    "valor": 1072667,
-    "dias": 47,
-    "habilitado": false
-  },
-  {
-    "id": 80217944,
-    "cliente": "RODRIGO LEON ROA",
-    "Email": "E-Mail: superelahorrorl01@hotmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59087",
-    "fecha": "08/10/2026",
-    "valor": 157592,
-    "dias": 47,
-    "habilitado": false
-  },
-  {
-    "id": 80217944,
-    "cliente": "RODRIGO LEON ROA",
-    "Email": "E-Mail: superelahorrorl01@hotmail.com",
-    "vendedor": "YENY MARIBEL MONROY PATIÑO",
-    "fac": "SURA 59609",
-    "fecha": "26/10/2026",
-    "valor": 315183,
-    "dias": 29,
     "habilitado": true
   },
   {
