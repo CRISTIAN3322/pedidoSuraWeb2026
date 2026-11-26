@@ -429,17 +429,6 @@
     "habilitado": false
   },
   {
-    "id": 4228833,
-    "cliente": "ALIRIO ENRIQUE CASTELLANOS CORTES",
-    "Email": "E-Mail: aleidacastellanos13@hotmail.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58414",
-    "fecha": "14/09/2026",
-    "valor": 1533013,
-    "dias": 71,
-    "habilitado": false
-  },
-  {
     "id": 900334641,
     "cliente": "ALMACENES LLEVE MAS SAS",
     "Email": "E-Mail: almacenesllevemas@hotmail.com",
@@ -10655,17 +10644,6 @@
     "fac": "SURA 59015",
     "fecha": "05/10/2026",
     "valor": 5791005,
-    "dias": 50,
-    "habilitado": false
-  },
-  {
-    "id": 800252176,
-    "cliente": "MERCACENTRO SAS",
-    "Email": "E-Mail: contabilidad@mercacentrosas.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 59017",
-    "fecha": "05/10/2026",
-    "valor": 616854,
     "dias": 50,
     "habilitado": false
   },
