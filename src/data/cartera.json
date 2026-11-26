@@ -10641,17 +10641,6 @@
     "cliente": "MERCACENTRO SAS",
     "Email": "E-Mail: contabilidad@mercacentrosas.com",
     "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 59015",
-    "fecha": "05/10/2026",
-    "valor": 5791005,
-    "dias": 50,
-    "habilitado": false
-  },
-  {
-    "id": 800252176,
-    "cliente": "MERCACENTRO SAS",
-    "Email": "E-Mail: contabilidad@mercacentrosas.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
     "fac": "SURA 59685",
     "fecha": "27/10/2026",
     "valor": 5818218,
