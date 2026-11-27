@@ -9893,17 +9893,6 @@
     "cliente": "LUIS HUMBERTO PABON HERRERA",
     "Email": "E-Mail: norkafan@hotmail.com",
     "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
-    "fac": "SURA 59099",
-    "fecha": "08/10/2026",
-    "valor": 1012,
-    "dias": 47,
-    "habilitado": false
-  },
-  {
-    "id": 11408455,
-    "cliente": "LUIS HUMBERTO PABON HERRERA",
-    "Email": "E-Mail: norkafan@hotmail.com",
-    "vendedor": "FRANCY JANETH HUERTAS MARTINEZ",
     "fac": "SURA 60295",
     "fecha": "13/11/2026",
     "valor": 11476758,
@@ -13836,17 +13825,6 @@
     "valor": 1184231,
     "dias": 4,
     "habilitado": true
-  },
-  {
-    "id": 901317438,
-    "cliente": "SUPERMERCADO LA BAHIA EXPRESS MS SAS",
-    "Email": "E-Mail: superbahiaxpress@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58658",
-    "fecha": "23/09/2026",
-    "valor": 785826,
-    "dias": 62,
-    "habilitado": false
   },
   {
     "id": 901317438,
