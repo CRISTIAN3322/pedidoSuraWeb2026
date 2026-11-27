@@ -13622,17 +13622,6 @@
     "cliente": "SUPER COMPRAS SAS",
     "Email": "E-Mail: facturaelectronica.supercompras@gmail.com",
     "vendedor": "CONSUELO MUÑOZ",
-    "fac": "SURA 58888",
-    "fecha": "30/09/2026",
-    "valor": 1907531,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
-    "id": 900430306,
-    "cliente": "SUPER COMPRAS SAS",
-    "Email": "E-Mail: facturaelectronica.supercompras@gmail.com",
-    "vendedor": "CONSUELO MUÑOZ",
     "fac": "SURA 59867",
     "fecha": "31/10/2026",
     "valor": 2389586,
