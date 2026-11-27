@@ -8382,50 +8382,6 @@
     "habilitado": true
   },
   {
-    "id": 1015426190,
-    "cliente": "JOSE JAVIER MOLINA CUESTA",
-    "Email": "E-Mail: hipermercadoolimpico@outlook.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58752",
-    "fecha": "25/09/2026",
-    "valor": 1078785,
-    "dias": 60,
-    "habilitado": false
-  },
-  {
-    "id": 1015426190,
-    "cliente": "JOSE JAVIER MOLINA CUESTA",
-    "Email": "E-Mail: hipermercadoolimpico@outlook.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58753",
-    "fecha": "25/09/2026",
-    "valor": 957372,
-    "dias": 60,
-    "habilitado": false
-  },
-  {
-    "id": 1015426190,
-    "cliente": "JOSE JAVIER MOLINA CUESTA",
-    "Email": "E-Mail: hipermercadoolimpico@outlook.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58924",
-    "fecha": "30/09/2026",
-    "valor": 1282387,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
-    "id": 1015426190,
-    "cliente": "JOSE JAVIER MOLINA CUESTA",
-    "Email": "E-Mail: hipermercadoolimpico@outlook.com",
-    "vendedor": "YEIMY LUCELY MEDINA FRANCO",
-    "fac": "SURA 58925",
-    "fecha": "30/09/2026",
-    "valor": 718967,
-    "dias": 55,
-    "habilitado": false
-  },
-  {
     "id": 11406189,
     "cliente": "JOSE MARIA CELIS GUTIERREZ",
     "Email": "E-Mail: merlanuevacosecha@gmail.com",
